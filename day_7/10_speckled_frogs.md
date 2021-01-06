@@ -2,7 +2,7 @@
 
 Create a file named `10_speckled_frogs.rb` and within that file, write several a program that will print the following nursery rhyme:
 
-> 3 speckled frogs sat on a log 
+> 3 speckled frogs sat on a log  
 > eating some most delicious bugs.  
 > One jumped in the pool where its nice and cool,
 > then there were 2 speckled frogs.

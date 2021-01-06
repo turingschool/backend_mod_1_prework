@@ -20,7 +20,6 @@ class CeasarCipher
         index = 0
         while index < string.length
             if string[index] != " "
-                p string[index]
                 string[index] = replacement[letters.values_at(string[index].to_sym)[0]].to_s
             end
             index += 1
@@ -29,9 +28,12 @@ class CeasarCipher
         p @string.join('')
     end
 end
-p 'Please set the shift quantity' 
-shift = gets.chomp.to_i
-p 'Thanks! Now please enter a string'
-string = gets.chomp.split('')
-cipher = CeasarCipher.new(string,shift)
-cipher.get_shifty
+def run_caeser
+    p 'Please set the shift quantity' 
+    shift = gets.chomp.to_i
+    p 'Thanks! Now please enter a string'
+    string = gets.chomp.split('')
+    cipher = CeasarCipher.new(string,shift)
+    cipher.get_shifty
+end
+run_caeser

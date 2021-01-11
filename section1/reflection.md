@@ -1,6 +1,6 @@
 ## Section 1 Reflection
 
-**1. How did the SuperLearner Article resonate with you? What from this list do you already do? Want to start doing or do more of? Is there anything not on this list, that you would add to it?  **
+**1. How did the SuperLearner Article resonate with you? What from this list do you already do? Want to start doing or do more of? Is there anything not on this list, that you would add to it?**  
 
 The article seems to be in line with most other articles about this topic in terms of it's points of advice.
 I'd like to read more content specifically related to software development. I feel like that would help me learn.
@@ -14,7 +14,7 @@ p "Hello World!"
 
 **3. What character is used to indicate comments in a ruby file?**    
 
-#
+"#"
 
 **4. Explain the difference between an integer and a float?**   
 

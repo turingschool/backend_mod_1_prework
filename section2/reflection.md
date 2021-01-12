@@ -27,9 +27,10 @@ end
 
 For example:
 
-``` If 2+2 == 4
-        puts "this is a valid math equation!"
-    End
+```
+If 2+2 == 4
+    puts "this is a valid math equation!"
+End
 ```
 
 **4. How do you add multiple conditions to an if statement?**  

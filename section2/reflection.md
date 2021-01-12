@@ -91,7 +91,7 @@ hello_someone("Netia")
 
 My current "understanding", which is really just a guess, is that when you are looking through a database's ERD, the tables and fields represent classes and attributes, and the data in the table would represent instances.  
 
-Yesterday, in our mod 0 session, Margot mentioned that values that could be calculated are not stored as attributes, because these are handled by methods. I am accustomed to seeing calculated values appear as fields in tables, so I want to understand what is going on. Are methods also part of the table/field structure of a databases ERD?  
+Yesterday, in our mod 0 session, Margo mentioned that values that could be calculated are not stored as attributes, because these are handled by methods. I am accustomed to seeing calculated values appear as fields in tables, so I want to understand what is going on. Are methods also part of the table/field structure of a database's ERD?  
 
 One of my cohort peers tried to explain this to me, but I'd really like to discuss it with an instructor to make sure that I understand, because right now, I feel like I do not understand.  
 

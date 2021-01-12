@@ -62,11 +62,17 @@ We were introduced to two other conditional commands in this lesson.
 
 **1. In your own words, what is the purpose of a method?**  
 
-  Methods modify or change an attribute of an object.
+  Methods modify or change an attribute of an object. They can be useful for allowing you to make changes in one place that touch many places in your code stack.
 
-**2. Create a method named `hello` that will print `"Sam I am"`.**
+**2. Create a method named `hello` that will print `"Sam I am"`.**  
 
-**1. Create a method named `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.**  
+```
+def hello()
+  puts "Sam I am"
+end
+```
+
+**3. Create a method named `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.**  
 
 ```
 def hello_someone(name)
@@ -75,13 +81,13 @@ end
 
 ```
 
-**2. How would you call or execute the method that you created above?**  
+**4. How would you call or execute the method that you created above?**  
 
 ```
 hello_someone("Netia")
 ```
 
-**3. What questions do you have about methods in Ruby?**
+**5. What questions do you have about methods in Ruby?**
 
 My current "understanding", which is really just a guess, is that when you are looking through a database's ERD, the tables and fields represent classes and attributes, and the data in the table would represent instances.  
 

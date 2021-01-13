@@ -1,4 +1,4 @@
-create a mapping of state to abbreviation
+# create a mapping of state to abbreviation
 states = {
   'Oregon' => 'OR',
   'Florida' => 'FL',
@@ -65,7 +65,7 @@ city = cities['TX']
 city ||= 'Does Not Exist'
 puts "The city for the state 'TX' is #{city}"
 
-Study Drill
+#Study Drill
 
 panda = {
     'age' => '34',
@@ -93,4 +93,6 @@ panda.each do |attrib, attrib_value|
   puts "Panda's #{attrib} is #{attrib_value}"
 end
 
-puts 'Panda is #{panda[:age]} years old'
+puts "Panda is #{panda[:age]} years old"
+
+puts panda.class

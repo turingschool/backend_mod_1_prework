@@ -9,10 +9,7 @@ I agree with more or less all the bullet points in the article. If you practice 
 This is a difficult question. My takeaway from the 'grown mindset' bullet points is that they just reflect the most basic principals of learning. I enrolled in Turing because I want to learn something new. I feel like that is intrinsically saying, "I want to learn, to practice, to be challenged, to get help, to get feedback, etc." I feel like, if I wasn't able to tick off all the bullet points on this 'Growth Mindset' list, I wouldn't be here.
 
 **3. What is a Hash, and how is it different from an Array?**
-
-A hash is lots of things, including:  
-- A hash is an object in a class  
-- Hash, hashmap, object, and instance are synonymous  
+ 
 - A hash is a data structure – it’s like a mini-database for storing and organizing data  
   - The data structure is comprised of key/value pairs (an array in contrast stores only values)  
   - Any data type can be stored in a hash  

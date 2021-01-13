@@ -11,13 +11,13 @@ This is a difficult question. My takeaway from the 'grown mindset' bullet points
 **3. What is a Hash, and how is it different from an Array?**
 
 A hash is lots of things, including:  
--A hash is an object in a class  
--Hash, hashmap, object, and instance are synonymous  
--A hash is a data structure – it’s like a mini-database for storing and organizing data  
---The data structure is comprised of key/value pairs (an array in contrast stores only values)  
---Any data type can be stored in a hash  
--Hashes are basically look up tables  
--Unlike in an array, the data inside a hash is not ordered  
+- A hash is an object in a class  
+- Hash, hashmap, object, and instance are synonymous  
+- A hash is a data structure – it’s like a mini-database for storing and organizing data  
+  - The data structure is comprised of key/value pairs (an array in contrast stores only values)  
+  - Any data type can be stored in a hash  
+- Hashes are basically look up tables  
+- Unlike in an array, the data inside a hash is not ordered  
 
 
 **4. In the space below, create a Hash stored to a variable named `pet_store`.  This hash should hold an inventory of items and the number of that item that you might find at a pet store.**  

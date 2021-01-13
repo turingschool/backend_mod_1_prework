@@ -27,4 +27,4 @@ p zoo[:pandas]
 # Then, print the updated hash:
 zoo[:zebras] = 8
 
-p zoo
+p zoo 

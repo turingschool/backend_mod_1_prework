@@ -93,6 +93,4 @@ panda.each do |attrib, attrib_value|
   puts "Panda's #{attrib} is #{attrib_value}"
 end
 
-puts "Panda is #{panda[:age]} years old"
-
-#ruby LRTHW_hash_exercises.rb
+puts 'Panda is #{panda[:age]} years old'

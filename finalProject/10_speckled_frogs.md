@@ -21,7 +21,7 @@ Create a file named `10_speckled_frogs.rb` and within that file, write several a
 Make your program print the rhyme above for *10* frogs, with attention to where language changes.
 
 ### Extension 1
-Print word versions of each number in the first and fourth lines, for example, the first verse in the above example would print 'Three speckled frogs...' and 'were two speckled frogs'.
+Print word versions of each rangeber in the first and fourth lines, for example, the first verse in the above example would print 'Three speckled frogs...' and 'were two speckled frogs'.
 
 ### Extension 2
-Make your program work for any number of frogs.
+Make your program work for any rangeber of frogs.

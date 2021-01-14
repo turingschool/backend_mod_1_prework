@@ -12,15 +12,15 @@ To add some positivity to this tale though, I agree that time estimates and plan
 
 **3. In your own words, what is a Class?**
 
-A class is a category. For example "Cat" could be a class, and the instances of that class could be "Gow", "Sam", and "Chloe".
+A class is a category. For example "Cat" could be a class, and the instances of that class could be "gow", "sam", and "chloe".
 
 **4. What is an attribute of a Class?**
 
-An attribute is a characteristic that ever instance of a class has. For example, for my cat class, some attributes could include name, age, color, is_hungry, and favorite_foods.
+An attribute is a characteristic that every instance of a class has. For example, for my Cat class, some attributes could include name, age, color, is_hungry, and favorite_foods.
 
 **5. What is behavior of a Class?**
 
-A method is a thing that an instance of a class can do. For example, for my cat class, some methods could include eat, play, sleep, or be_pet.
+A method is a thing that an instance of a class can do. For example, for my Cat class, some methods could include eat, play, sleep, or be_pet.
 
 **6. In the space below, create a Dog class with at least 2 attributes and 2 behaviors:**
 
@@ -46,9 +46,9 @@ end
 
 **7. How do you create an instance of a class?**  
 
-You use the name of the instance along with the .new method. If you are using instance variables and an initializer, you would pass the variable values through the new method. If you are using instance variables with and accessor but no initializer, you would define the variable values after the .new method. If you have no instance variables, you just use the .new method and leave it at that.  
+You use the name of the instance along with the .new method. If you are using instance variables and an initializer, you would pass the variable values through the .new method. If you are using instance variables with and accessor but no initializer, you would define the variable values after the .new method. If you have no instance variables, you would just use the .new method and leave it at that.  
 
-Here is an example of this using the class we created above.  
+Here is an example of creatin an instance using the class we created above.  
 
 ```
 sparky.new(true, false)
@@ -58,4 +58,4 @@ sparky.new(true, false)
 
 Again, I would like to understand how classes represent themselves in a database.  
 
-I would also like to discuss the various formatting options used in class definitions with a seasoned senior developer. I'd like to hear someone's thoughts and opinions on the pros and cons of the many options. For example, what is better, using an initializer or just defining instance variables one by one in the code stack? Is it better to use instance methods or accessors for modifying instance variables? I understand these things are largely left to "developer preference", but I don't find that guidance to be helpful in terms of shaping my own opinion about why I should gravitate towards one syntactical option over another.
+I would also like to discuss the various formatting options used in class definitions with a seasoned senior developer. I'd like to hear someone's thoughts and opinions on the pros and cons of the many options. For example, what is better, using an initializer or just defining instance variables one by one in the code stack? Is it better to use instance methods or accessors for modifying instance variables? Is it better to use @ when referring to instance variables or .self? I understand these things are largely left to "developer preference", but I don't find that guidance to be helpful in terms of shaping my own opinion about why I should gravitate towards one syntactical option over another.

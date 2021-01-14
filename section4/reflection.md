@@ -39,6 +39,5 @@ end
 7. How do you create an instance of a class?  
 For the example above: `daisy = DOG.new("Daisy", "Black")` daisy is the instance of the class. Dog is the class. The strings are attributes of the instance daisy.  
 
-Daisy is the instance of the class GoodDog  
 8. What questions do you still have about classes in Ruby?  
-* I am still a little shaky on attr_* I see how it is very useful but I don't feel very fluent with it. Need more practice!
+* I am still a little shaky with attr_* I see how it is very useful but I don't feel very fluent with it. Need more practice!

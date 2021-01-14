@@ -1,7 +1,7 @@
 ## Section 2 Reflection
 
 1. Regarding the blog posts in Part A, how do you feel about asking questions? Do you tend to ask them too soon, or wait too long, or somewhere in between?  
-I tend to wait too long to ask questions. I am absolutely guilty of spending an hour banging my head against a problem because I feel like I will understand it better if I solve the problem myself. I will put more effort into spending a reasonable amount of time on an issue and then asking for help.
+I tend to wait too long to ask questions. I am absolutely guilty of spending an hour banging my head against a problem because I feel like I will understand it better if I solve the problem myself. I will put more effort into spending a reasonable amount of time on an issue and then asking for help. I have found the practice of asking for help *if I have not made any progress* for 20 minutes to be a good compromise.
 
 ### If Statements
 
@@ -18,15 +18,15 @@ if, followed by a condition, followed by something that happens if the condition
 4. How do you add multiple conditions to an if statement?  
 elsif
 5. Provide an example of the Ruby syntax for an if/elsif/else statement:  
-if
-  1 > 2
-  puts "One is greater than two!"
-elsif
-  2 > 1
-  puts "Two is greater than one!"
-else
-  puts "One is equal to two!"
-end
+if  
+  1 > 2  
+  puts "One is greater than two!"  
+elsif  
+  2 > 1  
+  puts "Two is greater than one!"  
+else  
+  puts "One is equal to two!"  
+end  
 
 6. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?  
 Conditionals could be used for comparisons or used as a sort of checklist too meet multiple criteria.
@@ -35,15 +35,15 @@ Conditionals could be used for comparisons or used as a sort of checklist too me
 1. In your own words, what is the purpose of a method?  
 Methods save time, space, and effort. You can write a block of code to achieve a task and later write a small line of code to achieve that same task.  
 2. Create a method named `hello` that will print `"Sam I am"`.  
-def hello()
-  p "Sam I am"
-end
+def hello()  
+  p "Sam I am"  
+end  
 
 
 3. Create a method named `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
-def hello_someone(name)
-  "#{name} I am"
-end
+def hello_someone(name)  
+  "#{name} I am"  
+end  
 
 4. How would you call or execute the method that you created above?  
 hello_someone(Aidan)  

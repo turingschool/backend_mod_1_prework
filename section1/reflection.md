@@ -6,8 +6,8 @@ The Superlearner Article articulated a swath of fantastic strategizes and charac
 
 1. How would you print the string `"Hello World!"` to the terminal?
 
-```p "Hello World!""
-```
+p "Hello World!""
+
 
 1. What character is used to indicate comments in a ruby file?
 
@@ -19,25 +19,25 @@ An integer and float are both numbers, however a float contains a decimal wherea
 
 1. In the space below, create a variable `animal` that holds the string `"zebra"`
 
-```animal = "zebra"
-```
+animal = "zebra"
+
 
 1. How would you print the string `"zebra"` using the variable that you created above?
 
-```p animal
-```
+p animal
+
 
 1. What is interpolation? Use interpolation to print a sentence using the variable `animal`.
 
 Interpolation is putting a variable or variables inside of string. For example:
 
-```p "The #{animal} has fantastic stripes!"
-```
+p "The #{animal} has fantastic stripes!"
+
 
 1. What method is used to get input from a user?
 
-```gets.chomp
-```
+gets.chomp
+
 
 1. Name and describe two common string methods:
 

@@ -1,4 +1,4 @@
-def water_status(7)
+def water_status(minutes)
   if minutes < 7
     p "The water is not boiling yet."
   elsif minutes == 7

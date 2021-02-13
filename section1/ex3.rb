@@ -1,8 +1,6 @@
 puts "I will now count my chickens:"
 
-Hen = 25 + 30 / 6
-format('%<num>0.3f', num: Hen)
-puts "Hens #{Hen}"
+puts "Hens #{25.0 + 30.0 / 6.0}"
 puts "Roosters #{100 - 25 * 3 % 4}"
 
 puts "Now I wil count the eggs:"

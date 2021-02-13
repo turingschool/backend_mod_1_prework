@@ -6,7 +6,9 @@
 
 1. How would you print the string `"Hello World!"` to the terminal?
 
-  * p "Hello World!"
+````
+p "Hello World!"
+````
 
 1. What character is used to indicate comments in a ruby file?
 
@@ -18,16 +20,22 @@
 
 1. In the space below, create a variable `animal` that holds the string `"zebra"`
 
-  * animal = "zebra"
+````
+animal = "zebra"
+````
 
 1. How would you print the string `"zebra"` using the variable that you created above?
 
-  * p animal
+````
+p animal
+````
 
 1. What is interpolation? Use interpolation to print a sentence using the variable `animal`.
 
   * Interpolation is including a variable in a string.
-  * p "The #{animal} has stripes."
+````
+p "The #{animal} has stripes."
+````
 
 1. What method is used to get input from a user?
 

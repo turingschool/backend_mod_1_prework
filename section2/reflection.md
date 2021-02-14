@@ -71,11 +71,27 @@ end
 ### Methods
 
 1. In your own words, what is the purpose of a method?
+  _Methods_ allow a programmer to define a chunk of code which will be repeated, so when the method is _called_ that chunk of code will execute with certain parameters. This simplifies code by referring to an established process (method) instead of re-writing all the necessary commands each time.   
 
 1. Create a method named `hello` that will print `"Sam I am"`.
+```
+def hello
+  puts "Sam I am"
+end
+```
+
 
 1. Create a method named `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
+```
+def hello_someone(name)
+  puts "#{name} I am"
+end
+```
 
 1. How would you call or execute the method that you created above?
+```
+hello_someone("Noah")
+```
 
 1. What questions do you have about methods in Ruby?
+  I'd like to know more about chaining methods. As in, how to call certain methods on other methods, what to look out for in that case, and whether that's good convention at all. 

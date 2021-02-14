@@ -36,7 +36,7 @@ p "And we can combine the two, variables and math:"
 cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers + 1000)
 
 def octopus_arms(number_of_legs, number_of_guns, number_of_bears, name_of_bears)
-  p "That octopus is weilding #{number_of_guns} guns with #{number_of_legs}, legs against #{number_of_bears} bears!"
+  p "That octopus is weilding #{number_of_guns} guns with #{number_of_legs} legs against #{number_of_bears} bears!"
   if number_of_guns > number_of_legs
     p "That is way to many guns"
   elsif number_of_guns <= 0

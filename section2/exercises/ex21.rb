@@ -37,3 +37,8 @@ p "That becomes: #{what}. Can you do it by hand"
  #((30 + 5)+ ((78 - 4)-((90 * 2)*(50 / 2))))
  #(35 + (74 - (180 * 25)))
  p "-4391"
+
+#(45*(30/(4+8))+((5*(3+6)-(65/(9/4))))
+
+what2 = add(multiply(45, divide(30, add(4, 8))), subtract(multiply(5, add(3, 6)), divide(65, divide(9, 4))))
+p what2s

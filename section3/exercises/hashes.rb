@@ -104,13 +104,15 @@ puts posts[0]
 email = [
   {
   sender: "Tim Finnegan",
-  date: "Aug 10", time: "10:30AM",
+  date: "Aug 10",
+  time: "10:30AM",
   recipients: ["Tim Finnegan", "Mary Finnegan"],
   content: "Hello my dear wife Mary, I've been meaning to tell you we're out of plums."
   },
   {
   sender: "Mary Finnegan",
-  date: "Aug 10", time: "10:35AM",
+  date: "Aug 10",
+  time: "10:35AM",
   recipients: ["Tim Finnegan", "Mary Finnegan"],
   content: "Oh no! Dearest Tim, you'll have to go get some more. For company."
   },

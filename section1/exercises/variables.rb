@@ -42,8 +42,7 @@ p first_name, is_hungry, number_of_pets
 
 # IN WORDS:
 # How did you decide to use the data type you did for each of the three variables above?
-
-# Names are a collection of unopperated symbols so a string is best there. Variables that ask a question are boolean. If a variable has number_of in it it is likely a float
+  # Names are a collection of unopperated symbols so a string is best there. Variables that ask a question are boolean. If a variable has number_of in it it is likely a float
 
 
 # YOU DO:
@@ -65,4 +64,6 @@ puts healthy_snacks + junk_food_snacks
 #-------------------
 
 # Did you run this file in your terminal to make sure everything printed out to the terminal
+  # yes
   # as you would expect?
+    #yes

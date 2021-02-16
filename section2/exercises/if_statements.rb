@@ -3,26 +3,27 @@
 # file by entering the following command in your terminal:
 # `ruby section2/exercises/if_statements.rb`
 
-# Example: Using the weather variable below, write code that decides 
+# Example: Using the weather variable below, write code that decides
 # what you should take with you based on the following conditions:
   # if it is sunny, print "sunscreen"
   # if it is rainy, print "umbrella"
   # if it is snowy, print "coat"
   # if it is icy, print "yak traks"
 
-  weather = 'snowy'
+  weather = 'rainy'
 
   if weather == 'sunny'
-    p "sunscreen"
+    p "Don't forget sunscreen!"
   elsif weather == 'rainy'
-    p "umbrella"
+    p "I better bring my umbrella!"
   elsif weather == 'snowy'
-    p "coat"
+    p "It'll be cold, so better wear a coat!"
   elsif weather == 'icy'
-    p "yak traks"
+    p "Better come equipped with my yak traks."
   else
     p "good to go!"
   end
+
 
 # Experiment with manipulating the value held in variable 'weather'
 # to print something other than 'coat'
@@ -35,7 +36,7 @@
 
 # Right now, the program will print
 # out both "I have enough money for a gumball" and
-# "I don't have enough money for a gumball". Write a 
+# "I don't have enough money for a gumball". Write a
 # conditional statement that prints only one or the other.
 
 # Experiment with manipulating the value held within num_quarters
@@ -43,13 +44,16 @@
 
 num_quarters = 0
 
-puts "I have enough money for a gumball"
-puts "I don't have enough money for a gumball"
+if num_quarters >= 2
+  puts "I have enough money for a gumball"
+elsif num_quarters <= 2
+  puts "I don't have enough money for a gumball"
+end
 
 
 #####################
 # Using the variables defined below, write code that will tell you
-# if you have the ingredients to make a pizza. A pizza requires 
+# if you have the ingredients to make a pizza. A pizza requires
 # at least two cups of flour and sauce.
 
 # You should be able to change the variables to achieve the following outputs:
@@ -63,3 +67,18 @@ puts "I don't have enough money for a gumball"
 
 cups_of_flour = 1
 has_sauce = true
+
+if cups_of_flour == 1 and has_sauce == true
+  puts "I cannot make pizza"
+elsif cups_of_flour == 5 and has_sauce == false
+  puts "I cannot make pizza"
+end
+
+cups_of_flour = 2
+has_sauce = true
+
+if cups_of_flour == 2 and has_sauce == true
+  puts "I can make pizza"
+elsif cups_of_flour == 3 and has_sauce == true
+  puts "I can make pizza"
+end

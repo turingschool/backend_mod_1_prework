@@ -60,6 +60,11 @@ p foods
   # There are several ways to do this - choose whichever you'd like!
 # Then, print the changed array to verify the new items have been added
 
+foods << "Burrito"
+foods << "Spinach"
+foods << "Apple"
+p foods
+
 # YOU DO: Remove the food that is in index position 0.
 foods.delete_at(0)
 p foods

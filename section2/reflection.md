@@ -18,11 +18,14 @@
 
 1. What is the Ruby syntax for an if statement?
 
-  * if a == b
-  *   puts "This is true."
-  * else
-  *   puts "This is false."
-  * end
+  * The Ruby syntax for an if statement is "if", a generic conditional operator, and then "end". Below is an example.
+````
+if a == b
+  puts "This is true."
+else
+  puts "This is false."
+end
+````
 
 1. How do you add multiple conditions to an if statement?
 
@@ -30,13 +33,15 @@
 
 1. Provide an example of the Ruby syntax for an if/elsif/else statement:
 
-  * if a == b
-  *   puts "a = b"
-  * elsif a == c
-  *   puts "a = c"
-  * else
-  *   puts "a doesn't equal either b or c"
-  * end
+````
+if a == b
+  puts "a = b"
+elsif a == c
+  puts "a = c"
+else
+  puts "a doesn't equal either b or c"
+end
+````
 
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 

@@ -3,25 +3,27 @@
 # file by entering the following command in your terminal:
 # `ruby section2/exercises/if_statements.rb`
 
-# Example: Using the weather variable below, write code that decides 
+# Example: Using the weather variable below, write code that decides
 # what you should take with you based on the following conditions:
   # if it is sunny, print "sunscreen"
   # if it is rainy, print "umbrella"
   # if it is snowy, print "coat"
   # if it is icy, print "yak traks"
+puts "What kind of weather are we having?"
 
-  weather = 'snowy'
+puts "Choose one: (sunny) (rainy) (snowy) (icy)."
+  weather = gets.chomp
 
   if weather == 'sunny'
-    p "sunscreen"
+    p "Take some sunscreen!"
   elsif weather == 'rainy'
-    p "umbrella"
+    p "Take an umbrella."
   elsif weather == 'snowy'
-    p "coat"
+    p "Make sure to wear your coat."
   elsif weather == 'icy'
-    p "yak traks"
+    p "You're in need of some yak traks."
   else
-    p "good to go!"
+    p "You're good to go!"
   end
 
 # Experiment with manipulating the value held in variable 'weather'
@@ -35,21 +37,27 @@
 
 # Right now, the program will print
 # out both "I have enough money for a gumball" and
-# "I don't have enough money for a gumball". Write a 
+# "I don't have enough money for a gumball". Write a
 # conditional statement that prints only one or the other.
 
 # Experiment with manipulating the value held within num_quarters
 # to make sure both conditions can be achieved.
+puts "*Internally* I feel like a gumball. How many quarters do I have?"
+num_quarters = gets.chomp
 
-num_quarters = 0
 
-puts "I have enough money for a gumball"
-puts "I don't have enough money for a gumball"
+if num_quarters == "0"
+  puts "I don't have enough money for a gumball"
+elsif num_quarters > "0"
+  puts "I have enough money for a gumball"
+else
+  puts "Well these aren't quarters."
+end
 
 
 #####################
 # Using the variables defined below, write code that will tell you
-# if you have the ingredients to make a pizza. A pizza requires 
+# if you have the ingredients to make a pizza. A pizza requires
 # at least two cups of flour and sauce.
 
 # You should be able to change the variables to achieve the following outputs:
@@ -60,6 +68,19 @@ puts "I don't have enough money for a gumball"
 
 # Experiment with manipulating the value held within both variables
 # to make sure all above conditions output what you expect.
+puts "Oh I feel like pizza."
+puts "True or false, I have sauce at home."
+has_sauce = gets.chomp
+if has_sauce == "false"
+  p "I cannot make pizza."
+elsif has_sauce == "true"
+  p "Now how many cups of flour do I have at home?"
+end
 
-cups_of_flour = 1
-has_sauce = true
+cups_of_flour = gets.chomp
+
+if cups_of_flour >= "2"
+  p "COWABUNGA! I can make pizza!"
+elsif cups_of_flour <= "1"
+  p "I cannot make pizza"
+end

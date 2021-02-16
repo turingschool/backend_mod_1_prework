@@ -12,12 +12,12 @@ class MyCar
 
   def speed_up(accelerate)
     self.speed += accelerate
-    p self.speed
+    p speed
   end
 
   def brake(declerate)
     self.speed -= declerate
-    p self.speed
+    p speed
   end
 
   def turn_off

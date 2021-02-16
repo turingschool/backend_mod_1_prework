@@ -21,7 +21,7 @@ p zoo.values
 
 # Write code that prints the value of the first animal of the zoo variable
 # you created above:
-p zoo.values[0]
+p "There are #{zoo[:penguin]} penguins in the zoo."
 # Write code that adds an animal to the zoo hash.
 # Then, print the updated hash:
 zoo['wolf'] = 1

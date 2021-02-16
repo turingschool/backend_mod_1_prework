@@ -4,10 +4,10 @@ class MyCar
 
   def initialize(y, c, m, e)
     @year = y
-    self.color = c
-    self.model = m
-    self.speed = 0
-    self.is_on = false
+    @color = c
+    @model = m
+    @speed = 0
+    @is_on = false
   end
 
   def speed_up(accelerate)

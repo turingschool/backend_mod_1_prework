@@ -23,42 +23,60 @@ print animals[0]
 
 # YOU DO: Write code below that will print the number of elements in array of
 # animals from above.
-
+puts ""
+puts animals.length()
 
 # YOU DO: Write code that will reassign the last item in the animals
 # array to "Gorilla"
-
+animals.pop
+print animals.push("Gorilla")
 
 # YOU DO: Write code that will add a new animal (type of your choice) to position 3.
-
+puts ""
+print animals.push("Wallaby")
 
 # YOU DO: Write code that will print the String "Elephant" in the animals array
-
+puts ""
+print animals.push("Elephant")
+puts ""
+print animals.at(4)
 
 #-------------------
 # PART 2: Foods: Array Methods
 #-------------------
 
 # YOU DO: Declare a variable that will store an an array of at least 4 foods (strings)
-
+foods = ["spaghetti", "salad", "pizza", "hamburger"]
+print foods
 
 # YOU DO: Write code below that will print the number of elements in the array of
 # foods from above.
-
+puts ""
+print foods.length()
 
 # YOU DO: Write code below that uses a method to add "broccoli" to the foods array and
 # print the changed array to verify "broccoli" has been added
-
+puts ""
+foods.push("broccoli")
+print foods
 
 # YOU DO: Write code below that removes the last item of food from the foods array and
 # print the changed array to verify that item has been removed
+puts ""
+foods.pop()
+print foods
 
-
-# YOU DO: Write code to add 3 new foods to the array. 
+# YOU DO: Write code to add 3 new foods to the array.
   # There are several ways to do this - choose whichever you'd like!
 # Then, print the changed array to verify the new items have been added
+puts ""
+foods.push("steak", "mashed potatoes", "ramen")
+print foods
 
 # YOU DO: Remove the food that is in index position 0.
+puts ""
+foods.delete_at(0)
+print foods
 
 #-------------------
 # PART 3: Where are Arrays used?
@@ -77,11 +95,9 @@ print animals[0]
 posts = ["image at beach", "holiday party", "adorable puppy", "video of cute baby"];
 
 # YOU DO: Think of a web application you commonly use. Where do you see LISTS utilized, where arrays
-# may be storing data? Come up with 3 examples - they could be from different web applications or 
+# may be storing data? Come up with 3 examples - they could be from different web applications or
 # all from the same one.
 
-# 1:
-# 2:
-# 3:
-
-
+# 1: Seeking Alpha app - can create a list (or an array) of stocks within your own personal portfolio
+# 2: Flip app - heart-ing or liking articles I like or would like to read later and going to my "Likes" page to read them at another time 
+# 3: Apple podcast app - subscribing to podcasts I normally listen to and app automatically puts new podcasts for listening on top of the list

@@ -15,15 +15,19 @@ p zoo
 # you created above:
 # YOUR CODE HERE
 zoo.each_key {|key|
-  puts key
+  p key
 }
+# Or
+p zoo.keys
 
 # Write code that prints all of the 'values' of the zoo variable
 # you created above:
 # YOUR CODE HERE
 zoo.each_value {|value|
-  puts value
+  p value
 }
+# Or
+p zoo.values
 
 # Write code that prints the value of the first animal of the zoo variable
 # you created above:

@@ -8,24 +8,29 @@ foods = {apples: 23, grapes: 507, eggs: 48}
 p foods
 
 # Write code that prints a hash holding zoo animal inventory:
-zoo = #YOUR CODE HERE
+zoo = {lion: 5, tigers: 4, bears: 7}
 p zoo
 
 # Write code that prints all of the 'keys' of the zoo variable 
 # you created above:
 # YOUR CODE HERE
+p zoo.keys
 
 # Write code that prints all of the 'values' of the zoo variable 
 # you created above:
 # YOUR CODE HERE
+p zoo.values
 
 # Write code that prints the value of the first animal of the zoo variable 
 # you created above:
 # YOUR CODE HERE
+p zoo[:lion]
 
 # Write code that adds an animal to the zoo hash. 
 # Then, print the updated hash:
 # YOUR CODE HERE
+zoo[:monkey] = 6
+p zoo
 
 
 #-------------------
@@ -40,15 +45,26 @@ p zoo
 # value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
 
 # Write code that prints your email hash to the terminal.
+email = {
+  sender: "Zachjamesgreen@gmail.com",
+  recipient: "Zach@zachgreen.codes",
+  subject: "Hello",
+  body: "Hi Hi Hi",
+  date: "16FEB2021"
+}
+
+p email
 
 
 # Write code that prints all of the 'keys' of the email hash 
 # you created above:
 # YOUR CODE HERE
+p email.keys
 
 # Write code that prints all of the 'values' of the email hash 
 # you created above:
 # YOUR CODE HERE
+p email.values
 
 
 #-------------------
@@ -99,3 +115,27 @@ puts posts[0]
 # YOU DO: Create an array of at least 3 EMAIL Object Literals, using the same 
 # key-value pairs you used in your email Object above.
 # Then, log the email Array to the console.
+
+emails = [
+  {
+    sender: "Zachjamesgreen@gmail.com",
+    recipient: "Zach@zachgreen.codes",
+    subject: "Hello",
+    body: "Hi Hi Hi",
+    date: "16FEB2021"
+  },
+  {
+    sender: "ashley@gmail.com",
+    recipient: "Coolkid@ymail.com",
+    subject: "Cool kid eh?",
+    body: "So your the cool kid on the blick",
+    date: "16FEB2021"
+  },
+  {
+    sender: "morgan@gmail.com",
+    recipient: "beesknees@hotmail.com",
+    subject: "Beeeeeees",
+    body: "So i heard you like bees",
+    date: "16FEB2021"
+  }
+]

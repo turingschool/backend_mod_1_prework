@@ -105,10 +105,10 @@ scary_monster = {
 class SuperHero
   attr_accessor :name, :super_power, :age
 
-  def initialize (name, super_power, age)
-    @@arch_nemesis = "The Syntax Error"
-    @@power_level = 100
-    @@energy_level = 50
+  def initialize
+    @arch_nemesis = "The Syntax Error"
+    @power_level = 100
+    @energy_level = 50
   end
 # - Create the following class methods
 #   - say_name, should print the hero's name to the terminal
@@ -120,7 +120,7 @@ class SuperHero
   end
 
   def maximize_energy
-    @@energy_level = 1000
+    @energy_level = 1000
   end
 end
 # - Create 2 instances of your SuperHero class
@@ -130,6 +130,10 @@ hero_2 = SuperHero.new("Spider man", "Spin Webs", 19)
 
 # Reflection
 # What parts were most difficult about this exerise?
+# Didn't find anything too difficult but the instructions on
+# "Your class should have the following STATIC values" was very confusing.
+# Saying Static/Dyanmic values was confusing because I've never heard that before.
+# There are Static/Dynamic variables but 'values' is confusing.
 
 # What parts felt most comfortable to you?
 

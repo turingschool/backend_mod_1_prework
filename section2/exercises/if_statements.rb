@@ -50,6 +50,14 @@ elsif num_quarters <= 2
   puts "I don't have enough money for a gumball"
 end
 
+num_quarters = 2
+
+if num_quarters >= 2
+  puts "I have enough money for a gumball"
+elsif num_quarters <= 2
+  puts "I don't have enough money for a gumball"
+end
+
 
 #####################
 # Using the variables defined below, write code that will tell you

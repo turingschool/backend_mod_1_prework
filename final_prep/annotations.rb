@@ -35,24 +35,31 @@ build_a_bear('Sleepy', 2, 'purple', ['pajamas', 'sleeping cap'], 'sleeping in')
 
 
 # FizzBuzz
+
 # define a method fizzbuzz, it takes three parameters.
 def fizzbuzz(num_1, num_2, range)
+# uses the range argument.
   (1..range).each do |i|
-# if value returns true...
+# uses the if i % num_1 === 0 && i % num_2 === 0 statement if true.
     if i % num_1 === 0 && i % num_2 === 0
-#... this will be puts
+#puts 'fizzbuzz' if i % num_1 === 0 && i % num_2 === 0 is true.
       puts 'fizzbuzz'
-# if "if" statement is false...
+#uses i % num_1 === 0 if the if statment is false.
     elsif i % num_1 === 0
-#... this will be puts
+#puts 'fizz' if the if statement is false.
       puts 'fizz'
+#uses i % num_2 === 0 if previous elsif statement is false.
     elsif i % num_2 === 0
+#puts 'buzz' if previous elsif statement is true and all prior statements are false.
       puts 'buzz'
+#puts i if all prior statements are false.
     else
       puts i
     end
   end
 end
 
+#calling method fizzbuzz as well as listed arguments.
 fizzbuzz(3, 5, 100)
+#calling method fizzbuzz as well as listed arguments.
 fizzbuzz(5, 8, 400)

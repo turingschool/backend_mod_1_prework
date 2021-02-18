@@ -4,7 +4,7 @@
 
 # Build a Bear
 
-# declare a function build_a_bear, it takes 5 parameters.
+# define a method build_a_bear, it takes 5 parameters.
 def build_a_bear(name, age, fur, clothes, special_power)
 # variable called greeting assigned to a string interpolation with name parameter.
   greeting = "Hey partner! My name is #{name} - will you be my friend?!"
@@ -25,15 +25,17 @@ def build_a_bear(name, age, fur, clothes, special_power)
   }
 #
   return built_bear
+# marks the end of the block.
 end
 
+# declared method and arguments with 5 parameters with an array with 3 parameters.
 build_a_bear('Fluffy', 4, 'brown', ['pants', 'jorts', 'tanktop'], 'give you nightmares')
-#Created
+# declared a method and arguments with 5 parameters with an array with 2 parameters.
 build_a_bear('Sleepy', 2, 'purple', ['pajamas', 'sleeping cap'], 'sleeping in')
 
 
 # FizzBuzz
-# declare a function fizzbuzz, it takes three parameters.
+# define a method fizzbuzz, it takes three parameters.
 def fizzbuzz(num_1, num_2, range)
   (1..range).each do |i|
     if i % num_1 === 0 && i % num_2 === 0

@@ -37,15 +37,15 @@ Earlier, you learned about one type of collection storage - Arrays.  Today, you 
 
 When you are all done with the lessons, exercises, and questions for today, you will once again use git to save your work locally, and then send your work to Github.
 
-1. Work through the following lessons. Any files that you create while working can be kept in today's `exercises` directory. 
+1. Work through the following lessons. Any files that you create while working can be kept in today's `exercises` directory.
 
-    - [ ] [Hashes](https://learnrubythehardway.org/book/ex39.html) from Learn Ruby the Hard Way.
+    - [x] [Hashes](https://learnrubythehardway.org/book/ex39.html) from Learn Ruby the Hard Way.
 
-    - [ ] [Hashes](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#8.-hashes) from Ruby in 100 minutes.
+    - [x] [Hashes](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#8.-hashes) from Ruby in 100 minutes.
 
-1. Work through the hashes.rb file in the section4/exercises directory.
+1. Work through the hashes.rb file in the section3/exercises directory.
 
-1. Answer the questions in the reflection.md file in the section4 directory.
+2. Work through the arrays.rb file in the section3/exercises directory.
 
 ## Reflection
 

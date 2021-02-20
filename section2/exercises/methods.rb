@@ -12,20 +12,32 @@ print_name
 
 # Write a method that takes a name as an argument and prints it:
 def print_name(name)
-  # YOUR CODE HERE
+  puts name
 end
 
 print_name("Albus Dumbledore")
 
-# Write a method that takes in 2 numbers as arguments and prints 
+# Write a method that takes in 2 numbers as arguments and prints
 # their sum. Then call your method three times with different arguments passed in:
-# YOUR CODE HERE
+def add(a, b)
+  puts "The sum! #{a + b}"
+end
 
-# Write a method that takes in two strings as arguments and prints 
-# a concatenation of those two strings. Example: The arguments could be 
-# (man, woman) and the end result might output: "When Harry Met Sally".  
-# Then call your method three times with different arguments passed in. 
+add(2,2)
+add(3,4)
+add(100,1)
 
+# Write a method that takes in two strings as arguments and prints
+# a concatenation of those two strings. Example: The arguments could be
+# (man, woman) and the end result might output: "When Harry Met Sally".
+# Then call your method three times with different arguments passed in.
+def concatenate(a, b)
+  puts a + " / "+ b
+end
+
+concatenate("When the moon ", "hits your eye")
+concatenate("like a big ", "pizza pie")
+concatenate("well that's ", "what we call amore.")
 
 #-------------------
 # PART 3: Naming is Hard
@@ -38,4 +50,6 @@ print_name("Albus Dumbledore")
 # What did you name each parameter, and why?
 
 # EXPLAIN:
+#I named my functions "add" and "concatenate" to quickly summarize what the functions should do. I also included a little text in the output of my "add" method to clarify that it was returning the sum of the two parameter numbers.
 
+# I named my parameters in my "concatenate" method some song lyrics in order to feature a little separator symbol " / ", just to see if I was formatting that element correctly.

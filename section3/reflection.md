@@ -8,13 +8,13 @@
 
 1. In which ways do you currently demonstrate a Growth Mindset? In which ways do you _not_?
 
-- I think I am good at taking challenges as an opportunity to grow my skill and understanding, rather than feeling too much is being asked of me. However I think I could stand to do better at the planning aspects and setting goals in a mindful way to help me achieve growth. 
+- I think I am good at taking challenges as an opportunity to grow my skill and understanding, rather than feeling too much is being asked of me. However I think I could stand to do better at the planning aspects and setting goals in a mindful way to help me achieve growth.
 
 1. What is a Hash, and how is it different from an Array?
 _A hash is a way of storing associated data. You have keys and their associated values stored in an unordered list in a hash, but for an array you have a list of data that is indexed by the order it is listed. In an array, the only associated data with each list object is its index number, in an hash, the associated value could be any data type.
 1. In the space below, create a Hash stored to a variable named `pet_store`.  This hash should hold an inventory of items and the number of that item that you might find at a pet store.
 
-`ruby
+`
 pet_store = {'Squeaky toys' => 7, 'treats' => 45, 'crates' => 8}`
 
 1. Given the following `states = {"CO" => "Colorado", "IA" => "Iowa", "OK" => "Oklahoma"}`, how would you access the value `"Iowa"`?

@@ -66,16 +66,100 @@ end
 
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 
+You can also write conditional statements as case statements. Case statements (also known as switch statements in other languages like Javascript) can be used as a shorter, cleaner way to write conditions of a method.
 
+The syntax looks like this:
 
+```ruby
+case statement
+
+when expression 1
+  #do something
+when expression 2
+  #do the other thing
+else
+  #do this
+end
+```
+
+Here's an example of an if-statement code block and a case statement code block running the same method from a [Medhi Farsi's Medium blogpost](https://medium.com/rubycademy/ruby-case-statement-behind-the-scene-3e8247960dd7):
+
+```ruby
+#if-statement
+
+if String === "lolcat"
+  "I'm a String"
+elsif Fixnum === "lolcat"
+  "I'm a Fixnum"
+elsif Range === "lolcat"
+  "I'm a Range"
+end
+
+#case statement
+
+case "lolcat"
+when String then "I'm a String"
+when Fixnum then "I'm a Fixnum"
+when Range then "I'm a Range"
+end
+```
+From what I'm reading, it seems like programmers prefer using case statements instead of if-statements especially for setting ranges as conditions.
+
+Here's an example from [GeeksforGeeks](https://www.geeksforgeeks.org/ruby-case-statement/):
+
+```ruby
+#copied from Example 2
+#Ruby program to illustrate case statement
+
+marks = 70
+
+#marks is the input
+#for case statement
+
+case marks
+#using range operators
+when 0..32
+  puts "You fail!"
+
+when 33..40
+  puts "You got C grade!"
+
+when 41..60
+  puts "You got B grade!"
+
+else
+  puts "You got A grade!"
+
+end  
+```
 ### Methods
 
 1. In your own words, what is the purpose of a method?
+A method is a piece of code that can be called to run over and over again in a program. It's like a recipe that hangs out in the memory until used.
 
 1. Create a method named `hello` that will print `"Sam I am"`.
 
+```ruby
+def hello
+  puts "Sam I am"
+end
+```
+
 1. Create a method named `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
+
+```ruby
+def hello_someone(name)
+  puts "#{name} I am"
+end
+```
 
 1. How would you call or execute the method that you created above?
 
+```ruby
+hello_someone("Judy")
+```
+
 1. What questions do you have about methods in Ruby?
+Why do people choose to leave off parentheses when calling methods as a style choice? I feel like it could get easily confusing to read the code. Or if you're more familiar with Ruby overall, does it just become second nature to be able tell when someone is calling a method versus the variable name?
+
+Are methods similar to Javascript functions where you can start calling methods within methods?

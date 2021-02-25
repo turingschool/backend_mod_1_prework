@@ -1,6 +1,9 @@
 ## Section 1 Reflection
 
 1. How did the SuperLearner Article resonate with you? What from this list do you already do? Want to start doing or do more of? Is there anything not on this list, that you would add to it?
+ Superlearners resonate to me With its methods, I can't really say I implement any of the steps currently but will learn this process. I want to start with each step one by one and
+ couldn't think of how to change this list. 
+
 
 1. How would you print the string `"Hello World!"` to the terminal?
    print "Hello World" or puts "Hello World"

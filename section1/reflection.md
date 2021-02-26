@@ -10,7 +10,7 @@
 
 1. What character is used to indicate comments in a ruby file?
 
-   * #
+   * A hash
 
 1. Explain the difference between an integer and a float?
 

@@ -166,7 +166,7 @@ This will open the `section1` directory in Atom. You should be able to see the d
 
 1. Work through the [Strings](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#3.-strings) and [Numbers](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#5.-numbers) sections from Ruby in 100 Minutes. For each of these sections, open an `irb` session by typing `irb` into your terminal and type in the code snippets provided.
 
-## 🏁 Exercises
+## ✅ Exercises
 - Each section contains an exercises directory containing files where you will practice writing code.
 
 Work through the files in the section1/exercises directory.  Complete them in this order:
@@ -178,7 +178,7 @@ Work through the files in the section1/exercises directory.  Complete them in th
 1. interpolation
 1. loops
 
-## Questions
+## 🏁 Questions
 - Each day contains a questions.md file where you will answer questions about what you have learned.
 
 Answer the day 1 questions within the questions.md file. The `.md` file extension refers to markdown formatting. Markdown is a simple markup language to help format your text. [This article](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) shows everything you need for basic markdown formatting.

@@ -178,7 +178,7 @@ Work through the files in the section1/exercises directory.  Complete them in th
 1. interpolation
 1. loops
 
-## 🏁 Questions
+## Questions
 - Each day contains a questions.md file where you will answer questions about what you have learned.
 
 Answer the day 1 questions within the questions.md file. The `.md` file extension refers to markdown formatting. Markdown is a simple markup language to help format your text. [This article](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) shows everything you need for basic markdown formatting.

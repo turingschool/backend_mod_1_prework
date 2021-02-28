@@ -73,6 +73,7 @@ end
 city = cities['TX']
 city ||= "Does not Exist"
 puts "The city for the state 'TX' is #{city}"
+puts '-' * 10
 
 
 #testin code from reflection question

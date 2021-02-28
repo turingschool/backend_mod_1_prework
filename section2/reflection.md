@@ -15,7 +15,7 @@ If statements are useful for dealing with variables and different possible outco
 
 1. What is the Ruby syntax for an if statement?
 
-`ruby if #condition here
+` if #condition here
 #thing you want to happen if true here
 end`
 
@@ -25,7 +25,7 @@ by using `elsif` you can add multiple conditions to one statement, if the first 
 
 1. Provide an example of the Ruby syntax for an if/elsif/else statement:
 
-`ruby example_var = 6
+` example_var = 6
 if example_var == 8
   puts "We have 8."
 elsif example_var == 7
@@ -46,22 +46,20 @@ A method is good for storing functions that you have to use multiple times withi
 
 1. Create a method named `hello` that will print `"Sam I am"`.
 
-`ruby
-def hello
+`def hello
   puts "Sam I am"
 end`
 
 1. Create a method named `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
 
-`ruby
-def hello_someone(name)
+`def hello_someone(name)
   puts "#{name} I am"
 end`
 
 
 1. How would you call or execute the method that you created above?
 
-`ruby
+`
 hello
 hello_someone(Jacq)`
 

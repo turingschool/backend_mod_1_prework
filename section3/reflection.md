@@ -34,6 +34,51 @@ puts states.values
 
 1. What is another example of when we might use a hash?  In your example, why is a hash better than an array?
 
-Array is used for things that need to be in a certain order. They only need to be looked up by a numeric index.
+Another example of using a hash would be for seating arrangements for wedding guests. The key would be the guests' names and the values would be corresponding food allergies/preferences you want to remember about your guests. It might look like this:
+
+```ruby
+guests = {
+  'Naomi' => 'none'
+  'Ella' => 'shellfish',
+  'Al' => 'shellfish',
+  'Andrew' => 'vegan',
+  'Dan' => 'peanut',
+  'Henry' => 'none',
+  'Jill' => 'none',
+}
+```
+
+It would be harder to keep track of this information as an array because you would need to know which numerical index each person was at to access the information. That means you'd have to memorize the exact order the guests as listed in the array. If you looked up `guests[4]` in an array, it would return `Dan => peanut` because it's at the index position of 4. Let's say your partner rearranged the order of the guests.
+
+```ruby
+guests = {
+  'Ella' => 'shellfish',
+  'Al' => 'shellfish',
+  'Dan' => 'peanut',
+  'Andrew' => 'vegan',
+  'Naomi' => 'none'
+  'Henry' => 'none',
+  'Jill' => 'none',
+}
+```
+If you looked up `guests[4]` now, you would get `Naomi => none`.
+
+Using a hash would help you find the allergy that corresponds with `Dan` regardless of what order he's listed in the hash. You would find by simply checking for `guest['Dan']` and save Dan a trip to the ER by serving him peanut-free food.
 
 1. What questions do you still have about hashes?
+
+What are the use cases of the different syntaxes for hash? I see two in the examples of the exercises we've been doing:
+
+```ruby
+foods = {apples: 23, grapes: 507, eggs: 48}
+
+states = {
+  'Oregon' => 'OR',
+  'Florida' => 'FL',
+  'California' => 'CA',
+  'New York' => 'NY',
+  'Michigan' => 'MI'
+}
+```
+
+Is this a stylistic preference? Or does the first work best with integers?

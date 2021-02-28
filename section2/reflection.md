@@ -1,4 +1,6 @@
-## Section 2 Reflection
+## Section 2
+
+### Reflection
 
 1. Regarding the blog posts in Part A, how do you feel about asking questions? Do you tend to ask them too soon, or wait too long, or somewhere in between?
 
@@ -14,11 +16,11 @@ A conditional statement evaluates the truth conditions of some statement to eith
 `some_string.nil?` # evaluates to false if some_string exists, true if it does not
 `8 >= 2` # evaluates to true
 
-1. Why might you want to use an if-statement?
+2. Why might you want to use an if-statement?
 
 If-statements can help make decisions. So anytime there are multiple possible actions based on multiple potentially different truth conditions, that's a good time for an if-statement.
 
-1. What is the Ruby syntax for an if statement?
+3. What is the Ruby syntax for an if statement?
 
 Here's some quasi code, since I find this a helpful way to remember:
 
@@ -36,11 +38,11 @@ end
 
 There is only 1 if-statement, 0 or more `elsif` statements, and 0 or 1 `else` statement. The 'instructions' must be indented. There must be an `end` to close the block.
 
-1. How do you add multiple conditions to an if statement?
+4. How do you add multiple conditions to an if statement?
 
 By adding multiple `elsif` clauses (and up to 1 `else` clause at the end).
 
-1. Provide an example of the Ruby syntax for an if/elsif/else statement:
+5. Provide an example of the Ruby syntax for an if/elsif/else statement:
 
 ```
 if "Molly" == "A Bear"
@@ -52,7 +54,7 @@ else
 end
 ```
 
-1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
+6. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 
 We use them for loops! Conditionals are great for helping structure other types of tasks, like doing something until that condition is no longer true.
 
@@ -62,7 +64,7 @@ We use them for loops! Conditionals are great for helping structure other types 
 
 A method creates a command, basically. It's a way to segment code so that you can create a small piece of code that does a lot of work without you having to rewrite that work every time you need to achieve that result.
 
-1. Create a method named `hello` that will print `"Sam I am"`.
+2. Create a method named `hello` that will print `"Sam I am"`.
 
 ```
 def hello
@@ -70,7 +72,7 @@ def hello
 end
 ```
 
-1. Create a method named `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
+3. Create a method named `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
 
 ```
 def hello_someone(name)
@@ -78,11 +80,11 @@ def hello_someone(name)
 end
 ```
 
-1. How would you call or execute the method that you created above?
+4. How would you call or execute the method that you created above?
 
 `hello_someone("Sandy")`
 
-1. What questions do you have about methods in Ruby?
+5. What questions do you have about methods in Ruby?
 
 So many! It's difficult to ask good questions when I feel like I know so little about them, I suppose. But here are a couple:
 - The notes brought up invoking/calling a method in a code block. Is this the more standard way of doing it? It looks more like a for-loop to me, but I'm curious if there's a reason (or even a way) that you'd ever call something that wasn't a loop like that in a block. Here's the example they give, for reference:

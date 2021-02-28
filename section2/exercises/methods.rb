@@ -12,19 +12,38 @@ print_name
 
 # Write a method that takes a name as an argument and prints it:
 def print_name(name)
-  # YOUR CODE HERE
+  p "#{name}"
 end
 
 print_name("Albus Dumbledore")
 
-# Write a method that takes in 2 numbers as arguments and prints 
+# Write a method that takes in 2 numbers as arguments and prints
 # their sum. Then call your method three times with different arguments passed in:
-# YOUR CODE HERE
+def add(a, b)
+  puts "Add #{a} + #{b}"
+  return a + b
+end
 
-# Write a method that takes in two strings as arguments and prints 
-# a concatenation of those two strings. Example: The arguments could be 
-# (man, woman) and the end result might output: "When Harry Met Sally".  
-# Then call your method three times with different arguments passed in. 
+first = add(10, 20)
+second = add(50, 25)
+third = add(100, 200)
+
+puts "First sum = #{first}."
+puts "Second sum = #{second}."
+puts "Third sum = #{third}."
+
+# Write a method that takes in two strings as arguments and prints
+# a concatenation of those two strings. Example: The arguments could be
+# (man, woman) and the end result might output: "When Harry Met Sally".
+# Then call your method three times with different arguments passed in.
+def dogs(a, b)
+  puts "One dog's name is #{a} and the other one is named #{b}."
+    return a + b
+end
+
+first = dogs("Beethoven","Lassie")
+second = dogs("Guinness","Pearl")
+third = dogs("Indie","Sulley")
 
 
 #-------------------
@@ -39,3 +58,7 @@ print_name("Albus Dumbledore")
 
 # EXPLAIN:
 
+# I named the function dogs because the output was going to be about dog names.
+# I named the parameters first, second, and third because that is the order they  print in.
+
+#

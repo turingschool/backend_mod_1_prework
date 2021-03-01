@@ -14,8 +14,12 @@
 _A hash is a way of storing associated data. You have keys and their associated values stored in an unordered list in a hash, but for an array you have a list of data that is indexed by the order it is listed. In an array, the only associated data with each list object is its index number, in an hash, the associated value could be any data type.
 1. In the space below, create a Hash stored to a variable named `pet_store`.  This hash should hold an inventory of items and the number of that item that you might find at a pet store.
 
+<<<<<<< HEAD
 `
 pet_store = {'Squeaky toys' => 7, 'treats' => 45, 'crates' => 8}`
+=======
+`pet_store = {'Squeaky toys' => 7, 'treats' => 45, 'crates' => 8}`
+>>>>>>> 4194f36a78b5417c4e738b8ab91f691ca863a7ae
 
 1. Given the following `states = {"CO" => "Colorado", "IA" => "Iowa", "OK" => "Oklahoma"}`, how would you access the value `"Iowa"`?
 

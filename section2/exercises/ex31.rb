@@ -14,7 +14,7 @@ if door == "1"
   if bear == "1"
     puts "The bear eats your face off. Good job!"
   elsif bear == "2"
-    puts "The bear eats your legss off. Good job!"
+    puts "The bear eats your legs off. Good job!"
   else
     puts "Well, doing %s is probably better. Bear runs away." % bear
   end

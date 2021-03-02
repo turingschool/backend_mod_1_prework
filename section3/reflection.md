@@ -14,15 +14,8 @@
 
 1. In the space below, create a Hash stored to a variable named `pet_store`.  This hash should hold an inventory of items and the number of that item that you might find at a pet store.
 
-   *  ```ruby
-    pet_store = {
-      dog_food: 354,
-      cat_food: 325,
-      dog_beds: 54,
-      scratch_posts: 25,
-    }
-    ```
-
+   * `pet_store = { dog_food: 354, cat_food: 325, dog_beds: 54, scratch_posts: 25, }`
+  
 1. Given the following `states = {"CO" => "Colorado", "IA" => "Iowa", "OK" => "Oklahoma"}`, how would you access the value `"Iowa"`?
 
    * `states["IA"]`
@@ -33,10 +26,10 @@
 
 1. What is another example of when we might use a hash?  In your example, why is a hash better than an array?
 
-   * You could use a hash for a grocery list. It would be better than an array because you could assign a quantity to the itmes you need (example: {tomatoes: 12, bananas: 6, doughnuts: 12}) rather than just a list of items with no values (example: ["bananas", "tomatoes", "doughnuts"]).
+   * You could use a hash for a grocery list. It would be better than an array because you could assign a quantity to the items you need (example: {tomatoes: 12, bananas: 6, doughnuts: 12}) rather than just a list of items with no values (example: ["bananas", "tomatoes", "doughnuts"]).
 
 1. What questions do you still have about hashes?
 
-   * What else can we do with hases? Are hashes more commonly used than arrays or are they about the same?
+   * What else can we do with hashes? Are hashes more commonly used than arrays or are they about the same?
 
 #

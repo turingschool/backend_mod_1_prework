@@ -11,6 +11,7 @@ I'm still getting used to finding the right time to ask questions. I make sure t
 ### If Statements
 
 1. What is a conditional statement? Give three examples.
+
 Conditional statements check whether or not certain conditions are true or false. It helps the program make a decision on which result to return base off which conditions are fulfilled.
 
 Here are examples:
@@ -33,9 +34,11 @@ end
 ```
 
 1. Why might you want to use an if-statement?
-If-statements help you build logic into your program. You're giving conditions that allow the user's input to influence the result. If statements tell the program to check if the conditions you've set are true. If they are untrue, the program will skip that condition and check out the next.
+
+If-statements help you build logic into your program. You're giving conditions that new arguments can influence to give different results. If statements tell the program to check if the conditions you've set are true and do a certain action. If the conditions are untrue, the program will skip that condition and check out the next.
 
 1. What is the Ruby syntax for an if statement?
+
 In Ruby, conditional statements are written in this syntax:
 
 ```ruby
@@ -45,6 +48,7 @@ end
 ```
 
 1. How do you add multiple conditions to an if statement?
+
 You would use the elsif-statement to add multiple conditions to the same if-statement.
 
 1. Provide an example of the Ruby syntax for an if/elsif/else statement:
@@ -135,6 +139,7 @@ end
 ### Methods
 
 1. In your own words, what is the purpose of a method?
+
 A method is a piece of code that can be called to run over and over again in a program. It's like a recipe that hangs out in the memory until used.
 
 1. Create a method named `hello` that will print `"Sam I am"`.
@@ -160,6 +165,7 @@ hello_someone("Judy")
 ```
 
 1. What questions do you have about methods in Ruby?
+
 Why do people choose to leave off parentheses when calling methods as a style choice? I feel like it could get easily confusing to read the code. Or if you're more familiar with Ruby overall, does it just become second nature to be able tell when someone is calling a method versus the variable name?
 
 Are methods similar to Javascript functions where you can start calling methods within methods?

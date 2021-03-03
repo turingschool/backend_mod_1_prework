@@ -24,8 +24,8 @@ class Burrito
     puts "But I took out #{topping}. Now my burrito only has #{toppings}."
   end
 
-  def change_protein(new_protein)
-    puts "The burrito has #{protein} in it? Can I actually get #{new_protein} instead?"
+  def change_protein(protein)
+    puts "Can I actually get #{protein} in my burrito instead?"
   end
 end
 

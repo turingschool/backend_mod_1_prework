@@ -51,3 +51,5 @@ end
   The variable `borky` is now an instance of the class `Dog`.
 
 1. What questions do you still have about classes in Ruby?
+
+I don't have questions.

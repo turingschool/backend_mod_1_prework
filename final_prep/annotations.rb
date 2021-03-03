@@ -54,7 +54,7 @@ def fizzbuzz(num_1, num_2, range)
       puts i
       #then the method should print the values of i to the terminal
     end
-    #signifies end of conditionals
+    #signifies end of conditional method
   end
   #signifies end of iteration method
 end

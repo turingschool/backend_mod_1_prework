@@ -1,6 +1,6 @@
 #Asking questions
 # gets is a method to ask for user input, you will recieve a string from your user
-# chomp is a method to remove nelibne character at the end of the received string. This way, it prints the result all in on continuos line.
+# chomp is a method to remove the new line character at the end of the received string. This way, it prints the result all in one continuos line.
 print "How old are you? "
 age = gets.chomp.to_i
 print "How tall are you? "

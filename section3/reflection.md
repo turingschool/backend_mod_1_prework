@@ -14,7 +14,13 @@ One thing, I'm still working on improving is setting SMART goals. I still overes
 
 1. What is a Hash, and how is it different from an Array?
 
+A hash is a collection of key:value pairs. Unlike an array, it is unordered. You can't access data in a hash using a numerical index.
+
 1. In the space below, create a Hash stored to a variable named `pet_store`.  This hash should hold an inventory of items and the number of that item that you might find at a pet store.
+
+```ruby
+pet_store = {dog_harness: 12, chew_toy: 13, hamster_ball: 45, dog_treat: 200, cat_toy: 40}
+```
 
 1. Given the following `states = {"CO" => "Colorado", "IA" => "Iowa", "OK" => "Oklahoma"}`, how would you access the value `"Iowa"`?
 

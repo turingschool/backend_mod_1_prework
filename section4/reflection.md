@@ -44,7 +44,7 @@ end
 1. How do you create an instance of a class?
   First, you need to define the class and all of the attributes that you want each instance of the class to have.
 
-  In the class `Dog` example above, I've used the `def initialize(name, is_awake)` †o define the attributes of every instance of Dog. Next, you'll call on the `initialize` method by writing code that looks like this:
+  In the class `Dog` example above, I've used the `def initialize(name, is_awake)` to define the attributes of every instance of Dog. Next, you'll call on the `initialize` method by writing code that looks like this:
 
   `borky = Dog.new('Borky', 'true')`
 

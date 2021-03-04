@@ -35,13 +35,17 @@ sum(400,-149)
 # (man, woman) and the end result might output: "When Harry Met Sally".
 # Then call your method three times with different arguments passed in.
 
-def concatenate(name_1,name_2)
+def pronounce_awesome(name_1,name_2)
   p "I now pronounce you, #{name_1}, " + "and you, #{name_2}, as awesome."
 end
 
-concatenate("Molly","JJ")
-concatenate("Soapbox","Jo")
-concatenate("Allie","Amy")
+pronounce_awesome("Molly","JJ")
+pronounce_awesome("Soapbox","Jo")
+pronounce_awesome("Allie","Amy")
+
+def concatenate_names(name_1,name_2)
+  p name_1 + " and " + name_2
+end
 
 #-------------------
 # PART 3: Naming is Hard
@@ -55,8 +59,12 @@ concatenate("Allie","Amy")
 
 # EXPLAIN:
 =begin
-  I tried to keep things simple. Since I needed to concatenate two strings, I used that word.
-  "Sum" also seemed about as straightforward as I could get.
+  "Sum" seemed about as straightforward as I could get. Concise, but descriptive.
+  For the next method, I was a bit confused by the directions. It asks for concatenation,
+  but then also says to make a string like "When Harry met Sally". I made two functions that eac concatenated
+  strings in two different forms. I named the first one "pronounce_awesome" because
+  it prints the pronouncement that those two names are awesome. Tried to keep it descriptive, but
+  also explain what it does.
   I tried to use variable names like name_1 and name_2 for consistency, while
   x and y seems to just be relying on conventions. People will know that those should be numeric variables
   because of mathematic conventions.

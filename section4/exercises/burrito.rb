@@ -7,6 +7,7 @@
 class Burrito
   attr_accessor :protein
   attr_reader :base, :toppings
+
   def initialize(protein, base, toppings)
     @protein  = protein
     @base     = base

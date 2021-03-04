@@ -34,16 +34,16 @@ class MyCar
   end
 end
 
-subi = MyCar.new(2018, 'blue', 'subaru outback')
+boo_the_subaru = MyCar.new(2018, 'blue', 'subaru outback')
 
-subi.speed_up(60)
-subi.current_speed
-subi.slow_down(10)
-subi.current_speed
-subi.shut_off
-subi.current_speed
+boo_the_subaru.speed_up(60)
+boo_the_subaru.current_speed
+boo_the_subaru.slow_down(10)
+boo_the_subaru.current_speed
+boo_the_subaru.shut_off
+boo_the_subaru.current_speed
 
-# subi.color = 'tie-dye'
-# puts "Congrats! Your Subaru is now #{subi.color}!"
+# boo_the_subaru.color = 'tie-dye'
+# puts "Congrats! Your Subaru is now #{boo_the_subaru.color}!"
 
-subi.spray_paint("tie-dye")
+boo_the_subaru.spray_paint("tie-dye")

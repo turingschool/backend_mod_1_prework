@@ -8,25 +8,25 @@ foods = {apples: 23, grapes: 507, eggs: 48}
 p foods
 
 # Write code that prints a hash holding zoo animal inventory:
-zoo = {lions: 3, tigers: 2, polar_bears: 3, tucans: 5}
-p zoo
+zoo_animal_inventory = {lions: 3, tigers: 2, polar_bears: 3, tucans: 5}
+p zoo_animal_inventory
 
 # Write code that prints all of the 'keys' of the zoo variable
 # you created above:
-p zoo.keys
+p zoo_animal_inventory.keys
 
 # Write code that prints all of the 'values' of the zoo variable
 # you created above:
-p zoo.values
+p zoo_animal_inventory.values
 
 # Write code that prints the value of the first animal of the zoo variable
 # you created above:
-p zoo[:lions]
+p zoo_animal_inventory[:lions]
 
 # Write code that adds an animal to the zoo hash.
 # Then, print the updated hash:
-zoo[:mongooses] = 13
-p zoo
+zoo_animal_inventory[:mongooses] = 13
+p zoo_animal_inventory
 
 #-------------------
 # Part 2: Email
@@ -137,4 +137,4 @@ emails = [
   }
 ]
 
-p emails 
+p emails

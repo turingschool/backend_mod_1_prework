@@ -22,7 +22,7 @@
 
 2. In the space below, create a Hash stored to a variable named `pet_store`.  This hash should hold an inventory of items and the number of that item that you might find at a pet store.
 
-  ```
+  ```rb
   pet_store = {
     "bones" => 27,
     "treats" => 48,
@@ -34,11 +34,13 @@
 
 3. Given the following `states = {"CO" => "Colorado", "IA" => "Iowa", "OK" => "Oklahoma"}`, how would you access the value `"Iowa"`?
 
- `states["IA"]`
+ ```rb
+ states["IA"]
+ ```
 
 4. With the same hash above, how would we get all the keys?  How about all the values?
 
-  ```
+  ```rb
   # print all of the keys
   p states.keys
 

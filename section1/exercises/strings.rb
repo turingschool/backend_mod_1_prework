@@ -7,6 +7,7 @@
 p "Alan Turing"
 
 # Write code that prints `Welcome to Turing!` to the terminal:
+<<<<<<< HEAD
 puts "Matt Holmes"
 
 # Write code that prints `99 bottles of pop on the wall...` to the terminal:
@@ -14,3 +15,12 @@ puts "99 bottles of pop on the wall..."
 
 # Write out code to log one line from your favorite song or movie.
 puts "Waking up dead inside of my head"
+=======
+puts "Alan Turing"
+
+# Write code that prints `99 bottles of pop on the wall...` to the terminal:
+puts "99 bottles of pop on the wall... "
+
+# Write out code to log one line from your favorite song or movie.
+puts "Waking up dead inside of my head/Will never never do there is no med"
+>>>>>>> d969eee7c599dfbc09ec03745691ba18633c293c

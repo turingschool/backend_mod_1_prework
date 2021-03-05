@@ -10,13 +10,13 @@
 <p> A has is a data storage that assigns both keys and values. It is unordered but has the benefit of being able to call upon things based upon their key. An array on the other hand is ordered, however it does not have both a key and value, it seems only to have a value.</p>
 
 1. In the space below, create a Hash stored to a variable named `pet_store`.  This hash should hold an inventory of items and the number of that item that you might find at a pet store.
-<p> pet_store = {dog_food: 13, cat_food: 12, chew_toys: 5, squeak_toys:7}</p>
+`pet_store = {dog_food: 13, cat_food: 12, chew_toys: 5, squeak_toys:7}`
 
 1. Given the following `states = {"CO" => "Colorado", "IA" => "Iowa", "OK" => "Oklahoma"}`, how would you access the value `"Iowa"`?
-<p> `states.values[1]`</p>
+`states.values[1]`
 
 1. With the same hash above, how would we get all the keys?  How about all the values?
-<p> `keys = states.keys values = states.values`</p>
+`keys = states.keys values = states.values`
 
 1. What is another example of when we might use a hash?  In your example, why is a hash better than an array?
 <p> A hash could be used to contain a multitude of things. One impractical method could be 'characters that appeared in this episode of Ninja Turtles where the value 0 means they did not and 1 means they did'. Hashes are great in that they expand on part of what arrays were doing, however they don't do it in an ordered manner. I don't think one is better than the other, it's just a matter of one may be better for a certain situation.</p>

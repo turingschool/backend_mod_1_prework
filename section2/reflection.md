@@ -9,65 +9,65 @@
 1. What is a conditional statement? Give three examples.
 <p> A conditional statement is one that is waiting for return that meets certain conditions set by the developer. For example, if we were prompting the user for a response to the question "How many flavors of Mountain Dew does Taco Bell have?" we could create the following:
 
-if flavors == 3
+`if flavors == 3
   p "Congratulations!"
 elsif flavors > 3 or flavors < 3
   p "Not quite."
 else
-  p "Those aren't numbers."</p>
+  p "Those aren't numbers."</p>``
 
 1. Why might you want to use an if-statement?
 <p> Using an 'if' statement can help when trying to determine if something is or isn't true, or dictated to the console that when certain conditions are met, do the following. It acts as a watch, allowing the developer to have a 'gate' that opens if conditions are met but is disregarded in the event they aren't. It can help the developer somewhat guide the user, and also allows for creativity on the developer's end. </p>
 
 1. What is the Ruby syntax for an if statement?
-<p>if aa == True
+<p>`if aa == True
 
   p "We must retrieve the Elderwand:"
-end
+end`
 </p>
 
 1. How do you add multiple conditions to an if statement?
 <p> By using the else or elsif commands. For example:
 
-if aa == bb
+`if aa == bb
   p "Cowabunga!"
 elsif aa >= bb
   p "Shredder strikes again!"
-end
+end`
 </p>
 
 1. Provide an example of the Ruby syntax for an if/elsif/else statement:
 <p>
-if pizza > veggies
+`if pizza > veggies
   p "Sewer surfin'!"
 elsif pizza == veggies
   p "Master Splinter did it again."
 else
   p "SHREDDER!!!!!"
-end
+end`
 </p>
 
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
-<p> Perhaps conditional statements can be used when retrieving a user's credentials. However, I can't think of a way to format it in which it doesn't use an if statement.</p>
+<p> Perhaps conditional statements can be used when retrieving a user's credentials. Things such as `when user = xyz then`</p>
 ### Methods
 
 1. In your own words, what is the purpose of a method?
-<p> A method defines a variable that can be called upon and stays static, in that, although it has the potential, it is not reassigned later in the code as local variables may be.</p>
+<p> A method is a function that can interact with attributes inside of classes.</p>
 
 1. Create a method named `hello` that will print `"Sam I am"`.
-<p> def hello()
+<p> `def hello()
   p "Sam I am"
-end
+end`
 </p>
 
 1. Create a method named `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
-<p> def hello_someone(name)
+<p> `def hello_someone(name)
   p "#{name} I am."
-end
+end`
 </p>
 
 1. How would you call or execute the method that you created above?
-<p> hello_someone(Caleb) </p>
+<p> `hello_someone(Caleb)` </p>
 
 1. What questions do you have about methods in Ruby?
-<p> I am hazy on stringing methods together, as wekll as embedding a method inside another.</p>
+<p> I am hazy on stringing methods together, as well as embedding a method inside another.</p>

@@ -32,10 +32,13 @@ In Mod 0 you've learned about different techniques for managing your time at Tur
 
 When you are finished, add screenshots of your calendar so we can provide feedback if needed!
 
+`Week 1`
 <img width="833" alt="Screen Shot 2021-03-05 at 7 00 53 AM" src="https://user-images.githubusercontent.com/79054409/110120726-0d2a5d00-7d83-11eb-8ea6-7063ee77264f.png">
 
+`Week 2`
 <img width="837" alt="Screen Shot 2021-03-05 at 7 10 39 AM" src="https://user-images.githubusercontent.com/79054409/110120809-24694a80-7d83-11eb-82aa-bfbf80847ad3.png">
 
+`Week 3`
 <img width="970" alt="Screen Shot 2021-03-05 at 7 16 43 AM" src="https://user-images.githubusercontent.com/79054409/110120839-2cc18580-7d83-11eb-8971-afaa027a6cba.png">
 
 ### Mentorship Prep
@@ -45,8 +48,8 @@ Mentorship is an integral part of the Turing experience and will help jumpstart 
 
 ### Lesson Prep
 You've learned a lot about how to take strong notes during Mod 0. Show us your skills while you learn how to pre-teach content for your first lesson in Mod 1!
-- [ ] Complete the [Pre Teaching Practice exercise](https://gist.github.com/ericweissman/0036e8fe272c02bd6d4bb14f42fd2f79) gist
-  - [ ] Add a link to your gist here:
+- [x] Complete the [Pre Teaching Practice exercise](https://gist.github.com/ericweissman/0036e8fe272c02bd6d4bb14f42fd2f79) gist
+  - [x] Add a link to your gist here:
 
 ### Group Work Prep
 As part of Turing's project-based learning approach, you will often be working in pairs or larger groups. In order to set yourself (and your team) up for success, it is important to ensure you are prepared to be an equitable contributor and teammate.

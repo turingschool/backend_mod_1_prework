@@ -5,27 +5,39 @@
 
 # Example: Write a method that when called will print your name:
 def print_name
-  p "Severus Snape"
+  p "Dee"
 end
 
 print_name
 
 # Write a method that takes a name as an argument and prints it:
 def print_name(name)
-  # YOUR CODE HERE
+  puts name
 end
 
-print_name("Albus Dumbledore")
+print_name("David Bowie")
 
-# Write a method that takes in 2 numbers as arguments and prints 
+# Write a method that takes in 2 numbers as arguments and prints
 # their sum. Then call your method three times with different arguments passed in:
-# YOUR CODE HERE
+def sum(x, y)
+  puts x + y
+end
 
-# Write a method that takes in two strings as arguments and prints 
-# a concatenation of those two strings. Example: The arguments could be 
-# (man, woman) and the end result might output: "When Harry Met Sally".  
-# Then call your method three times with different arguments passed in. 
+sum(10, 20)
+sum(2, 15)
+sum(9, 12)
 
+# Write a method that takes in two strings as arguments and prints
+# a concatenation of those two strings. Example: The arguments could be
+# (man, woman) and the end result might output: "When Harry Met Sally".
+# Then call your method three times with different arguments passed in.
+def string_me(char1,char2)
+  puts "I was a very nice day out #{x} could not believe the tales that #{y} told "
+end
+
+string_me("Dante", "Emma")
+string_me("Ixavior", "Lease")
+string_me("Brian", "Suzie")
 
 #-------------------
 # PART 3: Naming is Hard
@@ -37,5 +49,4 @@ print_name("Albus Dumbledore")
 # Look at the code you wrote for the previous YOU DO🎈 - what did you name the function, and why?
 # What did you name each parameter, and why?
 
-# EXPLAIN:
-
+# EXPLAIN: I named my method string_me. Since this is a method that was seeking strings. For my parameter I was thinking of this as more of a story so I named a short abbrievation of CHaracter for char1 and char2

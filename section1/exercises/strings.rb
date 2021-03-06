@@ -13,4 +13,4 @@ p 'Welcome to Turing!'
 p "99 bottles of pop on the wall..."
 
 # Write out code to log one line from your favorite song or movie.
-logger.info (And if you're free to make a choice, just look towards the west and find a friend)
+p "And if you're free to make a choice, just look towards the west and find a friend"

@@ -7,9 +7,10 @@
 p "Alan Turing"
 
 # Write code that prints `Welcome to Turing!` to the terminal:
-p #YOUR CODE HERE
+p 'Welcome to Turing!'
 
 # Write code that prints `99 bottles of pop on the wall...` to the terminal:
-# YOUR CODE HERE
+p "99 bottles of pop on the wall..."
 
 # Write out code to log one line from your favorite song or movie.
+logger.info(And if you're free to make a choice, just look towards the west and find a friend)

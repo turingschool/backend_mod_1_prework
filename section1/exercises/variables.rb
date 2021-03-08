@@ -11,21 +11,22 @@ p name
 # Write code that saves the string 'Dobby' to a variable and
 # prints what that variable holds to the terminal:
 house_elf = "Dobby"
-# YOUR CODE HERE
+p house_elf
 
 # Write code that saves the string 'Harry Potter must not return to Hogwarts!'
 # and prints what that variable holds to the terminal:
-# YOUR CODE HERE
+dobby = "Harry Potter must not return to Hogwarts!"
+p dobby
 
 # Write code that adds 2 to the `students` variable and
 # prints the result:
 students = 22
-# YOUR CODE HERE
+students += 2
 p students
 
 # Write code that subracts 2 from the `students` variable and
 # prints the result:
-# YOUR CODE HERE
+students -= 2
 p students
 
 
@@ -33,11 +34,16 @@ p students
 # Declare three variables, named `first_name`, `is_hungry` and `number_of_pets`. 
 # Store the appropriate data types in each.
 # print all three variables to the terminal.
+first_name = "Miriam"
+is_hungry = true
+number_of_pets = 6
+p first_name, is_hungry, number_of_pets
+
 
 # IN WORDS:
 # How did you decide to use the data type you did for each of the three variables above? 
 
-# Explain.
+# For first_name i used string because names are string data types. is_hungry is a statement that is either true or false therefore it was a boolean. number_of_pets requires a number as an answer so it is an integer.
 
 
 # YOU DO:
@@ -50,6 +56,8 @@ p students
 healthy_snacks = 6;
 junk_food_snacks = 8;
 
+healthy_snacks + junk_food_snacks
+
 
 #-------------------
 # FINAL CHECK
@@ -57,3 +65,4 @@ junk_food_snacks = 8;
 
 # Did you run this file in your terminal to make sure everything printed out to the terminal 
   # as you would expect? 
+yes

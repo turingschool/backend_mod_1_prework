@@ -2,6 +2,9 @@
 
 # Declare two variables - hero_name AND special_ability - set to strings
 
+hero_name = "Chocolate Man"
+special_ability = "Turns everything into chocolate."
+
 # Declare two variables - greeting AND catchphrase
 #   greeting should be assigned to a string that uses interpolation to include the hero_name
 #   catchphrase should be assigned to a string that uses interpolation to include the special_ability

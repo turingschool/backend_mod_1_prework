@@ -15,7 +15,7 @@ puts house_elf
 
 # Write code that saves the string 'Harry Potter must not return to Hogwarts!'
 # and prints what that variable holds to the terminal:
-# instruction = "Harry Potter must not return to Hogwarts!"
+instruction = "Harry Potter must not return to Hogwarts!"
 puts instruction
 
 # Write code that adds 2 to the `students` variable and
@@ -35,9 +35,9 @@ p students
 # Store the appropriate data types in each.
 # print all three variables to the terminal.
 first_name = "Matt"
-is_hungry = True
+is_hungry = true
 number_of_pets = 0
-puts "Is #{first_name} hungry?" is_hungry "." "#{first_name} has #{number_of_pets} pets."
+puts "Is #{first_name} hungry? That is #{is_hungry}. " + "#{first_name} has #{number_of_pets} pets."
 
 # IN WORDS:
 # How did you decide to use the data type you did for each of the three variables above?
@@ -49,16 +49,16 @@ puts "Is #{first_name} hungry?" is_hungry "." "#{first_name} has #{number_of_pet
 # Re-assign the values to the three variables from the previous challenge to different values (but same data type).
 # print all three variables to the terminal.
 first_name = "Pat"
-is_hungry = False
+is_hungry = false
 number_of_pets = 10
-puts "Is #{first_name} hungry?" is_hungry "." "#{first_name} has #{number_of_pets} pets."
+puts "Is #{first_name} hungry? That is #{is_hungry}. " + "#{first_name} has #{number_of_pets} pets."
 
 
 # YOU DO:
 # Using the variables below, print the total number of snacks to the terminal:
 healthy_snacks = 6;
 junk_food_snacks = 8;
-puts "There are " healthy_snacks + junk_food_snacks " snacks in total."
+puts "There are #{healthy_snacks + junk_food_snacks} snacks in total."
 
 #-------------------
 # FINAL CHECK

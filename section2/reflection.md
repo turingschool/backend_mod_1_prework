@@ -6,12 +6,13 @@ I have elements of both problems. I have one friend who can help me with some of
 ### If Statements
 
 1. What is a conditional statement? Give three examples.  
-  * if
-  * elsif
-  * else
+  A conditional statement is one where a situation is evaluated for whether it is true or not, and commonly includes instructions to follow based on the result.
+  * If it snows tonight, then I will have to shovel my stoop in the morning.
+  * If my paycheck clears soon, then I won't bounce my rent check. Otherwise (else), I will have to pay an overdraft charge.
+  * If I put too much sriracha on my dinner, then I will get a stomachache.
 
 1. Why might you want to use an if-statement?
-One way to think about it is if branching choices or inputs will lead to different outcomes.
+One way to think about it is if branching choices or inputs will lead to different desired outcomes (for which you want to produce those outcomes)>
 
 1. What is the Ruby syntax for an if statement?
 ```
@@ -24,7 +25,7 @@ end
 
 
 1. How do you add multiple conditions to an if statement?
-elsif
+elsif OR &&
 
 1. Provide an example of the Ruby syntax for an if/elsif/else statement:
 ```
@@ -35,7 +36,7 @@ number_of_drinks = 3
   elsif number_of_drinks = 3
     puts "Use caution when driving"
   else
-    puts "Get and Uber"
+    puts "Get an Uber"
   end
 ```
 
@@ -45,7 +46,7 @@ We could use a conditional statement to evaluate true or false, or relative valu
 ### Methods
 
 1. In your own words, what is the purpose of a method?
-A method does something to an object, or causes the object to do something.
+A method does something to an object, or causes the object to do something. It is distinguished from attributes, which are information about the object. For example, the object `ibuprofen`, it might have attributes like `color`, `dose`, and `imprint`, but it will also have methods like `relieve_pain`, `reduce_fever`, and `damage kidney`.
 
 1. Create a method named `hello` that will print `"Sam I am"`.
 ```

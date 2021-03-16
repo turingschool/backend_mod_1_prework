@@ -101,3 +101,22 @@ puts posts[0]
 # YOU DO: Create an array of at least 3 EMAIL Object Literals, using the same
 # key-value pairs you used in your email Object above.
 # Then, log the email Array to the console.
+
+emails = [
+  {
+    "sender" => "Matt",
+    "recipient" => "Ana",
+    "subject" => "Work shift trade request",
+    "date" => "03March2020",
+    "words" => 78
+  },
+  {
+    "sender" => "Julio",
+    "recipient" => "Rev. Zalatel",
+    "subject" => "Meaning of life inquiry",
+    "date" => "31December1999",
+    "words" => 12453
+  }
+]
+
+puts emails 

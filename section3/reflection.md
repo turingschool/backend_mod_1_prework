@@ -5,7 +5,7 @@
 * I liked the idea that if I am not encountering challenge, then I am probably not solving any problems.
 
 1. In which ways do you currently demonstrate a Growth Mindset? In which ways do you _not_?
-I am currently very intimidated by challenge in this format, and tend to shut down--the opposite of a growth mindset. On the other hand, I have stuck it out this far.
+I am currently very intimidated by challenge in this format, and tend to shut down--the opposite of a growth mindset. On the other hand, I have stuck it out this far. I'm not sure what would really be helpful here. I suppose one thing that sometimes helps in other contexts is when I am able to be of service to other people. So in group work, I would hope that the added weight of being accountable to other people who all need to do well will help me overcome whatever trepidation I might have.
 
 1. What is a Hash, and how is it different from an Array?
 Hashes, short for hashmap, are data structures. They are lists, but instead of requiring the listed items to be referenced by number, they can be associated with pretty much any other value.

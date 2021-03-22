@@ -1,7 +1,7 @@
 print "frogs = "
 x = gets.chomp.to_i
 
-until x < 1
+until x < 2
   puts " #{x} speckled frogs sat on a log
   eating some most delicious bugs.
   One jumped in the pool where its nice and cool,

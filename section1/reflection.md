@@ -1,6 +1,9 @@
 ## Section 1 Reflection
 
 1. How did the SuperLearner Article resonate with you? What from this list do you already do? Want to start doing or do more of? Is there anything not on this list, that you would add to it?
+    - The key takeaway I had from this article is that SuperLearners approach learning as a continuous and life-long practice. Learning is not something with a defined finish line, but rather, is a daily pursuit of personal improvement.
+    - I already feel that I like to teach, and definitely feel the benefits of collaborating with others to make concepts more concrete. Additionally, I take good care of myself, as I value fitness and health.
+    - I need to improve on taking short, scheduled, and healthy breaks. I often find myself stuck sitting for too long, which can actually reduce productivity in the long run. This may allow me to remain more focused and read more, another learning development area that I feel I could improve upon.
 
 1. How would you print the string `"Hello World!"` to the terminal?
 

@@ -1,7 +1,7 @@
 ## Section 1 Reflection
 
 1. How did the SuperLearner Article resonate with you? What from this list do you already do? Want to start doing or do more of? Is there anything not on this list, that you would add to it?
-  1. It shows that learning is a skill that can be practiced like any other skill, which I didn't really think before.
+  * It shows that learning is a skill that can be practiced like any other skill, which I didn't really think before.
   * I view learning as a process, not just something that happens. I always have a growth mindset as well. I enjoy getting better and improving at
      things I already know, and learning new things. I try to learn all I can.
   * I want to start reading more. I want to practice setting aside time to relax and read.

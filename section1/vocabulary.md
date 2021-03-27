@@ -1,20 +1,20 @@
 ## Section1 Vocabulary
-- command:  
+- Command:  An instruction passed to a computer for execution, via the Terminal application (CLI)
 
-- directory:  
+- Directory:  The technical term for a "folder"
 
-- code comments:  
+- Code Comments:  Notes to explain a code block (in plain English), or remove a potentially valid line of code from being read by the interpreter.
 
-- String:  
+- String:  A variable of raw text. Additional variables can be inserted into strings, via string interpolation.
 
-- Number:  
+- Number:  A variable type for storing integers
 
-- Boolean:  
+- Boolean:  True or false!
 
-- variable:  
+- Variable:  A data type read and executed by a computer program. It's syntax, output, and related methods are available based on the exact variable type.
 
-- assignment operator:  
+- Assignment operator:  `=`
 
-- re-assignment (of a variable):  
+- Re-assignment (of a variable):  Assigning a variable to another value and/or type. Variables can also be reassigned to other variables.
 
-- interpolation:  
+- Interpolation:  Inserting variables into other variables (typically with strings)

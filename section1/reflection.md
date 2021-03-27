@@ -6,16 +6,39 @@
     - I need to improve on taking short, scheduled, and healthy breaks. I often find myself stuck sitting for too long, which can actually reduce productivity in the long run. This may allow me to remain more focused and read more, another learning development area that I feel I could improve upon.
 
 1. How would you print the string `"Hello World!"` to the terminal?
+   - Method 1 (running directly from CLI, with no .rb file to execute)
+     ```
+     $irb
+     myString = 'Hello World!'
+     => "Hello World!"
+     exit()
+     ```
+   - Method 2 (Ruby code inside an executed .rb file)
+   ```ruby
+   myString = 'Hello World!'
+   puts myString
+   ```
 
 1. What character is used to indicate comments in a ruby file?
+   - `#`
 
 1. Explain the difference between an integer and a float?
+   - `Float` has a trailing decimal point, whereas `Integer` does not.
 
 1. In the space below, create a variable `animal` that holds the string `"zebra"`
+   ```ruby
+   animal = 'zebra'
+   ```
 
 1. How would you print the string `"zebra"` using the variable that you created above?
+   ```ruby
+   puts animal
+   ```
 
 1. What is interpolation? Use interpolation to print a sentence using the variable `animal`.
+   ```ruby
+   puts "#{animal} is a type of animal."
+   ```
 
 1. What method is used to get input from a user?
 

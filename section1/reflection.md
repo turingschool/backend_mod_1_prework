@@ -14,10 +14,10 @@
      exit()
      ```
    - Method 2 (Ruby code inside an executed .rb file)
-   ```ruby
-   myString = 'Hello World!'
-   puts myString
-   ```
+     ```ruby
+     myString = 'Hello World!'
+     puts myString
+     ```
 
 1. What character is used to indicate comments in a ruby file?
    - `#`
@@ -41,5 +41,7 @@
    ```
 
 1. What method is used to get input from a user?
+   - 
 
 1. Name and describe two common string methods:
+   -

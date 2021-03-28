@@ -41,7 +41,11 @@
    ```
 
 1. What method is used to get input from a user?
-   - 
+   ```ruby
+   gets.chomp
+   # or if using ARGV within a script
+   $stdin.gets.chomp
+   ```
 
 1. Name and describe two common string methods:
-   -
+   - 

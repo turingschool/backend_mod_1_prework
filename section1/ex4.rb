@@ -1,7 +1,11 @@
 #declare variables
+# declaring the car variable
 cars = 100
-space_in_a_car = 4.0
+#declaring the space_in_a_car variable
+space_in_a_car = 4
+#declaring the drivers variable
 drivers = 30
+#declaring the passengers variable
 passengers = 90
 
 #make cars not driven variable the cars number minus the drivers number

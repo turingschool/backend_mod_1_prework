@@ -48,4 +48,5 @@
    ```
 
 1. Name and describe two common string methods:
-   - 
+   - `string.length` returns the length of a string
+   - `string.split` returns an array of strings, split based on a space by default. Individual characters can be supplied as arguments, for customization.

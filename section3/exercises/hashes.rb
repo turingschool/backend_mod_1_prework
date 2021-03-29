@@ -136,4 +136,4 @@ my_posts = [
   }
 ]
 
-p my_posts
+puts my_posts

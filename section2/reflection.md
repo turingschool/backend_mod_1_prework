@@ -1,6 +1,9 @@
 ## Section 2 Reflection
 
 1. Regarding the blog posts in Part A, how do you feel about asking questions? Do you tend to ask them too soon, or wait too long, or somewhere in between?
+   - More often than not, I find myself hesitant to ask questions. I fall into the trap of wanting to solve problems entirely on my own, which ends up wasting time in the long run. __This could negatively impact my growth, if I don't learn to overcome this tendency.__
+   - I will need to learn to accept that there are 'dumb questions' at times, and that it will only take longer to solve the problem if I wait too long because I am too afraid to ask.
+   - A good strategy I will try is timing myself for 20 minutes, so I'm not endlessly searching the rabbit hole for potential solutions, when I'm truly blocked and could benefit from an outside perspective. __An important distinction was that this concept does not mean only working on something for 20 minutes before asking for help, but rather, reaching out to reframe the approach if truly stuck 'Googling' an approach for 20+ minutes without making any sort of progress.__
 
 ### If Statements
 

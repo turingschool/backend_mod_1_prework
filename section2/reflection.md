@@ -1,6 +1,7 @@
 ## Section 2 Reflection
 
 1. Regarding the blog posts in Part A, how do you feel about asking questions? Do you tend to ask them too soon, or wait too long, or somewhere in between?
+  Asking questions has definitely been a skill I've had to learn. My social anxiety would preclude me from asking questions at conferences when I was in academia, and thought that feels easier now... (thank you medication... or therapy?) it still definitely happens when I am unsure of my environment. Asking questions actually takes a lot of confidence, and I think realizing that is the first step in being able to ask questions in the first place. My tendency is definitely to wait too long and to feel scared... I will google something forever. I did appreciate the article that talked about how that's actually wasting your company's money in a job though. That seems like a really good way to rationalize asking a question for my brain. Lord knows I sometimes need that motivation to come from outside myself. 
 
 ### If Statements
 

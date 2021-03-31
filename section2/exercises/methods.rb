@@ -12,19 +12,35 @@ print_name
 
 # Write a method that takes a name as an argument and prints it:
 def print_name(name)
-  # YOUR CODE HERE
+  puts "This is your name: #{name}"
 end
 
 print_name("Albus Dumbledore")
 
-# Write a method that takes in 2 numbers as arguments and prints 
+# Write a method that takes in 2 numbers as arguments and prints
 # their sum. Then call your method three times with different arguments passed in:
-# YOUR CODE HERE
 
-# Write a method that takes in two strings as arguments and prints 
-# a concatenation of those two strings. Example: The arguments could be 
-# (man, woman) and the end result might output: "When Harry Met Sally".  
-# Then call your method three times with different arguments passed in. 
+def sum(num1, num2)
+  puts num1 + num2
+end
+
+sum(1, 2)
+sum(2, 4)
+sum(0, 8)
+
+
+# Write a method that takes in two strings as arguments and prints
+# a concatenation of those two strings. Example: The arguments could be
+# (man, woman) and the end result might output: "When Harry Met Sally".
+# Then call your method three times with different arguments passed in.
+
+def name_generator(first, last)
+  puts "Your new name is: #{first} + #{last}"
+end
+
+name_generator('Harry', 'Potter')
+name_generator('Bobby', 'Lee')
+name_generator('Margot', 'Robbie')
 
 
 #-------------------
@@ -38,4 +54,5 @@ print_name("Albus Dumbledore")
 # What did you name each parameter, and why?
 
 # EXPLAIN:
-
+#I named the function name_generator because I was generating names by adding two strings.
+#I named my parameters first and last to indicate that one would be the first name, and the second would be the last name in the name generator. 

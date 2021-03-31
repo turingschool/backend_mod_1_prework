@@ -1,16 +1,16 @@
 ## Section2 Vocabulary
 - if statements:  A series of logical statements that evaluate to `true` or `false`, so a program can branch into different outcomes (happy vs sad paths)
 
-      ```ruby
-      # Example syntax inside method call
-      def is_palindrome(string)
-        if string == string.reverse
-          return true
-        else
-          return false
-        end
+    ```ruby
+    # Example syntax inside method call
+    def is_palindrome(string)
+      if string == string.reverse
+        return true
+      else
+        return false
       end
-      ```
+    end
+    ```
 
 - method:  Also known as a __function__ in other programming languages, a __method__ is a block of code that is built to handle a command or set of commands that needs to be done repeatedly.
     - The keyword `def` signals to the interpreter that the following block of code is specific to a `method`

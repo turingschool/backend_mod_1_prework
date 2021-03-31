@@ -77,9 +77,10 @@ A `conditional` statement evaluates to `true` or `false` based on the passed in 
     ```
 
 1. How would you call or execute the method that you created above?
+
     `hello_someone("Sam")`
 
 1. What questions do you have about methods in Ruby?
-  - What are some additional best practices (i.e. is simpler and less descriptive better, or lengthier and more descriptive better?)
-  - Why do we not call them `functions`, which is the term frequently used in other languages?
-  - Are there additional ways to declare them (i.e. arrow functions in JavaScript)?
+    - What are some additional best practices (i.e. is simpler and less descriptive better, or lengthier and more descriptive better?)
+    - Why do we not call them `functions`, which is the term frequently used in other languages?
+    - Are there additional ways to declare them (i.e. arrow functions in JavaScript)?

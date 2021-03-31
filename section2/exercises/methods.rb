@@ -12,20 +12,38 @@ print_name
 
 # Write a method that takes a name as an argument and prints it:
 def print_name(name)
-  # YOUR CODE HERE
+  puts "#{name}"
 end
 
 print_name("Albus Dumbledore")
 
-# Write a method that takes in 2 numbers as arguments and prints 
+# Write a method that takes in 2 numbers as arguments and prints
 # their sum. Then call your method three times with different arguments passed in:
-# YOUR CODE HERE
+my_age = 32
+murphs_age = (my_age - 5)
 
-# Write a method that takes in two strings as arguments and prints 
-# a concatenation of those two strings. Example: The arguments could be 
-# (man, woman) and the end result might output: "When Harry Met Sally".  
-# Then call your method three times with different arguments passed in. 
+def age(my_age)
+  puts "#{my_age}"
+end
 
+puts "I am #{my_age}, but murph is #{murphs_age}"
+puts "#{murphs_age + 5} and #{-5 + my_age} all equal our ages"
+puts "our combined age is #{my_age + murphs_age}"
+
+# Write a method that takes in two strings as arguments and prints
+# a concatenation of those two strings. Example: The arguments could be
+# (man, woman) and the end result might output: "When Harry Met Sally".
+# Then call your method three times with different arguments passed in.
+
+def names(arg1, arg2)
+  puts "man: #{arg1}, woman: #{arg2}"
+  puts "when #{arg1} met #{arg2}"
+  puts "#{arg1} is much funnier than #{arg2}"
+end
+
+names("Harry", "Sally")
+names("John", "Jane")
+names("Blake", "Derek")
 
 #-------------------
 # PART 3: Naming is Hard
@@ -36,6 +54,5 @@ print_name("Albus Dumbledore")
 
 # Look at the code you wrote for the previous YOU DO🎈 - what did you name the function, and why?
 # What did you name each parameter, and why?
-
-# EXPLAIN:
-
+#EXPLAIN
+# I named the parameter "names" because I was using names as my arguments

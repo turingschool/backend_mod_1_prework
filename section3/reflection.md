@@ -11,81 +11,84 @@
     - It is completely unrealistic to know the answer to everything, so I will embrace failures, learn from them, and work to correct this weakness in the context of programming collaboratively.
 
 1. What is a Hash, and how is it different from an Array?
-    -
+    - A `hash` AKA `object` in __JavaScript__ or `dictionary` in __Python__ is a collection of key/value pairs to store data.
+    - Keys are unique, and can even store arrays and sub-hashes within their values (nested data)
+    - They are different from an array in the sense that the keys are not ordered/indexed. Arrays are utilized more specifically for ordered lists of items/elements.
 
 1. In the space below, create a Hash stored to a variable named `pet_store`.  This hash should hold an inventory of items and the number of that item that you might find at a pet store.
 
     ```ruby
     pet_store = {
-    	manager: {
-    		first_name: 'Bob',
-    		last_name: 'Jones',
-    		extension: 5520,
-    		email: 'bobj@petsforless.com'
+    	:manager=> {
+    		:first_name=> 'Bob',
+    		:last_name=> 'Jones',
+    		:extension=> 5520,
+    		:email=> 'bobj@petsforless.com'
     	},
-    	species: {
-    		cats: ['long hair', 'short hair'],
-    		dogs: ['long hair', 'short hair'],
-    		birds: ['parrot', 'parakeet', 'tropical-other'],
-    		reptiles: ['snake', 'gecko', 'iguana', 'komodo dragon']
+    	:species=> {
+    		:cats=> ['long hair', 'short hair'],
+    		:dogs=> ['long hair', 'short hair'],
+    		:birds=> ['parrot', 'parakeet', 'tropical-other'],
+    		:reptiles=> ['snake', 'gecko', 'iguana', 'komodo dragon']
     	},
-    	address: {
-    		street: '123 Main St',
-    		city: 'Denver',
-    		state: 'CO',
-    		zip_code: 80402
+    	:address=> {
+    		:street=> '123 Main St',
+    		:city=> 'Denver',
+    		:state=> 'CO',
+    		:zip_code=> 80402
     	},
-    	year_opened: 2005,
-    	store_id: 4231,
-    	parent_company: 'Petco Inc.',
-    	inventory: {
-    		categories: [
+    	:year_opened=> 2005,
+    	:store_id=> 4231,
+    	:parent_company=> 'Petco Inc.',
+    	:inventory=> {
+    		:categories=> [
     			{
-    				food:
+    				:food=>
     			[
     				{
-    					brand: 'Purina',
-    					weight_lb: 10,
-    					SKU: 14325312
+    					:brand=> 'Purina',
+    					:weight_lb=> 10,
+    					:SKU=> 14325312
     				},
     				{
-    					brand: 'Fancy Feast',
-    					weight_lb: 5,
-    					SKU: 18326345
+    					:brand=> 'Fancy Feast',
+    					:weight_lb=> 5,
+    					:SKU=> 18326345
     				}
     			]
     		},
     		{
-    				toys:
+    				:toys=>
     			[
     				{
-    					type: 'ball',
-    					color: 'blue',
-    					SKU: 25326382
+    					:type=> 'ball',
+    					:color=> 'blue',
+    					:SKU=> 25326382
     				},
     				{
-    					type: 'ball',
-    					color: 'red',
-    					SKU: 26351228
+    					:type=> 'ball',
+    					:color=> 'red',
+    					:SKU=> 26351228
     				},
     				{
-    					type: 'frisbee',
-    					color: 'yellow',
-    					SKU: 32451527
+    					:type=> 'frisbee',
+    					:color=> 'yellow',
+    					:SKU=> 32451527
     				}
     			]
     		}
     	],
-    	last_shipment_date: {
-    		month: '03',
-    		day: '15',
-    		year: '2021',
+    	:last_shipment_date=> {
+    		:month=> '03',
+    		:day=> '15',
+    		:year=> '2021',
     	}
-    }
+        }
     }
     ```
 
 1. Given the following `states = {"CO" => "Colorado", "IA" => "Iowa", "OK" => "Oklahoma"}`, how would you access the value `"Iowa"`?
+    `p states['IA']`
 
 1. With the same hash above, how would we get all the keys?  How about all the values?
 

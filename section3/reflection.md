@@ -93,6 +93,15 @@
 
 1. With the same hash above, how would we get all the keys?  How about all the values?
 
+    ```ruby
+    p states.keys
+    p states.values
+    ```
+
 1. What is another example of when we might use a hash?  In your example, why is a hash better than an array?
+    - A `hash` could be used to store customer records (i.e. user profiles) within a database.
+    - This would be a better solution vs an array, because the customer records do not necessarily need to be ordered numerically, and will likely contain additional nested data within the keys.
 
 1. What questions do you still have about hashes?
+    - The different syntaxes for hashes are a bit confusing (`rocket` vs `JSON` style to declare a hash, and `:symbol` vs `'string'` style to assign keys within the hash).
+    - I understand that the rocket style is preferable from a pure Ruby styling perspective, but does the JSON style integrate better with other languages/programs, and if so, is that syntax arguably superior?

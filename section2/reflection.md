@@ -12,7 +12,7 @@
 
     Conditional statements are a type of branching that declares a statement and then executes code based on whether the statement is true or false. Some examples of conditional statements are:
 
-```ruby
+    ```ruby
     add = 1 + 2
       if 3 == add
         puts "1 + 2 = 3"
@@ -31,7 +31,7 @@
         puts "Order is for a medium pizza."
       else
         puts "Order is for a large pizza."
-  ```
+    ```
 
 1. Why might you want to use an if-statement?
 
@@ -41,11 +41,11 @@
 
     An if-statement should start off with if and then the conditional. On the next line the, indent and then code what should be executed if the conditional is true. Repeat on the next line with eslif or else if more conditionals need to be added. Once the if-statement is complete the last line should say end. The conditional should include operators.
 
-```ruby
+    ```ruby
     if x == y
       p "x equals y"
     end
-```
+    ```
 
 1. How do you add multiple conditions to an if statement?
 
@@ -53,7 +53,7 @@
 
 1. Provide an example of the Ruby syntax for an if/elsif/else statement:
 
-```ruby
+  ```ruby
     if x == y
       p "x equals y"
     elsif x >= y
@@ -61,12 +61,12 @@
     else
       p "x does not equal y"
     end
-```
+  ```
 
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 
     Another conditional statement that can be used instead of if-statement is a case. Case is similar to if-statement but uses when instead of if.
-```ruby
+    ```ruby
     x = 3
     case x
     when x == 1
@@ -76,7 +76,7 @@
     else
       puts "x is greater than 2"
     end
-```
+    ```
 
 ### Methods
 
@@ -86,19 +86,19 @@
 
 1. Create a method named `hello` that will print `"Sam I am"`.
 
-```ruby
+  ```ruby
     def hello(name)
       puts "Sam I am"
     end
-```
+  ```
 
 1. Create a method named `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
 
-```ruby
+  ```ruby
     def hello_someone(name)
       puts "#{name} I am"
     end
-```
+  ```
 
 1. How would you call or execute the method that you created above?
 

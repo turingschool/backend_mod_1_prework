@@ -8,7 +8,7 @@
 
 1. How would you print the string `"Hello World!"` to the terminal?
     + First you would need to open an irb session by  typing irb in terminal.
-    + Then you would type: **puts "Hello World!"** to print the string.
+    + Then you would type: `puts "Hello World!"` to print the string.
     + You can also use prints instead of puts.
 
 1. What character is used to indicate comments in a ruby file?
@@ -20,17 +20,22 @@
 
 1. In the space below, create a variable `animal` that holds the string `"zebra"`
 
+    ```ruby
       animal = "zebra"
+    ```
 
 1. How would you print the string `"zebra"` using the variable that you created above?
 
+    ```ruby
       puts = animal
+    ```
 
 1. What is interpolation? Use interpolation to print a sentence using the variable `animal`.
 
-    + Interpolation is adding a variable (or multiple variables) in the middle of a string.
-    + puts = "This #{animal} has stripes."
-
+    Interpolation is adding a variable (or multiple variables) in the middle of a string.
+    ```ruby
+    puts = "This #{animal} has stripes."
+    ```
 1. What method is used to get input from a user?
 
     + gets is a method that asks for input from a user.
@@ -39,8 +44,11 @@
 1. Name and describe two common string methods:
 
     + One common string method is .length which returns the number of characters in a string.
-    + Ex: "Flowers".length => 7
+      Ex: `"Flowers".length => 7`
     + Another common string method is .sub which replaces a single occurrence in your code. .gsub replaces all occurrences in the code.
-    + Ex: note = "Stop and smell the flowers!"
+    + Ex:
+    ```ruby
+    note = "Stop and smell the flowers!"
       note.sub("smell","enjoy")
       => "Stop and enjoy the flowers!"
+    ```

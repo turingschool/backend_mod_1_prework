@@ -19,11 +19,11 @@ If-statements are used when a pathway for data needs to be decided. It creates a
 
 1. What is the Ruby syntax for an if statement?
 
-'''
+```
 if !condition
   puts "something"
 end
-'''
+```
 
 1. How do you add multiple conditions to an if statement?
 
@@ -31,7 +31,7 @@ You can do this by using the "elsif" method. The syntax is like the first if sta
 
 1. Provide an example of the Ruby syntax for an if/elsif/else statement:
 
-'''
+```
 if !condition
   puts "something"
 elsif !condition
@@ -39,7 +39,7 @@ elsif !condition
 else
   puts "another something"
 end
-'''
+```
 
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 
@@ -53,30 +53,30 @@ A method, also known as a function, is a block of code to perform certain action
 
 1. Create a method named `hello` that will print `"Sam I am"`.
 
-'''
+```
 def hello(phrase)
   puts "#{phrase}"
 end
 
 quote = hello("Sam I am")
-'''
+```
 
 1. Create a method named `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
 
-'''
+```
 def hello(name)
   puts "#{name} I am."
 end
-'''
+```
 
 1. How would you call or execute the method that you created above?
 
 To call the method, you would need to get an input to plug into name.  So you could assign a variable to a name.
 For instance:
 
-'''
-first_name = hello("Sam")
-'''
+
+`first_name = hello("Sam")`
+
 
 This variable assignment will take "Sam" and plug that into our argument to get the full phrase returned: "Sam I am"
 

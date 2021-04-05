@@ -29,6 +29,11 @@ puts "Michigan's abbreviation is: #{states['Michigan']}"
 puts "Florida's abbreviation is: #{states['Florida']}"
 
 # do it by using the state then cities dict
+puts "-" * 10
+puts "Michigan has: #{cities[states['Michigan']]}"
+puts "Florida has: #{cities[states['Florida']]}"
+
+# puts every state abbreviation
 puts '-' * 10
 states.each do |state, abbrev|
   puts "#{state} is abbreviated #{abbrev}"
@@ -58,3 +63,40 @@ end
 city = cities['TX']
 city ||= 'Does Not Exist'
 puts "The city for the state 'TX' is: #{city}"
+
+
+# Study drills
+
+#states to large travel cities
+travel_hubs = {
+  'New York' => 'New York City',
+  'Colorado' => 'Denver',
+  'California' => 'Los Angeles',
+  'Texas' => 'Dallas',
+  'Illinois' => 'Chicago'
+}
+
+#cities to airport codes
+airports = {
+  'New York City' => 'LGA',
+  'Denver' => 'DIA',
+  'Los Angeles' => 'LAX',
+  'Dallas' => 'DFW',
+  'Chicago' => 'ORD'
+}
+
+puts "*" * 10
+travel_hubs.each do |state, city|
+  puts "#{state} has this major travel hub: #{city}"
+end
+
+puts "*" * 10
+airports.each do |city, airport|
+  puts "The airport code in #{city} is #{airport}."
+end
+
+puts "*" * 10
+travel_hubs.each do |state, city|
+  airport = airports[city]
+  puts "#{city} is in #{state} with the major airport #{airport}."
+end

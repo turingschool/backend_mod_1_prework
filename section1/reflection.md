@@ -2,9 +2,9 @@
 
 1. How did the SuperLearner Article resonate with you? What from this list do you already do? Want to start doing or do more of? Is there anything not on this list, that you would add to it?
 
-*The article made me think about the process of learning. Especially how Super Learners adopt a mindset that focuses on your desired learning goals. Also, taking care of your brain is just as important as taking care of your body. It's an organ and it needs exercise!
-*Items from the list I already do are reading frequently and teaching other what I know/have learned.
-*I'd like to "take care" of my brain more and also start incorporating short breaks. I think I take care of brain but I could be doing a better job. I am horrible at taking breaks. On previous jobs sometimes I would hardly stop for lunch. This comes from working an entire summer in the mountains not taking breaks ever! I would like to start doing more of everything on the list. Something I have started doing is adopting the growth mindset.
+* The article made me think about the process of learning. Especially how Super Learners adopt a mindset that focuses on your desired learning goals. Also, taking care of your brain is just as important as taking care of your body. It's an organ and it needs exercise!
+* Items from the list I already do are reading frequently and teaching other what I know/have learned.
+* I'd like to "take care" of my brain more and also start incorporating short breaks. I think I take care of brain but I could be doing a better job. I am horrible at taking breaks. On previous jobs sometimes I would hardly stop for lunch. This comes from working an entire summer in the mountains not taking breaks ever! I would like to start doing more of everything on the list. Something I have started doing is adopting the growth mindset.
 
 2. How would you print the string `"Hello World!"` to the terminal?
 * Using a .rb file, use the code puts "Hello World!". Then, in the terminal, I would run the command ruby <file name.rb>

@@ -3,15 +3,15 @@
 
 - Directory:  The technical term for a "folder"
 
-- Code Comments:  Notes to explain a code block (in plain English), or remove a potentially valid line of code from being read by the interpreter.
+- Code Comments:  Notes to explain a code block (in plain English), or remove a potentially valid line of code from being read by the interpreter (i.e. for debugging purposes).
 
-- String:  A variable of raw text. Additional variables can be inserted into strings, via string interpolation.
+- String:  A variable of raw text. Additional variables can be inserted into strings, via `string interpolation`.
 
 - Number:  A variable type for storing integers
 
-- Boolean:  True or false!
+- Boolean:  `true` or `false`!
 
-- Variable:  A data type read and executed by a computer program. It's syntax, output, and related methods are available based on the exact variable type.
+- Variable:  A data type read and executed by a computer program. Its syntax, output, and related methods are available based on the exact variable type (class behaviors).
 
 - Assignment operator:  `=`
 

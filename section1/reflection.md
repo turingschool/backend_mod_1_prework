@@ -8,15 +8,15 @@
 1. How would you print the string `"Hello World!"` to the terminal?
    - Method 1 (running directly from CLI, with no .rb file to execute)
      ```
-     $irb
-     myString = 'Hello World!'
+     $ irb
+     my_string = 'Hello World!'
      => "Hello World!"
      exit()
      ```
    - Method 2 (Ruby code inside an executed .rb file)
      ```ruby
-     myString = 'Hello World!'
-     puts myString
+     my_string = 'Hello World!'
+     puts my_string
      ```
 
 1. What character is used to indicate comments in a ruby file?
@@ -43,7 +43,7 @@
 1. What method is used to get input from a user?
    ```ruby
    gets.chomp
-   # or if using ARGV within a script
+   # or if using ARGV within a script, best practice would be:
    $stdin.gets.chomp
    ```
 

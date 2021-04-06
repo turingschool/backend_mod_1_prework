@@ -34,16 +34,16 @@ p students - 2
 first_name = 'Taylor'
 is_hungry = false
 number_of_pets = 0
-def printThree(varOne, varTwo, varThree)
+def print_three_variables(var_1, var_2, var_3)
   output = """
-  #{varOne} is hungry.. true or false...?
-  #{varTwo}!
-  He has #{varThree} pets.
+  #{var_1} is hungry.. true or false...?
+  #{var_2}!
+  He has #{var_3} pets.
   """
   puts output
 end
 
-printThree(first_name, is_hungry, number_of_pets)
+print_three_variables(first_name, is_hungry, number_of_pets)
 puts("\tFor clarity, he is not full due to eating his pets.. he never had any in the first place.")
 
 # IN WORDS:
@@ -60,7 +60,7 @@ puts("\tFor clarity, he is not full due to eating his pets.. he never had any in
 first_name = name
 is_hungry = true
 number_of_pets = number_of_pets + 2
-printThree(first_name, is_hungry, number_of_pets)
+print_three_variables(first_name, is_hungry, number_of_pets)
 
 
 # YOU DO:

@@ -1,5 +1,5 @@
 ## Section2 Vocabulary
-- if statements:  A series of logical statements that evaluate to `true` or `false`, so a program can branch into different outcomes (happy vs sad paths)
+- If statements:  A series of logical statements that evaluate to `true` or `false`, so a program can branch into different outcomes (happy vs sad paths)
 
     ```ruby
     # Example syntax inside method call
@@ -12,7 +12,7 @@
     end
     ```
 
-- method:  Also known as a __function__ in other programming languages, a __method__ is a block of code that is built to handle a command or set of commands that needs to be done repeatedly.
+- Method:  Also known as a __function__ in other programming languages, a __method__ is a block of code that is built to handle a command or set of commands that needs to be done repeatedly.
     - The keyword `def` signals to the interpreter that the following block of code is specific to a `method`
     - If we want to access data outside the `method` definition's scope, but within the `method` definition itself, we can pass in `arguments` (actual) to the `method` by writing it with `parameters` (placeholders).
         `actual is to args as placeholder is to params`

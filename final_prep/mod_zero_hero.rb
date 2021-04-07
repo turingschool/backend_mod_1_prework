@@ -2,11 +2,26 @@
 
 # Declare two variables - hero_name AND special_ability - set to strings
 
+`rb
+hero_name = "Cassian"
+special_ability = "Super Strength"
+`
+
 # Declare two variables - greeting AND catchphrase
 #   greeting should be assigned to a string that uses interpolation to include the hero_name
 #   catchphrase should be assigned to a string that uses interpolation to include the special_ability
 
+```rb
+greeting = "I am #{hero_name} the guardian of the House of Wind"
+catchphrase = "No need to fret! My #{special_ability} never fails me!"
+```
+
 # Declare two variables - power AND energy - set to integers
+
+`rb
+power = 85
+energy = 95
+`
 
 # Declare two variables - full_power AND full_energy
 #   full_power should multiply your current power by 500

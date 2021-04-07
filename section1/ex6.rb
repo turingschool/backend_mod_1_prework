@@ -36,7 +36,7 @@ e = "a string with a right side."
 puts w + e
 
 # Study Drills
-#1 Done
+#1 Add comments above each line explaining it.
 #2 There are 4 strings inside a string.
 #3 Line 10 has 2. Line 18 has 1. Line 20 has 1. Strings are in "" or ''. Variables can equal strings.
 #4 Adding the two strings w and e with + makes a longer string because it adds the value/string attached to each variable and puts them together.

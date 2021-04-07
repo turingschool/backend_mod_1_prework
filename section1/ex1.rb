@@ -9,5 +9,6 @@ puts 'I "said" do not touch this.'
 # Study Drills
 # 1 Make your script print another line.
 print "Hello"
-# 2 Add a # to hide. print "Hello again"
+# 2 Add a # to hide.
+#print "Hello again"
 # 3 An octothorpe at the beggining makes the line a note.

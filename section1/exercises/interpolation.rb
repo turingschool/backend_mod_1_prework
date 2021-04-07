@@ -27,7 +27,7 @@ p "In the predictable result, the #{slow_poke} beat the #{speedy}!"
 # YOU DO:
 # Declare three variables, name/content/data type of your choice. Think carefully about what you name the variables. Remember, the goal is to be concise but descriptive (it's a hard balance!) Then, log out ONE sentence that incorporates all THREE variables.
 name = "Darth Plagueis"
-content = "tragedy"
-data = "I thought not"
+event = "tragedy"
+retort = "I thought not"
 
-p "Have you ever heard the #{content} of #{name} the Wise? #{data}."
+p "Have you ever heard the #{content} of #{event} the Wise? #{retort}."

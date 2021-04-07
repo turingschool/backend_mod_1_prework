@@ -31,7 +31,7 @@ two_nums(3**2, 7**0.5)
 # a concatenation of those two strings. Example: The arguments could be
 # (man, woman) and the end result might output: "When Harry Met Sally".
 # Then call your method three times with different arguments passed in.
-def concatinate(string1, string2)
+def concatenate(string1, string2)
   puts string1 + " " + string2 + "!"
 end
 

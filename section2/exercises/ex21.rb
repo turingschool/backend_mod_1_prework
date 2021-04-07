@@ -46,6 +46,6 @@ step3 = subtract(height, step2)
 step4 = add(age, step3)
 puts step4
 # 4.
-answer = 3 + (2 - (4 * (6 / 2)))
-answer2 = add(3, subtract(2, multiply(4, divide(6, 2))))
-puts answer == answer2
+first_method = 3 + (2 - (4 * (6 / 2)))
+second_method = add(3, subtract(2, multiply(4, divide(6, 2))))
+puts first_method == second_method

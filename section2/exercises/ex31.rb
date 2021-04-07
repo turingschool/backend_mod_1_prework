@@ -10,14 +10,14 @@ if door == "1"
   puts "2. Scream at the bear."
 
   print "> "
-  bear = $stdin.gets.chomp
+  bear_action = $stdin.gets.chomp
 
-  if bear == "1"
+  if bear_action == "1"
     puts "The bear eats your face off. Good job!"
-  elsif bear == "2"
+  elsif bear_action == "2"
     puts "The bear eats your legs off. Good job!"
   else
-    puts "Well, doing % is probably better.  Bear runs away." % bear
+    puts "Well, doing % is probably better.  Bear runs away." % bear_action
   end
 
 elsif door == "2"
@@ -74,22 +74,22 @@ puts "2. Frantically try to get it open."
 puts "3. Focus up and try to land without it."
 
 print "> "
-escape = $stdin.gets.chomp
+escape_choice = $stdin.gets.chomp
 
-if escape == "1"
+if escape_choice == "1"
   puts "To little surprise, you slam into the ground and instantly die."
 
-elsif escape == "2"
+elsif escape_choice == "2"
   puts "You can think of only two options:"
   puts "#1: Claw at the cover and cord trying to open it"
   puts "#2: Tak off the bag and work at it infront of you."
 
   print "> "
-  fixing = $stdin.gets.chomp
+  fix_choice = $stdin.gets.chomp
 
-  if fixing == "1"
+  if fix_choice == "1"
     puts "You sucessfully deploy your parachute! You will not die today."
-  elsif fixing == "2"
+  elsif fix_choice == "2"
     puts "While trying to fix your bag you fail to notice the approaching ground.
     You look up, but it is too late. You slam into the ground and die."
   else
@@ -97,13 +97,13 @@ elsif escape == "2"
     the parachute open?? Oh... Well, uh, you live then! Good job, I guess."
   end
 
-elsif escape == "3"
+elsif escape_choice == "3"
   puts "Your three and a half and a half fortnights of practice have paid off.
   You see an oddly perfect looking pile of hay, the kind horses eat, and pull
   off a safe landing. You live!"
 
 else
-  puts "In your panicked state, you forget how to #{escape}. You crash into a
+  puts "In your panicked state, you forget how to #{escape_choice}. You crash into a
   childs birthday party. Their cheers turn to screams as they realize what happened.
   You are dead."
 end

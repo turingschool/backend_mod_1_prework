@@ -13,18 +13,18 @@ end
 
 # Printing the example
 puts "We can just give the function numbers directly:"
-# calling the fuc with numbers
+# calling the functionc with numbers
 cheese_and_crackers(20, 30)
 
 # Printing the example
 puts "OR, we can use variables from our script:"
 # assinging the variable a value
-amount_of_cheese = 10
+cheese_amount = 10
 # assinging the variable a value
-amount_of_crackers = 50
+crackers_amount = 50
 
 # calling the func with variables as the args
-cheese_and_crackers(amount_of_cheese, amount_of_crackers)
+cheese_and_crackers(cheese_amount, crackers_amount)
 
 # Printing the example
 puts "We can even do math inside too:"
@@ -34,7 +34,7 @@ cheese_and_crackers(10 + 20, 5 + 6)
 # Printing the example
 puts "And we can combine the two, variables and math:"
 # calling the function with math on the variables in the call
-cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers + 1000)
+cheese_and_crackers(cheese_amount + 100, crackers_amount + 1000)
 
 
 # Study Drills #
@@ -49,9 +49,9 @@ end
 speed_limit(100)
 speed_limit(10 * 3)
 
-the_speed_limit = 78
-speed_limit(the_speed_limit)
-speed_limit(the_speed_limit + 76)
+current_speed_limit = 78
+speed_limit(current_speed_limit)
+speed_limit(current_speed_limit + 76)
 
 wanna_go_fast = 100
-speed_limit(the_speed_limit * wanna_go_fast)
+speed_limit(current_speed_limit * wanna_go_fast)

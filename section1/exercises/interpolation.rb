@@ -30,4 +30,4 @@ name = "Darth Plagueis"
 event = "tragedy"
 retort = "I thought not"
 
-p "Have you ever heard the #{content} of #{event} the Wise? #{retort}."
+p "Have you ever heard the #{event} of #{name} the Wise? #{retort}."

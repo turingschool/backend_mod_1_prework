@@ -10,7 +10,7 @@
  puts "Hello World!"
 
 1. What character is used to indicate comments in a ruby file?
-  #
+   The # pound sign
 
 1. Explain the difference between an integer and a float?
 - Float has a decimal. Integer does not.

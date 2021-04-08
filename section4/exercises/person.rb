@@ -14,13 +14,13 @@ class Person
   end
 
   def fun
-    puts "After a long day of #{self.activity}, #{self.name} returns home happy."
-    self.mood = "happy"
+    puts "After a long day of #{@activity}, #{@name} returns home happy."
+    @mood = "happy"
   end
 
   def birthday
     puts "Happy Birthday!!"
-    self.age += 1
+    @age += 1
   end
 end
 

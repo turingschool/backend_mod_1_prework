@@ -57,17 +57,17 @@ class GoodDogAdvanced
   end
 
   def speak
-    "#{self.name} says Arf!!"
+    "#{@name} says Arf!!"
   end
 
   def change_info(n, h, w)
-    self.name = n
-    self.height = h
-    self.weight = w
+    @name = n
+    @height = h
+    @weight = w
   end
 
   def info
-    "#{self.name} weighs #{self.weight} and is #{self.height} tall."
+    "#{@name} weighs #{@weight} and is #{@height} tall."
   end
 end
 
@@ -99,46 +99,46 @@ class Car
   end
 
   def ignition
-    if self.running
-      self.running = false
-      puts "The #{self.year} #{self.model} is now off."
+    if @running
+      @running = false
+      puts "The #{@year} #{@model} is now off."
     else
-      self.running = true
-      puts "The #{self.year} #{self.model} is now on."
+      @running = true
+      puts "The #{@year} #{@model} is now on."
     end
   end
 
   def info
-    if self.running
-      is_running = "on"
+    if @running
+      engine_status = "on"
     else
-      is_running = "off"
+      engine_status = "off"
     end
-    "This is a #{self.color} #{self.year} #{self.model}. It is currently #{is_running}."
+    "This is a #{@color} #{@year} #{@model}. It is currently #{engine_status}."
   end
 
   def speed_up
-    if !self.running
+    if !@running
       puts "You must first turn on the car."
     else
-      self.speed += 5
+      @speed += 5
     end
   end
 
   def slow_down
-    if !self.running
+    if !@running
       puts "You must turn on the car."
     else
-      self.speed -= 5
+      @speed -= 5
     end
   end
 
   def speedometer
-    "The current speed is #{self.speed} mph."
+    "The current speed is #{@speed} mph."
   end
 
   def spray_paint(color)
-    self.color = color
+    @color = color
     puts "The #{color} looks great on your #{self.model}!"
   end
 end

@@ -13,12 +13,12 @@ class Burrito
   end
 
   def add_topping(topping)
-    self.toppings << topping
+    @toppings << topping
   end
 
   def remove_topping(to_remove)
-    if self.toppings.include?(to_remove)
-      self.toppings.delete(to_remove)
+    if @toppings.include?(to_remove)
+      @toppings.delete(to_remove)
       puts "We removed #{to_remove} from the toppings."
     else
       puts "That is not one of our toppings."

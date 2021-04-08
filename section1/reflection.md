@@ -7,10 +7,11 @@
 * I'd like to "take care" of my brain more and also start incorporating short breaks. I think I take care of brain but I could be doing a better job. I am horrible at taking breaks. On previous jobs sometimes I would hardly stop for lunch. This comes from working an entire summer in the mountains not taking breaks ever! I would like to start doing more of everything on the list. Something I have started doing is adopting the growth mindset.
 
 2. How would you print the string `"Hello World!"` to the terminal?
-* Using a .rb file, use the code puts "Hello World!". Then, in the terminal, I would run the command ruby <file name.rb>
+* Using a .rb file, use the code `puts "Hello World!"`. Then, in the terminal, I would run the command ruby <file name.rb>
 
 3. What character is used to indicate comments in a ruby file?
 * `#`
+
 4. Explain the difference between an integer and a float?
 * An integer is a whole number such as 1, 5, 5938, 999, 0. A float is a number with a decimal point such as 1.93, 659.2928, 0.92828, 2.4
 
@@ -21,10 +22,10 @@
 * `puts animal`
 
 7. What is interpolation? Use interpolation to print a sentence using the variable `animal`.
-* Interpolation is adding a variable (or the value of a given variable) into a string.
+* Interpolation is adding a string variable into another string.
 ```
 animal = "zebra"
-puts "One of my favorite mammals that roams the African Savanah is the #{animal}"
+puts "One of my favorite mammals that roams the African Savanah is the #{animal}."
 ```
 8. What method is used to get input from a user?
 * `gets.chomp`

@@ -38,7 +38,9 @@ first_name = "Matt"
 is_hungry = true
 number_of_pets = 0
 
-p "Hi my name is #{first_name}! Am I hungry? #{is_hungry}. I have #{number_of_pets} pets, unfortunately."
+p first_name
+p is_hungry
+p number_of_pets
 # IN WORDS:
 # How did you decide to use the data type you did for each of the three variables above?
 
@@ -54,7 +56,9 @@ is_hungry = false
 number_of_pets = 8
 # print all three variables to the terminal.
 
-p "Hi, I am #{first_name}! Am I hungry? #{is_hungry}. I own #{number_of_pets} pets."
+p first_name
+p is_hungry
+p number_of_pets
 # YOU DO:
 # Using the variables below, print the total number of snacks to the terminal:
 healthy_snacks = 6;

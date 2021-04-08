@@ -15,6 +15,3 @@ frank = Student.new
 frank.first_name = "Frank"
 puts "Frank's favorite number is #{frank.favorite_number}"
 frank.introduction("Katrina")
-
-animal = "zebra"
-puts "One of my favorite mammals that roams the African Savanah is the #{animal}"

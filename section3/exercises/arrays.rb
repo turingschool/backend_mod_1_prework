@@ -23,16 +23,18 @@ print animals[0]
 
 # YOU DO: Write code below that will print the number of elements in array of
 # animals from above.
-
+puts "_" * 10 # I did this to show my answer on another line
+puts animals.length
 
 # YOU DO: Write code that will reassign the last item in the animals
 # array to "Gorilla"
-
+animals << "Gorilla"
 
 # YOU DO: Write code that will add a new animal (type of your choice) to position 3.
-
+animals[3] = "Crocodile"
 
 # YOU DO: Write code that will print the String "Elephant" in the animals array
+p animals[2]
 
 
 #-------------------
@@ -40,25 +42,29 @@ print animals[0]
 #-------------------
 
 # YOU DO: Declare a variable that will store an an array of at least 4 foods (strings)
-
+foods = ["Pizza", "Tacos", "Burritos", "Salad"]
 
 # YOU DO: Write code below that will print the number of elements in the array of
 # foods from above.
-
+p foods.count
 
 # YOU DO: Write code below that uses a method to add "broccoli" to the foods array and
 # print the changed array to verify "broccoli" has been added
-
-
+foods.insert(2, "Broccoli")
+p foods
 # YOU DO: Write code below that removes the last item of food from the foods array and
 # print the changed array to verify that item has been removed
-
-
-# YOU DO: Write code to add 3 new foods to the array. 
+foods.pop
+p foods
+# YOU DO: Write code to add 3 new foods to the array.
   # There are several ways to do this - choose whichever you'd like!
 # Then, print the changed array to verify the new items have been added
-
+foods.unshift("Honey")
+foods << "Beets"
+foods.insert(3, "Fruit")
+p foods
 # YOU DO: Remove the food that is in index position 0.
+foods.delete_at(0)
 
 #-------------------
 # PART 3: Where are Arrays used?
@@ -77,11 +83,11 @@ print animals[0]
 posts = ["image at beach", "holiday party", "adorable puppy", "video of cute baby"];
 
 # YOU DO: Think of a web application you commonly use. Where do you see LISTS utilized, where arrays
-# may be storing data? Come up with 3 examples - they could be from different web applications or 
+# may be storing data? Come up with 3 examples - they could be from different web applications or
 # all from the same one.
 
-# 1:
-# 2:
-# 3:
-
-
+# 1: On mountainproject.com, when you look at your profile page you have your "ticks" listed. This is
+#    a spot that stores when you climbed a certain climb and notes about it.
+# 2: Also on mountainproject.com, they have your community contributions listed, such as each forum you have
+#    posted in and what your comment was
+# 3: On YouTube, it lists your viewing history in the library tab

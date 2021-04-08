@@ -33,6 +33,15 @@ end
 # Then call your method three times with different arguments passed in.
 
 
+def actions(act_1, act_2)
+  puts "I like to #{act_1} more than #{act_2}."
+  puts "If i #{act_2} i get too tired and have to #{act_1} all the way home."
+  puts "If I #{act_1} enough, maybe I'll have more condition to #{act_2}!"
+end
+
+actions("Walk", "Run")
+
+
 #-------------------
 # PART 3: Naming is Hard
 #-------------------
@@ -44,3 +53,5 @@ end
 # What did you name each parameter, and why?
 
 # EXPLAIN:
+
+I named the function actions because that is what the parameters i chose are. The parameters are walk and run. I chose these because they were the fist to come tom mind.

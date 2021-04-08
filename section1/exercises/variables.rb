@@ -56,7 +56,7 @@ p "Is #{first_name} hungry? #{is_hungry}. She has #{number_of_pets} pets."
 first_name = "Chris"
 is_hungry = true
 number_of_pets = 1
-p "Is #{first_name} hungry? #{is_hungry}. He has #{number_of_pets} pet.
+p "Is #{first_name} hungry? #{is_hungry}. He has #{number_of_pets} pet."
 
 # YOU DO:
 # Using the variables below, print the total number of snacks to the terminal:
@@ -71,3 +71,5 @@ p healthy_snacks + junk_food_snacks
 
 # Did you run this file in your terminal to make sure everything printed out to the terminal 
   # as you would expect? 
+# First check: Received error message "unterminated string meets end of file"
+# Added closing quotes.

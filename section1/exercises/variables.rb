@@ -71,5 +71,9 @@ p healthy_snacks + junk_food_snacks
 
 # Did you run this file in your terminal to make sure everything printed out to the terminal 
   # as you would expect? 
-# First check: Received error message "unterminated string meets end of file"
+# First check: Received error message "unterminated string meets end of file".
 # Added closing quotes.
+# Second check: Added question to lines 40 and 59 so it reads better.
+# Math with variables is correct.
+# Math with only variables does not have to be in quotes (example line 65).
+# String interpolation: Use #{} to put variables within a string.

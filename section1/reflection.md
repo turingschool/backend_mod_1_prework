@@ -7,9 +7,11 @@
 - I would just add meditation/brain reset to the taking care of brain prompt.
 
 1. How would you print the string `"Hello World!"` to the terminal?
- puts "Hello World!"
+
+puts "Hello World!"
 
 1. What character is used to indicate comments in a ruby file?
+   
    The # pound sign
 
 1. Explain the difference between an integer and a float?
@@ -24,10 +26,12 @@
 1. What is interpolation? Use interpolation to print a sentence using the variable `animal`.
 - Interpolation lets you substitute the result of Ruby code into the middle of a string.
 - Interpolation requires a string and #{}.
-  puts "Did you know tha a #{animal} has stripes?!"
+  
+  puts "Did you know that a #{animal} has stripes?!"
 
 1. What method is used to get input from a user?
- gets.chomp
+
+gets.chomp
 
 1. Name and describe two common string methods:
  - .length counts characters in a string

@@ -17,14 +17,22 @@ Section 4 is estimated to take a total of 10-14 hours to complete. Similar to th
 
 ## Part A How You Spend Your Time
 
-One challenge developers face, moreso when they are starting out, is estimating how long something will take. Sometimes we don't account for merge conflicts, bugs, annoying Slack messages, and all the other things that interrupt our workflow or slow us down.
+One challenge developers face, more-so when they are starting out, is estimating how long something will take. Sometimes we don't account for merge conflicts, bugs, annoying Slack messages, and all the other things that interrupt our workflow or slow us down.
 
 One challenge learners in a new environment/content area face is feeling like they know nothing, and until they know everything, they feel like they are failing.
 
 So this week, we would like you to start self-monitoring your progress. Before you start on the technical work, reflect back on how the pre-work has gone so far.
 - Have the time estimates matched up with your experience?
+
+  **For most of the pre-work, I have been clocking in at the low end of the estimates.  There have only been a few occasions where my workflow got really interrupted (downloading the new version of ruby took me forever to figure out. I know we were told to move on but I wanted to figure it out). So, I felt pretty good about the first few sections.**
+
 - When you sit down to start working, do you have a clear goal of what you want to accomplish and in how much time? If so, how aligned is that to what actually happens?
+
+  **While working on the pre-work, I've tried to sit down with a clear intention of what I wanted to accomplish: get through the reading portion, complete exercises, put though into and complete reflection. Right now, I'm more focused on the task than the time.  IF i don't get through everything I wanted to during that session, I pick right back up from there the next time.**
+
 - How do you work best - in 2 hour blocks, 4 hour blocks, etc? Do you take breaks regularly? Do you have a system to hold yourself accountable to taking breaks?
+
+  **I work best somewhere in the middle of that 2-4 hour block range depending on what my "life" and job schedule allows.  I do try and take breaks within that period but I definitely can get stuck in the middle of a section and want to skip that break.  I don't have a real system other than trying to be cognizant of the time and how I'm feeling.  I am interested in using the Pomodoro method though.**
 
 You've probably heard of the Pomodoro Technique in Mod 0 classes (and elsewhere, maybe!). During this final section of pre-work, we are going to ask that you follow this technique. Please read about it [here](https://www.dovico.com/blog/2020/08/26/the-pomodoro-technique-how-to-manage-your-work-time-and-flow-the-easy-way/). The article doesn't mention writing down Step 1, but we ask that you find a special spot in your notebook where you do this for each work session. In the deliverables, we will ask that you share what you wrote down for Step 1 of the technique each time you started a new task. _Note: if the 25 minutes on/3-5 minutes off isn't best for you, you do **not** have to follow that! The main focus of this is setting an intention and continuing to better understand your working style._
 
@@ -40,7 +48,7 @@ When you are all done with the lessons, exercises, and questions for today, you 
 
     - [ ] [Classes Define Objects](https://launchschool.com/books/oo_ruby/read/the_object_model#classesdefineobjects) section from LaunchSchool.
 
-    - [ ] [Classes and Objects Part 1](https://launchschool.com/books/oo_ruby/read/classes_and_objects_part1) from LaunchSchool.
+    - [ ] [Classes and Objects Part 1](https://launchschool.com/books/oo_ruby/read/the_object_model#classesdefineobjects) from LaunchSchool.
 
     - [ ] [Objects, Attributes and Methods](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#11.-objects,-attributes,-and-methods) from Ruby in 100 Minutes.
 

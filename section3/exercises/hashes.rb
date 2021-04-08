@@ -8,25 +8,25 @@ foods = {apples: 23, grapes: 507, eggs: 48}
 p foods
 
 # Write code that prints a hash holding zoo animal inventory:
-zoo = {zebras: 4, gorillas: 7, lemurs: 2, pythons: 3}
-p zoo
+zoo_animals = {zebras: 4, gorillas: 7, lemurs: 2, pythons: 3}
+p zoo_animals
 
 # Write code that prints all of the 'keys' of the zoo variable
 # you created above:
-p zoo.keys
+p zoo_animals.keys
 
 # Write code that prints all of the 'values' of the zoo variable
 # you created above:
-p zoo.values
+p zoo_animals.values
 
 # Write code that prints the value of the first animal of the zoo variable
 # you created above:
-p zoo[:zebras]
+p zoo_animals[:zebras]
 
 # Write code that adds an animal to the zoo hash.
 # Then, print the updated hash:
-zoo[:velociraptors] = 1
-p zoo
+zoo_animals[:velociraptors] = 1
+p zoo_animals
 
 
 #-------------------
@@ -108,32 +108,31 @@ puts posts[0]
 # key-value pairs you used in your email Object above.
 # Then, log the email Array to the console.
 
-my_posts = [
+emails = [
   {
-    'image_src' => "./images/vacation/haiti_mountains.png",
-    'caption' => "Can anyone ID these mountains? I am lost beneath them.",
-    'timestamp' => "8:22 AM Mar 27, 2021",
-    'number_likes' => 9,
-    'comments' => ["You're lost in Haiti??", "Bro, idk where Haiti even is."]
+    sender: "tanner@tannerdale.com",
+    recipient: "enrollment@turing.edu",
+    subject: "Got Lost in Haiti",
+    body: "Lost in Haiti. Return date unknown. Need to change cohort. Please send help.",
+    timestamp: "11:37 PM Mar 28, 2021",
+    recieved: true
   },
   {
-    'image_src' => "./images/vacation/river.png",
-    'caption' => "Can I drink this water?? I ran out 2 days ago.",
-    'timestamp' => "2:34 PM Mar 29, 2021",
-    'number_likes' => 11,
-    'comments' => [
-      "Are you ok??",
-      "How do you have wifi but no location info?",
-      "That water is soo dirty. Please Do not drink that."
-    ]
+    sender: "tanner@tannerdale.com",
+    recipient: "travel_helper@unitedairways.com",
+    subject: "HELP",
+    body: "Hey, So, uh, I kinda got lost on my trip... Y'all have any support services?",
+    timestamp: "10:00 AM Mar 29, 2021",
+    recieved: true
   },
   {
-    'image_src' => "./images/vacation/village.png",
-    'caption' => "I FOUND PEOPLE!!!",
-    'timestamp' => "10:12 AM Mar 30, 2021",
-    'number_likes' => 27,
-    'comments' => ["You're safe!", "Yay! I'll have a cake waiting when you get back!"]
+    sender: "tanner@tannerdale.com",
+    recipient: "americans_abroud@unitedstates.gov",
+    subject: "Y'all friends with Haiti",
+    body: "Please reach out to the Hiatian government. I have been lost in the northern part of the island for weeks now.",
+    timestamp: "02:00 PM PM Apr 14, 2021",
+    recieved: true
   }
 ]
 
-puts my_posts
+p emails

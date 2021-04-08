@@ -58,8 +58,8 @@ p foods
 # YOU DO: Write code to add 3 new foods to the array.
   # There are several ways to do this - choose whichever you'd like!
 # Then, print the changed array to verify the new items have been added
-to_add = ["chicken", "dates", "pizza"]
-to_add.each { |item| foods << item }
+foods_to_add = ["chicken", "dates", "pizza"]
+foods_to_add.each { |item| foods << item }
 p foods
 # YOU DO: Remove the food that is in index position 0.
 foods.delete_at(0)
@@ -86,4 +86,4 @@ posts = ["image at beach", "holiday party", "adorable puppy", "video of cute bab
 
 # 1: Reddit: A user's posts
 # 2: Reddit: A user's liked posts
-# 3: Facebook: A user's friends 
+# 3: Facebook: A user's friends

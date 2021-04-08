@@ -35,21 +35,21 @@ puts "Florida has #{cities[states['Florida']]}"
 
 
 puts '-' * 10
-states.each do |state, abbrev|
-  puts "#{state} is abbreviated #{abbrev}"
+states.each do |state, abbreviation|
+  puts "#{state} is abbreviated #{abbreviation}"
 end
 
 
 puts '-' * 10
-cities.each do |abbrev, city|
-  puts "#{abbrev} has #{city}"
+cities.each do |abbreviation, city|
+  puts "#{abbreviation} has #{city}"
 end
 
 
 puts '-' * 10
-states.each do |state, abbrev|
-  city = cities[abbrev]
-  puts "#{state} is abbreviated #{abbrev} and has city #{city}"
+states.each do |state, abbreviation|
+  city = cities[abbreviation]
+  puts "#{state} is abbreviated #{abbreviation} and has city #{city}"
 end
 
 puts '-' * 10
@@ -85,8 +85,8 @@ capitols = {
 }
 
 
-states.each do |state, abbrev|
-  puts "The capitol of #{state} is #{capitols[abbrev]}"
+states.each do |state, abbreviation|
+  puts "The capitol of #{state} is #{capitols[abbreviation]}"
 end
 
 
@@ -100,4 +100,4 @@ some_states.each do |state|
 end
 
 
-puts states.any? { |state, abbrev| capitols[abbrev] == 'Austin' }
+puts states.any? { |state, abbreviation| capitols[abbreviation] == 'Austin' }

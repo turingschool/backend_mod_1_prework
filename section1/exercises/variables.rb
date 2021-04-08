@@ -37,7 +37,7 @@ p students - 2
 first_name = "Coree"
 is_hungry = false
 number_of_pets = 0
-p "Is #{first_name} hungry? #{is_hungry}. She has #{number_of_pets} pets."
+p "Is #{first_name} hungry? #{is_hungry}. How many pets does she have? She has #{number_of_pets} pets."
 
 # IN WORDS:
 # How did you decide to use the data type you did for each of the three variables above? 
@@ -56,7 +56,7 @@ p "Is #{first_name} hungry? #{is_hungry}. She has #{number_of_pets} pets."
 first_name = "Chris"
 is_hungry = true
 number_of_pets = 1
-p "Is #{first_name} hungry? #{is_hungry}. He has #{number_of_pets} pet."
+p "Is #{first_name} hungry? #{is_hungry}. How many pets does he have? He has #{number_of_pets} pet."
 
 # YOU DO:
 # Using the variables below, print the total number of snacks to the terminal:

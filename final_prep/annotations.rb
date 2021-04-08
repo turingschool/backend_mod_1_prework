@@ -3,8 +3,9 @@
 # Use the # to create a new comment
 
 # Build a Bear
-
+# Declare variable build_a_bear
 def build_a_bear(name, age, fur, clothes, special_power)
+  #
   greeting = "Hey partner! My name is #{name} - will you be my friend?!"
   demographics = [name, age]
   power_saying = "Did you know that I can #{special_power}?"

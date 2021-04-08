@@ -88,8 +88,8 @@ scary_monster = {
   name:"Glob Man",
   smell: "You don't wanna know.",
   weight: 12443,
-  citiesDestroyed: ["Tokyo", "Austin", "Sydney"],
-  luckyNumbers: [11, 72, 23],
+  cities_destroyed: ["Tokyo", "Austin", "Sydney"],
+  lucky_numbers: [11, 72, 23],
   address: {
     number: 112344,
     street: "Scary Path",
@@ -126,7 +126,7 @@ class SuperHero
   end
 
   def say_name
-    puts self.name
+    puts @name
   end
 
   def maximize_energy

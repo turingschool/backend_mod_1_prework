@@ -21,3 +21,13 @@ puts "There will be #{cars_not_driven} empty cars today."
 puts "We can transport #{carpool_capacity} people today."
 puts "We have #{passengers} to carpool today."
 puts "We need to put about #{average_passengers_per_car} in each car."
+
+#Study drills
+#Explain undefined local variable or method 'carpool_capacity'...
+#That means nothing was assigned to the variable
+#or there was a typing error in line 14.
+#1 not necessary to use 4.0 output still the same.
+#6 use ruby in terminal as a calculator with variable names
+i = 10
+x = 5
+j = 2

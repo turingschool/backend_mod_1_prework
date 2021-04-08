@@ -104,7 +104,16 @@ excuse = 'I think I forgot to lock up my 1992 Toyota Coralla. Be right back.'
 #   - luckyNumbers (array)
 #   - address (hash with following key/values: number , street , state, zip)
 
- scary_monster = 
+def scary_monster 
+  name = "Winslo"
+  smell = "Rotten Eggs"
+  weight = 250
+  citiesDestroyed = ["New York", "D.C.", "Miami"]
+  luckyNumbers = ["3", "27", "56"]
+  address = {"number" : 456, "Street" : Dufinsh, "state" : Virginia, "Zip" : 94835}
+end 
+
+
 
 
 # Create a new class called SuperHero
@@ -120,6 +129,10 @@ excuse = 'I think I forgot to lock up my 1992 Toyota Coralla. Be right back.'
   class SuperHero
     attr_accessor :name, :super_power, :age
     
+    @@arch_namesis = "The Syntax Error"
+    @@power_level = 100
+    @@energy_level = 50 
+    
     def initialize(name, super_power, age)
       @name = name
       @super_power = super_power
@@ -130,10 +143,18 @@ excuse = 'I think I forgot to lock up my 1992 Toyota Coralla. Be right back.'
       puts "Hello, my name is #{name}."
     end 
     
+    def maximize_energy
+      @@energy_level = 1000
+    end
+    
+    def gain_power
+      @@power_level + (num)
+    end
+    
   end 
 
-
-p say_name
+rhys = SuperHero.new("Rhys", "Mind Reader", "537")
+azriel = SuperHero.new("Azriel", "Shadowsinger", "540")
 
    
 
@@ -142,13 +163,24 @@ p say_name
 #   - maximize_energy, should update the energy_level to 1000
 #   - gain_power, should take an argument of a number and INCREASE the power_level by that number
 
+
+
+
 # - Create 2 instances of your SuperHero class
+
 
 
 # Reflection
 # What parts were most difficult about this exerise?
 
-# What parts felt most comfortable to you?
+I thinnk searching how to use sertain things like STATIC values was difficult because it took me a while to find it on google. 
 
+  # What parts felt most comfortable to you?
+
+  Declaring variables and the if statements.
+    
 # What skills do you need to continue to practice before starting Mod 1?
+  
+  I need to be able to identify the names of everything and the correct syntax.
+  
 

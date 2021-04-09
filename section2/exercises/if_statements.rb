@@ -73,5 +73,4 @@ has_sauce = true
     puts "I can make pizza"
   elsif cups_of_flour == 3 && has_sauce == true
     puts "I can make pizza"
-  end
 end

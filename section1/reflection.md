@@ -1,7 +1,7 @@
 ## Section 1 Reflection
 
 1. How did the SuperLearner Article resonate with you? What from this list do you already do? Want to start doing or do more of? Is there anything not on this list, that you would add to it?  
-```Several things about this article resonated with me. One of the main ones was the growth mindset. I feel like this is a good and very important way for people to veiw not only learning but life and relationships as well. Constantly looking at situations in the mindset of growth and thinking how can I grow from this,what can I do to grow with this etc. is only going to benefit you. I really connect with the examples of teaching other people and reading alot. I love to teach and I love to read. Teaching helps resolidify any concepts you have learned and al;ot of times you have to think of different ways to veiw something to get the idea or point across to someone else who might not share the same veiw as you do.```
+  Several things about this article resonated with me. One of the main ones was the growth mindset. I feel like this is a good and very important way for people to veiw not only learning but life and relationships as well. Constantly looking at situations in the mindset of growth and thinking how can I grow from this,what can I do to grow with this etc. is only going to benefit you. I really connect with the examples of teaching other people and reading alot. I love to teach and I love to read. Teaching helps resolidify any concepts you have learned and al;ot of times you have to think of different ways to veiw something to get the idea or point across to someone else who might not share the same veiw as you do.
 
 1. How would you print the string `"Hello World!"` to the terminal? 
 

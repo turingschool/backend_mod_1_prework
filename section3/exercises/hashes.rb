@@ -29,7 +29,8 @@ p zoo["lions"]
 
 # Write code that adds an animal to the zoo hash.
 # Then, print the updated hash:
-p zoo["monkeys"] = 15
+zoo["monkeys"] = 15
+p zoo
 
 #-------------------
 # Part 2: Email

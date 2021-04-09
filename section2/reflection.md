@@ -27,7 +27,7 @@
   * Use if, elsif, and else
 
 5. Provide an example of the Ruby syntax for an if/elsif/else statement:
-  * weather = 'rainy'
+ ```weather = 'rainy'
 
     if weather == 'sunny'
       p "sunscreen"
@@ -39,7 +39,7 @@
       p "yak traks"
     else
       p "good to go!"
-    end
+    end```
 
 6. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
   * Conditionals can be used to compare values in order to return true/false.
@@ -50,11 +50,11 @@
   * Methods are a way of defining and organizing variables that may have different values.
 
 2. Create a method named `hello` that will print `"Sam I am"`.
-def hello(message)
+```def hello(message)
   p "Sam I am"
 end
 
-hello()
+hello()```
 
 3. Create a method named `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
 

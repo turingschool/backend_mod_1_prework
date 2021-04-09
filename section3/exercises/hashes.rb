@@ -135,4 +135,4 @@ emails = [
   }
 ]
 
-p emails
+puts emails

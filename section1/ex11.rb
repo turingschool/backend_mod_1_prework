@@ -13,7 +13,7 @@ puts "So you're #{age} old, #{height} tall and #{weight} heavy."
 
 print "What is your favorite food? "
 fave_food = gets.chomp
-print "What is your favorite time to eat #{fav_food}? "
+print "What is your favorite time to eat #{fave_food}? "
 fave_time = gets.chomp
 
 puts "So, you love eating #{fave_food} at #{fave_time}. That sounds like a good time."

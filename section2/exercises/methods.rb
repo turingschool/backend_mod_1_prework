@@ -35,9 +35,9 @@ def concatenate(string1, string2)
   puts string1 + " " + string2 + "!"
 end
 
-concatinate("chicken", "coop")
-concatinate("You're a", "wizard, Harry")
-concatinate("I've got the need,", "the need for speed")
+concatenate("chicken", "coop")
+concatenate("You're a", "wizard, Harry")
+concatenate("I've got the need,", "the need for speed")
 
 #-------------------
 # PART 3: Naming is Hard

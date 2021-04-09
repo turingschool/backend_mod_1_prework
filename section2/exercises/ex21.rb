@@ -34,7 +34,7 @@ puts "Here is a puzzle:"
 
 what = add(age, subtract(height, multiply(weight, divide(iq, 2))))
 
-puts "That becomes: #{what}. Can yo do it by hand?"
+puts "That becomes: #{what}. Can you do it by hand?"
 
 
 # Study Drills #

@@ -40,9 +40,9 @@ def partners(man, woman)
   p "When #{man} Met #{woman}"
 end
 
-partners(Harry, Sally)
-partners(Adam, Eve)
-partners(Ron, Hermione)
+partners("Harry", "Sally")
+partners("Adam", "Eve")
+partners("Ron", "Hermione")
 
 #-------------------
 # PART 3: Naming is Hard

@@ -47,7 +47,9 @@ end
 
   For the example Dog class above, you would enter the following:
 
-  `fido = Dog.new("Fido", "Spanial", "Black")`
+  ```Ruby
+  fido = Dog.new("Fido", "Spanial", "Black")
+  ```
 
 1. What questions do you still have about classes in Ruby?
 

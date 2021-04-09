@@ -50,7 +50,11 @@
   * Methods are a way of defining and organizing variables that may have different values.
 
 2. Create a method named `hello` that will print `"Sam I am"`.
-  * 
+def hello(message)
+  p "Sam I am"
+end
+
+hello()
 
 3. Create a method named `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
 

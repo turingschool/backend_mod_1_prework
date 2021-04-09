@@ -26,8 +26,10 @@ def add(a, b)
 end
 
 age = add(50, 1)
-height = add(60, 4)
+height = add(70, 9)
 weight = add(103, 26)
+
+puts "James Potter is #{age} years old, #{height} inches tall, and weighs #{weight} lbs."
 
 
 # Write a method that takes in two strings as arguments and prints 

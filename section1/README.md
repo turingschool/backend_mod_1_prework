@@ -34,7 +34,11 @@ Here's what we ask you do:
 
 ## Part A Super Learner Habits
 
-Read [this article](https://pubs.ppai.org/pc-today/six-habits-of-super-learners/) about the habits of Super Learners. Reflect on this - what do you already do? Does this make you want to do anything new or different as you beginthis learning journey? Jot down your notes now, and we will ask you to share some reflections with your small group at the end of this section.
+Read [this article](https://pubs.ppai.org/pc-today/six-habits-of-super-learners/) about the habits of Super Learners. Reflect on this - what do you already do? Does this make you want to do anything new or different as you begin this learning journey? Jot down your notes now, and we will ask you to share some reflections with your small group at the end of this section.
+
+  This article definitely had me think about some of my learning habits in grad school and how I can improve upon them now. I think the hardest one for me will be taking breaks early and often. I tend to get immersed in my work and succumb to the black hole of learning and then I emerge and need a 2 hour break. I don't think this is the most sustainable habit, and finding more breaks within the day will definitely help me breathe and stay on top of assignments.
+
+  The other thing that hit me was about reading. Growing up I used to love to read, and would spend hours and weekends immersed in books. I think I still like to, I just don't find the time to do it anymore. Unless I'm on a true nothing else is happening vacation I tend to not feel like I have time for reading. I had to read so many essays, books, articles, and just general research in grad school that my desire to read began to dwindle a bit. It's one thing I would love to find time and my love for again. Here's to hoping reading and I can meet up soon.
 
 ## Part B Terminal
 
@@ -139,7 +143,7 @@ This will open the `section1` directory in Atom. You should be able to see the d
 
 1. Next, you will complete several lessons from the Learn Ruby the Hard Way Tutorial. *For ***each*** lesson* ***follow these directions closely***:
 
-    1. Create a file within your `section1` directory that will contain this lesson's work. Verify that you are within the directory by using terminal command `pwd`. If you are not, `cd` into your `section1` directory. Once you are there, use the `touch` command in your terminal to create a file. For the first lesson, name this file `ex1.rb`. For each subsequent lesson, use `ex2.rb`, `ex3.rb`, so on, so forth. 
+    1. Create a file within your `section1` directory that will contain this lesson's work. Verify that you are within the directory by using terminal command `pwd`. If you are not, `cd` into your `section1` directory. Once you are there, use the `touch` command in your terminal to create a file. For the first lesson, name this file `ex1.rb`. For each subsequent lesson, use `ex2.rb`, `ex3.rb`, so on, so forth.
 
     1. Work through the lesson, **typing** the code into your file, and running it in the terminal with `ruby ex1.rb`, replacing `ex1` with the actual file name of what you'd like to run. Make sure the output you get is similar to what the lesson shows. If you get an error saying "No such file or directory", be sure to verify the directory you are located in via the terminal- running command `ls` should show the file you are trying to run.
 

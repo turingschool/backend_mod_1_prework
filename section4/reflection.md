@@ -23,11 +23,11 @@ class Dog
   attr_accessor :name
   attr_reader :age, :breed, :fav_toy, :hungry
 
-  def initialize(name, age, breed, fav_toy)
+  def initialize(name, age, breed, fave_toy)
     @name = name
     @age = age
     @breed = breed
-    @fav_toy = fav_toy
+    @fave_toy = fave_toy
     @hungry = true
   end
 
@@ -43,7 +43,7 @@ class Dog
     @hungry = true
     @age += 1
     puts "Happy birthday #{self.name}!!"
-    puts "We got you a #{self.fav_toy}!"
+    puts "We got you a #{self.fave_toy}!"
     puts "How does it feel to be #{self.age}?"
     puts self.talk
   end

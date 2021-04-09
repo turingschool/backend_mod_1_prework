@@ -1,28 +1,34 @@
 # Challenge - See if you can follow the instructions and complete the exercise in under 30 minutes!
 
 # Declare two variables - hero_name AND special_ability - set to strings
-
+hero_name = "Ironman"
+special_ability = "Modern Weapons"
 # Declare two variables - greeting AND catchphrase
 #   greeting should be assigned to a string that uses interpolation to include the hero_name
 #   catchphrase should be assigned to a string that uses interpolation to include the special_ability
-
+greeting = "Well hello, my name is #{hero_name}"
+catchphrase = "If it wasn't for my #{special_ability}, I'd just be a guy with a heart condition"
 # Declare two variables - power AND energy - set to integers
-
+power = 99
+energy = 85
 # Declare two variables - full_power AND full_energy
 #   full_power should multiply your current power by 500
 #   full_energy should add 150 to your current energy
-
+full_power = "#{power * 500}"
+full_energy = "#{energy + 150}"
 # Declare two variables - is_human and identity_concealed - assigned to booleans
-
+is_human = true
+identity_concealed = false
 
 # Declare two variables - arch_enemies AND sidekicks
 #   arch_enemies should be an array of at least 3 different enemy strings
 #   sidekicks should be an array of at least 3 different sidekick strings
-
+arch_enemies = ['rust', 'thanos', 'dc comics']
+sidekicks = ['silver surfer', 'spiderman', 'hulk']
 # Print the first sidekick to your terminal
-
+p sidekicks(0)
 # Print the last arch_enemy to the terminal
-
+p arch_enemies(2)
 # Write some code to add a new arch_enemy to the arch_enemies array
 
 # Print the arch_enemies array to terminal to ensure you added a new arch_enemey

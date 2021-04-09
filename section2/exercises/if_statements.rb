@@ -67,11 +67,11 @@ has_sauce = true
 
   if cups_of_flour == 1 && has_sauce == true
     puts "I cannot make pizza"
-  if cups_of_flour == 5 && has_sauce == false
+  elsif cups_of_flour == 5 && has_sauce == false
     puts "I cannot make pizza"
-  if cups_of_flour == 2 && has_sauce == true
+  elsif cups_of_flour == 2 && has_sauce == true
     puts "I can make pizza"
-  if cups_of_flour == 3 && has_sauce == true
+  elsif cups_of_flour == 3 && has_sauce == true
     puts "I can make pizza"
   end
 end

@@ -44,11 +44,26 @@ end
 ### Methods
 
 1. In your own words, what is the purpose of a method?
+  * Creating a block of code in a confined area that can be used whenever needed without included code having to be written each time the methods purpose/function is needed.
 
 1. Create a method named `hello` that will print `"Sam I am"`.
+```ruby
+def hello
+  puts "Sam I am."
+end
+```
 
 1. Create a method named `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
+```ruby
+def hello_someone(name)
+  puts "#{name} I am."
+end
+```
 
 1. How would you call or execute the method that you created above?
+```ruby
+hello_someone("Tanner") #=> "Tanner I am."
+```
 
 1. What questions do you have about methods in Ruby?
+  * Is it always better to use a method over a proc? What situations would you use a proc over a method?

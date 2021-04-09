@@ -36,7 +36,13 @@ puts "James Potter is #{age} years old, #{height} inches tall, and weighs #{weig
 # a concatenation of those two strings. Example: The arguments could be 
 # (man, woman) and the end result might output: "When Harry Met Sally".  
 # Then call your method three times with different arguments passed in. 
+def partners(man, woman)
+  p "When #{man} Met #{woman}"
+end
 
+partners(Harry, Sally)
+partners(Adam, Eve)
+partners(Ron, Hermione)
 
 #-------------------
 # PART 3: Naming is Hard

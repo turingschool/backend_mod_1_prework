@@ -12,7 +12,7 @@ print_name
 
 # Write a method that takes a name as an argument and prints it:
 def print_name(name)
-  p "name: #{name}"
+  p "#{name}"
 end
 
 print_name("Albus Dumbledore")
@@ -20,6 +20,15 @@ print_name("Albus Dumbledore")
 # Write a method that takes in 2 numbers as arguments and prints 
 # their sum. Then call your method three times with different arguments passed in:
 # YOUR CODE HERE
+def add(a, b)
+  p "Finding the sum of #{a} and #{b}"
+  return a + b
+end
+
+age = add(50, 1)
+height = add(60, 4)
+weight = add(103, 26)
+
 
 # Write a method that takes in two strings as arguments and prints 
 # a concatenation of those two strings. Example: The arguments could be 

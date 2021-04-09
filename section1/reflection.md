@@ -14,7 +14,7 @@ puts "Hello World!"
 `#`
 
 1. Explain the difference between an integer and a float?
-`An interger is just a number, a float is a number with a decimal point. If a command does not return the correct answer its probably because I am using an interger and not a float`
+An interger is just a number, a float is a number with a decimal point. If a command does not return the correct answer its probably because I am using an interger and not a float
 
 1. In the space below, create a variable `animal` that holds the string `"zebra"`
 
@@ -28,7 +28,7 @@ puts animal
 ```
 
 1. What is interpolation? Use interpolation to print a sentence using the variable `animal`.
-`Interpolation is used to inserst a string or variable into another string.`
+Interpolation is used to inserst a string or variable into another string.
 ```ruby
 animal = "zebra"
 puts "the lion attacked the #{animal}"
@@ -40,6 +40,6 @@ puts "the lion attacked the #{animal}"
 
 1. Name and describe two common string methods:
 
-`strings: a collection of words or characters
-substrings: a smaller section of code we pull from a main string`
+strings: a collection of words or characters
+substrings: a smaller section of code we pull from a main string
 

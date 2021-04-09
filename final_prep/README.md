@@ -32,7 +32,7 @@ In Mod 0 you've learned about different techniques for managing your time at Tur
 
 When you are finished, add screenshots of your calendar so we can provide feedback if needed!
 
-- `![Screen Shot 2021-04-09 at 9 16 24 AM](https://user-images.githubusercontent.com/79022527/114212845-85a2b180-991f-11eb-93e6-367d5e864f10.png)`
+- `<img src="![Screen Shot 2021-04-09 at 9 16 24 AM](https://user-images.githubusercontent.com/79022527/114212845-85a2b180-991f-11eb-93e6-367d5e864f10.png)" alt="Week 1"`
 - `[Screen Shot 2021-04-09 at 9 16 04 AM](https://user-images.githubusercontent.com/79022527/114212802-76bbff00-991f-11eb-8108-afcf458e6d5e.png)`
 - `![Screen Shot 2021-04-09 at 9 16 40 AM](https://user-images.githubusercontent.com/79022527/114212965-a79c3400-991f-11eb-8483-7e331634ab80.png)`
 

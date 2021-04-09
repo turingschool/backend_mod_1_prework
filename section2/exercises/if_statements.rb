@@ -10,7 +10,7 @@
   # if it is snowy, print "coat"
   # if it is icy, print "yak traks"
 
-  weather = 'sunny'
+  weather = 'rainy'
 
   if weather == 'sunny'
     p "sunscreen"

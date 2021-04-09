@@ -32,7 +32,7 @@ end
 # if means its conditional. If true then the code runs,
 # if false code doesn't run.
 
-# indention is not required, just makes it easier to read.
+# so that other programmers know it is a "block" of code.
 # still works
 # yes, all booleans can be used in if statements
 # I need more practice with this and need to memorize the logic

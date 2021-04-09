@@ -42,7 +42,7 @@ end
 
 partners("Harry", "Sally")
 partners("Adam", "Eve")
-partners("Ron", "Hermione")
+partners("Ron Weasley", "Hermione Granger")
 
 #-------------------
 # PART 3: Naming is Hard
@@ -55,4 +55,8 @@ partners("Ron", "Hermione")
 # What did you name each parameter, and why?
 
 # EXPLAIN:
-
+# I named the function partners, implying a grouping of two people.
+# Also it leaves room for people who prefer the term partner over couple.
+# Each parameter was a first name or a first and last name. They are unique and within strings in ().
+# Harry and Sally were in the instructions. Adam and Eve are two people.
+# I chose Ron Weasley and Hermione Granger to continue the Harry Potter theme.

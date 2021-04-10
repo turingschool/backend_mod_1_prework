@@ -22,19 +22,22 @@ Take your time as you go back and refactor your exercises from each section. We'
 - [x] I have refactored my `section1` exercises to the best of my ability
 - [x] I have refactored my `section2` exercises to the best of my ability
 - [x] I have refactored my `section3` exercises to the best of my ability
-- [ ] I have refactored my `section4` exercises to the best of my ability
+- [x] I have refactored my `section4` exercises to the best of my ability
 
 ### Time Management Prep
 In Mod 0 you've learned about different techniques for managing your time at Turing. Please create a calendar for your **first 3 weeks of Mod 1**. Feel free to make your calendar fit your style, but we suggest that your calendar should include the following:
-- [ ] Standard M1 class schedule (see M1 calendar [here](https://backend.turing.io/module1/)
-- [ ] Study/Project work time
-- [ ] Health + Wellness
+- [x] Standard M1 class schedule (see M1 calendar [here](https://backend.turing.io/module1/)
+- [x] Study/Project work time
+- [x] Health + Wellness
 
 When you are finished, add screenshots of your calendar so we can provide feedback if needed!
 
-- `Add Week 1 Screenshot Here`
-- `Add Week 2 Screenshot Here`
-- `Add Week 3 Screenshot Here`
+<img width="1000" alt="Screen Shot 2021-04-10 at 2 24 42 PM" src="https://user-images.githubusercontent.com/81198959/114283791-d8a46380-9a08-11eb-87ea-f5b3d0c4428a.png">
+
+<img width="998" alt="Screen Shot 2021-04-10 at 2 25 09 PM" src="https://user-images.githubusercontent.com/81198959/114283807-f2de4180-9a08-11eb-887a-93d833c474ac.png">
+
+<img width="1000" alt="Screen Shot 2021-04-10 at 2 25 29 PM" src="https://user-images.githubusercontent.com/81198959/114283818-fffb3080-9a08-11eb-85b2-2f4f609c46de.png">
+
 
 ### Mentorship Prep
 Mentorship is an integral part of the Turing experience and will help jumpstart your technical career. In order to get your mentor relationship started on the right foot, please complete the following deliverables:

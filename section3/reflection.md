@@ -29,20 +29,21 @@
   `states[IA]`
 
 1. With the same hash above, how would we get all the keys?  How about all the values?
+
   `states.keys`
 
   `states.values`
 
 1. What is another example of when we might use a hash?  In your example, why is a hash better than an array?
-```
-Ron_Weasley = {
-  "hair color" => "red",
-  "age" => 17,
-  "pet" => "rat",
-  "wizard" => true,
-  "fear" => "spiders"
-}
-```
+  ```
+  Ron_Weasley = {
+    "hair color" => "red",
+    "age" => 17,
+    "pet" => "rat",
+    "wizard" => true,
+    "fear" => "spiders"
+  }
+  ```
 
   * A hash is better than an array in the above example because it associates
   various key/value pairs and stores it to a single variable. It's more descriptive

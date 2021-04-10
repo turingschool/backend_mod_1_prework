@@ -4,15 +4,15 @@
 
   * Focusing on the process over the end result is important for deeper understanding, honing skills, and retaining the why behind what worked or didn’t work.
 
-1. In which ways do you currently demonstrate a Growth Mindset? In which ways do you _not_?
+2. In which ways do you currently demonstrate a Growth Mindset? In which ways do you _not_?
 
   * There’s always room for improvement—something to learn, deeper understanding, etc. I enjoy learning and continuously improving my skills no matter what I’m working on. I could take more time to reflect on my work and understand the process more.
 
-1. What is a Hash, and how is it different from an Array?
+3. What is a Hash, and how is it different from an Array?
   * A hash is used to map or associate things you want to store to keys you need to get them
   * An array is for listing any sequence of things that need to be in order, and you only need to look them up by a numeric index
 
-1. In the space below, create a Hash stored to a variable named `pet_store`.  This hash should hold an inventory of items and the number of that item that you might find at a pet store.
+4. In the space below, create a Hash stored to a variable named `pet_store`.  This hash should hold an inventory of items and the number of that item that you might find at a pet store.
 
     ```
     pet_store = {
@@ -24,17 +24,17 @@
     }
     ```
 
-1. Given the following `states = {"CO" => "Colorado", "IA" => "Iowa", "OK" => "Oklahoma"}`, how would you access the value `"Iowa"`?
+5. Given the following `states = {"CO" => "Colorado", "IA" => "Iowa", "OK" => "Oklahoma"}`, how would you access the value `"Iowa"`?
 
   `states[IA]`
 
-1. With the same hash above, how would we get all the keys?  How about all the values?
+6. With the same hash above, how would we get all the keys?  How about all the values?
 
   `states.keys`
 
   `states.values`
 
-1. What is another example of when we might use a hash?  In your example, why is a hash better than an array?
+7. What is another example of when we might use a hash?  In your example, why is a hash better than an array?
   ```
   Ron_Weasley = {
     "hair color" => "red",
@@ -49,6 +49,6 @@
   various key/value pairs and stores it to a single variable. It's more descriptive
   than just listing random attributes or values in an array.
 
-1. What questions do you still have about hashes?
+8. What questions do you still have about hashes?
   * Is it always a hash rocket or a colon? Are there other symbols that can be used
   in a hash?

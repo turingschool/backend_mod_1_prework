@@ -1,6 +1,6 @@
-people = 30
+people = 20
 cars = 40
-trucks = 15
+trucks = 40
 
 
 if cars > people
@@ -23,4 +23,4 @@ if people > trucks
   puts "Alright, let's just take the trucks."
 else
   puts "Fine, let's stay home then."
-end 
+end

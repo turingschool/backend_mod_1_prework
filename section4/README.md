@@ -24,11 +24,11 @@ One challenge learners in a new environment/content area face is feeling like th
 So this week, we would like you to start self-monitoring your progress. Before you start on the technical work, reflect back on how the pre-work has gone so far.
 - Have the time estimates matched up with your experience?
 
-  **For most of the pre-work, I have been clocking in at the low end of the estimates.  There have only been a few occasions where my workflow got really interrupted (downloading the new version of ruby took me forever to figure out. I know we were told to move on but I wanted to figure it out). So, I felt pretty good about the first few sections.**
+  **For most of the pre-work, I have been clocking in at the low end of the estimates.  There have only been a few occasions where my workflow got really interrupted (downloading the new version of ruby took me forever. I know we were told to move on but I wanted to figure it out). So, I felt pretty good about the first few sections.**
 
 - When you sit down to start working, do you have a clear goal of what you want to accomplish and in how much time? If so, how aligned is that to what actually happens?
 
-  **While working on the pre-work, I've tried to sit down with a clear intention of what I wanted to accomplish: get through the reading portion, complete exercises, put though into and complete reflection. Right now, I'm more focused on the task than the time.  IF i don't get through everything I wanted to during that session, I pick right back up from there the next time.**
+  **While working on the pre-work, I've tried to sit down with a clear intention of what I wanted to accomplish: get through the reading portion, complete exercises, put thought into and complete reflection. Right now, I'm more focused on the task than the time.  IF i don't get through everything I wanted to during that session, I pick right back up from there the next time.**
 
 - How do you work best - in 2 hour blocks, 4 hour blocks, etc? Do you take breaks regularly? Do you have a system to hold yourself accountable to taking breaks?
 
@@ -44,13 +44,13 @@ When you are all done with the lessons, exercises, and questions for today, you 
 
 1. Work through the following lessons. Any files that you create while working can be kept in today's `exercises` directory.
 
-    - [ ] [What Are Objects](https://launchschool.com/books/oo_ruby/read/the_object_model#whatareobjects) section from LaunchSchool.
+    - [x] [What Are Objects](https://launchschool.com/books/oo_ruby/read/the_object_model#whatareobjects) section from LaunchSchool.
 
-    - [ ] [Classes Define Objects](https://launchschool.com/books/oo_ruby/read/the_object_model#classesdefineobjects) section from LaunchSchool.
+    - [x] [Classes Define Objects](https://launchschool.com/books/oo_ruby/read/the_object_model#classesdefineobjects) section from LaunchSchool.
 
-    - [ ] [Classes and Objects Part 1](https://launchschool.com/books/oo_ruby/read/the_object_model#classesdefineobjects) from LaunchSchool.
+    - [x] [Classes and Objects Part 1](https://launchschool.com/books/oo_ruby/read/the_object_model#classesdefineobjects) from LaunchSchool.
 
-    - [ ] [Objects, Attributes and Methods](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#11.-objects,-attributes,-and-methods) from Ruby in 100 Minutes.
+    - [x] [Objects, Attributes and Methods](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#11.-objects,-attributes,-and-methods) from Ruby in 100 Minutes.
 
 1. Work through the files in the section4/exercises directory.
 

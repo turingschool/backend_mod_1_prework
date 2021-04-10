@@ -45,7 +45,9 @@ p number_of_pets
 # How did you decide to use the data type you did for each of the three variables above?
 # I used a String, Boolean, and an Integer
 # Explain.
-
+# I used a String because first_name requires a text
+#  I used a Boolean because is_hungry requires a true/false answer
+# I used an Integer because number_of_pets requires a numerical value
 
 # YOU DO:
 # Re-assign the values to the three variables from the previous challenge to different values (but same data type).
@@ -70,4 +72,5 @@ p healthy_snacks + junk_food_snacks
 
 # Did you run this file in your terminal to make sure everything printed out to the terminal
   # as you would expect?
-  #yes
+
+# yes

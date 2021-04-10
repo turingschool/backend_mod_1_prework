@@ -19,7 +19,7 @@ arrin = Person.new
 arrin.name = "Arrin"
 arrin.talent = "photography"
 arrin.diminuitive = "hunni"
-p arrin.name
-p arrin.talent
+# p arrin.name
+# p arrin.talent
 arrin.hello
 arrin.about

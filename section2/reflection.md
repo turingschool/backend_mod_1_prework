@@ -48,7 +48,7 @@ books_on_the_floor = 4
 if (books_on_the_shelf) < (books_on_the_floor)
   puts "The bookshelf is hungry! Feed the bookshelf, starve the floor!"
 
-elsif (books_on_the_shelf) > (books_on_the_floor)
+  elsif (books_on_the_shelf) > (books_on_the_floor)
     puts "Why can't I find the book I want? Is it even on the shelf?"
 
   elsif (books_on_the_shelf) == (books_on_the_floor + books_on_the_shelf)
@@ -70,30 +70,33 @@ Example: "`if` `condition` then puts `return value`", compared to "puts `return 
 
 1. In your own words, what is the purpose of a method?
 
-Methods provide information regarding how the given arguments are to manipulate the data you are working with.
+Methods provide information regarding how the given arguments are to manipulate the data with which you are working. Methods are otherwise known as interfaces.
 
 2. Create a method named `hello` that will print `"Sam I am"`.
-
-```def hello (name)
+```
+def hello (name)
   p "#{hello} I am"
 end
 
-name("Sam")```
-
+name("Sam")
+```
 
 3. Create a method named `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
 
-```class Person
+```
+class Person
   attr_accessor :name
 
   def hello_someone (target)
    puts "#{name} I am"
   end
-end```
+end
+```
 
 4. How would you call or execute the method that you created above?
 
-```class Person
+```
+class Person
   attr_accessor :name
 
   def hello_someone (target)
@@ -103,12 +106,12 @@ end
 
 arrin = Person.new
 arrin.name = "Arrin"
-arrin.hello_someone ('hint')```
-
-* personal note: arrin is an instance of a person. A name is an attribute of a person.
-* 'hint' is the argument.
+arrin.hello_someone ('hint')
 
 
+# personal note: arrin is an instance of a person. A name is an attribute of a person.
+# 'hint' is the argument.
+```
 5. What questions do you have about methods in Ruby?
 
 * In the example I gave above, how does Ruby know that target is referring to 'hint'?

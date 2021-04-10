@@ -10,8 +10,7 @@
   # if it is snowy, print "coat"
   # if it is icy, print "yak traks"
 
-  weather = 'icy'
-
+weather = 'icy'
   if weather == 'sunny'
     p "sunscreen"
   elsif weather == 'rainy'
@@ -41,13 +40,12 @@
 # Experiment with manipulating the value held within num_quarters
 # to make sure both conditions can be achieved.
 
-num_quarters = 0
-
-if num_quarters >= 2
-  puts "I have enough money for a gumball"
-else num_quarters <= 2
-  puts "I don't have enough money for a gumball"
-end
+num_quarters = 5
+  if num_quarters >= 2
+    p "I have enough money for a gumball"
+  else num_quarters <= 2
+    p "I don't have enough money for a gumball"
+  end
 
 #####################
 # Using the variables defined below, write code that will tell you
@@ -63,16 +61,15 @@ end
 # Experiment with manipulating the value held within both variables
 # to make sure all above conditions output what you expect.
 
-cups_of_flour = 6
-has_sauce = false
-
-if cups_of_flour >= 2 && has_sauce == true
-  puts "I have enough ingredients to make pizza! Wash your hands, we're cooking!"
-  puts "I can make pizza."
-elsif cups_of_flour < 2 && has_sauce == true
-  puts "I have enough sauce but not enough flour. Who wants soup?"
-  puts "I can not make pizza."
-else cups_of_flour >=2 && has_sauce == false
-  puts "I have enough flour but not enough sauce. I guess I'm making foccaccia bread."
-  puts "I can not make pizza."
-end
+cups_of_flour = 3
+has_sauce = true
+  if cups_of_flour >= 2 && has_sauce == true
+    p "I have enough ingredients to make pizza! Wash your hands, we're cooking!"
+    p "I can make pizza."
+  elsif cups_of_flour < 2 && has_sauce == true
+    p "I have enough sauce but not enough flour. Who wants soup?"
+    p "I cannot make pizza."
+  else cups_of_flour >=2 && has_sauce == false
+    p "I have enough flour but not enough sauce. I guess I'm making foccaccia bread."
+    p "I cannot make pizza."
+  end

@@ -12,14 +12,14 @@
 * I struggle with spending too much time on essay assignments, like this one, and I have ended up sacrificing time and energy I had hoped to use on Activities of Daily Living (known as ADL's in healthcare) such as folding laundry or washing the dishes in the sink. Since I fell behind, my mental state was not as healthy, but I asked a friend for help, and wow, did that improve everything. I feel "on top of things," for the time being, and less daunted by managing the flow of work, ADL's, and personal time.
   * I experienced a joyful but unexpected side effect from this week's increased productivity! Because I was able to focus better, I was able to complete more work while using less energy and time.
     * On Tuesday night, my house guest and I were planning a fun activity for Wednesday morning. I had just finished the work in section3, and realized that I could actually afford to take more than the morning off, I could afford to spend the whole day with her, and feel comfortable completing the entire project with a little time to spare. We spent the day soaking in hot springs, hiking, and taking photos. Best of all, it was guilt free, because I'd planned well, and followed the plan.
-  * I absolutely love the Pomodoro technique, so far, and I haven't even implemented my daily log, yet.
+  * I absolutely love the Pomodoro technique, so far, and I haven't even implemented my daily log, yet! I am excited to keep this momentum going, between Mod0 and Mod1.
   * Thank you, again!
 
 3. In your own words, what is a Class?
 
-* A class, in object oriented programming, is a template of what an object should be comprised of and the actions of which it should be capable. For example, Feline as a class would encompass house cats, tigers, and pumas.
+* A class, in object oriented programming, is a template of what an object should be comprised of and the actions of which it should be capable.
+* For example, Feline as a class would encompass house cats, tigers, and pumas. All felines have shared attributes which are specific to each individual (instance) such as fur color, vocalization, tail length, and ear shape.
 * In biology, think of the phylum Animalia as a class. Animals all share certain attributes. For our purposes, we will simply that all all animals must eat, and all animals must reproduce. A cat, an instance of that class, may eat meat, and reproduce sexually. A nematode, a different instance within the class Animalia, eats bacteria and reproduces both sexually and asexually.
-
 
 4. What is an attribute of a Class?
 
@@ -27,7 +27,7 @@
 
 5. What is behavior of a Class?
 
-* A behavior of a class is otherwise known as a method, is a specified action that each object within the class should be able to complete.
+* A behavior of a class is otherwise known as a method (or interface), is a specified action that each object within the class should be able to complete.
 
 6. In the space below, create a Dog class with at least 2 attributes and 2 behaviors:
 

@@ -14,16 +14,19 @@ puts "He's got #{eyes} eyes and #{hair} hair."
 puts "His teeth are usually #{teeth} depending on the coffee."
 
 # This line is tricky, try to get it exactly right.
+
 puts "If I add #{age}, #{height}, and #{weight}, I get #{age + height + weight}."
 
-#centimeters = x
-#inches = 2.54 * centimeters
-#puts "If I am #{centimeters} centimeters tall, then I am also #{inches} inches tall."
+# centimeters = x
+# inches = 2.54 * centimeters
+# puts "If I am #{centimeters} centimeters tall, then I am also #{inches} inches tall."
 
 # Declare a variable named inches to be equal to the variable named height.
+
 inches = height
-centimeters = inches / 2.54
-#inches = height
+centimeters = inches * 2.54
+
+# inches = height
 
 puts "If #{name} is #{inches} inches tall, he is also #{centimeters} centimeters tall."
 

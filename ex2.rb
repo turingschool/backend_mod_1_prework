@@ -9,5 +9,6 @@ puts "I could have code like this." # and the comment after is ignored
 puts "This will run."
 
 # Here, the OCTOTHORPE is not ignored because it is within a string.
-# It looks like the octothorpe denotes an empty hash, but I am not sure.
+# It looks like the octothorpe denotes an empty space where the value for the
+# variable within the {}, so that the variable can be interpolated into the sentence.
 puts "Hi #{} there!"

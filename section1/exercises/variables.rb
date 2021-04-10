@@ -15,7 +15,14 @@ p house_elf
 
 # Write code that saves the string 'Harry Potter must not return to Hogwarts!'
 # and prints what that variable holds to the terminal:
+#This is the interpolated version.
 p "#{name} must not return to Hogwarts!"
+
+# This should print the same thing as above, but does not interpolate name into
+# the string.
+# Left as note for clarity.
+# p "Harry Potter must not return to Hogwarts!"
+
 
 # Write code that adds 2 to the `students` variable and
 # prints the result:
@@ -44,9 +51,12 @@ p number_of_pets
 # IN WORDS:
 # How did you decide to use the data type you did for each of the three variables above?
 
-# The first_name is a value which is a word which was not another variable, so I captured it in a string.
-# The is_hungry is a binary piece of data, having only true or false answers, so I captured it in a BOOLEAN
-# The number_of_pets is captured as an integer value, because it would be terrifying to have only half of an animal and call it a pet.
+# The first_name is a value which is a word which was not intended to be a variable,
+# so I captured it in a STRING.
+# The is_hungry is a binary piece of data, having only true or false answers, so I
+# captured it in a BOOLEAN.
+# The number_of_pets is captured as an integer value, because it would be
+# terrifying to have only half of an animal and call it a pet.
 
 
 # YOU DO:

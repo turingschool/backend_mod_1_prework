@@ -1,7 +1,7 @@
 # Explain why this error happened
 # ex4.rb:14: undefined local variable or method `carpool_capacity' for
     # main:Object (NameError)
-    # This error seems to mean that there was a typo, and a part of the variable was not properly named or anbiguously defined. Likely a syntax error.
+    # This error seems to mean that there was a typo, and a part of the variable was not properly named or anbiguously defined.
 
 # When space_in_a_car is redeclared to be an integer, the output is returned as an integer instead of a float.
 
@@ -9,7 +9,7 @@
 # declare a variable named cars as a an integer
 cars = 100
 #declare a variable named space_in_a_car as a float
-space_in_a_car = 4
+space_in_a_car = 4.0
 # declare a variable named drivers as an integer
 drivers = 30
 # declare a variable named passengers as an integer

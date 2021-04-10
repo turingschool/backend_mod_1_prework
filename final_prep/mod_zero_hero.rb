@@ -104,7 +104,7 @@ assess_situation = (
   end
 )
 
-p assess_situation
+# p assess_situation
 
 #Test Cases
 #announcement = 'Never fear, the Courageous Curly Bracket is here!'

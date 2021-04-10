@@ -26,13 +26,13 @@
 
 5. Given the following `states = {"CO" => "Colorado", "IA" => "Iowa", "OK" => "Oklahoma"}`, how would you access the value `"Iowa"`?
 
-  `states[IA]`
+  * `states[IA]`
 
 6. With the same hash above, how would we get all the keys?  How about all the values?
 
-  `states.keys`
+  * `states.keys`
 
-  `states.values`
+  * `states.values`
 
 7. What is another example of when we might use a hash?  In your example, why is a hash better than an array?
   ```

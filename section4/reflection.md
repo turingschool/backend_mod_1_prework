@@ -1,19 +1,19 @@
 ## Section 4 Reflection
 
 1. How different did your workflow feel this week, considering we asked you to follow the Pomodoro technique?
-  * I felt more alert and receptive to new information after taking more frequent breaks versus before when I was working in long stretches. I would get tired and feel like my brain wasn't working anymore. It's nice now to get up, stretch, get a snack, etc. It's refreshing.
+ * I felt more alert and receptive to new information after taking more frequent breaks versus before when I was working in long stretches. I would get tired and feel like my brain wasn't working anymore. It's nice now to get up, stretch, get a snack, etc. It's refreshing.
 
 2. Regarding the work you did around setting intentions in Step 1 of the Pomodoro technique - how did that go? Were you surprised by anything (did you find yourself way more focused than you realized, more distracted that you thought you'd be, estimating times accurately or totally off, etc)?
-  * It was hard to set an intention because I wasn't sure how long certain tasks would take or how many Pomodoros I would need. I was surprised how hard it was to ignore my phone. I think I was more productive with the Pomodoro technique but could definitely use some practice using the whole 25 minutes.
+ * It was hard to set an intention because I wasn't sure how long certain tasks would take or how many Pomodoros I would need. I was surprised how hard it was to ignore my phone. I think I was more productive with the Pomodoro technique but could definitely use some practice using the whole 25 minutes.
 
 3. In your own words, what is a Class?
-  * A class is the idea of what an object is like
+ * A class is the idea of what an object is like
 
 4. What is an attribute of a Class?
-  * An attribute of a class is a physical descriptor of an object/instance of a class.
+ * An attribute of a class is a physical descriptor of an object/instance of a class.
 
 5. What is behavior of a Class?
-  * A behavior of a class is an action or emotion that an object/instance of a class does or feels.
+ * A behavior of a class is an action or emotion that an object/instance of a class does or feels.
 
 6. In the space below, create a Dog class with at least 2 attributes and 2 behaviors:
 

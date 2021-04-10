@@ -25,6 +25,7 @@
     ```
 
 1. Given the following `states = {"CO" => "Colorado", "IA" => "Iowa", "OK" => "Oklahoma"}`, how would you access the value `"Iowa"`?
+
   `states[IA]`
 
 1. With the same hash above, how would we get all the keys?  How about all the values?

@@ -18,7 +18,9 @@
 - `elsif`
 
 1. Provide an example of the Ruby syntax for an if/elsif/else statement:
-- ```people = 30
+
+```
+people = 30
 cars = 40
 trucks = 15
 
@@ -28,10 +30,11 @@ elsif cars < people
   puts "We should not take the cars."
 else
   puts "We can't decide."
-end```
+end
+```
 
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
-- An unless statement could be used instead of an if statement. 
+- An unless statement could be used instead of an if statement.
 
 ### Methods
 
@@ -39,18 +42,24 @@ end```
 - The purpose of a method is to define an expression to return certain values when ran through the method.
 
 1. Create a method named `hello` that will print `"Sam I am"`.
-- ```def hello
+
+```
+def hello
   puts "Sam I am"
 end
 
-hello```
+hello
+```
 
 1. Create a method named `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
-- ```def hello_someone(name)
+
+```
+def hello_someone(name)
   puts "#{name} I am"
 end
 
-hello_someone("Sam")```
+hello_someone("Sam")
+```
 
 1. How would you call or execute the method that you created above?
 - `hello_someone("Sam")`

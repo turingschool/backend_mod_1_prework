@@ -46,19 +46,10 @@ puts sidekicks
 #   - bad_excuse should be a string a hero would say if they are too afraid of the danger_level
 def assess_situation(danger_level, save_the_day, bad_excuse)
 
-
-  save_the_day = "I'm what Gotham needs right now"
-  bad_excuse = "To the Bat Cave!"
-
-  puts "What is the danger level?"
-  puts ">"
-
-  danger_level = $stdin.gets.chomp.to_i
-
   if danger_level > 50
-    puts "#{bad_excuse}"
+    puts bad_excuse
   elsif danger_level >= 10 && danger_level <= 50
-    puts "#{save_the_day}"
+    puts save_the_day
   else danger_level < 10
     puts "Meh. Hard pass."
   end
@@ -70,16 +61,14 @@ end
 #   - If the danger_level is below 10, it means it is not worth your time and should result in printing the string "Meh. Hard pass." to the terminal.
 
 
-
-
 #Test Cases
   announcement = 'Never fear, the Courageous Curly Bracket is here!'
   excuse = 'I think I forgot to lock up my 1992 Toyota Coralla. Be right back.'
 
 
-#assess_situation(99, announcement, excuse) #> Should print - 'I think I forgot to lock up my 1992 Toyota Coralla. Be right back.'
-#assess_situation(21, announcement, excuse) #> should print - 'Never fear, the Courageous Curly Bracket is here!'
-#assess_situation(3, announcement, excuse) #> should print - "Meh. Hard pass."
+assess_situation(99, announcement, excuse) #> Should print - 'I think I forgot to lock up my 1992 Toyota Coralla. Be right back.'
+assess_situation(21, announcement, excuse) #> should print - 'Never fear, the Courageous Curly Bracket is here!'
+assess_situation(3, announcement, excuse) #> should print - "Meh. Hard pass."
 
 
 # Declare a new variable - scary_monster - assigned to an hash with the following key/values

@@ -1,38 +1,47 @@
-puts "You enter a dark room with two doors. Do you go through door #1 or door #2?"
+puts "You go to Mexico and get separated from your group, do you"
+puts "1. Party with the locals?"
+puts "2. Head back to the hotel?"
 
 print "> "
-door = $stdin.gets.chomp
+decision = $stdin.gets.chomp
 
-if door == "1"
-  puts "There's a giant bear here eating a cheese cake. What do you do?"
-  puts "1. Take the cake."
-  puts "2. Scream at the bear."
+if decision == "1"
+  puts "You end up on a boat to an unknown destination. What do you do?"
+  puts "1. Jump and swim back to shore."
+  puts "2. Sip tequila and soak up the rays."
 
 print "> "
-bear = $stdin.gets.chomp
+boat = $stdin.gets.chomp
 
-if bear == "1"
-  puts "The bear eats your face off. Good job!"
-elsif bear == "2"
-  puts "The bear eats your legs off. Good job!"
+if boat == "1"
+  puts "You start to get leg cramps, watch out!"
+elsif boat == "2"
+  puts "You dance the day away and puke tomorrow."
 else
-  puts "Well, doing %s is probably better. Bear runs away." % bear
+  puts "Well, doing %s is probably better. Shark swims away." % shark
 end
 
-elsif door == "2"
-  puts "You stare into the endless abyss at Cthulhu's retina."
-  puts "1. Blueberries."
-  puts "2. Yellow jacket clothespins."
-  puts "3. Understanding revolvers yelling melodies."
+print "> "
+tequila = $stdin.gets.chomp
+
+if tequila == "1"
+  puts "You just made the best friends of your life! Pura vida!!"
+elsif tequila == "2"
+  puts "1. Go to jail"
+  puts "2. Stay at sea forever"
+  puts "3. Join the cartel"
+end
 
   print "> "
   insanity = $stdin.gets.chomp
   if insanity == "1" || insanity == "2"
-    puts "Your body survives powered by a mind of jello. Good job!"
+    puts "You are sunburnt but happy"
   else
-    puts "The insanity rots your eyes into a pool of much. Good job!"
+    puts "You export tobacco"
   end
 
 else
-  puts "You stumble around and fall on a knife and die. Good job!"
-end 
+  puts "You found your boring friends at the hotel. Good job!"
+end
+
+# I do understand the concept of this, I need more practice on the disconnect.

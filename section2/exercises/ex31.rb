@@ -1,4 +1,4 @@
-puts "You enter a dark room with two doors. FDo you go through door #1 or door #2?"
+puts "You enter a dark room with two doors. Do you go through door #1 or door #2?"
 
 print ">"
 door = $stdin.gets.chomp

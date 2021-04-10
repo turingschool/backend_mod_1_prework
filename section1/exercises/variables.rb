@@ -32,15 +32,15 @@ puts students - 2
 # Store the appropriate data types in each.
 # print all three variables to the terminal.
 first_name = "Jacob"
-is_hungry = "is hungry."
+is_hungry = true
 number_of_pets = 6
 puts first_name
 puts is_hungry
 puts number_of_pets
 # IN WORDS:
 # How did you decide to use the data type you did for each of the three variables above?
-# I based my decision on data type by the variable names themselves.  I used a single Noun for name,
-# a verb for is_hungry and an integer for number so it could eventually be manipulated if it need to be.
+# I based my decision on data type by the variable names themselves.  I used a single Noun for name (string),
+# a boolean for is_hungry and an integer for number so it could eventually be manipulated if it needed to be.
 # Explain.
 
 
@@ -48,7 +48,7 @@ puts number_of_pets
 # Re-assign the values to the three variables from the previous challenge to different values (but same data type).
 # print all three variables to the terminal.
 first_name = "Thomas Jefferson"
-is_hungry = "is not hungry at all."
+is_hungry = false
 number_of_pets = 12 + 2
 puts first_name
 puts is_hungry

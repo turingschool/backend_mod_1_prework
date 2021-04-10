@@ -72,11 +72,10 @@ end
 1. How would you call or execute the method that you created above?
 
 To call the method, you would need to get an input to plug into name.  So you could assign a variable to a name.
+
 For instance:
 
-
 `first_name = hello("Sam")`
-
 
 This variable assignment will take "Sam" and plug that into our argument to get the full phrase returned: "Sam I am"
 

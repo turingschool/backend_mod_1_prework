@@ -63,6 +63,6 @@ parents_movie = movie_title("Bob", "Denise")
 # What did you name each parameter, and why?
 # EXPLAIN:
 
-# I named the function m,ovie_title because I knew I wanted the arguments to plug into the movie title "Bill and Ted's Excellent Adventure."
+# I named the function movie_title because I knew I wanted the arguments to plug into the movie title "Bill and Ted's Excellent Adventure."
 # I named the parameters friend_name and other_friend_name bc I knew the two answers would be related.  I also based this off this plot to the title from the movie.
 # I tried to do this to remind myself what kind of input (names) I would need for the return that I wanted (names within the movie title string).

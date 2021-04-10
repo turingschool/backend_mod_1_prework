@@ -43,9 +43,11 @@ end
 # 2/3. It does not seem to HAVE to be indented to function.  It does make the code
 # much easier to read
 # 4. example
-if people == dogs
-  puts true
-end
+#```
+#if people == dogs
+#  puts true
+#end
+#```
 # Changing initial values returns different statements. For example, changing
 # cats to 10 results in this return :
 #   Too many cats! The world is doomed!

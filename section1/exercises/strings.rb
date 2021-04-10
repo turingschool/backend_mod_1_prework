@@ -13,6 +13,4 @@ p "Welcome to Turing!"
 p "99 bottles of pop on the wall..."
 
 # Write out code to log one line from your favorite song or movie.
-require 'logger'
-log = Logger.new(STDOUT)
-log.info("If a flower bloomed in a dark room, would you trust it.")
+p "If a flower bloomed in a dark room, would you trust it."

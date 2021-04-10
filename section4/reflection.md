@@ -16,26 +16,26 @@
  * A behavior of a class is an action or emotion that an object/instance of a class does or feels.
 
 6. In the space below, create a Dog class with at least 2 attributes and 2 behaviors:
+    ```
+    class Dog
+      attr_reader :breed, :fur_color, :hungry, :sleepy
 
-  ```
-  class Dog
-    attr_reader :breed, :fur_color, :hungry, :sleepy
+      def initialize(breed, fur_color, hungry, sleepy)
+        @breed = breed
+        @fur_color = fur_color
+        @hungry = hungry
+        @sleepy = sleepy
+      end
 
-    def initialize(breed, fur_color, hungry, sleepy)
-      @breed = breed
-      @fur_color = fur_color
-      @hungry = hungry
-      @sleepy = sleepy
     end
-
-  end
-  ```
-
-7. How do you create an instance of a class?
-  * Create an instance of a class by naming a variable and setting it equal to the NameOfClass.new adjacent to an array of attributes/behaviors
-    ```bosco = Dog.new("Springer Spaniel", "tri-color", true, false)
     ```
 
+7. How do you create an instance of a class?
+ * Create an instance of a class by naming a variable and setting it equal to the NameOfClass.new adjacent to an array of attributes/behaviors
+    ```
+    bosco = Dog.new("Springer Spaniel", "tri-color", true, false)
+    ```
+    
 8. What questions do you still have about classes in Ruby?
-  * How can I call the name of the variable? i.e. bosco in the above example
-  * I'm not sure if I fully understand how the @ functions under the initialize section. Is it always set to be the same on both sides of the =, minus the @ symbol?
+ * How can I call the name of the variable? i.e. bosco in the above example
+ * I'm not sure if I fully understand how the @ functions under the initialize section. Is it always set to be the same on both sides of the =, minus the @ symbol?

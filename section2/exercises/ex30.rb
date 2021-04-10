@@ -14,7 +14,7 @@ else
   puts "We can't decide."
 end
 
-#Same as code block above
+#Same if loop as code block above
 if trucks > cars
   puts "That's too many trucks."
 elsif trucks < cars
@@ -31,7 +31,7 @@ else
 end
 
 =begin
-1. elsif presumes that the first if statment is fals and sets another condition to evaluate.
+1. elsif presumes that the first if statment is false and sets another condition to evaluate.
 else sets the return in case the condition set is false
 =end
 #3 Study drill example

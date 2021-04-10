@@ -60,11 +60,11 @@ class GoodDog
   def change_info(n, h, w)
     self.name= n        #removed @ from all three (n,h,w) to make instance variables into instance methods
     self.height = h
-    self.weight = w
+    self.weight = w     # added self. to disambiguate from creating a local variable. this lets ruby know we are calling a method
   end
 
   def info
-    "#{name} weighs #{weight} and is #{height} tall."
+    "#{self.name} weighs #{self.weight} and is #{self.height} tall." #added self. here to be consistent with syntax
   end
 end
 =begin Trying to show all my individual comments has been tricky but I think I am still udnerstanding what is happening within the class

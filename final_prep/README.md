@@ -34,8 +34,9 @@ When you are finished, add screenshots of your calendar so we can provide feedba
 
 - [week 1 calendar] <img width="887" alt="Screen Shot 2021-04-10 at 5 48 19 PM" src="https://user-images.githubusercontent.com/81117044/114287627-86be0680-9a25-11eb-801a-ce3915453ea5.png">
 
-- `Add Week 2 Screenshot Here`
-- `Add Week 3 Screenshot Here`
+- [week 2 calendar in progress] <img width="852" alt="Screen Shot 2021-04-10 at 5 48 51 PM" src="https://user-images.githubusercontent.com/81117044/114287700-1cf22c80-9a26-11eb-98fd-fb03e5b21d91.png">
+
+- [week 3 calendar in progress] <img width="891" alt="Screen Shot 2021-04-10 at 5 49 09 PM" src="https://user-images.githubusercontent.com/81117044/114287708-34c9b080-9a26-11eb-83f2-ead8bdb2184e.png">
 
 ### Mentorship Prep
 Mentorship is an integral part of the Turing experience and will help jumpstart your technical career. In order to get your mentor relationship started on the right foot, please complete the following deliverables:

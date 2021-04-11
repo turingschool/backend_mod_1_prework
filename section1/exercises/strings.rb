@@ -1,15 +1,11 @@
-# In the below exercises, write code that achieves
-# the desired result. To check your work, run this
-# file by entering the following command in your terminal:
-# `ruby section1/exercises/strings.rb`
+# Strings Excercise
 
-# Example: Write code that prints your name to the terminal:
-p "Alan Turing"
+puts "Gucci Mayne Elliot"
 
-# Write code that prints `Welcome to Turing!` to the terminal:
-p #YOUR CODE HERE
+puts "Welcome to Turing!"
 
-# Write code that prints `99 bottles of pop on the wall...` to the terminal:
-# YOUR CODE HERE
+song1 = "99 bottles opf pop on the wall.."
 
-# Write out code to log one line from your favorite song or movie.
+puts "#{song1}"
+
+puts "to be or not to be, that is the question"

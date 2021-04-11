@@ -45,78 +45,78 @@
 
 ###### Study Drills 1.
 
-# puts "You enter a dark room with four doors. Do you go through door #1, #2, #3 or #4?"
-#
-# print "> "
-# door = $stdin.gets.chomp
-#
-# if door == "1"
-#   puts "There's a giant bear here eating a cheese cake. What do you do?"
-#   puts "1. Take the cake."
-#   puts "2. Scream at the bear."
-#
-#   print "> "
-#   bear = $stdin.gets.chomp
-#
-#   if bear == "1"
-#     puts "The bear eats your face off. Good job!"
-#   elsif bear == "2"
-#     puts "The bear eats your legs off. Good job!"
-#   else
-#     puts "Well, doing %s is probably better. Bear runs away." % bear
-#   end
-#
-# elsif door == "2"
-#   puts "You stare into the endless abyss at Cthulhu's retina."
-#   puts "1. Blueberries."
-#   puts "2. Yellow jacket clothespins."
-#   puts "3. Understanding revolvers yelling melodies."
-#
-#   print "> "
-#   insanity = $stdin.gets.chomp
-#
-#   if insanity == 1 || insanity == 2
-#     puts "Your body survies powered by a mind of jello. Good job!"
-#   else
-#     puts "The insanity rots your eyes into a pile of muck. Good job!"
-#   end
-#
-# elsif door == "3"
-#   puts "Super Mario is standing before you with a look on his face that is tough to read."
-#   puts "1. Proclaim 'It's a me, MARIO! in your best Mario impression.'"
-#   puts "2. Tell him 'Sonic the Hedgehog is better.'"
-#   puts "3. Give him a mushroom from your pocket which you certainly have loose in there."
-#
-#   print "> "
-#   mario = $stdin.gets.chomp
-#
-#   if mario == "1"
-#     puts "He responds 'Youra f*#!ing righta!' and puts up his white gloved hand for a high five."
-#   elsif mario == "2"
-#     puts "He slaps you in the face with a white gloved hand!"
-#   elsif mario == "3"
-#     puts "He takes the mushroom, smiles in an unsettling way, and sprints away into the darkness."
-#   else
-#     puts "Yeah '%s' is a much better idea. A flag pole appears in front of you which you jump on and slide down." % mario
-#   end
-#
-# elsif door == "4"
-#   puts "Baby Shark do-do do do-do!"
-#   puts "1. Respond with some best guess as to what the next line of the song is."
-#   puts "2. Attack Baby Shark for what it has done!"
-#
-#   print "> "
-#   baby_shark = $stdin.gets.chomp
-#
-#   if baby_shark == 1 || baby_shark == 2
-#     puts "The song continues and there is nothing you can do to stop it!"
-#   else
-#     puts "That's cute... but the song continues and there is nothing you can do to stop it!"
-#   end
-#
-# else
-#   puts "You stumble around and fall on a knife and die. Good job!"
-# end
+puts "You enter a dark room with four doors. Do you go through door #1, #2, #3 or #4?"
+
+print "> "
+door = $stdin.gets.chomp
+
+if door == "1"
+  puts "There's a giant bear here eating a cheese cake. What do you do?"
+  puts "1. Take the cake."
+  puts "2. Scream at the bear."
+
+  print "> "
+  bear = $stdin.gets.chomp
+
+  if bear == "1"
+    puts "The bear eats your face off. Good job!"
+  elsif bear == "2"
+    puts "The bear eats your legs off. Good job!"
+  else
+    puts "Well, doing %s is probably better. Bear runs away." % bear
+  end
+
+elsif door == "2"
+  puts "You stare into the endless abyss at Cthulhu's retina."
+  puts "1. Blueberries."
+  puts "2. Yellow jacket clothespins."
+  puts "3. Understanding revolvers yelling melodies."
+
+  print "> "
+  insanity = $stdin.gets.chomp
+
+  if insanity == 1 || insanity == 2
+    puts "Your body survies powered by a mind of jello. Good job!"
+  else
+    puts "The insanity rots your eyes into a pile of muck. Good job!"
+  end
+
+elsif door == "3"
+  puts "Super Mario is standing before you with a look on his face that is tough to read."
+  puts "1. Proclaim 'It's a me, MARIO! in your best Mario impression.'"
+  puts "2. Tell him 'Sonic the Hedgehog is better.'"
+  puts "3. Give him a mushroom from your pocket which you certainly have loose in there."
+
+  print "> "
+  mario = $stdin.gets.chomp
+
+  if mario == "1"
+    puts "He responds 'Youra f*#!ing righta!' and puts up his white gloved hand for a high five."
+  elsif mario == "2"
+    puts "He slaps you in the face with a white gloved hand!"
+  elsif mario == "3"
+    puts "He takes the mushroom, smiles in an unsettling way, and sprints away into the darkness."
+  else
+    puts "Yeah '%s' is a much better idea. A flag pole appears in front of you which you jump on and slide down." % mario
+  end
+
+elsif door == "4"
+  puts "Baby Shark do-do do do-do!"
+  puts "1. Respond with some best guess as to what the next line of the song is."
+  puts "2. Attack Baby Shark for what it has done!"
+
+  print "> "
+  baby_shark = $stdin.gets.chomp
+
+  if baby_shark == 1 || baby_shark == 2
+    puts "The song continues and there is nothing you can do to stop it!"
+  else
+    puts "That's cute... but the song continues and there is nothing you can do to stop it!"
+  end
+
+else
+  puts "You stumble around and fall on a knife and die. Good job!"
+end
 
 
 ###### Study Drills 2.

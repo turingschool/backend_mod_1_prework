@@ -71,20 +71,19 @@ statements. The three additional approaches I found are: switch case, hash map a
 
 1. In your own words, what is the purpose of a method?
 
-A method provides the ability to assign a name to a line or multiple lines of code so that you can execute
-that code group as many times as you like by calling just the method name.
+A method provides the ability to assign a name to a line or multiple lines of code so that you can execute that code group as many times as you like by calling just the method name.
 It facilitates iteration.
 
 2. Create a method named `hello` that will print `"Sam I am"`.
 ```ruby
 def hello()
-p "Sam I am"
+  p "Sam I am"
 end
 ```
 3. Create a method named `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
 ```ruby
 def hello_someone(name)
-p "#{name} I am"
+  p "#{name} I am"
 end
 ```
 4. How would you call or execute the method that you created above?

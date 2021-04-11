@@ -1,3 +1,5 @@
+# [Methods and Return Values](https://learnrubythehardway.org/book/ex21.html) from Learn Ruby the Hard Way.
+
 def add(a, b)
   puts "ADDING #{a} + #{b}"
   return a + b
@@ -34,6 +36,15 @@ what = add(age, subtract(height, multiply(weight, divide(iq, 2))))
 puts "That become: #{what}. Can you do it by hand?"
 
 ### Study Drills
+  # 1.
+  def add(a, b)
+    puts "ADDING #{a} + #{b}"
+    return a + b
+    puts "after return"
+  end
+
+  p add(1,2)
+
   # 2.
 what_formula = ((30 + 5) + ((78 - 4) - ((90 * 2) * ((100 / 2) / 2))))
 puts "\nYes I can do it by hand!"

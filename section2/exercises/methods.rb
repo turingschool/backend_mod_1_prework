@@ -12,7 +12,7 @@ print_name
 
 # Write a method that takes a name as an argument and prints it:
 def print_name(name)
-  p "#{name}"
+  p name
 end
 
 print_name("Albus Dumbledore")

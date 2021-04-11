@@ -2,7 +2,7 @@
 
 This repository will walk you through the Mod 1 Pre-work for the Backend program at Turing.
 
-Each day has a folder containing a `README.md` file with instructions for the day, exercises, and questions. Please complete all the exercises and questions, as well as lessons listed in the day's readme.
+Each day has a folder containing a `README.md` file with instructions for the section, exercises, and questions. Please complete all the exercises and questions, as well as lessons listed in the section's README.
 
 ### Pre-work Index
 
@@ -10,7 +10,7 @@ Each day has a folder containing a `README.md` file with instructions for the da
 * [Section 2 - ASKING QUESTIONS, Conditionals and Methods](section2)
 * [Section 3 - GROWTH MINDSET, Hashes](section3)
 * [Section 4 - HOW YOU USE YOUR TIME, Objects and Classes](section4)
-* [Final Project - Final Project and Submission](finalProject)
+* [Final Prep - Final Deliverables and Submission](final_prep)
 
 ## What to Expect
 
@@ -36,18 +36,19 @@ Follow this guide step-by-step to make sure you have everything you need, then y
 
 ***Before proceeding***, if you have not already, complete the [mod-0 environment setup instructions](http://mod0.turing.io/setup-instructions) to install Atom, xcode-select, Homebrew, git, and Chrome.
 
-We will now cover these three topics:
+We will cover the following:
 
 *   [Installing Rbenv - a Ruby Version Manager](#set-up-ruby-environment-manager-rbenv)
 *   [Installing Ruby Versions using Rbenv](#use-rbenv-to-install-a-certain-version-of-ruby)
+*   [Terminal](#terminal)
 *   [Forking and Cloning the Prework Repository](#forking-the-module-1-prework-repository)
 
 
-First, let's get a Ruby version management tool on our machines.
+First, let's get a Ruby version management tool on our machines. -->
 
-## Set up Ruby Environment Manager: [rbenv](https://github.com/rbenv/rbenv#homebrew-on-mac-os-x)
+ ## Set up Ruby Environment Manager: [rbenv](https://github.com/rbenv/rbenv#homebrew-on-mac-os-x)
 
-Over the years, Ruby has evolved through various version releases over time that contain new features and upgrades. Version 0.95, the very first, was released in 1995, and at the beginning of year 2020, we're at version 2.7.
+Over the years, Ruby has evolved through various version releases over time that contain new features and upgrades. Version 0.95, the very first, was released in 1995, and at the beginning of year 2021, we're at version 2.7.
 
 Generally, programs written in one version of Ruby will run just fine on another version, but sometimes incompatibilities can be encountered, meaning that particular program needs to be run with a specific version of Ruby.
 
@@ -55,13 +56,15 @@ Additionally, very useful tools called "gems" are out there that were created sp
 
 To solve potential compatability issues, we'd like to be able to install and manage multiple versions of Ruby on our system. We would also like to be able to use gems across different versions of Ruby. These are the kinds of things `rbenv` handles.
 
-#### Installation
+### Installation
+
+#### NOTE: If you have any issues with the `rbenv` setup, please message Eric Weissman on slack (@ericweissman) and we will address your issues at a later date! You're system version of ruby will work fine for your Prework exercises!
 
 Here is a video walk-through that may be helpful for the following steps. Check it out!
 
-Keep in mind that the steps in the video are correct, but we want you to install **ruby version 2.5.3**, per the written instructions below.
+Keep in mind that the steps in the video are correct, but we want you to install **ruby version 2.7.2**, per the written instructions below.
 
-[![Walkthrough RBENV and Ruby](images/rbenv-ruby-thumbnail.jpg)](https://youtu.be/3DtqMlK8In0 "Video Walkthrough for RBENV and Ruby Installation")
+<!-- [![Walkthrough RBENV and Ruby](images/rbenv-ruby-thumbnail.jpg)](https://youtu.be/3DtqMlK8In0 "Video Walkthrough for RBENV and Ruby Installation") -->
 
 Similar to Homebrew, rbenv provides a script to get everything installed. Open a terminal with Spotlight search (`Command + Space`) and enter these commands:
 
@@ -104,7 +107,7 @@ This command will open up your `ZSH Runtime Configuration` file in Atom so you c
 
 Check to see if you did this step correctly by switching back to your terminal and typing `cat ~/.zshrc`. You should see `eval "$(rbenv init -)"` at the bottom of the output.
 
-After, *close your terminal and reopen it.* This is a very important step since the bash profile is loaded each time a new terminal window is opened.
+After, **close your terminal and reopen it.** This is a very important step since the bash profile is loaded each time a new terminal window is opened.
 
 Now, check to make sure rbenv was installed properly. In your terminal, type:
 
@@ -118,14 +121,14 @@ More information about rbenv can be found [here](https://github.com/rbenv/rbenv#
 
 ### Use rbenv to install a certain version of Ruby
 
-Now that we have rbenv installed, we're going to use it to install a specific version of Ruby: Ruby 2.5.3. This is the version we will use in the Backend Program.
+Now that we have rbenv installed, we're going to use it to install a specific version of Ruby: Ruby 2.7.2. This is the version we will use in the Backend Program.
 
-If you need another version it'll be the same procedure, just replace `2.5.3` in the instructions with whichever version you want.
+If you need another version it'll be the same procedure, just replace `2.7.2` in the instructions with whichever version you want.
 
 Install it with:
 
 ```
-$ rbenv install 2.5.3
+$ rbenv install 2.7.2
 ```
 
 It will take a while to finish installing, and print a _lot_ of text to your terminal.
@@ -136,14 +139,14 @@ When it's all finished, type:
 $ rbenv versions
 ```
 
-and you should now see `2.5.3` listed.
+and you should now see `2.7.2` listed.
 
 Be careful, there are two different rbenv commands, `version` and `versions`. The first shows you _your current ruby version_. The second shows _all installed versions_.
 
 Switch to your newly installed version with
 
 ```
-$ rbenv local 2.5.3
+$ rbenv local 2.7.2
 ```
 
 Now enter:
@@ -155,17 +158,17 @@ $ ruby -v
 This shows us what version of Ruby we are running. You should see something like:
 
 ```
-ruby 2.5.3p105 (2018-10-18 revision 65156) [x86_64-darwin17]
+ruby 2.7.2p105 (2018-10-18 revision 65156) [x86_64-darwin17]
 ```
 
-You can ignore everything after the `p` in `2.5.3p105`- the first bit shows us we are running Ruby 2.5.3, which is what we want to verify. If you got something different than `2.5.3`, such as `2.4.1`, go back through the Rbenv installation, make sure you have you successfully edited your `bash_profile`, restart your terminal, and try again.
+You can ignore everything after the `p` in `2.7.2p105`- the first bit shows us we are running Ruby 2.7.2, which is what we want to verify. If you got something different than `2.7.2`, such as `2.4.1`, go back through the Rbenv installation, make sure you have you successfully edited your `bash_profile`, restart your terminal, and try again.
 
 #### Setting the Default Version
 
 You can tell rbenv which Ruby version you want to use by default. Let's do that with terminal command:
 
 ```
-$ rbenv global 2.5.3
+$ rbenv global 2.7.2
 ```
 
 Now, let's make your terminal aware of this update with command:
@@ -176,9 +179,9 @@ $ rbenv rehash
 
 ## Terminal
 
-We will be referencing many terminal commands throughout the prework. It is recommended that you practice using terminal commands before getting started with day_1.
+We will be referencing many terminal commands throughout the prework. It is recommended that you practice using terminal commands before getting started with section1.
 
-[Check out day_0 to practice!](day_0)
+[Check out section 1 to practice!](section1)
 
 ### Forking the Module 1 Prework Repository
 
@@ -190,7 +193,7 @@ In order to fork the repository, follow these steps:
 
 ####  1. Make sure you are logged in to GitHub (if you are not logged in, log in and come back to this page)
 
-####  2. You'll want to find this repository's Fork button. Scroll to the top of *this* webpage... yes, [this one](https://github.com/turingschool-examples/backend_mod_1_prework) that you're reading right now!
+####  2. You'll want to find this repository's Fork button. Scroll to the top of *this* webpage... yes, [this one](https://github.com/turingschool/backend_mod_1_prework) that you're reading right now!
 
 ####  3. Click on `Fork` in the upper right corner of the screen, just under the top banner.
 
@@ -233,19 +236,19 @@ Resolving deltas: 100% (332/332), done.
 $ cd backend_mod_1_prework
 $ git status .
 // If everything worked correctly, you should see:
-On branch master
+On branch main
 nothing to commit, working tree clean
 ```
 
 From here on out, all the work you do will be in your personal copy of this repository. Throughout Mod 0, we may call this your "prework repository" or "backend prework"... this refers to your forked copy of this `backend_mod_1_prework` repository that you have just now cloned to your device.
 
-Here's _another_ video walk-through you may find helpful:
+Here's _another_ video walk-through you may find helpful. **NOTE - The video may reference a "master" branch - we have renamed this branch to "main"** 
 
 [![Walkthrough Git stuff](/images/backend-prework-day-one-thumb.jpg)](https://youtu.be/HYAzk6L63ek "Video Walkthrough for Git Stuff")
 
 Each day's `README` will walk you through the necessary steps to save your work.
 
-To begin, open your terminal and `cd` into the `day_0` directory. Follow the instructions contained in the `README.md` file, and have fun experimenting!
+To begin, open your terminal and `cd` into the `section1` directory. Follow the instructions contained in the `README.md` file, and have fun experimenting!
 
 ----------------------------------
 

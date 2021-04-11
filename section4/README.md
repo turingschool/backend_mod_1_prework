@@ -23,8 +23,16 @@ One challenge learners in a new environment/content area face is feeling like th
 
 So this week, we would like you to start self-monitoring your progress. Before you start on the technical work, reflect back on how the pre-work has gone so far.
 - Have the time estimates matched up with your experience?
+
+- As a whole, yes but some of the sections have taken me less time while others have taken me almost double the time. It also depends on when I decide to work as I dont have the best work environment at the moment because of family not respecting the time and concentration it takes to do this. I have since been doing my work outside of the house somewhere where I can fully concentrate.
+
 - When you sit down to start working, do you have a clear goal of what you want to accomplish and in how much time? If so, how aligned is that to what actually happens?
+
+- I dont actually set apart a scheduled time but I instead wait until my family has all gone to bed so I can fully focus on my work with no distractions. Usually when I sit down to work I try to complete the entire task/ section all in one go.
+
 - How do you work best - in 2 hour blocks, 4 hour blocks, etc? Do you take breaks regularly? Do you have a system to hold yourself accountable to taking breaks?
+
+- When I work I like to just knock everything out in one go. I don't really take breaks because when I'm focused, then I'm focused and it takes a lot for me to actually concentrate on something. As far as holding myself accountable I usually set reminders on my phone or try to remind myself to refill my water bottle which turns into a little break. For mod 1 I need to figure out a system to spread out my work so I dont burn myself out too quickly. 
 
 You've probably heard of the Pomodoro Technique in Mod 0 classes (and elsewhere, maybe!). During this final section of pre-work, we are going to ask that you follow this technique. Please read about it [here](https://www.dovico.com/blog/2020/08/26/the-pomodoro-technique-how-to-manage-your-work-time-and-flow-the-easy-way/). The article doesn't mention writing down Step 1, but we ask that you find a special spot in your notebook where you do this for each work session. In the deliverables, we will ask that you share what you wrote down for Step 1 of the technique each time you started a new task. _Note: if the 25 minutes on/3-5 minutes off isn't best for you, you do **not** have to follow that! The main focus of this is setting an intention and continuing to better understand your working style._
 

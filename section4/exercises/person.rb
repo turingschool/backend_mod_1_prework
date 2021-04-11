@@ -23,7 +23,7 @@ class Person
 
   def coffee
     @is_tired = false
-    "sips...sips...  sips...      sips...sips..."
+      "sips...sips...  sips...      sips...sips..."
   end
 
   def ride_bike

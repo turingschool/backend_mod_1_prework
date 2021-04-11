@@ -12,7 +12,7 @@ print_name
 
 # Write a method that takes a name as an argument and prints it:
 def print_name(name)
-  # YOUR CODE HERE
+  p "#{name}"
 end
 
 print_name("Albus Dumbledore")
@@ -20,12 +20,29 @@ print_name("Albus Dumbledore")
 # Write a method that takes in 2 numbers as arguments and prints 
 # their sum. Then call your method three times with different arguments passed in:
 # YOUR CODE HERE
+def add(a, b)
+  p "Finding the sum of #{a} and #{b}"
+  return a + b
+end
+
+age = add(50, 1)
+height = add(70, 9)
+weight = add(103, 26)
+
+puts "James Potter is #{age} years old, #{height} inches tall, and weighs #{weight} lbs."
+
 
 # Write a method that takes in two strings as arguments and prints 
 # a concatenation of those two strings. Example: The arguments could be 
 # (man, woman) and the end result might output: "When Harry Met Sally".  
 # Then call your method three times with different arguments passed in. 
+def partners(man, woman)
+  p "When #{man} Met #{woman}"
+end
 
+partners("Harry", "Sally")
+partners("Adam", "Eve")
+partners("Ron Weasley", "Hermione Granger")
 
 #-------------------
 # PART 3: Naming is Hard
@@ -38,4 +55,8 @@ print_name("Albus Dumbledore")
 # What did you name each parameter, and why?
 
 # EXPLAIN:
-
+# I named the function partners, implying a grouping of two people.
+# Also it leaves room for people who prefer the term partner over couple.
+# Each parameter was a first name or a first and last name. They are unique and within strings in ().
+# Harry and Sally were in the instructions. Adam and Eve are two people.
+# I chose Ron Weasley and Hermione Granger to continue the Harry Potter theme.

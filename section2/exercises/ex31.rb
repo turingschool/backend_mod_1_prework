@@ -55,7 +55,7 @@ elsif door == "2"
   # End of condition
   end
 # If door value is 3
-elsif door == 3
+elsif door == "3"
   # Print "You stumble around and fall on a knife and die. Good job!"
   puts "You stumble around and fall on a knife and die. Good job!"
 # If door value is not 1, 2 or 3. Then do this

@@ -162,34 +162,40 @@ class SuperHero
   end
 
   # - maximize_energy, should update the energy_level to 1000
-  def maximize_energy(energy_level)
-    energy_level = 100
+  def maximize_energy
+    energy_level = 1000
     puts "#{energy_level}"
   end
 
   #   - gain_power, should take an argument of a number and INCREASE the
   #     power_level by that number
-  def gain_power(power_level)
-    power_level = power_level + 10
-    puts "#{power_level} + #{gain_power}"
+  def gain_power(num1, num2)
+    puts num1 + num2 # <=something is wrong here...
+                     # how to reference variable power_level?
   end
 
 end
 # - Create 2 instances of your SuperHero class
 batman = SuperHero.new("Batman", "rich", "42")
-p batman.say_name # <=something is wrong here
+p batman.say_name # <=something is wrong here. nil?
 p batman.super_power
 p batman.age
+p batman.maximize_energy
+p batman.gain_power(100, 10)
+
 
 spiderman = SuperHero.new("Spider Man", "webs", "30")
 p spiderman.say_name
 p spiderman.super_power
 p spiderman.age
+p spiderman.maximize_energy
+p spiderman.gain_power(63, 10)
+
 
 # Reflection
 # What parts were most difficult about this exerise?
 # Defining the methods and correctly formatting them was super difficult.
-# Maximize energy and gain power still need to be tested and refined..
+# Had trouble with gain_power referencing variable power_level...*
 
 # What parts felt most comfortable to you?
 # Variables, math, arrays, and hashes felt comfortable.

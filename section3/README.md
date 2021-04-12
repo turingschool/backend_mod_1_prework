@@ -28,8 +28,16 @@ Read/watch one or both of the following:
 
 Then, consider on the following questions. We will ask you to share some of these responses at the end of this section.
 - What are two points from the article or video that either resonated with you, or were brand new to you?
+
+* For me the part that resonated with me the most was the section about coding being a process. Ive been getting quite frustrated with code recently and the article suggests having a good and positive mindset. Nobody learns something right away and that is especially true with coding. Another part that I liked was the section on seeking help. No matter how long you have been doing something there is always going to be someone that knows something you dont. Its important to not let egos get in the way of progressing.
+
 - In which ways do you currently demonstrate a Growth Mindset? In which ways do you _not_?
+
+* I implement a growth mindset by not being afraid to make mistakes. I'm very grateful for my previous job because we were encouraged to make mistakes all of the time and it really helped me improve when I was still one of the new guys. I make a hundred mistakes a day especially when I'm coding and theres going to be many many more.
+
 - What is something you are good at or knowledgeable at now, that you once weren't? How did you get those skills/knowledge? Was it hard at some point?
+
+* Well I have been playing the bass guitar for 12 years and still can't believe how far I have come. I remember starting out and thinking that certain songs were impossible or really difficult that are cakewalks now. But over the years I kept practicing and practicing and pushing myself and now I am an amazing player that performs live with my little brother. He is a killer drummer and we both started playing our instruments at the same time. 
 
 ## Part B Arrays + Hashes
 
@@ -37,7 +45,7 @@ Today you will learn about two common data structures: arrays and hashes.
 
 When you are all done with the lessons, exercises, and questions for today, you will once again use git to save your work locally, and then send your work to Github.
 
-1. Work through the following lessons. Any files that you create while working can be kept in today's `exercises` directory. 
+1. Work through the following lessons. Any files that you create while working can be kept in today's `exercises` directory.
     - [ ] Read about what an [array](https://learnrubythehardway.org/book/ex32.html) is from Learn Ruby the Hard Way.
 
     - [ ] Learn how arrays are [index-based](https://learnrubythehardway.org/book/ex34.html) from Learn Ruby the Hard Way.

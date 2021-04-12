@@ -82,7 +82,11 @@ done
 
 1. Work through the methods.rb file in the section2/exercises directory.
 
+done
+
 1. Answer the questions in the reflection.md file in the section2 directory.
+
+done
 
 ## Vocabulary
 

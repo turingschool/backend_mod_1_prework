@@ -8,4 +8,4 @@ def water_status(minutes)
   else
     puts "Hot! Hot! Hot!"
   end
-end
+  

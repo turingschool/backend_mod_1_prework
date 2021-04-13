@@ -1,4 +1,3 @@
-water_status = 5
 
 def water_status(minutes)
   if minutes < 7

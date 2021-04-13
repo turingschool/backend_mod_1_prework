@@ -151,7 +151,7 @@ This will open the `section1` directory in Atom. You should be able to see the d
 
     - [X] [A Good First Program](https://learnrubythehardway.org/book/ex1.html)
 
-    - [ ] [Comments in Code](https://learnrubythehardway.org/book/ex2.html)
+    - [X] [Comments in Code](https://learnrubythehardway.org/book/ex2.html)
 
     - [ ] [Numbers and Math](https://learnrubythehardway.org/book/ex3.html)
 

@@ -1,4 +1,4 @@
- minutes = 5
+
 def water_status(minutes)
   if minutes < 7
     puts "The water is not boiling yet."

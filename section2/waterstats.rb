@@ -7,5 +7,4 @@ def water_status(minutes)
     puts "It's boiling!"
   else
     puts "Hot! Hot! Hot!"
-  end
-  
+end

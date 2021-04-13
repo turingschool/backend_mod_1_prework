@@ -46,5 +46,6 @@ weight = 20
 
 if weight > height
   puts "you are fat!"
+end
 
 #5 changing the value effects the out put of the if then statemnt. If it is no longer correct then the command will not be outputted

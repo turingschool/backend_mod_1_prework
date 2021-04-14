@@ -20,7 +20,8 @@
  - elsif and else
 
 1. Provide an example of the Ruby syntax for an if/elsif/else statement:
- ```if movie == 'funny'
+ ```
+    if movie == 'funny'
         puts "hahaha"
     elsif movie == 'sad'
         puts "I cried alot"
@@ -37,7 +38,8 @@
  - purpose of a method is to save time, not repeatedly typing the same code. It is a saved function.
 
 1. Create a method named `hello` that will print `"Sam I am"`.
- ```def hello
+ ```
+    def hello
       puts "Sam I am"
     end
 
@@ -45,7 +47,8 @@
 ```
 
 1. Create a method named `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
- ```def hello_someone(name)
+ ```
+    def hello_someone(name)
       puts "#{name} I am"
     end
 

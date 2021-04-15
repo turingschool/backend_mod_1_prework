@@ -4,7 +4,7 @@
 
 # Build a Bear
 
-# Declare a fucntion named build_a_bear that takes the arguments name, age, fur, clothes, and special_power
+# Declare a method named build_a_bear that takes the arguments name, age, fur, clothes, and special_power
 def build_a_bear(name, age, fur, clothes, special_power)
   # assign the variable greeting to a string with the name argument interpolated inside
   greeting = "Hey partner! My name is #{name} - will you be my friend?!"
@@ -27,19 +27,20 @@ def build_a_bear(name, age, fur, clothes, special_power)
     # assign the key clothes the value of boolean true
     'is_cuddly' => true,
   }
-  # function output the data in the variable built_bear
+  # method output the data in the variable built_bear
   return built_bear
+  # declare end of build_a_bear method
 end
 
-# call the function build_a_bear with the arguments 'Fluffy', 4, 'brown', ['pants', 'jorts', 'tanktop'], and 'give you nightmares'
+# call the method build_a_bear with the arguments 'Fluffy', 4, 'brown', ['pants', 'jorts', 'tanktop'], and 'give you nightmares'
 build_a_bear('Fluffy', 4, 'brown', ['pants', 'jorts', 'tanktop'], 'give you nightmares')
-# call the function build_a_bear with the arguments 'Sleepy', 2, 'purple', ['pajamas', 'sleeping cap'], 'sleeping in'
+# call the method build_a_bear with the arguments 'Sleepy', 2, 'purple', ['pajamas', 'sleeping cap'], 'sleeping in'
 build_a_bear('Sleepy', 2, 'purple', ['pajamas', 'sleeping cap'], 'sleeping in')
 
 
 # FizzBuzz
 
-# declare a function called fizzbuzz that takes the arguments num_1, num_2, and range
+# declare a method called fizzbuzz that takes the arguments num_1, num_2, and range
 def fizzbuzz(num_1, num_2, range)
   # start an each loop for each value in an array consisting of the numbers 1 up to and including the value of the range argument
     # assigning the next value to the variable i upon each loop iteration
@@ -67,10 +68,10 @@ def fizzbuzz(num_1, num_2, range)
     end
   # declare end of the each loop
   end
-# declare end of fizzbuzz function
+# declare end of fizzbuzz method
 end
 
-# call the function fizzbuzz with the arguments integers 3, 5, and 100
+# call the method fizzbuzz with the arguments integers 3, 5, and 100
 fizzbuzz(3, 5, 100)
-# call the function fizzbuzz with the arguments integers 5, 8, and 400
+# call the method fizzbuzz with the arguments integers 5, 8, and 400
 fizzbuzz(5, 8, 400)

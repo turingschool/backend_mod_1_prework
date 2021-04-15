@@ -159,7 +159,7 @@ This will open the `section1` directory in Atom. You should be able to see the d
 
     - [X] [Strings](https://learnrubythehardway.org/book/ex5.html)
 
-    - [ ] [More Strings](https://learnrubythehardway.org/book/ex6.html)
+    - [X] [More Strings](https://learnrubythehardway.org/book/ex6.html)
 
     - [ ] [Asking for Input](https://learnrubythehardway.org/book/ex11.html)
 

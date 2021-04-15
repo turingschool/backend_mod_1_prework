@@ -1,3 +1,5 @@
+# Changing from double quotes to single quotes does not work when you use the work "don't"
+
 # Set variable for types of people
 types_of_people = 10
 # Set variable with string that includes the type of ppl variable

@@ -82,8 +82,8 @@ end
 
 1. In your own words, what is the purpose of a method?
 
-*Methods allow you to execute a single block of code with interchangeable values. You can have code
-*condensed into its own block and called upon each time with a new specified value.
+* *Methods allow you to execute a single block of code with interchangeable values. You can have code
+condensed into its own block and called upon each time with a new specified value.*
 
 1. Create a method named `hello` that will print `"Sam I am"`.
 

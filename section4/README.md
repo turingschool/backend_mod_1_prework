@@ -23,8 +23,16 @@ One challenge learners in a new environment/content area face is feeling like th
 
 So this week, we would like you to start self-monitoring your progress. Before you start on the technical work, reflect back on how the pre-work has gone so far.
 - Have the time estimates matched up with your experience?
+
+    In some ways the time estimates I've made have worked out and in some ways they've been less accurate. I've found that this question is totally dependent on the type of work being reflected on due to the ways our brains process information differently. I'm someone who spends _wayyyy_ more time reflecting on a question before answering it than needed, so the reading and reflection probably takes longer than estimated. The technical work, well, I already taught myself basic ruby before enrolling, so I'm getting through it pretty quickly. I'm sure that's going to change quickly enough though.....
+
 - When you sit down to start working, do you have a clear goal of what you want to accomplish and in how much time? If so, how aligned is that to what actually happens?
+
+    That's a good question. I suppose if I'm being honest, I would say not exactly... I think I have a general idea before sitting down, but even today I decided to shift a little. I have all the work I need done on my Trello board, so that's the first thing I look at when I sit down. If there are small tasks I can quickly knock out, like surveys, I just take care of them as long as they are timely. Then I tend to look over the work that I'm planning on doing. Today I opened the Session 4 homework first, but I saw that it was mostly a series of reflection based questions. I think I need to be in the correct mindset for the task at hand, so I put that work on hold and moved to this prework. Funny, some of the themes of the prework are the same, so sometimes you have to just make a decision and start working. After I've made that decision, I would say I do have a more solid idea of how long I'm going to work on what.
+
 - How do you work best - in 2 hour blocks, 4 hour blocks, etc? Do you take breaks regularly? Do you have a system to hold yourself accountable to taking breaks?
+
+    I usually need to work at least a few hours to really feel like I've made some headway. I'm still pretty bad at taking breaks, though I know it's a really big point of emphasis. I listen to a lot of music while I'm working, so often I will do something like put on a record and let it play, and then when it ends that's the time to get up for a second. Sometimes if I'm really focused it can be difficult to pry myself away. Obviously this system has its flaws too, as not all listening sessions are equally spaced. I like the Pomodoro below, so maybe getting a clock or an app for that would be good to try instead.
 
 You've probably heard of the Pomodoro Technique in Mod 0 classes (and elsewhere, maybe!). During this final section of pre-work, we are going to ask that you follow this technique. Please read about it [here](https://www.dovico.com/blog/2020/08/26/the-pomodoro-technique-how-to-manage-your-work-time-and-flow-the-easy-way/). The article doesn't mention writing down Step 1, but we ask that you find a special spot in your notebook where you do this for each work session. In the deliverables, we will ask that you share what you wrote down for Step 1 of the technique each time you started a new task. _Note: if the 25 minutes on/3-5 minutes off isn't best for you, you do **not** have to follow that! The main focus of this is setting an intention and continuing to better understand your working style._
 
@@ -36,17 +44,21 @@ When you are all done with the lessons, exercises, and questions for today, you 
 
 1. Work through the following lessons. Any files that you create while working can be kept in today's `exercises` directory.
 
-    - [ ] [What Are Objects](https://launchschool.com/books/oo_ruby/read/the_object_model#whatareobjects) section from LaunchSchool.
+    - [x] [What Are Objects](https://launchschool.com/books/oo_ruby/read/the_object_model#whatareobjects) section from LaunchSchool.
 
-    - [ ] [Classes Define Objects](https://launchschool.com/books/oo_ruby/read/the_object_model#classesdefineobjects) section from LaunchSchool.
+    - [x] [Classes Define Objects](https://launchschool.com/books/oo_ruby/read/the_object_model#classesdefineobjects) section from LaunchSchool.
 
-    - [ ] [Classes and Objects Part 1](https://launchschool.com/books/oo_ruby/read/classes_and_objects_part1) from LaunchSchool.
+    - [x] [Classes and Objects Part 1](https://launchschool.com/books/oo_ruby/read/classes_and_objects_part1) from LaunchSchool.
 
-    - [ ] [Objects, Attributes and Methods](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#11.-objects,-attributes,-and-methods) from Ruby in 100 Minutes.
+    - [x] [Objects, Attributes and Methods](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#11.-objects,-attributes,-and-methods) from Ruby in 100 Minutes.
 
 1. Work through the files in the section4/exercises directory.
 
+done
+
 1. Answer the questions in the reflection.md file in the section4 directory.
+
+done
 
 ## Reflection
 

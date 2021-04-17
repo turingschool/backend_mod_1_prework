@@ -155,7 +155,7 @@ This will open the `section1` directory in Atom. You should be able to see the d
 
    - [X] [Numbers and Math](https://learnrubythehardway.org/book/ex3.html)
 
-     [ ] [Variables and Names](https://learnrubythehardway.org/book/ex4.html)
+   - [X] [Variables and Names](https://learnrubythehardway.org/book/ex4.html)
 
      [ ] [Strings](https://learnrubythehardway.org/book/ex5.html)
 

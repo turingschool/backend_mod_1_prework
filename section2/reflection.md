@@ -2,14 +2,14 @@
 
 1. Regarding the blog posts in Part A, how do you feel about asking questions? Do you tend to ask them too soon, or wait too long, or somewhere in between?
 
-  *It is harder for me to ask questions. I spend to much time trouble shooting and solving a problem before
+* *It is harder for me to ask questions. I spend to much time trouble shooting and solving a problem before
 asking for help. I have had some of my more experienced programmer friends tell me that it is better to ask questions when you are really struggling with something for to long, so that you can keep dedicating your time to practice, and learning new concepts.*
 
 ### If Statements
 
 1. What is a conditional statement? Give three examples.
 
-  *conditional statements allow you to use logic in your coding.
+* *conditional statements allow you to use logic in your coding.*
 
   Types of conditions
 
@@ -46,9 +46,9 @@ end
 
 1. Why might you want to use an if-statement?
 
-  *if statements are useful for when you have two or more conditions that you want to check, so that
-  *code is run depending on the condition of the variable. It looks for what part of the condition
-  *is true and executes the code for that assigned if-statement.
+* *if statements are useful for when you have two or more conditions that you want to check, so that
+  code is run depending on the condition of the variable. It looks for what part of the condition
+  is true and executes the code for that assigned if-statement.*
 
 1. What is the Ruby syntax for an if statement?
 
@@ -60,7 +60,7 @@ end
 
 1. How do you add multiple conditions to an if statement?
 
-*You would use `else` or `elsif` to add multiple conditions to a statement
+* *You would use `else` or `elsif` to add multiple conditions to a statement*
 
 1. Provide an example of the Ruby syntax for an if/elsif/else statement:
 
@@ -76,7 +76,7 @@ end
 
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 
- *you could also use conditional statements utilizing `unless`.
+ * *you could also use conditional statements utilizing `unless`.*
 
 ### Methods
 
@@ -113,4 +113,4 @@ hello_someone("Sam")
 
 1. What questions do you have about methods in Ruby?
 
-*What are sone of the best practices when working with methods?
+* *What are sone of the best practices when working with methods?*

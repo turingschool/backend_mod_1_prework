@@ -2,7 +2,7 @@
 
 1. Regarding the blog posts in Part A, how do you feel about asking questions? Do you tend to ask them too soon, or wait too long, or somewhere in between?
 
-This discussion raises some good point that relate to my personality directly. I'm not a person that really likes asking people for help even on things that I have zero experience with. This is a skill I'm definitely going to need some practice on to strike a decent balance. I have a little bit of experience coming into this program so I sure know what some of these developers are talking about in terms of spending entire days on easily solvable problems. The issue there was more in that I didn't have someone to ask questions of. That's why I'm here after all, among other things.
+This discussion raises some good points that relate to my personality. I'm not a person that really likes asking people for help even on things that I have zero experience with. This is a skill I'm definitely going to need some practice on to strike a decent balance. I have a little bit of experience coming into this program so I sure know what some of these developers are talking about in terms of spending entire days on easily solvable problems. Previously my issue has been that I didn't have someone to ask questions of. That's why I'm here after all, among other things.
 
 I see a lot more positive benefits to this personally. Since I'm inclined to try to focus on a problem myself, I'm getting about as much benefit as I can from that type of study, so I only stand to make positive gains by getting my voice out there.
 

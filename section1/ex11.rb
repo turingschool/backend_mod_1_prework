@@ -27,6 +27,3 @@ room_price = gets.chomp
 puts "If you went to the bar, what was your tab?"
 tab = gets.chomp
 puts "We got your tab! next time you will get #{tab} credit!"
-
-statement = "hello world"
-p statement

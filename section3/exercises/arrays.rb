@@ -88,5 +88,10 @@ posts = ["image at beach", "holiday party", "adorable puppy", "video of cute bab
 # all from the same one.
 
 # 1: GitHub Gists
+gists = ['Session 1 HW', 'Plan for Success in Mod 0', 'Session 2 HW']
 # 2: YouTube playlists
+playlist = [song1, song2, song3]
 # 3: Apple Podcasts
+welcome_to_nightvale = [wtn1, wtn2, wtn3]
+the_dollop = [td1, td2, td3]
+podcasts = [welcome_to_nightvale, the_Dollop]

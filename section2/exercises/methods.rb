@@ -53,7 +53,6 @@ concatenate(first, second)
 # What did you name each parameter, and why?
 
 # EXPLAIN:
-# Is YOU DO just the code above here? I'm answering based on that assumption.
 # I called the first method sum, because it makes a sum. I think that kind of explains itself.
 # To be honest, I guess the second method, concatenate, was kind of named the same way.
 # I tried to pick arguments that were also generic but descriptive. I guess in retrospect for sum, I couldn't called them num1 and num2 and maybe that would be better.

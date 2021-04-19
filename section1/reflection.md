@@ -30,7 +30,7 @@ Integer is a whole number, and a float is a number with a decimal point.
 
 1. What is interpolation? Use interpolation to print a sentence using the variable `animal`.
 
-Put simply in my own words, interpolation a string with a placeholder inside it.
+Put simply in my own words, interpolation is a string with a placeholder inside it.
 
 The more technical definition is the process of evaluating a string literal containing one or more placeholders, yielding a result in which the placeholders are replaced with their corresponding values.
 
@@ -45,5 +45,6 @@ Example:
 1. Name and describe two common string methods:
 
 `.length` - determines how many characters are in the string
+
 `.split` - turn a string into an array, cuts at every space as a default. Or you can `.split` with an argument, which turns it into an array using a custom split marker.
 - example: `variable_example.split(",")` would split the string at every comma

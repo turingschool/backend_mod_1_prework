@@ -2,6 +2,8 @@
 
 1. Regarding the blog posts in Part A, how do you feel about asking questions? Do you tend to ask them too soon, or wait too long, or somewhere in between?
 
+I am probably on the wait too long side of the problem. I have worked for myself for the past 2 years, so I have gotten good at figuring out things on my own because I often have no other choice. So I did have to spend the 2-3 hours researching a solution to certain problems. That being said, I realize I simply won't have the time to do that at Turing given my overall workload and deadlines, so I will adapt and ask my questions sooner. It will also be helpful to be pursuing things in an overall team approach, then that makes a big difference. 
+
 ### If Statements
 
 1. What is a conditional statement? Give three examples.

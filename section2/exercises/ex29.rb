@@ -1,8 +1,8 @@
 # Exercise 29: What If
 
-people = 20
+people = 5
 cats = 30
-dogs = 15
+dogs = 45
 
 if people < cats
   puts "Too many cats! The world is doomed!"

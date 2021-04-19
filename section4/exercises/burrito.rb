@@ -13,17 +13,17 @@ class Burrito
     @toppings = toppings
   end
 
-  def add_topping(topping)
-    @toppings.push(topping)
+  def add_topping(new_topping)
+    @toppings.push(new_topping)
   end
 
-  def remove_topping(topping)
-    topping_index = @toppings.index(topping)
+  def remove_topping(unwanted_topping)
+    topping_index = @toppings.index(unwanted_topping)
     @toppings.slice!(topping_index, 1)
   end
 
-  def change_protein(protein)
-    @protein = protein
+  def change_protein(new_protein)
+    @protein = new_protein
   end
 end
 

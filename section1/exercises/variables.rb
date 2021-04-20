@@ -47,3 +47,7 @@ puts healthy_snacks + junk_food_snacks
 
 animal = "zebra"
 puts animal
+
+puts "lions really like to chase #{animal}"
+
+animal = "zebra"

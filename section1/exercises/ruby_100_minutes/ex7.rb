@@ -14,4 +14,4 @@ x = gets.chomp
 print "what is y"
 y = gets.chomp
 
-puts "so if x is #{x} and y is #{y}, then x times y is #{x - y}"
+puts "so if x is #{x} and y is #{y}, then x times y is #{x * y}"

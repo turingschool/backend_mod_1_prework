@@ -32,4 +32,12 @@ else
   puts "Fine, lets stay home then."
 end
 
+temp = 22
+
+if temp < 30
+  puts "dont go outside!"
+elsif temp > 30
+  puts "still dont go aside, vampires will brun!"
+end
+
 #elsif and else are both options for an outcome. If elsif is ture ruby prints the result for that scenario. else is if neither statement is correct eg. cars = people

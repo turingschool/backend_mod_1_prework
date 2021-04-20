@@ -7,19 +7,21 @@ door = $stdin.gets.chomp
 
 if door == "1"
   puts "There's a giant bear here eating a cheese cake. What do you do?"
-  puts "1. Take the cake."
-  puts "2. Scream at the bear."
+  puts "1. Try to pet the bear and eat the cake."
+  puts "2. Run back and charge through door 2."
   puts "3. Grab sword off the wall and fight the bear."
 
   print "> "
   bear = $stdin.gets.chomp
 
   if bear == "1"
-    puts "The bear eats your face off. Good job!"
+    puts "The bear attacks and things do not end well for you."
   elsif bear == "2"
-    puts "The bear eats your legs off. Good job!"
+    puts "You step right into the endless abyss and fall Gandalf style."
+  elsif bear == "3"
+    puts "A glorious fight. You take immense damage but kill the bear and escape through the room."
   else
-    puts "Well, doing %s is probably better. Bear runs away." % bear
+    puts "The bear smells your indecision and charges and eats you." % bear
   end
 
 elsif door == "2"
@@ -39,5 +41,5 @@ elsif door == "2"
   end
 
 else
-  puts "You stumble around and fall on a knife and die. Good job!"
+  puts "As you fail to make a decision, a bear comes out of door 1 and eats you."
 end

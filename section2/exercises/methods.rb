@@ -12,22 +12,44 @@ print_name
 
 # Write a method that takes a name as an argument and prints it:
 def print_name(name)
-  # YOUR CODE HERE
+  puts "#{name}!" # YOUR CODE HERE
 end
 
 print_name("Albus Dumbledore")
 
-# Write a method that takes in 2 numbers as arguments and prints 
+# Write a method that takes in 2 numbers as arguments and prints
 # their sum. Then call your method three times with different arguments passed in:
-# YOUR CODE HERE
+def numbers(a, b) # YOUR CODE HERE
+  puts "Adding #{a} + #{b} = #{a + b}"
+end
 
-# Write a method that takes in two strings as arguments and prints 
-# a concatenation of those two strings. Example: The arguments could be 
-# (man, woman) and the end result might output: "When Harry Met Sally".  
-# Then call your method three times with different arguments passed in. 
+numbers(34, 1)
 
+numbers(6 + 3, 33 - 34)
 
-#-------------------
+number1 = 3
+number2 = 4
+numbers(number1, number2)
+
+# Write a method that takes in two strings as arguments and prints
+# a concatenation of those two strings. Example: The arguments could be
+# (man, woman) and the end result might output: "When Harry Met Sally".
+# Then call your method three times with different arguments passed in.
+ def meetup(person1, person2)
+   puts "#{person1} and #{person2} met each other at the museum."
+ end
+
+meetup("Violet", "Jay")
+
+brother = "Paul"
+sister_in_law = "Hannah"
+meetup(brother, sister_in_law)
+
+friends_mom = sister_in_law
+friends_dad = brother
+meetup(friends_dad, friends_mom)
+
+#----------------- --
 # PART 3: Naming is Hard
 #-------------------
 
@@ -38,4 +60,6 @@ print_name("Albus Dumbledore")
 # What did you name each parameter, and why?
 
 # EXPLAIN:
-
+# I named the function meetup because when called on, the parameters would refer
+# to people meeting each other. I named the parameters person1 and person2 so it
+# would be obvious that they needed to be names of two different people.

@@ -55,10 +55,28 @@ I guess this would still technically be an if-statement, but the only other exam
 
 1. In your own words, what is the purpose of a method?
 
+Put simply, a method is a block of code within your code that only runs when you call it. You can create these methods for repeated processes, so you do not have to duplicate calculations, print commands, or other elements of code and can instead call upon the method using different arguments as needed.
+
 2. Create a method named `hello` that will print `"Sam I am"`.
+
+```Ruby
+def hello()
+  puts "Sam I am"
+end
+```
 
 3. Create a method named `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
 
+```Ruby
+def hello_someone(name)
+  puts "#{name} I am"
+end
+```
+
 4. How would you call or execute the method that you created above?
 
+hello_someone("Lee")
+
 5. What questions do you have about methods in Ruby?
+
+I feel good about the basics we have learned, but I can see how they will grow more advanced and I look forward to learning more. 

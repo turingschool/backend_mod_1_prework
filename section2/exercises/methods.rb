@@ -35,11 +35,7 @@ puts "students: #{students}"
 students = number_of_students(0, 2)
 puts "students: #{students}"
 
-def hello_someone(name)
-  puts "#{name} I am"
-end
 
-hello_someone("sam")
 
 
 

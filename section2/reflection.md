@@ -9,9 +9,9 @@ I am probably on the wait too long side of the problem. I have worked for myself
 1. What is a conditional statement? Give three examples.
 
 A conditional statement evaluates to true or false. Three examples –
-  1. `==` equal, `if variable_example == 5`
-  2. `!=` does not equal, `if variable_example != 10`
-  3. `>=` greater than or equal to, `if variable_example >= 15`
+    1. `==` equal, `if variable_example == 5`
+    2. `!=` does not equal, `if variable_example != 10`
+    3. `>=` greater than or equal to, `if variable_example >= 15`
 
 2. Why might you want to use an if-statement?
 
@@ -43,13 +43,13 @@ if variable_1 == 10
 elsif variable_1 == 5
   puts "You were halfway there"
 else
-  puts "You did not 10 miles"
+  puts "You did not walk 10 miles"
 end
 ```
 
 6. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 
-I guess this would still technically be an if-statement, but the only other example I can think of would be conditional statements within functions. I did some googling to try to find other instances, and all I could find were if statement examples. So that is certainly the primary use.
+I cannot. I even did some googling to try to find other instances, and all I could find were if statement examples. So that is certainly the primary use.
 
 ### Methods
 
@@ -75,8 +75,10 @@ end
 
 4. How would you call or execute the method that you created above?
 
+```Ruby
 hello_someone("Lee")
+```
 
 5. What questions do you have about methods in Ruby?
 
-I feel good about the basics we have learned, but I can see how they will grow more advanced and I look forward to learning more. 
+I feel good about the basics we have learned, but I can see how they will grow more advanced and I look forward to learning more.

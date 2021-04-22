@@ -12,6 +12,8 @@ Where I struggle with the growth mindset is in areas where I where the subject m
 
 1. What is a Hash, and how is it different from an Array?
 
+A hash is an index that associates keys to items, and the order of the items does not matter. Unlike an array, the keys can be any data type (but strings or symbols are preferred). An array is an ordered list of items, and you can only use numbers to access the specific indexed items.
+
 1. In the space below, create a Hash stored to a variable named `pet_store`.  This hash should hold an inventory of items and the number of that item that you might find at a pet store.
 
 1. Given the following `states = {"CO" => "Colorado", "IA" => "Iowa", "OK" => "Oklahoma"}`, how would you access the value `"Iowa"`?

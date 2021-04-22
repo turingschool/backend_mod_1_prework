@@ -46,9 +46,7 @@ end
 
 1. Why might you want to use an if-statement?
 
-* *if statements are useful for when you have two or more conditions that you want to check, so that
-  code is run depending on the condition of the variable. It looks for what part of the condition
-  is true and executes the code for that assigned if-statement.*
+* *if statements are useful for when you have two or more conditions that you want to check, so that code is run depending on the condition of the variable. It looks for what part of the conditionis true and executes the code for that assigned if-statement.*
 
 1. What is the Ruby syntax for an if statement?
 
@@ -82,8 +80,7 @@ end
 
 1. In your own words, what is the purpose of a method?
 
-* *Methods allow you to execute a single block of code with interchangeable values. You can have code
-condensed into its own block and called upon each time with a new specified value.*
+* *Methods allow you to execute a single block of code with interchangeable values. You can have code condensed into its own block and called upon each time with a new specified value.*
 
 1. Create a method named `hello` that will print `"Sam I am"`.
 

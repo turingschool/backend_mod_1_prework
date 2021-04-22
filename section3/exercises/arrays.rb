@@ -56,7 +56,7 @@ puts foods[0..3]
 # YOU DO: Write code below that uses a method to add "broccoli" to the foods array and
 # print the changed array to verify "broccoli" has been added
 
-foods[4] = "broccoli"
+foods.push("broccoli")
 puts foods[4]
 
 # YOU DO: Write code below that removes the last item of food from the foods array and
@@ -98,4 +98,4 @@ posts = ["image at beach", "holiday party", "adorable puppy", "video of cute bab
 
 # 1: FaceBook.com friends lists
 # 2: Youtube.com Videos that individuals upload
-# 3: Reddit.com posts submitted. 
+# 3: Reddit.com posts submitted.

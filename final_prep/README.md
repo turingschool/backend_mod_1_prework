@@ -31,7 +31,7 @@ In Mod 0 you've learned about different techniques for managing your time at Tur
 - [x] Health + Wellness
 
 When you are finished, add screenshots of your calendar so we can provide feedback if needed!
-_I will update anything I need to when the 2107 Cohort calendar is available._
+- _I will update anything I need to when the 2107 Cohort calendar is available._
 - Week 1 Screenshot
 ![](https://user-images.githubusercontent.com/77412134/115662265-5c612880-a304-11eb-960e-728945fee7fb.png)
 - Week 2 Screenshot

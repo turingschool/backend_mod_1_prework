@@ -3,9 +3,10 @@
 # to the terminal that show the methods in action.
 
 class MyPerson
-  attr_reader :name, :age, :handsome, :smart
+  attr_reader :name, :age
+  attr_accessor :smart, :handsome 
 
-  def initialize(name, age, handsome, smart)
+  def initialize(name, age)
     @name = name
     @age = age
     @handsome = true
@@ -18,6 +19,7 @@ class MyPerson
 
   def is_handsome
     @handsome = true
+    @smart = true
     puts "This guy #{@name} is smart, bald, and handsome!"
   end
 end

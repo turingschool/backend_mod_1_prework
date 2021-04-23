@@ -12,20 +12,37 @@ print_name
 
 # Write a method that takes a name as an argument and prints it:
 def print_name(name)
-  # YOUR CODE HERE
+  puts name
 end
 
 print_name("Albus Dumbledore")
 
-# Write a method that takes in 2 numbers as arguments and prints 
+# Write a method that takes in 2 numbers as arguments and prints
 # their sum. Then call your method three times with different arguments passed in:
-# YOUR CODE HERE
+def add(a, b)
+  puts a + b
+end
 
-# Write a method that takes in two strings as arguments and prints 
-# a concatenation of those two strings. Example: The arguments could be 
-# (man, woman) and the end result might output: "When Harry Met Sally".  
-# Then call your method three times with different arguments passed in. 
+add(100, 20)
 
+num_1 = 50
+num_2 = 200
+add(num_1, num_2)
+
+add(40 + 40, 300-20)
+
+# Write a method that takes in two strings as arguments and prints
+# a concatenation of those two strings. Example: The arguments could be
+# (man, woman) and the end result might output: "When Harry Met Sally".
+# Then call your method three times with different arguments passed in.
+
+def book_title(character_name, magical_object)
+  puts "#{character_name} and the #{magical_object}"
+end
+
+book_title("Harry Potter", "Sorcerer's Stone")
+book_title("Ronald Weasley", "Goblet of Fire")
+book_title("Jamie Pace", "Shape Shifiting Spatula")
 
 #-------------------
 # PART 3: Naming is Hard
@@ -37,5 +54,4 @@ print_name("Albus Dumbledore")
 # Look at the code you wrote for the previous YOU DO🎈 - what did you name the function, and why?
 # What did you name each parameter, and why?
 
-# EXPLAIN:
-
+# EXPLAIN: I named the method book_title because I wanted the output to give us a book title in the form of a string. The first parameter is character_name and the second parameter is magical_object because I had the format of the Harry Potter books in mind. The method then combines the two parameters with 'and the' which then makes it so that it can print the Harry Potter titles or generate new titles that just sound like they could be young adult fantasy books.

@@ -17,14 +17,14 @@ class Burrito
     puts "Here are your new toppings, #{toppings}."
   end
 
-  def remove_topping(bad_topping)
-    self.toppings.delete(bad_topping)
+  def remove_topping(topping)
+    self.toppings.delete(topping)
     puts "Here are your new toppings, #{toppings}."
   end
 
-  def change_protein(substitute_protein)
-    self.protein = substitute_protein
-    puts "We can change that out for something like #{substitute_protein}."
+  def change_protein(new_protein)
+    @protein = new_protein
+    puts "We can change that out for something like #{protein}."
   end
 
 end
@@ -37,7 +37,7 @@ p dinner.toppings
 dinner.add_topping("Habanero Sauce")
 p dinner.toppings
 
-dinner.remove_topping("Salsa")
+dinner.remove_topping("salsa")
 p dinner.toppings
 
 dinner.change_protein("Carne Asada")

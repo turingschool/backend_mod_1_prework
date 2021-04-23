@@ -18,8 +18,7 @@ class Burrito
   end
 
   def remove_topping(unwanted_topping)
-    topping_index = @toppings.index(unwanted_topping)
-    @toppings.slice!(topping_index, 1)
+    @toppings.delete(unwanted_topping)
   end
 
   def change_protein(new_protein)

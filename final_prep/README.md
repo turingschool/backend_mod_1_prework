@@ -44,7 +44,7 @@ Mentorship is an integral part of the Turing experience and will help jumpstart 
   - [x] Add link to your gist here: https://gist.github.com/bdempsey864/ce2baff2b82166b3f5699f07b15421b7
 ### Lesson Prep
 You've learned a lot about how to take strong notes during Mod 0. Show us your skills while you learn how to pre-teach content for your first lesson in Mod 1!
-- [ ] Complete the [Pre Teaching Practice exercise](https://gist.github.com/ericweissman/0036e8fe272c02bd6d4bb14f42fd2f79) gist
+- [x] Complete the [Pre Teaching Practice exercise](https://gist.github.com/ericweissman/0036e8fe272c02bd6d4bb14f42fd2f79) gist
   - [x] Add a link to your gist here: https://gist.github.com/bdempsey864/6243bb22031eacade0992ee1f0440b84
 
 ### Group Work Prep

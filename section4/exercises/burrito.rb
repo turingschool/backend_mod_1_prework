@@ -17,8 +17,8 @@ class Burrito
     puts "I would like to add #{toppings} to my burrito."
   end
 
-  def remove_topping
-    @toppings.delete_at
+  def remove_topping(toppings)
+    @toppings.delete(toppings)
     puts "Plese remove #{toppings} from my burrito."
   end
 
@@ -34,7 +34,7 @@ p dinner.protein
 p dinner.base
 p dinner.toppings
 p dinner.add_topping("queso")
-p dinner.remove_topping(0)
+p dinner.remove_topping("cheese")
 p dinner.change_protein("Chicken")
 p dinner.protein
 p dinner.base

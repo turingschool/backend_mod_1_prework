@@ -3,13 +3,13 @@ Congrats on making it to the Mod 0 Final Prep! Complete the final exercises belo
 
 ### Final Technical Prep
 
-You've learned a ton about some of the core foundations of Javascript! Show us how far you've come by completing the following exercises! You will be using your work from these exercises in your first day of Mod 1! 
+You've learned a ton about some of the core foundations of Javascript! Show us how far you've come by completing the following exercises! You will be using your work from these exercises in your first day of Mod 1!
 
 - [ ] Complete the [Mod Zero Hero Challenge](./mod_zero_hero.rb)
 - [ ] Complete the [Annotation Challenge](./annotations.rb)
 
 ### Refactor Previous Work
-You've learned A LOT over the last few weeks as it relates to technical content - chances are, you probably have some code from your previous exercises that is either sloppy, incorrect, poorly named, etc. Before starting Mod 1, we want you to `refactor` your code - which is the process of adjusting or improving your code for readability and accuracy. 
+You've learned A LOT over the last few weeks as it relates to technical content - chances are, you probably have some code from your previous exercises that is either sloppy, incorrect, poorly named, etc. Before starting Mod 1, we want you to `refactor` your code - which is the process of adjusting or improving your code for readability and accuracy.
 
 Some things to consider as you refactor include...
 - Are my variable names easy to understand/convey the data type they are assigned to?
@@ -32,24 +32,25 @@ In Mod 0 you've learned about different techniques for managing your time at Tur
 
 When you are finished, add screenshots of your calendar so we can provide feedback if needed!
 
-- `Add Week 1 Screenshot Here`
-- `Add Week 2 Screenshot Here`
-- `Add Week 3 Screenshot Here`
+[calendar](/Users/jessicajones/Desktop/W1.png)
+[calendar](Users/jessicajones/Desktop/W2.png)
+[calendar](Users/jessicajones/Desktop/W3.png)
 
 ### Mentorship Prep
 Mentorship is an integral part of the Turing experience and will help jumpstart your technical career. In order to get your mentor relationship started on the right foot, please complete the following deliverables:
 - [ ] Complete the [Mentorship DTR Prep](https://gist.github.com/ericweissman/51965bdcbf42970d43d817818bfaef3c)
-  - [ ] Add link to your gist here: 
+  - [ ] Add link to your gist here:
+  [Mentorship](https://gist.github.com/JeJones21/4a56fe65d9db292c52c4af319fcea9bc)
 
 ### Lesson Prep
 You've learned a lot about how to take strong notes during Mod 0. Show us your skills while you learn how to pre-teach content for your first lesson in Mod 1!
 - [ ] Complete the [Pre Teaching Practice exercise](https://gist.github.com/ericweissman/0036e8fe272c02bd6d4bb14f42fd2f79) gist
-  - [ ] Add a link to your gist here:
+  - [ ] (https://gist.github.com/JeJones21/7e96a545f314eb11f004c782b5bf7068)
 
 ### Group Work Prep
 As part of Turing's project-based learning approach, you will often be working in pairs or larger groups. In order to set yourself (and your team) up for success, it is important to ensure you are prepared to be an equitable contributor and teammate.
 - [ ] Complete the [DTR Guiding Questions](https://gist.github.com/ericweissman/c56f3a98cdce761808c21d498a52f5c6)
-  - [ ] Add a link to your gist here: 
+  - [ ]https://gist.github.com/JeJones21/546af8f2db334404cb7dd73826b1913a
 
 ## All Done? How to Submit your M1 Prework
 When you have completed *all* the activities described above, follow the steps below to submit your technical prework.

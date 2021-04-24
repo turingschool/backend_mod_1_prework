@@ -10,23 +10,36 @@
   # if it is snowy, print "coat"
   # if it is icy, print "yak traks"
 
-  weather = 'sunny'
+weather = 'snowy'
 
-  if weather == 'sunny'
-    p "sunscreen"
-  elsif weather == 'rainy'
-    p "umbrella"
-  elsif weather == 'snowy'
-    p "coat"
-  elsif weather == 'icy'
-    p "yak traks"
-  else
-    p "good to go!"
-  end
+if weather == 'sunny'
+  p "sunscreen"
+elsif weather == 'rainy'
+  p "umbrella"
+elsif weather == 'snowy'
+  p "coat"
+elsif weather == 'icy'
+  p "yak traks"
+else
+  p "good to go!"
+end
 
 # Experiment with manipulating the value held in variable 'weather'
 # to print something other than 'coat'
 
+weather = 'sunny'
+
+if weather == 'sunny'
+  p "sunscreen"
+elsif weather == 'rainy'
+  p "umbrella"
+elsif weather == 'snowy'
+  p "coat"
+elsif weather == 'icy'
+  p "yak traks"
+else
+  p "good to go!"
+end
 
 ##################
 # Using the num_quarters variable defined below, determine

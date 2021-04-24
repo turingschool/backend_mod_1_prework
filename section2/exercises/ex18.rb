@@ -1,4 +1,7 @@
+# Learn Ruby the Hard Way
 # Exercise 18: Names, Variables, Code, Functions
+
+# Example Code
 
 # this one is like your scripts with ARGV
 def print_two(*args)

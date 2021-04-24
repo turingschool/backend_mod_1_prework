@@ -1,4 +1,7 @@
+# Learn Ruby the Hard Way
 # Exercise 21: Functions Can Return Something
+
+# Example Code
 
 def add(a,b)
   puts "ADDING #{a} + #{b}"
@@ -34,7 +37,7 @@ puts "Here is a puzzle."
 what = add(age, subtract(height, multiply(weight, divide(iq, 2))))
 puts "That becomes: #{what}. Can you do it by hand?"
 
-# do the inverse, study question 4
+# Study Drill 4: Do the inverse
 puts "Here is a new puzzle, the inverse of the previous"
 what = divide(iq, multiply(weight, subtract(height, add(age, 2.0))))
 puts "That becomes: #{what}"

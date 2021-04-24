@@ -1,3 +1,8 @@
+# Launch School
+# Methods
+
+# Example Code Work 
+
 puts "hello"
 puts "hi"
 puts "how are you"

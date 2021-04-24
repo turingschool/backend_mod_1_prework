@@ -1,4 +1,8 @@
+# Learn Ruby the Hard Way
 # Exercise 19: Functions and Variables
+
+# Example Code
+# Study Drill 1 included (annotate)
 
 # this is a method with 2 parameters (cheese_count and boxes_of_crackers)
 def cheese_and_crackers(cheese_count, boxes_of_crackers)

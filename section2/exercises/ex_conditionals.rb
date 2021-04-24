@@ -1,4 +1,7 @@
-# Learn Ruby in 100 Minutes - Conditionals
+# Learn Ruby in 100 Minutes
+# Conditionals
+
+# Example code work 
 
 def water_status(minutes)
   if minutes < 7

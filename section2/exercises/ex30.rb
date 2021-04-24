@@ -1,4 +1,10 @@
+# Learn Ruby the Hard Way
 # Exercise 30: Else and If
+
+# Example Code
+# Study Drill 2 included (change initial numbers variables assigned to)
+# Study Drill 3 included (try a more complex boolean expression)
+# Study Drill 4 included (annotate the code)
 
 # Variable declariation
 people = 60
@@ -30,7 +36,7 @@ end
 # If more people than trucks, print line
 if people > trucks
   puts "Alright, let's just take the trucks."
-# If not more people than trucks, print line 
+# If not more people than trucks, print line
 else
   puts "Fine, Let's stay home then."
 end

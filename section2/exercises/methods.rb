@@ -12,20 +12,33 @@ print_name
 
 # Write a method that takes a name as an argument and prints it:
 def print_name(name)
-  # YOUR CODE HERE
+  p name
 end
 
 print_name("Albus Dumbledore")
 
-# Write a method that takes in 2 numbers as arguments and prints 
+# Write a method that takes in 2 numbers as arguments and prints
 # their sum. Then call your method three times with different arguments passed in:
 # YOUR CODE HERE
+def number(num1, num2)
+  p num1 + num2
+end
 
-# Write a method that takes in two strings as arguments and prints 
-# a concatenation of those two strings. Example: The arguments could be 
-# (man, woman) and the end result might output: "When Harry Met Sally".  
-# Then call your method three times with different arguments passed in. 
+number(3, 5)
+number(23, 89)
+number(8909, 2342)
 
+# Write a method that takes in two strings as arguments and prints
+# a concatenation of those two strings. Example: The arguments could be
+# (man, woman) and the end result might output: "When Harry Met Sally".
+# Then call your method three times with different arguments passed in.
+def baseball_team(team_name1, team_name2)
+  p "#{team_name1} will always beat #{team_name2}"
+end
+
+baseball_team('Rockies', 'Braves')
+baseball_team('Dogers', 'Rockies')
+baseball_team('Dogers', 'Astros')
 
 #-------------------
 # PART 3: Naming is Hard
@@ -39,3 +52,4 @@ print_name("Albus Dumbledore")
 
 # EXPLAIN:
 
+# I chose baseball_team as the function because it was more specific than team name but still fairly simple. For the parameter I used team_name1 and team_name2 since they didn't need to be as specific.

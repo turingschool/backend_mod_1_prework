@@ -29,6 +29,11 @@ puts iq
 
 puts "Age: #{age}, Height: #{height}, Weight: #{weight}, IQ: #{iq}"
 
+def cancel_out(number)
+  puts "#{number} minus #{number} is..."
+  return number - number
+end
+
 # A puzzle for the extra credit, type it in anyway.
 puts "Here is a puzzle."
 

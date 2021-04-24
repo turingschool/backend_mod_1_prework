@@ -50,4 +50,4 @@ print_strings("Flim","Flam")
 # What did you name each parameter, and why?
 
 # EXPLAIN:
-puts "I decided to name the functions in the same simple way as 'print_name', because it accurately communicated (with proper terminology) the purpose of the function without taking up too much space. The arguments were abbreviated versions of the data type being passed into the method. I chose this naming heuristic because it saves time and a coder will likely understand the shorthand I am using."
+# Answer: I decided to name the functions in the same simple way as 'print_name', because it accurately communicated (with proper terminology) the purpose of the function without taking up too much space. The arguments were abbreviated versions of the data type being passed into the method. I chose this naming heuristic because it saves time and a coder will likely understand the shorthand I am using.

@@ -13,23 +13,23 @@
 
 3. What is the Ruby syntax for an if statement?
 - Ruby follows the syntax of...
-'''ruby
-if [conditional] [then]
+```rb
+if condition [then]
   [code]
-'''
+```
 
 4. How do you add multiple conditions to an if statement?
 - Use of the `elsif` and `else` operators allows for the addition of conditions to be checked against.
 
 5. Provide an example of the Ruby syntax for an if/elsif/else statement:
-'''ruby
+```rb
 if a > b
   puts "We're gonna need a bigger boat."
 elsif a < b
   puts "We're gonna need a smaller boat."
 else
   puts "This boat is perfect for our present task, but we should really talk about Hollywood's unhealthy depiction of sharks."
-'''
+```
 
 6. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 - Conditional statements are used in math to determine if one statement is equivalent to another. It is possible to print out the truth value of a comparison instead of creating a loop with branches.
@@ -40,16 +40,16 @@ else
 - A method calls a specific function on the current object. `variable.method` would perform a function on the given variable. Methods act as special ways of working with objects in a program.
 
 2. Create a method named `hello` that will print `"Sam I am"`.
-'''ruby
+```rb
 def hello
   puts "Sam I am"
-'''
+```
 
 3. Create a method named `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
-'''ruby
+```rb
 def hello_someone(name)
   puts "#{name} I am"
-'''
+```
 
 4. How would you call or execute the method that you created above?
 - The Ruby syntax necessary to call this method would look like this: `hello_someone(given_name)`. The user would input their name into the parentheses to call the method, and the program would return `"(name) I am"`.

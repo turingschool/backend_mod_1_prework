@@ -1,7 +1,7 @@
 # Learn Ruby the Hard Way
 # Exercise 39: Hashes, Oh Lovely Hashes
 
-# A Hash Example
+# Example Code 
 
 # create a mapping of state to abbreviation
 states = {

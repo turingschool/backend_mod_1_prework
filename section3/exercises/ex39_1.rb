@@ -1,7 +1,7 @@
 # Learn Ruby the Hard Way
 # Exercise 39: Hashes, Oh Lovely Hashes
 
-# Study Drill 1
+# Study Drill 1 and 2 
 
 states = {
   'Colorado' => 'CO',

@@ -41,10 +41,10 @@ p states.keys
 p states.values
 ```
 
-1. What is another example of when we might use a hash?  In your example, why is a hash better than an array?  
+1. What is another example of when we might use a hash?  In your example, why is a hash better than an array?
 
-   
+   A hash can be used anytime you have a list of data that you also want some corresponding information on. You could use a hash to show different information about a sports team {mastcot, win record, salary cap, ect.}. A has is better than an array because you can get more information from it.
 
 1. What questions do you still have about hashes?  
 
-   I don't have any other specific question on hashes at this time.
+   I don't have any other specific question on hashes at this time. It will be good to continue to familiarize myself with hashes and other uses.

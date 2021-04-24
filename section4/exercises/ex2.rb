@@ -1,7 +1,7 @@
 # LaunchSchool
 # Classes and Objects - Part 1
 
-# Exercises
+# Exercises 1 - 3 
 
 class MyCar
   attr_accessor :color

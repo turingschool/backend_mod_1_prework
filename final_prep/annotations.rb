@@ -18,13 +18,13 @@ def build_a_bear(name, age, fur, clothes, special_power)
     'basic_info' => demographics,
     # assign the key clothes the value of the argument clothes
     'clothes' => clothes,
-    # assign the key clothes the value of the argument fur
+    # assign the key exterior the value of the argument fur
     'exterior' => fur,
     # assign the key cost the value of the float 49.99
     'cost' => 49.99,
-    # assign the key clothes the value of an array consisting of the vaiable greeting, the variable power_saying, and a string
+    # assign the key sayings the value of an array consisting of the vaiable greeting, the variable power_saying, and a string
     'sayings' => [greeting, power_saying, "Goodnight my friend!"],
-    # assign the key clothes the value of boolean true
+    # assign the key is_cuddly the value of boolean true
     'is_cuddly' => true,
   }
   # method output the data in the variable built_bear

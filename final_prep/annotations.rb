@@ -17,7 +17,7 @@ def build_a_bear(name, age, fur, clothes, special_power)
   # 'exterior' should point to the fur argument (a string)
   # 'cost' should point to a float, 49.99
   # 'sayings' should point to an array containing greeting, power_saying, and the string "Goodnight my friend!"
-  # 'is cuddly should point to a Boolean, true'
+  # 'is_cuddly' should point to a Boolean, true'
   built_bear = {
     'basic_info' => demographics,
     'clothes' => clothes,

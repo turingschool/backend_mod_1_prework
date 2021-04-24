@@ -2,13 +2,13 @@
 
 1. How different did your workflow feel this week, considering we asked you to follow the Pomodoro technique?
 
-I started on this section yesterday, so it hasn't been a week. That being said, the pomodoro technique went ok for me. I tried it out, and found that I still prefer my usual system, which works well for me. I have worked independently for years, so I have my own systems of taking breaks and having walls of concentration that work better for me. Having the ticking sound stresses me out a bit, and I don't like the rigidness of the system.
+I started on this section yesterday, so it hasn't been a week. That being said, the pomodoro technique went ok for me. I tried it out and found that I still prefer my usual system, which works well for me. I have worked independently for years, so I have my own systems of taking breaks and having walls of concentration that work better for me. Having the ticking sound stresses me out a bit, and I don't like the rigidness of the system.
 
-What I like best about what we read was using it to keep track of how long it is actually taking you to do stuff. I think I could benefit from that, to try to decrease underestimated how long things will actually take me / are taking me.
+What I like best about what we read was using it to keep track of how long it is actually taking you to do stuff. I think I could benefit from that, to try to decrease underestimating how long things will actually take me / are taking me.
 
-2. Regarding the work you did around setting intentions in Step 1 of the Pomodoro technique - how did that go? Were you surprised by anything (did you find yourself way more focused than you realized, more distracted that you thought you'd be, estimating times accurately or totally off, etc)?
+2. Regarding the work you did around setting intentions in Step 1 of the Pomodoro technique - how did that go? Were you surprised by anything (did you find yourself way more focused than you realized, more distracted than you thought you'd be, estimating times accurately or totally off, etc)?
 
-I found it cumbersome, because I prefer to build my walls of work concentration around other elements of my day. Like taking my dog out at a certain time, eating meals, taking a quick break to do a household chore, that type of thing.
+I found it cumbersome because I prefer to build my walls of work concentration around other elements of my day. Like taking my dog out at a certain time, eating meals, taking a quick break to do a household chore, that type of thing.
 
 I have never struggled with concentration or focus. I can be a procrastinator, but I have other techniques that I have developed to combat that – I schedule designated work time and stick to it, I set goals for what I want to complete and when, and I live a very routine driven lifestyle overall.
 
@@ -16,7 +16,7 @@ If I find that in coding, as things become more technical I start to run into is
 
 3. In your own words, what is a Class?
 
-A collection of objects assigned to a variable. A class defines methods and attributes for all objects within.  
+A blueprint for which objects are created. A class defines methods and attributes for all objects within the class.  
 
 4. What is an attribute of a Class?
 
@@ -64,3 +64,5 @@ By calling a `new` method on the class `Name` and storing in a variable.
 `variable = ClassName.new`
 
 8. What questions do you still have about classes in Ruby?
+
+No questions for now, thanks!

@@ -78,4 +78,4 @@ states = {
   'Michigan' => 'MI'
 }
 
-puts "Hashes are unordered, so they cannot be indexed to find elements at specific positions."
+# Study Drill Answer: Hashes are unordered, so they cannot be indexed to find elements at specific positions.

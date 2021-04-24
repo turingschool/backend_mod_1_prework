@@ -31,4 +31,4 @@ end
 # now we can print them out too
 elements.each {|i| puts "Element was #{i}" }
 
-puts "You can call upon several methiods to interact with the elements of arrays. The 'delete_at' method, for example, uses an index position to remove an elemt of an array at the specified index position. 'pop' removes the last element of an array."
+# Study Drill Answer: You can call upon several methiods to interact with the elements of arrays. The 'delete_at' method, for example, uses an index position to remove an elemt of an array at the specified index position. 'pop' removes the last element of an array.

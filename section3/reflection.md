@@ -12,13 +12,13 @@
 - A **hash** is used to store key-value pairs of information in any order, where the keys are unique. An **array** is an ordered collection of information. While an index number can be used to call information out of an array, the key is necessary to call information from a hash.
 
 4. In the space below, create a Hash stored to a variable named `pet_store`.  This hash should hold an inventory of items and the number of that item that you might find at a pet store.
-'''ruby
+```rb
 pet_store = {
   'Food' => 25,
   'Bedding' => 20,
   'Toys' => 50
 }
-'''
+```
 
 5. Given the following `states = {"CO" => "Colorado", "IA" => "Iowa", "OK" => "Oklahoma"}`, how would you access the value `"Iowa"`?
 - The value "Iowa" would be accessed by calling `states["IA"]`.

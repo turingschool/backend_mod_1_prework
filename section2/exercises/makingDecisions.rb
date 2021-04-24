@@ -32,7 +32,7 @@ elsif door == "2"
   insanity = $stdin.gets.chomp
 
   if insanity == "1" || insanity == "2"
-    puts "Your body survives a powered mind of jella. Good job dude."
+    puts "Your body survives a powered mind of jelly. Good job dude."
   else
     puts "The insanity rots your eyes into a pool of much. The struggle is real."
   end

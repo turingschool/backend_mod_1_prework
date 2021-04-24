@@ -1,6 +1,6 @@
 # Strings Excercise
 
-puts "Gucci Mayne Elliot"
+puts "Gucci Mayne"
 
 puts "Welcome to Turing!"
 

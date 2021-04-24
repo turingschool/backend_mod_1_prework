@@ -4,7 +4,7 @@
 name = "ron"
 team = "Chudley Canons"
 
-p "The #{team} are #{name}'s favorite quiddith team"
+p "The #{team} are #{name}'s favorite quiddich team"
 
 speedy = "quick red fox"
 slow_poke = "lazy brown dog"

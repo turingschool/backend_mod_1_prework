@@ -8,7 +8,7 @@ end
   puts "#{2 + 2}"
 end
 
-sally = "She sells seachells by the sea shore"
+sally = "She sells seashells by the sea shore"
 
 10.times do
   puts "#{sally}"

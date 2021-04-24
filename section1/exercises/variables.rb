@@ -19,10 +19,9 @@ p students
 # Write code that subracts 2 from the `students` variable and
 # prints the result:
 puts students - 2
-p students
 
 first_name = "guccimayne"
-is_hungry = "hangry"
+is_hungry = true
 number_of_pets = 20
 
 puts first_name
@@ -33,7 +32,7 @@ puts number_of_pets
 #I chose somethings that would make sense to be a variable for that specific word or set of words
 
 first_name = "jimmy eat world"
-is_hungry = "needs to eat"
+is_hungry = true
 number_of_pets = 3
 
 puts first_name

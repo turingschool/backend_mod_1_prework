@@ -18,3 +18,4 @@ fido = Dog.new('fido', 12, 'Chihuaha')
 puts fido.name
 puts fido.breed
 puts fido.age
+puts fido.wagtail

@@ -43,7 +43,8 @@ p number_of_pets
 
 # IN WORDS:
 # How did you decide to use the data type you did for each of the three variables above?
-p "As first names are typically written in alphabet characters, I chose a string type for the variable. As 'is_hungry' was eirther true or false, I chose a boolean. And as 'number_of_pets' asked for a numbered amount of something, I chose an integer."
+
+# Answer: As first names are typically written in alphabet characters, I chose a string type for the variable. As 'is_hungry' was eirther true or false, I chose a boolean. And as 'number_of_pets' asked for a numbered amount of something, I chose an integer.
 
 # YOU DO:
 # Re-assign the values to the three variables from the previous challenge to different values (but same data type).
@@ -65,3 +66,5 @@ p healthy_snacks + junk_food_snacks
 
 # Did you run this file in your terminal to make sure everything printed out to the terminal
   # as you would expect?
+
+# Answer: Yes. The program ran as expected

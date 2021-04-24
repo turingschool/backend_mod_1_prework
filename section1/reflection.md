@@ -5,13 +5,14 @@
 - The one thing I could do more of is provide myself with more frequent breaks.
 - If I would add anything to this list, I would consider adding the determination of a strong motivator for becoming a better learner. My personal motivation is to become the best version of myself while inspiring others to do the same.
 
-2. How would you print the string `"Hello World!"` to the terminal? '''ruby
+2. How would you print the string `"Hello World!"` to the terminal?
+```rb
 print "Hello World!"
-'''
+```
 OR
-'''ruby
+```rb
 puts "Hello World!"
-'''
+```
 
 3. What character is used to indicate comments in a ruby file?
 - The "#" character is referred to as a hash, octothorpe, or pound character.
@@ -20,25 +21,25 @@ puts "Hello World!"
 - An integer is a whole number, while a float uses decimals for more numeric precision.
 
 5. In the space below, create a variable `animal` that holds the string `"zebra"`
-'''ruby
+```rb
 animal = "zebra"
-'''
+```
 
 6. How would you print the string `"zebra"` using the variable that you created above?
-'''ruby
+```rb
 puts animal
-'''
+```
 
 7. What is interpolation? Use interpolation to print a sentence using the variable `animal`.
 - Interpolation is the process of passing defined variables into strings to act as elements of the string.
 example:
-'''ruby
-"A #{animal} is an interesting animal!"
-'''
+```rb
+"The #{animal} is an interesting animal!"
+```
 
 8. What method is used to get input from a user?
-- The "gets.chomp" method prompts a use for input, which is then used as the value of a variable.
+- The `gets.chomp` method prompts a use for input, which is then used as the value of a variable.
 
 9. Name and describe two common string methods:
-- String concatenation is a common method used to join two or more strings together. This csan be accomplished with a "+" character or using an 'append' method.
-- '.upcase' is a common method that converts string characters into uppercase.
+- String concatenation is a common method used to join two or more strings together. This can be accomplished with a "+" character or using an "append" method.
+- `.upcase` is a common method that converts string characters into uppercase.

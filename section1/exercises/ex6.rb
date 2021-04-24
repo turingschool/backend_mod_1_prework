@@ -9,24 +9,27 @@ do_not = "don't"
 # String interpolation using 'binary' and 'do_not' variables
 y = "Those who know #{binary} and those who #{do_not}."
 
-# Prints lines printing out the strings with added interpolation
+# Prints x variable value
 puts x
+# Prints x variable value
 puts y
 
-# Prints lines using earlier strings with included variable substitutions
+# Prints string with x interpolated in
 puts "I said: #{x}."
+# Prints string with y interpolated in
 puts "I also said: '#{y}'."
 
-# Var 'hilarious' is set to Boolean 'false'
+# 'hilarious' variable set to boolean
 hilarious = false
-# Creates 'joke_evaluation' variable which uses boolean from 'hilarious'
+# 'joke_evaluation' variable set to string value with interpolation
 joke_evaluation = "Isn't that joke so funny?! #{hilarious}"
 
 # Prints joke_evaluation string and "evaluates" joke
 puts joke_evaluation
 
-# Assigns string values to be used in string cooncatenation later
+# Variable set to string value
 w = "This is the left side of..."
+# Variable set to string value
 e = "a string with a right side."
 
 # Concatenates strings using variables

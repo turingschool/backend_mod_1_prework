@@ -1,3 +1,9 @@
+# Learn Ruby the Hard Way
+# Exercise 6: Strings and Text
+
+# Example Code
+# Study Drill 1: annotate program
+
 # Changing from double quotes to single quotes does not work when you use the work "don't"
 
 # Set variable for types of people
@@ -32,7 +38,17 @@ puts joke_evaluation
 # Set w variable to a string
 w = "This is the left side of..."
 # Set e variable to a string
-e = "a string with a right side."
+e = 'a string with a right side.'
 
 # Print w and e variables combined (2 strings)
 puts w + e
+
+# Study Drill 4: Explain why adding the two strings w and e with + makes a
+# longer string.
+
+# It combines the two strings together into one string.
+
+# Study Drill 5: What happens when you change the strings to use ' (single-
+# quote) instead of " (double-quote)? Do they still work? Try to guess why.
+
+# Yes, they still work. You can use either. 

@@ -1,3 +1,8 @@
+# Learn Ruby the Hard Way
+# Exercise 4: Variables and Names
+
+# Example Code, study drill 3 (annotate) included 
+
 # Total cars
 cars = 100
 # Seats per car
@@ -12,7 +17,7 @@ cars_not_driven = cars - drivers
 cars_driven = drivers
 # Calculation for seats available
 carpool_capacity = cars_driven * space_in_a_car
-# Calculation for average number of passenger per car 
+# Calculation for average number of passenger per car
 average_passengers_per_car = passengers / cars_driven
 
 

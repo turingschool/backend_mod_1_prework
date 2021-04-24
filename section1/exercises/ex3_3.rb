@@ -1,3 +1,8 @@
+# Learn Ruby the Hard Way
+# Exercise 3: Numbers and Math
+# Study Drill 3
+
+
 # Find something you need to calculate and write a new .rb file that does it
 
 puts "How many days until we start Mod 0?"

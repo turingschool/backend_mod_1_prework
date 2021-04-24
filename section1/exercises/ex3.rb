@@ -1,3 +1,9 @@
+# Learn Ruby the Hard Way
+# Exercise 3: Numbers and Math
+
+# Example Code with Study Drill 1 and 2 included
+
+
 # Print "I will now count my chickens"
 puts "I will now count my chickens:"
 

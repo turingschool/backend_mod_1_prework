@@ -5,7 +5,7 @@
 
 # Example: Write a method that when called will print your name:
 def print_name
-  p "Severus Snape"
+  "Severus Snape"
 end
 
 print_name

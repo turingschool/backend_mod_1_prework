@@ -10,7 +10,7 @@ p 2 + 2
 p 83 - 7
 
 # Write code that prints the result of 6 multiplied by 53:
-puts 6 * 53
+p 6 * 53
 
 # Write code that prints the result of the modulo of 10 into 54:
 p 54 % 10

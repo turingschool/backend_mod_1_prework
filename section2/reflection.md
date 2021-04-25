@@ -2,13 +2,13 @@
 
 1. Regarding the blog posts in Part A, how do you feel about asking questions? Do you tend to ask them too soon, or wait too long, or somewhere in between?
 
-# I don't usually mind asking questions directly to my instructors but I don't like posting them on slack but it is something that I will have to get over. As long as it contributes to my success, I can make myself do it and not waste time. I have been waiting too long to ask questions but I will change that.
+I don't usually mind asking questions directly to my instructors but I don't like posting them on slack but it is something that I will have to get over. As long as it contributes to my success, I can make myself do it and not waste time. I have been waiting too long to ask questions but I will change that.
 
 ### If Statements
 
 1. What is a conditional statement? Give three examples.
 
-# A conditional statement that is true or false depending on a set of conditions. Examples below.
+A conditional statement that is true or false depending on a set of conditions. Examples below.
 if
 elsif
 else

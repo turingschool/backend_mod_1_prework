@@ -13,6 +13,4 @@ puts "Welcome to Turing!" #YOUR CODE HERE
 puts '99 bottles of pop on the wall...' # YOUR CODE HERE
 
 # Write out code to log one line from your favorite song or movie.
-require "logger"
-logger = Logger.new(STDOUT)
-logger.info("Phones, security systems; you name it, we got it.")
+p "Phones, security systems; you name it, we got it."

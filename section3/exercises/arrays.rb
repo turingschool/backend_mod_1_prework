@@ -23,16 +23,22 @@ print animals[0]
 
 # YOU DO: Write code below that will print the number of elements in array of
 # animals from above.
+puts animals.length
 
 
 # YOU DO: Write code that will reassign the last item in the animals
 # array to "Gorilla"
+animals[-1] = "Gorilla"
+puts animals
 
 
 # YOU DO: Write code that will add a new animal (type of your choice) to position 3.
-
+animals.insert(3, "Sea Otter")
+puts animals
 
 # YOU DO: Write code that will print the String "Elephant" in the animals array
+# Is this supposed to say "Gorilla" since we reassigned "Elephant" earlier?
+puts animals[2]
 
 
 #-------------------
@@ -40,25 +46,34 @@ print animals[0]
 #-------------------
 
 # YOU DO: Declare a variable that will store an an array of at least 4 foods (strings)
-
+foods = ["taco", "burrito", "chips", "cereal"]
 
 # YOU DO: Write code below that will print the number of elements in the array of
 # foods from above.
+puts foods.length
 
 
 # YOU DO: Write code below that uses a method to add "broccoli" to the foods array and
 # print the changed array to verify "broccoli" has been added
-
+foods.push("broccoli")
+puts foods
 
 # YOU DO: Write code below that removes the last item of food from the foods array and
 # print the changed array to verify that item has been removed
+foods.pop()
+puts foods
 
 
-# YOU DO: Write code to add 3 new foods to the array. 
+# YOU DO: Write code to add 3 new foods to the array.
   # There are several ways to do this - choose whichever you'd like!
 # Then, print the changed array to verify the new items have been added
+foods.push("pasta", "pizza", "hamburger")
+puts foods
 
 # YOU DO: Remove the food that is in index position 0.
+foods.delete_at(0)
+puts foods
+
 
 #-------------------
 # PART 3: Where are Arrays used?
@@ -77,11 +92,9 @@ print animals[0]
 posts = ["image at beach", "holiday party", "adorable puppy", "video of cute baby"];
 
 # YOU DO: Think of a web application you commonly use. Where do you see LISTS utilized, where arrays
-# may be storing data? Come up with 3 examples - they could be from different web applications or 
+# may be storing data? Come up with 3 examples - they could be from different web applications or
 # all from the same one.
 
-# 1:
-# 2:
-# 3:
-
-
+# 1: Spotify- Playlists created  by user
+# 2: Spotify- Artist pages with lists of their discography
+# 3: Spotify- Each album has a list of songs

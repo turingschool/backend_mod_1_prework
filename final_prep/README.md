@@ -36,7 +36,11 @@ When you are finished, add screenshots of your calendar so we can provide feedba
 - ![alt text](https://user-images.githubusercontent.com/79548116/116721018-7654d800-a9a2-11eb-8c03-42530d6ce9ae.png "Logo Title Text 1")
 
 - `Add Week 2 Screenshot Here`
+- ![alt text](https://user-images.githubusercontent.com/79548116/116721229-b320cf00-a9a2-11eb-81fe-4de468c9c53c.png "Logo Title Text 1") 
+
 - `Add Week 3 Screenshot Here`
+- ![alt text](https://user-images.githubusercontent.com/79548116/116721421-e6635e00-a9a2-11eb-864e-ecab4a7d1d91.png "Logo Title Text 1")
+
 
 ### Mentorship Prep
 Mentorship is an integral part of the Turing experience and will help jumpstart your technical career. In order to get your mentor relationship started on the right foot, please complete the following deliverables:

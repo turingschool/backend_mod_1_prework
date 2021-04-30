@@ -32,7 +32,7 @@ In Mod 0 you've learned about different techniques for managing your time at Tur
 
 When you are finished, add screenshots of your calendar so we can provide feedback if needed!
 
-![calendar](/Users/jessicajones/Desktop/W1.png)
+![calendar]((<img width="1440" alt="W1" src="https://user-images.githubusercontent.com/80985215/116697733-8a440e00-a991-11eb-8adf-f7189496afa7.png">)
 ![calendar](Users/jessicajones/Desktop/W2.png)
 ![calendar](Users/jessicajones/Desktop/W3.png)
 

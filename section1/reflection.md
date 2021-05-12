@@ -10,7 +10,7 @@
    * `p "Hello World!"`
 
 1. What character is used to indicate comments in a ruby file?
-   * `The hash "#" character.`
+   * The `#` hash character.
 
 1. Explain the difference between an integer and a float?
    * Integers are whole numbers, whereas floats have decimals, floating numbers.

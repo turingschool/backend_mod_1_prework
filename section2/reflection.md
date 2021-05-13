@@ -16,7 +16,7 @@
     * One might use an if-statement to allow the user to pick a response from a list of options and execute a code block depending on what was chosen.
 
 1. What is the Ruby syntax for an if statement?
-```
+```rb
 if condition
   do this
 end
@@ -26,7 +26,7 @@ end
     * One can use double pipes `||` for `OR` or double ampersands `&&` for `AND`
 
 1. Provide an example of the Ruby syntax for an if/elsif/else statement:
-```
+```rb
 if condition
   do this
 elsif another condition
@@ -45,21 +45,23 @@ end
     * So we can come back to the same block without having to rewrite or repeat our code.
 
 1. Create a method named `hello` that will print `"Sam I am"`.
-```
+```rb
 def hello()
   p "Sam I am"
 end
 ```
 
 1. Create a method named `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
-```
+```rb
 def hello_someone(name)
   p "#{name} I am"
 end
 ```
 
 1. How would you call or execute the method that you created above?
-`hello_someone("Khoi")`
+```rb
+hello_someone("Khoi")
+```
 
 1. What questions do you have about methods in Ruby?
     * I don't have any regarding methods in Ruby.

@@ -13,7 +13,7 @@
    * It differs from an Array, which is just a collection of items, in that the items in said collection aren't assigned a value, the item is the value (?)
 
 1. In the space below, create a Hash stored to a variable named `pet_store`.  This hash should hold an inventory of items and the number of that item that you might find at a pet store.
-```
+```rb
 pet_store = {
   cat_food: 600,
   dog_food: 750,
@@ -23,10 +23,12 @@ pet_store = {
 ```
 
 1. Given the following `states = {"CO" => "Colorado", "IA" => "Iowa", "OK" => "Oklahoma"}`, how would you access the value `"Iowa"`?
-`states["IA"]`
+```rb
+states["IA"]
+```
 
 1. With the same hash above, how would we get all the keys?  How about all the values?
-```
+```rb
 states.keys
 states.values
 ```

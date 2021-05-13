@@ -7,7 +7,7 @@
    * I completely missed the mark on how much time and undershot how much I would need to accomplish things. I thought I would be able to takes breaks sooner and more frequently, but I found myself just working through until I felt exhausted. But when I did force myself to get up and __leave my work__ for a bit, I did feel a little more refreshed.
 
 1. In your own words, what is a Class?
-   * A class is like a housing that makes up an objects characteristics and behaviors.
+   * A class is like a housing that makes up an object's characteristics and behaviors.
 
 1. What is an attribute of a Class?
    * An attribute of a Class are its characteristics. These could be arguments used to initialize it.
@@ -16,30 +16,30 @@
    * A behavior of a Class is what the Class can actively do or how it can function.
 
 1. In the space below, create a Dog class with at least 2 attributes and 2 behaviors:
-```rb
-class Dog
-  attr_reader :name, :breed
+  ```rb
+  class Dog
+    attr_reader :name, :breed
 
-  def initialize(name, breed)
-    @name = name
-    @breed = breed
+    def initialize(name, breed)
+      @name = name
+      @breed = breed
+    end
+
+    def fetch
+      p "#{name.capitalize} the #{breed.downcase} chases the ball!"
+    end
+
+    def bark
+      p "WOOF!"
+    end
+
   end
-
-  def fetch
-    p "#{name.capitalize} the #{breed.lower} chases the ball!"
-  end
-
-  def bark
-    p "WOOF!"
-  end
-
-end
-```
+  ```
 
 1. How do you create an instance of a class?
-```rb
-riley = Dog.new("Riley", "Pitbull")
-```
+  ```rb
+  riley = Dog.new("Riley", "Pitbull")
+  ```
 
 1. What questions do you still have about classes in Ruby?
    * When are appropriate times to correctly use `attr_reader`, `attr_writer`, and `attr_accessor`?

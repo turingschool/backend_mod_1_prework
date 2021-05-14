@@ -29,7 +29,7 @@ def build_a_bear(name, age, fur, clothes, special_power)
   }
   # returns the desired bear from the function and its arugments
   return built_bear
-  # end of this code block
+# end of this code block
 end
 
 # call build_a_bear function with provided arugments
@@ -64,7 +64,7 @@ def fizzbuzz(num_1, num_2, range)
     end
   # end of this code block
   end
-  # end of this code block
+# end of this code block
 end
 
 # call fizzbuzz function with provided arguments

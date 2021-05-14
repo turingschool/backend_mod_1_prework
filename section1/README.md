@@ -85,8 +85,28 @@ Don't worry about putting any text or content into these files. For now, create 
 
 Your first command should be:
 
-```bash
-mkdir secretLibraryProject
+```
+/Users/isikapowers  $🍭mkdir secretLibraryProject
+/Users/isikapowers  $🍭cd secretLibraryProject
+/Users/isikapowers/secretLibraryProject  $🍭touch README.md packages.json
+/Users/isikapowers/secretLibraryProject  $🍭ls
+README.md	packages.json
+/Users/isikapowers/secretLibraryProject  $🍭mkdir lib test
+/Users/isikapowers/secretLibraryProject  $🍭ls
+README.md	lib		packages.json	test
+/Users/isikapowers/secretLibraryProject  $🍭cd lib
+/Users/isikapowers/secretLibraryProject/lib  $🍭touch secretLibrary.js secretBook.js secretLibrarian.js patron.js librarySystem.js
+/Users/isikapowers/secretLibraryProject/lib  $🍭ls
+librarySystem.js	secretBook.js		secretLibrary.js
+patron.js		secretLibrarian.js
+/Users/isikapowers/secretLibraryProject/lib  $🍭cd ..
+/Users/isikapowers/secretLibraryProject  $🍭cd test
+/Users/isikapowers/secretLibraryProject/test  $🍭touch secretLibrary.js secretBook.js secretLibrarian.js patron.js librarySystem.js
+/Users/isikapowers/secretLibraryProject/test  $🍭ls
+librarySystem.js	secretBook.js		secretLibrary.js
+patron.js		secretLibrarian.js
+/Users/isikapowers/secretLibraryProject/test  $🍭
+
 ```
 
 Note that in the command provided above, the dashes preceding the directory name were not used in the actual directory name. The dashes are just used as a diagram aide, and is a common pattern you will see in other documentation.
@@ -104,6 +124,39 @@ Note that in the command provided above, the dashes preceding the directory name
 👩‍💻 Use `rm` and `rm -rf` to delete each of the files and directories you created in the `Making Things` section above.
 
 Note that it would be possible to delete the entire directory that you created with just `rm -rf secretLibrary`. **Don't do this!** At this point it's better for you to delete each of the files and directories individually so that you get some practice with these commands, which will help you remember them better in the long run. The goal here (for this particular exercise) isn't to be efficient and creating and deleting files and directories, it's to *get practice* creating and deleting files and directories. Ultimately this practice will allow you to be more efficient in the future.
+
+```
+/Users/isikapowers/secretLibraryProject/test  $🍭ls
+librarySystem.js	secretBook.js		secretLibrary.js
+patron.js		secretLibrarian.js
+/Users/isikapowers/secretLibraryProject/test  $🍭rm secretLibrary.js secretBook.js secretLibrarian.js patron.js librarySystem.js
+
+/Users/isikapowers/secretLibraryProject/test  $🍭ls
+/Users/isikapowers/secretLibraryProject/test  $🍭cd ..
+/Users/isikapowers/secretLibraryProject  $🍭rm -rf test
+/Users/isikapowers/secretLibraryProject  $🍭ls
+README.md	lib		packages.json
+/Users/isikapowers/secretLibraryProject  $🍭cd lib
+/Users/isikapowers/secretLibraryProject/lib  $🍭ls
+librarySystem.js	secretBook.js		secretLibrary.js
+patron.js		secretLibrarian.js
+/Users/isikapowers/secretLibraryProject/lib  $🍭rm secretLibrary.js secretBook.js secretLibrarian.js patron.js librarySystem.js
+
+/Users/isikapowers/secretLibraryProject/lib  $🍭ls
+/Users/isikapowers/secretLibraryProject/lib  $🍭cd ..
+/Users/isikapowers/secretLibraryProject  $🍭rm -rf lib
+/Users/isikapowers/secretLibraryProject  $🍭ls
+README.md	packages.json
+/Users/isikapowers/secretLibraryProject  $🍭cd ..
+/Users/isikapowers  $🍭rm -rf secretLibraryProject 
+/Users/isikapowers  $🍭ls
+Desktop			Music			git_homework
+Documents		Pictures		mod0_student_resources
+Downloads		Public			turing
+Library			cool_project
+Movies			git_and_gh_practice
+/Users/isikapowers  $🍭
+```
 
 ## Part C Ruby Foundations
 

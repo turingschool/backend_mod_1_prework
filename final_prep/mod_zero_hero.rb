@@ -111,7 +111,7 @@ scary_monster = {}
 class SuperHero
   attr_accessors :name, :super_power, :age
   
-  def innitialize(name, super_power, age)
+  def initialize(name, super_power, age)
     @name = name
     @super_power = super_power
     @age = age

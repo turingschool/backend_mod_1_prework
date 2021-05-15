@@ -34,7 +34,23 @@ Here's what we ask you do:
 
 ## Part A Super Learner Habits
 
-Read [this article](https://pubs.ppai.org/pc-today/six-habits-of-super-learners/) about the habits of Super Learners. Reflect on this - what do you already do? Does this make you want to do anything new or different as you beginthis learning journey? Jot down your notes now, and we will ask you to share some reflections with your small group at the end of this section.
+Read [this article](https://pubs.ppai.org/pc-today/six-habits-of-super-learners/) about the habits of Super Learners. Reflect on this - what do you already do? Does this make you want to do anything new or different as you begin this learning journey? Jot down your notes now, and we will ask you to share some reflections with your small group at the end of this section.
+
+1. Read a lot.
+2. View learning as a process.
+3. Adopt a growth mindset.
+4. Teach others.
+5. Take care of their brains.
+6. Short breaks, early and often.
+
+
+What do you already do?
+- I view learning as a process. For example, I'm not going to learn everything I need to know to be a developer. Learning takes time and I know that even after this course I'm going to have to continue to read and research what I need to know to stay up to date but also expand my knowledge. Learning never ends. I also have the "growth mindset" that is mentioned in the article. I set goals that help me continue to work on myself in different ways (health, coding, gaming, whatever).
+
+
+Does this make you want to do anything new or different?
+- Read more and take short breaks often. I've always felt that I don't read enough. Even reading fiction can help expand the mind and create new ideas. Something I want to focus on is reading more about different areas of my life that interest me but especially focus on my new skills that I'm learning. Like I said before, I am always going to be learning. Reading is one of the best ways to learn new information before putting it into practice. I usually prefer video demonstrations but a combination would be super powerful.
+Taking breaks more often is something that I've never focused on before. I always wanted to just power through whatever I'm working on. The "pom breaks" really help to keep me focused and I want to continue using this new technique. I have my phone set to DND, I play some lo-fi hip hop, and I know that I have 25 minutes to get a chunk of work done. It's helped me keep focused since I started this assignment and I plan to continue to utilize it.
 
 ## Part B Terminal
 
@@ -139,7 +155,7 @@ This will open the `section1` directory in Atom. You should be able to see the d
 
 1. Next, you will complete several lessons from the Learn Ruby the Hard Way Tutorial. *For ***each*** lesson* ***follow these directions closely***:
 
-    1. Create a file within your `section1` directory that will contain this lesson's work. Verify that you are within the directory by using terminal command `pwd`. If you are not, `cd` into your `section1` directory. Once you are there, use the `touch` command in your terminal to create a file. For the first lesson, name this file `ex1.rb`. For each subsequent lesson, use `ex2.rb`, `ex3.rb`, so on, so forth. 
+    1. Create a file within your `section1` directory that will contain this lesson's work. Verify that you are within the directory by using terminal command `pwd`. If you are not, `cd` into your `section1` directory. Once you are there, use the `touch` command in your terminal to create a file. For the first lesson, name this file `ex1.rb`. For each subsequent lesson, use `ex2.rb`, `ex3.rb`, so on, so forth.
 
     1. Work through the lesson, **typing** the code into your file, and running it in the terminal with `ruby ex1.rb`, replacing `ex1` with the actual file name of what you'd like to run. Make sure the output you get is similar to what the lesson shows. If you get an error saying "No such file or directory", be sure to verify the directory you are located in via the terminal- running command `ls` should show the file you are trying to run.
 

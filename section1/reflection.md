@@ -31,8 +31,10 @@ p animal
 
 1. What is interpolation? Use interpolation to print a sentence using the variable `animal`.
 
-  Interpolation is a way to embed a variable or any piece of code within a string. With Ruby, you can use #{ } within a string, and anything inside the curly brackets will be evaluated as Ruby code. This is a more efficient method than concatenating strings with the + operator.  
-  `p "My favorite animal with black and white stripes is a #{animal}."`
+   Interpolation is a way to embed a variable or any piece of code within a string. With Ruby, you can use #{ } within a string, and anything inside the curly brackets will be evaluated as Ruby code. This is a more efficient method than concatenating strings with the + operator.  
+  ``` ruby
+  p "My favorite animal with black and white stripes is a #{animal}."
+  ```
 
 1. What method is used to get input from a user?
 

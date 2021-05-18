@@ -12,5 +12,5 @@ puts "Welcome to Turing!"
 # Write code that prints `99 bottles of pop on the wall...` to the terminal:
 puts "99 bottles of pop on the wall..."
 
-puts "And tomorrow's gonna be a brighter day, there's gonna be some changes. Tomorrow's gonna be a brighter day, this time you can believe me.
-"
+# Write out code to log one line from your favorit song or movie.
+puts "And tomorrow's gonna be a brighter day, there's gonna be some changes. Tomorrow's gonna be a brighter day, this time you can believe me."

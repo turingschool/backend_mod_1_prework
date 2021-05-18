@@ -21,11 +21,11 @@ puts dobby_quote
 # Write code that adds 2 to the `students` variable and
 # prints the result:
 students = 22
-puts students + 2
+puts students += 2
 
 # Write code that subracts 2 from the `students` variable and
 # prints the result:
-puts students - 2
+puts students -= 2
 
 
 # YOU DO:
@@ -39,9 +39,9 @@ puts first_name
 puts is_hungry
 puts number_of_pets
 
-# IN WORDS: For name, the result of the variable needed to be a word so I set it as a true. For is_hungry, the variable seemed like a true/false questions so I used a boolean. For number_of_pets, the response needed to be set to a number.
+# IN WORDS: For the variable name, the data needed to be a name so I set it to a string, assigning it my first name, Jamie. For is_hungry, the variable seemed like a true/false question, so I used a boolean and put true. For number_of_pets, the data needed to be an integer (not a float, since you can't have a fraction of a pet), and I assigned it the value 0.
 # How did you decide to use the data type you did for each of the three variables above?
-# Explain.
+# Explain. See above
 
 
 # YOU DO:
@@ -67,4 +67,4 @@ puts healthy_snacks + junk_food_snacks
 #-------------------
 
 # Did you run this file in your terminal to make sure everything printed out to the terminal
-  # as you would expect?
+  # as you would expect? Yes, everything ran without any errors and gave me the output I expected.

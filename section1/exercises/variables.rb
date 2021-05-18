@@ -39,7 +39,7 @@ puts first_name
 puts is_hungry
 puts number_of_pets
 
-# IN WORDS: For the variable name, the data needed to be a name so I set it to a string, assigning it my first name, Jamie. For is_hungry, the variable seemed like a true/false question, so I used a boolean and put true. For number_of_pets, the data needed to be an integer (not a float, since you can't have a fraction of a pet), and I assigned it the value 0.
+# IN WORDS: For the variable first_name, the data needed to be a name so I set it to a string, assigning it my first name, Jamie. For is_hungry, the variable seemed like a true/false question, so I used a boolean and put true. For number_of_pets, the data needed to be an integer (not a float, since you can't have a fraction of a pet), and I assigned it the value 0.
 # How did you decide to use the data type you did for each of the three variables above?
 # Explain. See above
 

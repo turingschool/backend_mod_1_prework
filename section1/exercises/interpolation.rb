@@ -27,7 +27,7 @@ puts "In a predictable result, the #{slow_poke} beat the #{speedy}!"
 
 # YOU DO:
 # Declare three variables, name/content/data type of your choice. Think carefully about what you name the variables. Remember, the goal is to be concise but descriptive (it's a hard balance!) Then, log out ONE sentence that incorporates all THREE variables.
-chosen_one = "Harry"
-red_head = "Ron"
-smartest_one = "Hermione"
-print "After meeting at Hogwarts, #{chosen_one}, #{red_head}, and #{smartest_one} became best friends."
+chosen_one = "Harry Potter"
+best_friends = "Ron and Hermione"
+evil_wizard = "Voldemort"
+print "By destroying all seven horcruxes, #{chosen_one}, along with his friends #{best_friends}, was able to defeat the most evil wizard of all time, #{evil_wizard}."

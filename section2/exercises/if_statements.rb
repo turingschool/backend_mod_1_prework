@@ -27,6 +27,19 @@
 # Experiment with manipulating the value held in variable 'weather'
 # to print something other than 'coat'
 
+weather = "snowy"
+
+if weather == "sunny"
+  puts "sunscreen"
+elsif weather == "rainy"
+  puts "umbrella"
+elsif weather == "snowy"
+  puts "beanie"
+elsif weather == "icy"
+  puts "yak traks"
+else
+  puts "good to go!"
+end
 
 ##################
 # Using the num_quarters variable defined below, determine
@@ -41,7 +54,7 @@
 # Experiment with manipulating the value held within num_quarters
 # to make sure both conditions can be achieved.
 
-num_quarters = 0
+num_quarters = 3
 
 if num_quarters >= 2
   puts "I have enough money for a gumball"
@@ -64,7 +77,7 @@ end
 # Experiment with manipulating the value held within both variables
 # to make sure all above conditions output what you expect.
 
-cups_of_flour = 1
+cups_of_flour = 3
 has_sauce = true
 
 if cups_of_flour >= 2 && has_sauce == true

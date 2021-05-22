@@ -91,7 +91,7 @@ puts posts
 puts posts[0]
 
 
-# The code snippet above shows an Array with 2 elements. Each element in an
+# The code snippet above shows an Array with 2 elements. Each element is an
 # Object Literal. Each of those Object Literals has 4 key-value pairs. This may LOOK
 # a bit daunting - it's OK! You don't need to be 100% comfortable with this, but it's
 # good to have some exposure before going into Mod 1.
@@ -102,20 +102,31 @@ puts posts[0]
 # Then, log the email Array to the console.
 
 emails = [
-  {"sender" => "jamiejpace@gmail.com",
-   "recipient" => "janedoe2@gmail.com",
-   "subject" => "afternoon meeting prep",
-   "date_sent" => "3/21/2020",
-   "time_sent" => "0910",
-   "email_body" => "Please review the attached PDF for our meeting this afternoon."},
+  {
+    "sender" => "jamiejpace@gmail.com",
+    "recipient" => "janedoe2@gmail.com",
+    "subject" => "afternoon meeting prep",
+    "date_sent" => "3/21/2020",
+    "time_sent" => "0910",
+    "email_body" => "Please review the attached PDF for our meeting this afternoon."
+ },
+ {
+   "sender" => "moirarose@gmail.com",
+   "recipient" => "rolandschitt@gmail.com",
+   "subject" => "city council agenda",
+   "date_sent" => "5/18/2019",
+   "time_sent" => "1452",
+   "email_body" => "See attachment for the city council agenda. Please let me know if there is anything you'd like to add."
+ },
+ {
+   "sender" => "leslie.knope@pawnee.org",
+   "recipient" => "perkins_anne@yahoo.com",
+   "subject" => "WAFFLES??!!",
+   "date_sent" => "3/22/2021",
+   "time_sent" => "0530",
+   "email_body" => "Anne, let's get waffles you beautiful, magnificient starfish."
+}]
 
-   {"sender" => "moirarose@gmail.com",
-    "recipient" => "rolandschitt@gmail.com",
-    "subject" => "city council agenda",
-    "date_sent" => "5/18/2019",
-    "time_sent" => "1452",
-    "email_body" => "See attachment for the city council agenda. Please let me know if there is anything you'd like to add."}
-
-]
-
-puts emails 
+puts emails
+puts emails.class
+puts emails[0]["sender"]

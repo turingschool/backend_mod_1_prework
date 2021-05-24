@@ -2,6 +2,8 @@
 
 1. Regarding the blog posts in Part A, how do you feel about asking questions? Do you tend to ask them too soon, or wait too long, or somewhere in between?
 
+I tend to wait too long to ask questions. I'm a librarian, which means I have a lot of research training, so I can usually find the answer to just about anything eventually, but I waste A LOT of time trying to find answers instead of simply asking. I need to work on changing my thinking that I'm "bothering" someone when I ask. I think that using the strategy of timing myself and cutting myself off if I'm searching for more than 20 minutes will be helpful. I also need to get over my fear of posting a question publicly. I'm not shy or quiet in real life but putting a question out on slack (or even facebook) causes me a lot of stress. I guess it's because I don't know who is reading it vs. just asking a few people, but I'm going to have to get used to that feeling.
+
 ### If Statements
 
 1. What is a conditional statement? Give three examples.

@@ -1,6 +1,4 @@
-<img width="1228" alt="Screen Shot 2021-05-25 at 4 20 47 PM" src="https://user-images.githubusercontent.com/81520519/119576352-d0fd0c00-bd75-11eb-8912-14d6c76a3571.png">
-<img width="1193" alt="Screen Shot 2021-05-25 at 4 21 36 PM" src="https://user-images.githubusercontent.com/81520519/119576359-d78b8380-bd75-11eb-94a2-6a8d21b3cf82.png">
-<img width="1252" alt="Screen Shot 2021-05-25 at 4 21 56 PM" src="https://user-images.githubusercontent.com/81520519/119576369-db1f0a80-bd75-11eb-9325-f688a4bcdd8d.png">
+
 # Mod 0 Final Prep
 Congrats on making it to the Mod 0 Final Prep! Complete the final exercises below and be sure to carefully follow the Pull Request steps to submit your work!
 
@@ -35,9 +33,9 @@ In Mod 0 you've learned about different techniques for managing your time at Tur
 
 When you are finished, add screenshots of your calendar so we can provide feedback if needed!
 
-- `Add Week 1 Screenshot Here`
-- `Add Week 2 Screenshot Here`
-- `Add Week 3 Screenshot Here`
+<img width="1228" alt="Screen Shot 2021-05-25 at 4 20 47 PM" src="https://user-images.githubusercontent.com/81520519/119576352-d0fd0c00-bd75-11eb-8912-14d6c76a3571.png">
+<img width="1193" alt="Screen Shot 2021-05-25 at 4 21 36 PM" src="https://user-images.githubusercontent.com/81520519/119576359-d78b8380-bd75-11eb-94a2-6a8d21b3cf82.png">
+<img width="1252" alt="Screen Shot 2021-05-25 at 4 21 56 PM" src="https://user-images.githubusercontent.com/81520519/119576369-db1f0a80-bd75-11eb-9325-f688a4bcdd8d.png">
 
 ### Mentorship Prep
 Mentorship is an integral part of the Turing experience and will help jumpstart your technical career. In order to get your mentor relationship started on the right foot, please complete the following deliverables:

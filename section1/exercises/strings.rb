@@ -5,11 +5,11 @@
 
 # Example: Write code that prints your name to the terminal:
 p "Alan Turing"
-
+puts "Erika Kischuk"
 # Write code that prints `Welcome to Turing!` to the terminal:
-p #YOUR CODE HERE
+p "Welcome to Turing!"
 
 # Write code that prints `99 bottles of pop on the wall...` to the terminal:
-# YOUR CODE HERE
-
+puts "99 bottles of pop on the wall..."
 # Write out code to log one line from your favorite song or movie.
+puts "Life before death. Strength before weakness. Journey before destination." #This is technically from a book, hope that's cool 👍🏻

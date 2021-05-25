@@ -6,6 +6,7 @@
 
 class Burrito
   attr_reader :protein, :base, :toppings
+
   def initialize(protein, base, toppings)
     @protein  = protein
     @base     = base
@@ -13,11 +14,19 @@ class Burrito
   end
 
   def add_topping(new_topping)
-    toppings << new_topping
+    if toppings.include? new_topping
+      puts "Your burrito already has #{new_topping}!"
+    else
+      toppings << new_topping
+    end
   end
 
   def remove_topping(old_topping)
-    toppings.delete(old_topping)
+    if toppings.include? old_topping
+      toppings.delete(old_topping)
+    else
+      puts "There is no #{old_topping} on your burrito."
+    end
   end
 
   def change_protein(new_protein)
@@ -25,16 +34,18 @@ class Burrito
   end
 end
 
-dinner = Burrito.new("Beans", "Rice", ["cheese", "salsa", "guacamole"])
-p dinner.protein
-p dinner.base
-p dinner.toppings
-dinner.add_topping("sour cream")
-p dinner.toppings
-dinner.remove_topping("salsa")
-p dinner.toppings
-dinner.change_protein("chicken")
-p dinner.protein
+bean_burrito = Burrito.new("Beans", "Rice", ["cheese", "salsa", "guacamole"])
+p bean_burrito.protein
+p bean_burrito.base
+p bean_burrito.toppings
+bean_burrito.add_topping("sour cream")
+bean_burrito.add_topping("cheese")
+p bean_burrito.toppings
+bean_burrito.remove_topping("pineapple")
+bean_burrito.remove_topping("salsa")
+p bean_burrito.toppings
+bean_burrito.change_protein("chicken")
+p bean_burrito.protein
 
 carnitas_burrito = Burrito.new("carnitas", "black beans", ["pico", "salsa verde", "sour cream"])
 

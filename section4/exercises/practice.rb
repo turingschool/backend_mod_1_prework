@@ -26,7 +26,7 @@ class Dog
   end
 end
 
-dog1 = Dog.new("Huxley", "Aussie", ["sit", "stay", "lay down"], true)
+dog1 = Dog.new("Huxley", "Aussie", ["sit", "stay", "lay down"], false)
 puts dog1.name
 puts dog1.breed
 puts dog1.tricks

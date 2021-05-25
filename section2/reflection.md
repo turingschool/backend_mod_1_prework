@@ -7,14 +7,36 @@ I tend to wait too long to ask questions. I'm a librarian, which means I have a 
 ### If Statements
 
 1. What is a conditional statement? Give three examples.
+A conditional statement tells the system to perform a command only if a certain conditions are met. For example:
+-If there's a spider in the house, burn the house down.
+-If you have five dogs or less, adopt another dog.
+-If you have a mother, call her.
 
 1. Why might you want to use an if-statement?
 
+
 1. What is the Ruby syntax for an if statement?
+```ruby
+if <one or more conditions>
+  <command>
+else
+  <command>
+end
+```
 
 1. How do you add multiple conditions to an if statement?
+You can add an `elsif` between `if` and `else` and specify another condition. Or you could put several conditions in the same statement like ``if <condition> && <condition>``
 
 1. Provide an example of the Ruby syntax for an if/elsif/else statement:
+```ruby
+if <one or more conditions>
+  <command>
+elsif <one or more conditions>
+  <command>
+else
+  <command>
+end
+```
 
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 

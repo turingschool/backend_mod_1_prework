@@ -1,15 +1,3 @@
-=begin
-+
--
-/
-*
-%
-<
->
-<=
->=
-=end
-
 # Prints the string
 puts "I will now count my chickens:"
 

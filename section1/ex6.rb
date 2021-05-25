@@ -47,10 +47,3 @@ e = 'a string with a right side.'
 
 # prints variables w and e together
 puts w + e
-
-
-
-# yes, I'm sure there are only 4 strings with strings.
-# I know because there are 4 places where variables are strings that are inside other strings.
-# w + e makes a longer string because of the operation +, which adds the two strings together.
-# ' and " both work because they are both used for strings.

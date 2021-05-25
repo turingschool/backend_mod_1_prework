@@ -14,25 +14,31 @@
 
 # EXAMPLE: write code below that will print an array of animals.
 # Store the array in a variable.
-animals = ["Zebra", "Giraffe", "Elephant"];
-print animals
+#animals = ["Zebra", "Giraffe", "Elephant"];
+#print animals
 
 # EXAMPLE: Write code below that will print "Zebra" from the animals array
 # YOUR CODE HERE
-print animals[0]
+#print animals[0]
 
 # YOU DO: Write code below that will print the number of elements in array of
 # animals from above.
+#puts "#{animals.size}"
+
 
 
 # YOU DO: Write code that will reassign the last item in the animals
 # array to "Gorilla"
+#animals.push("Gorilla")
+#print animals
 
 
 # YOU DO: Write code that will add a new animal (type of your choice) to position 3.
-
+#animals.insert(2, 'Hippo')
+#print animals
 
 # YOU DO: Write code that will print the String "Elephant" in the animals array
+#print animals[3]
 
 
 #-------------------
@@ -40,26 +46,35 @@ print animals[0]
 #-------------------
 
 # YOU DO: Declare a variable that will store an an array of at least 4 foods (strings)
-
+favorite_seafood = ['crab', 'shrimp', 'lobster', 'salmon']
 
 # YOU DO: Write code below that will print the number of elements in the array of
 # foods from above.
-
+puts "#{favorite_seafood.size}"
+puts '-' * 10
 
 # YOU DO: Write code below that uses a method to add "broccoli" to the foods array and
 # print the changed array to verify "broccoli" has been added
-
+favorite_seafood.insert(2, 'broccoli')
+puts favorite_seafood
+puts "-" * 10
 
 # YOU DO: Write code below that removes the last item of food from the foods array and
 # print the changed array to verify that item has been removed
+favorite_seafood.pop
+puts favorite_seafood
+puts '-' * 10
 
-
-# YOU DO: Write code to add 3 new foods to the array. 
+# YOU DO: Write code to add 3 new foods to the array.
   # There are several ways to do this - choose whichever you'd like!
 # Then, print the changed array to verify the new items have been added
-
+favorite_seafood.push("scallops", "clams", "oysters")
+puts favorite_seafood
+puts '-' * 10
 # YOU DO: Remove the food that is in index position 0.
-
+favorite_seafood.delete_at(0)
+puts favorite_seafood
+puts '-' * 10
 #-------------------
 # PART 3: Where are Arrays used?
 #-------------------
@@ -77,11 +92,9 @@ print animals[0]
 posts = ["image at beach", "holiday party", "adorable puppy", "video of cute baby"];
 
 # YOU DO: Think of a web application you commonly use. Where do you see LISTS utilized, where arrays
-# may be storing data? Come up with 3 examples - they could be from different web applications or 
+# may be storing data? Come up with 3 examples - they could be from different web applications or
 # all from the same one.
 
-# 1:
-# 2:
-# 3:
-
-
+# 1: https://www.bleedinggreennation.com/fanposts
+# 2: https://weather.com/news/weather/video/bizarre-rain-on-one-side-of-car-dry-on-other
+# 3: https://www.applevacations.com/destinations/mexico#!/

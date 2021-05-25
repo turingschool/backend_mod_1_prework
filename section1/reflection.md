@@ -2,9 +2,7 @@
 
 1. How did the SuperLearner Article resonate with you? What from this list do you already do? Want to start doing or do more of? Is there anything not on this list, that you would add to it?
 
-- The article really made me evaluate how I've treated learning in the past and how I've come to view it in my late 20s.
-
-When I was in grade school, and even in college, learning was just something I had to do to get to the next step. It was how I was going to graduate so I could get to the "real world". It's been years since I've taken a college course and I still have never stopped learning.
+- The article really made me evaluate how I've treated learning in the past and how I've come to view it in my late 20s. When I was in grade school, and even in college, learning was just something I had to do to get to the next step. It was how I was going to graduate so I could get to the "real world". It's been years since I've taken a college course and I still have never stopped learning.
 Now, I view learning as a process and I get excited about learning a new skill. For example, I'm not going to learn everything I need to know to be a developer at Turing. Learning takes time and I know that even after this course I'm going to have to continue to read and research what I need to know to stay up to date, expand my knowledge, and learn new languages. Learning never ends and it excites me that I will continue to learn new things every day of my life as a developer.
 - I also have the "growth mindset" that is mentioned in the article. When I stumble upon something I've never seen before, but I find out I like it, I dive deep into it. I recently decided that I needed to buy a new keyboard. When I went to go look up "best keyboard for programmers and gamers" I found a whole world of keyboards that I've been researching ever since. Having that growth mindset allows me to find new interests and expand upon them.
 

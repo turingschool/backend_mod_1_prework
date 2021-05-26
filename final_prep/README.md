@@ -1,3 +1,4 @@
+
 # Mod 0 Final Prep
 Congrats on making it to the Mod 0 Final Prep! Complete the final exercises below and be sure to carefully follow the Pull Request steps to submit your work!
 
@@ -19,27 +20,27 @@ Some things to consider as you refactor include...
 
 Take your time as you go back and refactor your exercises from each section. We've included a handy checklist for you to go through below.
 
-- [ ] I have refactored my `section1` exercises to the best of my ability
-- [ ] I have refactored my `section2` exercises to the best of my ability
-- [ ] I have refactored my `section3` exercises to the best of my ability
-- [ ] I have refactored my `section4` exercises to the best of my ability
+- [X] I have refactored my `section1` exercises to the best of my ability
+- [X] I have refactored my `section2` exercises to the best of my ability
+- [X] I have refactored my `section3` exercises to the best of my ability
+- [X] I have refactored my `section4` exercises to the best of my ability
 
 ### Time Management Prep
 In Mod 0 you've learned about different techniques for managing your time at Turing. Please create a calendar for your **first 3 weeks of Mod 1**. Feel free to make your calendar fit your style, but we suggest that your calendar should include the following:
-- [ ] Standard M1 class schedule (see M1 calendar [here](https://backend.turing.io/module1/)
-- [ ] Study/Project work time
-- [ ] Health + Wellness
+- [X] Standard M1 class schedule (see M1 calendar [here](https://backend.turing.io/module1/)
+- [X] Study/Project work time
+- [X] Health + Wellness
 
 When you are finished, add screenshots of your calendar so we can provide feedback if needed!
 
-- `Add Week 1 Screenshot Here`
-- `Add Week 2 Screenshot Here`
-- `Add Week 3 Screenshot Here`
+<img width="1228" alt="Screen Shot 2021-05-25 at 4 20 47 PM" src="https://user-images.githubusercontent.com/81520519/119576352-d0fd0c00-bd75-11eb-8912-14d6c76a3571.png">
+<img width="1193" alt="Screen Shot 2021-05-25 at 4 21 36 PM" src="https://user-images.githubusercontent.com/81520519/119576359-d78b8380-bd75-11eb-94a2-6a8d21b3cf82.png">
+<img width="1252" alt="Screen Shot 2021-05-25 at 4 21 56 PM" src="https://user-images.githubusercontent.com/81520519/119576369-db1f0a80-bd75-11eb-9325-f688a4bcdd8d.png">
 
 ### Mentorship Prep
 Mentorship is an integral part of the Turing experience and will help jumpstart your technical career. In order to get your mentor relationship started on the right foot, please complete the following deliverables:
 - [ ] Complete the [Mentorship DTR Prep](https://gist.github.com/ericweissman/51965bdcbf42970d43d817818bfaef3c)
-  - [ ] Add link to your gist here: 
+  - [X] Add link to your gist here: https://gist.github.com/jamiejpace/26f7c0bb49730c74da0fd288f1d06735
 
 ### Lesson Prep
 You've learned a lot about how to take strong notes during Mod 0. Show us your skills while you learn how to pre-teach content for your first lesson in Mod 1!

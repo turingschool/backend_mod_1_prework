@@ -111,7 +111,6 @@ scary_monster = {
 #   - maximize_energy, should update the energy_level to 1000
 #   - gain_power, should take an argument of a number and INCREASE the power_level by that number
 class SuperHero
-
   attr_reader :name, :super_power, :age
 
   @@arch_nemesis = "The Syntax Error"
@@ -137,7 +136,6 @@ class SuperHero
     @@power_level += power
     p "I have #{@@power_level} power."
   end
-
 end
 
 # - Create 2 instances of your SuperHero class

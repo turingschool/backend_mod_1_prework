@@ -27,10 +27,11 @@
 
 1. Why might you want to use an if-statement?
 
-  You may want to use an if-statement to determine if a specific statement should be executed or not.
+   You may want to use an if-statement to determine if a specific statement should be executed or not.
 
 1. What is the Ruby syntax for an if statement?
-You start with if followed by a certain condition. On the second line, you should indent what should happen if the condition is met. To end an if statement, you must type end on its own line.
+
+   You start with if followed by a certain condition. On the second line, you should indent what should happen if the condition is met. To end an if statement, you must type end on its own line.
 
   ```ruby
   if 5 == 5
@@ -40,7 +41,7 @@ You start with if followed by a certain condition. On the second line, you shoul
 
 1. How do you add multiple conditions to an if statement?
 
-  To add multiple conditions to an if statement, you can use && between the two conditions.
+   To add multiple conditions to an if statement, you can use && between the two conditions.
 
 1. Provide an example of the Ruby syntax for an if/elsif/else statement:
 
@@ -57,13 +58,13 @@ You start with if followed by a certain condition. On the second line, you shoul
 
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 
-  There are conditional methods used on certain objects like .include? Also, I was reading something and it seems conditional statements are used in case and unless statements as well.
+   There are conditional methods used on certain objects like .include? Also, I was reading something and it seems conditional statements are used in case and unless statements as well.
 
 ### Methods
 
 1. In your own words, what is the purpose of a method?
 
-  The purpose of a method is to create a process that allows you to do the same thing to multiple different inputs or points of code.
+   The purpose of a method is to create a process that allows you to do the same thing to multiple different inputs or points of code.
 
 1. Create a method named `hello` that will print `"Sam I am"`.
 
@@ -85,7 +86,7 @@ end
 
 1. How would you call or execute the method that you created above?
 
-  To call the method I created above, you can type:
+   To call the method I created above, you can type:
 
   ```ruby
   hello_someone("kevin")
@@ -93,4 +94,4 @@ end
 
 1. What questions do you have about methods in Ruby?
 
-  I don't have any specific questions at the moment, but I definitely need to continue to practice methods. I understand them and felt comfortable with these exercises, but only at a very basic level.
+   I don't have any specific questions at the moment, but I definitely need to continue to practice methods. I understand them and felt comfortable with these exercises, but only at a very basic level.

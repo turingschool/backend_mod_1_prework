@@ -13,4 +13,4 @@ p 83 - 7
 p 6 * 53
 
 # Write code that prints the result of the modulo of 10 into 54:
-10 % 54
+p 10 % 54

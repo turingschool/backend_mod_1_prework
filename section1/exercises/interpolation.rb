@@ -25,10 +25,10 @@ speedy = "hare"
 p "In a predictable result, the #{slow_poke} beath the #{speedy}!"
 
 
-# YOU DO:
+# YOU DO
 # Declare three variables, name/content/data type of your choice. Think carefully about what you name the variables. Remember, the goal is to be concise but descriptive (it's a hard balance!) Then, log out ONE sentence that incorporates all THREE variables.
 game = "World of Warcraft"
-expansion = 8
-place = "The Shadowlands"
+expansion_num = 8
+realm = "The Shadowlands"
 
-p "In the #{expansion}th expansion of #{game}, you travel to #{place} to carry on with lore that I know nothing about."
+p "In the #{expansion_num}th expansion of #{game}, you travel to #{realm} to carry on with lore that I know nothing about."

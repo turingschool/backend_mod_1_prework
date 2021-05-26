@@ -62,4 +62,6 @@ content_creators("Jake", channel_1)
 # What did you name each parameter, and why?
 
 # I named the function 'content_creators' because I wanted to take different channels and creators from youtube to put into the function.
-# I set the parameters as 'name' and 'channel' because the first argument will take their name add ' from ' and then add the second argument 'channel'
+
+# I named the parameters 'name' and 'channel' because when I printed the concatenation I wanted to take the variables or strings containing a person's name and youtube channel
+# and print out their name and what channel they're from.

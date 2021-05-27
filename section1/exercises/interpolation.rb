@@ -31,6 +31,6 @@ p "In a predictable result, the #{slow_poke} beat the #{speedy}!"
 
 team_name = "Patriots"
 sb_wins = 6
-is_the_best = true
+are_the_best = true
 
-p "Are the #{sb_wins}-time Super Bowl winning #{team_name} the greatest NFL team ever? #{is_the_best}!"
+p "Are the #{sb_wins}-time Super Bowl winning #{team_name} the greatest NFL team ever? #{are_the_best}!"

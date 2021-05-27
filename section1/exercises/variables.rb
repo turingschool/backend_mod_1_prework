@@ -15,8 +15,8 @@ p house_elf
 
 # Write code that saves the string 'Harry Potter must not return to Hogwarts!'
 # and prints what that variable holds to the terminal:
-voldemort_says = "Harry Potter must not return to Hogwarts!"
-p voldemort_says
+dobby_warning = "Harry Potter must not return to Hogwarts!"
+p dobby_warning
 
 # Write code that adds 2 to the `students` variable and
 # prints the result:
@@ -34,7 +34,7 @@ p students
 # Declare three variables, named `first_name`, `is_hungry` and `number_of_pets`.
 # Store the appropriate data types in each.
 # print all three variables to the terminal.
-first_name = "Obie"
+first_name = "Henry"
 is_hungry = true
 number_of_pets = 1
 p first_name
@@ -44,10 +44,9 @@ p number_of_pets
 # IN WORDS:
 # How did you decide to use the data type you did for each of the three variables above?
 # Explain.
-# First names should be strings because they are groups of letters that
-# represent a word. There is no other data type in this context that would make sense.
-# is_hungry represents a true or false question, so I thought a boolean data
-# type would be best.
+# First names should be strings because they are groups of characters.
+# There is no other data type in this context that would make sense.
+# is_hungry represents a true or false question, so a boolean data type would be best.
 # For number_of_pets, a number would naturally be the best fit. You could
 # represent the number of pets with a string, but then you would not be able
 # to do any math with the number.
@@ -56,7 +55,7 @@ p number_of_pets
 # YOU DO:
 # Re-assign the values to the three variables from the previous challenge to different values (but same data type).
 # print all three variables to the terminal.
-first_name = "Henry"
+first_name = "George"
 is_hungry = false
 number_of_pets = 4
 p first_name

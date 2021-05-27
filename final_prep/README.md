@@ -33,7 +33,9 @@ In Mod 0 you've learned about different techniques for managing your time at Tur
 When you are finished, add screenshots of your calendar so we can provide feedback if needed!
 
 
-I might try to become a morning person, but I'm definitely more of a "stay up until 4 am" kind of person.
+**I might try to become a morning person, but I'm definitely more of a "stay up until 4 am" kind of person.**
+
+
 
 - ![M1 week 1](https://user-images.githubusercontent.com/83885722/119750525-86f45300-be67-11eb-8db3-3fd6a36c4a9f.png)
 - ![M1_week_2](https://user-images.githubusercontent.com/83885722/119750529-8956ad00-be67-11eb-93dd-cc3146958387.png)

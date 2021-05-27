@@ -4,7 +4,7 @@ class GoodDog
   end
 end
 
-sparky = GoodDog.new            # => "This object wqs initialized!"
+sparky = GoodDog.new            # => "This object was initialized!"
 
 class GoodDog
   attr_accessor :name, :height, :weight

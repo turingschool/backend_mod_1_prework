@@ -20,8 +20,8 @@ class Burrito
     @toppings.delete(topping_to_remove)
   end
 
-  def change_protein(new_protein)
-    @protein = new_protein
+  def change_protein(updated_protein)
+    @protein = updated_protein
   end
 
 end

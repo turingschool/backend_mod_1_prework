@@ -97,5 +97,5 @@ posts = ["image at beach", "holiday party", "adorable puppy", "video of cute bab
 servers = ["Burlesque Wizards", "Heartseeker", "BennyArcane", "Sekaarmy"]
 # 2: youtube
 explore = ["Trending", "Music", "Gaming"]
-# 3: catalyst
+# 3: catalyst 
 all_students = ["AmFr", "ScRi", "JaRo", "RoBa"]

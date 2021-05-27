@@ -14,7 +14,7 @@ class Person
   end
 
   def flirt(girl)
-    p "Nice to meet you, #{girl}. Come here often?"
+    p "Nice to meet you, #{girl}. Come here often? *winks awkwardly*"
   end
 end
 

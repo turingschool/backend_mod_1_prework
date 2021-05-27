@@ -39,6 +39,11 @@ greet_food("Henry","pizza")
 greet_food("Frodo","potatoes")
 greet_food("George","escargot")
 
+# Refactor the above method for final prep
+def greet_food(name,favorite_food)
+  p "Hi, my name is #{name} and my favorite food is #{favorite_food}!"
+end
+
 #-------------------
 # PART 3: Naming is Hard
 #-------------------
@@ -50,10 +55,10 @@ greet_food("George","escargot")
 # What did you name each parameter, and why?
 
 # EXPLAIN:
-# I named the function "greet_food" because the output is a greeting, followed
+# I named the method "greet_food" because the output is a greeting, followed
 # by a favorite food. The user inputs their name for the greeting, and then their
 # favorite food. It is descriptive and concise.
 
 # I named the parameters "name" and "favorite food." These are both self
-# explanatory to the user so they know to enter their name and favorite food.
-# Again, it is descriptive and concise.
+# explanatory to the user so they know to enter their name and favorite food for
+# the arguments. Again, it is descriptive and concise.

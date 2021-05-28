@@ -7,12 +7,12 @@
 # Declare two variables - greeting AND catchphrase
 #   greeting should be assigned to a string that uses interpolation to include the hero_name
 #   catchphrase should be assigned to a string that uses interpolation to include the special_ability
-  `greeting = "Hello #{hero_name}!"`
+  `greeting = "Hello I'm #{hero_name}!"`
   `catchphrase = "#{special_ability} is key to defeat all evil!`
 
 # Declare two variables - power AND energy - set to integers
   `power = 99`
-  `energy = 10000`
+  `energy = 1000`
 
 # Declare two variables - full_power AND full_energy
 #   full_power should multiply your current power by 500
@@ -45,7 +45,8 @@
 # Remove the first sidekick from the sidekicks array
   `side_kicks.shift()`
 
-# Print the sidekicks array to terminal to ensure you added a new sidekick
+# Print the sidekicks array to terminal to ensure you added a new sidekick (Shouldnt this be "to ensure
+# you removed the first sidekick?)
   `p side_kicks`
 
 # Create a function called assess_situation that takes three arguments - danger_level, save_the_day, bad_excuse
@@ -54,7 +55,7 @@
 #   - bad_excuse should be a string a hero would say if they are too afraid of the danger_level
 ```ruby
 def assess_situation(danger_level, save_the_day, bad_excuse)
-  danger_level = <#integer>
+  danger_level = 0
   save_the_day = "Nothing good is born from lies, and greatness is not what you think."
   bad_excuse = "Yes, but I'm going to fight anyway."
 end

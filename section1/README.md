@@ -148,7 +148,11 @@ patron.js		secretLibrarian.js
 /Users/isikapowers/secretLibraryProject  $🍭ls
 README.md	packages.json
 /Users/isikapowers/secretLibraryProject  $🍭cd ..
+<<<<<<< HEAD
 /Users/isikapowers  $🍭rm -rf secretLibraryProject
+=======
+/Users/isikapowers  $🍭rm -rf secretLibraryProject 
+>>>>>>> 0bafd0c2946084d3e9d9e4ca4913e6a86b55c30a
 /Users/isikapowers  $🍭ls
 Desktop			Music			git_homework
 Documents		Pictures		mod0_student_resources

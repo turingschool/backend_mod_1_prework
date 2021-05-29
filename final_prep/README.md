@@ -31,10 +31,16 @@ In Mod 0 you've learned about different techniques for managing your time at Tur
 - [x] Health + Wellness
 
 When you are finished, add screenshots of your calendar so we can provide feedback if needed!
+**Note** This is based on the 2105 BE Calendar as there are no schedules for 2107 just yet.   
 
 - `Add Week 1 Screenshot Here`
+<img width="1228" alt="Screen Shot 2021-05-28 at 3 37 42 PM" src="https://user-images.githubusercontent.com/72399033/120044542-4ca3c680-bfcb-11eb-96fe-35fff12a2448.png">
+
 - `Add Week 2 Screenshot Here`
+<img width="1221" alt="Screen Shot 2021-05-28 at 3 37 54 PM" src="https://user-images.githubusercontent.com/72399033/120044604-693ffe80-bfcb-11eb-9576-e85ea5fda9b0.png">
+
 - `Add Week 3 Screenshot Here`
+<img width="1233" alt="Screen Shot 2021-05-28 at 3 38 07 PM" src="https://user-images.githubusercontent.com/72399033/120044670-8379dc80-bfcb-11eb-8594-ce7945433a31.png">
 
 ### Mentorship Prep
 Mentorship is an integral part of the Turing experience and will help jumpstart your technical career. In order to get your mentor relationship started on the right foot, please complete the following deliverables:

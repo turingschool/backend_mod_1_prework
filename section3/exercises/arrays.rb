@@ -12,24 +12,24 @@
 # EXAMPLE: write code below that will print an array of animals.
 # Store the array in a variable.
 animals = ["Zebra", "Giraffe", "Elephant"]
-puts animals
+p animals
 
 # EXAMPLE: Write code below that will print "Zebra" from the animals array
 # YOUR CODE HERE
-puts animals[0]
+p animals[0]
 
 # YOU DO: Write code below that will print the number of elements in array of
 # animals from above.
-puts animals.length()
+p animals.length()
 
 # YOU DO: Write code that will reassign the last item in the animals
 # array to "Gorilla"
 animals[-1] = "Gorilla"
-puts animals
+p animals
 
 # YOU DO: Write code that will add a new animal (type of your choice) to position 3.
 animals[3] = "Tiger"
-puts animals
+p animals
 
 # YOU DO: Write code that will print the String "Elephant" in the animals array
 # -- Unable to as "Elephant" was the last element in the array, and has been
@@ -44,11 +44,11 @@ foods = ["pizza", "curry", "pasta", "burger"]
 
 # YOU DO: Write code below that will print the number of elements in the array of
 # foods from above.
-puts foods.length()
+p foods.length()
 
 # YOU DO: Write code below that uses a method to add "broccoli" to the foods array and
 # print the changed array to verify "broccoli" has been added
-foods << "broccoli"
+foods.push("broccoli")
 p foods
 
 # YOU DO: Write code below that removes the last item of food from the foods array and

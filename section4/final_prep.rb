@@ -1,3 +1,5 @@
+# Final Prep Runner (to make sure the codes run correctly)
+
 def assess_situation(danger_level, save_the_day, bad_excuse)
   if danger_level > 50
     puts bad_excuse
@@ -27,6 +29,7 @@ assess_situation(3, announcement, excuse) # Should print - "Meh. Hard pass."
 
 puts "----------"
 
+
 scary_monster = {
   "name" => "Vinderloo",
   "smell" => "stinky",
@@ -43,9 +46,8 @@ p scary_monster["luckyNumbers"]
 p scary_monster["address"]
 
 
-
-
 puts "----------"
+
 
 class SuperHero
   attr_accessor :name, :super_power, :age, :energy_level, :power_level
@@ -78,6 +80,11 @@ wonder_woman = SuperHero.new("Wonder Woman", "had to hand combat", 5000, energy_
 p wonder_woman.say_name
 p wonder_woman.maximize_enery
 p wonder_woman.gain_power(50)
+
+# Output:
+# => "Wonder Woman"
+# => 1000
+# => 150
 
 energy_level = 50
 power_level = 100

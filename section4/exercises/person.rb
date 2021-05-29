@@ -25,5 +25,5 @@ mike = Person.new("Mike", "Horrods", 40)
 p mike.first_name
 p mike.last_name
 p mike.age
-print mike.study
-print mike.hobby
+p mike.study
+p mike.hobby

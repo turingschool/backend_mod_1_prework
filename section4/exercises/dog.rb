@@ -30,7 +30,9 @@ p fido.breed
 p fido.name
 p fido.age
 p fido.hungry
+
 fido.eat
 p fido.hungry
+
 fido.play
 p fido.hungry

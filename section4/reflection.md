@@ -56,5 +56,5 @@ p dino.cuddle
    - Based on the above Dog clads, an instance is `dino`.
 
 1. What questions do you still have about classes in Ruby?
-   - There are still some things I do not feel familiar with and the best way
-     for me to get more comfortable with it is to practice more and more.
+   - There are still some things I do not feel entirely familiar with and the best way
+     for me to get more comfortable with it is to practice more.

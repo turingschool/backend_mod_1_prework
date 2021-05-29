@@ -35,3 +35,25 @@ puts GoodDog.ancestors
 puts ''
 puts "---HumanBeing ancestors---"
 puts HumanBeing.ancestors
+
+=begin
+
+Outputs:
+=> Arf!
+=> Hello!
+
+---GoodDog ancestors---
+=> GoodDog
+=> Speak
+=> Object
+=> Kernel
+=> BasicObject
+
+---HumanBeing ancestors---
+=> HumanBeing
+=> Speak
+=> Object
+=> Kernel
+=> BasicObject
+
+=end

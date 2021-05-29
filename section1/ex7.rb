@@ -1,22 +1,17 @@
-#2-3
-puts "Mary had a little lamb."
-puts "Its fleece was white as #{'snow'}"
-puts "And everywhere that Mary went."
-puts "." * 10 # what'd that do? made 10.
+print "How old are you? "
+age = gets.chomp
+print "How tall are you? "
+height = gets.chomp
+print "How much do you weigh? "
+weight = gets.chomp
 
-end1 = "C"
-end2 = "h"
-end3 = "e"
-end4 = "e"
-end5 = "s"
-end6 = "e"
-end7 = "B"
-end8 = "u"
-end9 = "r"
-end10 = "g"
-end11 = "e"
-end12 = "r"
+puts "So, you're #{age} old, #{height} tall and #{weight} heavy." #no oxford comma? wtf author.
 
-# watch that print vs. puts on this line what's it do?
-print end1 + end2 + end3 + end4 + end5 + end6
-puts end7 + end8 + end9 + end10 + end11 + end12
+puts "What's your favorite dog breed?"
+dog = gets.chomp
+print "What's your soul animal?"
+soul = gets.chomp
+print "Why is #{dog} your favorite breed?"
+reason = gets.chomp
+
+puts "So, your favorite dog breed is #{dog}, the reason that is the case is #{reason}, and your soul animal is #{soul}"

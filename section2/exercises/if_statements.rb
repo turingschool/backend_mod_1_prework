@@ -10,8 +10,7 @@
   # if it is snowy, print "coat"
   # if it is icy, print "yak traks"
 
-#  To answer the first question, I changed the weather variable to rainy
-weather = 'rainy'
+weather = 'snowy'
 
 if weather == 'sunny'
   p "sunscreen"
@@ -27,7 +26,19 @@ end
 
 # Experiment with manipulating the value held in variable 'weather'
 # to print something other than 'coat'
+weather = 'rainy'
 
+if weather == 'sunny'
+  p "sunscreen"
+elsif weather == 'rainy'
+  p "umbrella"
+elsif weather == 'snowy'
+  p "coat"
+elsif weather == 'icy'
+  p "yak traks"
+else
+  p "good to go!"
+end
 
 
 ##################

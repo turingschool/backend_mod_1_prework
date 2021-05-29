@@ -49,11 +49,10 @@ fav_activity("bird", "tweeting")
 # Naming is notoriously hard in programming. It is a skill to name a variable or function concisely enough that it is reasonable to type, but descriptive enough that others can infer the meaning.
 
 # Look at the code you wrote for the previous YOU DO🎈 - what did you name the function, and why?
- # I wanted the names to be self-explanatory/defined.
+ # I wanted the names to be self-descriptive/defined.
  # If someone else looks at my codes, I want them to know exactly what they are
  # without wasting time playing a guessing game.
 
 # What did you name each parameter, and why?
  # I named parameters animal and activity
- # Because when they are self-defined/explanatory, when look at them,
- # you know exactly what they mean.
+ # Because when look at them, you and others will know exactly what they mean

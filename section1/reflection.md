@@ -11,7 +11,8 @@
 `#`
 
 4. Explain the difference between an integer and a float?
-integer: whole number       float: number with a decimal
+integer: whole number       
+float: number with a decimal
 
 5. In the space below, create a variable `animal` that holds the string `"zebra"`
 `animal = "zebra"`

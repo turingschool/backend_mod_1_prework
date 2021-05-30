@@ -16,18 +16,21 @@
  * Whenever a decision needs to be made in the code
 
 1. What is the Ruby syntax for an if statement?
- * ```ruby
+
+ ```# If statement syntax
  stock = 10
 
  if stock < 1
  puts "Sorry, we're out of stock!"
  end
  ```
+
 1. How do you add multiple conditions to an if statement?
  * the `else` and `elsif` operators
 
 1. Provide an example of the Ruby syntax for an if/elsif/else statement:
- * ```ruby
+ ```
+
  stock = 10
 
  if stock == 0
@@ -37,6 +40,7 @@
  else
  puts "Invalid entry"
  end
+
  ```
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
  * In my random google roamings, I learned about then `unless` operator, which works opposite the `if`, instead of printing if a statement returns `TRUE`, it prints only on `FALSE` returns...I'm not sure if that answers the question though...

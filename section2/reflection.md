@@ -17,7 +17,7 @@
 
 1. What is the Ruby syntax for an if statement?
 
- ```# If statement syntax
+ ```
  stock = 10
 
  if stock < 1
@@ -30,7 +30,6 @@
 
 1. Provide an example of the Ruby syntax for an if/elsif/else statement:
  ```
-
  stock = 10
 
  if stock == 0
@@ -50,19 +49,19 @@
  * A method is a way of collecting a repeating chunk of code and organizing those functions all under one roof. Instead of having to type out 2 or 3 lines of code over and over again, creating a method for those lines allows one to invoke that method, thus hopefully saving time (and focus)
 
 1. Create a method named `hello` that will print `"Sam I am"`.
- * ```ruby
+```
 def hello()
 puts "Sam I am"
 end
 ```
 
 1. Create a method named `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
-* ```ruby
+```
 def hello_someone(name)
 puts "#{name} I am"
 end
 ```
 1. How would you call or execute the method that you created above?
-`hello_someone(Eric)`
+ * `hello_someone(Eric)`
 1. What questions do you have about methods in Ruby?
-* The ability to create your own tools seems like a really powerful tool to have in the Ruby toolkit, I would love to learn more about that application. A few of the "Learn Ruby the Hardway" exercises seemed to dip some toes into the deep(er) end of the method pool...I'd love to run down that rabbit hole.
+ * The ability to create your own tools seems like a really powerful tool to have in the Ruby toolkit, I would love to learn more about that application. A few of the "Learn Ruby the Hardway" exercises seemed to dip some toes into the deep(er) end of the method pool...I'd love to run down that rabbit hole.

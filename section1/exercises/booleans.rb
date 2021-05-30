@@ -1,7 +1,7 @@
 #-------------------
 # BOOLEANS
 #-------------------
-
+# ruby section1/exercises/booleans.rb
 # EXAMPLE: log to the console the result of 1 is equal to 2:
 p 1 === 2
 

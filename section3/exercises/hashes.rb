@@ -50,7 +50,7 @@ p zoo_animals
 
 email = {
   "to" => "Sarah Carter",
-  "from" => "Ida Olson?,
+  "from" => "Ida Olson",
   "subject" => "Hello",
   "date" => "May 28, 2021",
   "body" => "Hey, Bestie! Miss me?"
@@ -89,27 +89,27 @@ end
 # Frankly, that was a very simplified version of the Array the Instagram developers have
 # written and work with. Still probably slightly simplified as we don't know what their code
 # actually looks like, but it may look more like this:
-#
-#
-# posts = [
-#   {
-#     'image_src' => "./images/beach.png",
-#     'caption' => "At the beach with my besties",
-#     'timestamp' => "4:37 PM August 13, 2019",
-#     'number_likes' => 0,
-#     'comments' => []
-#   },
-#   {
-#     'image_src' => "./images/holiday-party.png",
-#     'caption' => "What a great holiday party omg",
-#     'timestamp' => "11:37 PM December 31, 2019",
-#     'number_likes' => 13,
-#     'comments' => []
-#   }
-# ]
-#
-# puts posts
-# puts posts[0]
+
+
+posts = [
+  {
+    'image_src' => "./images/beach.png",
+    'caption' => "At the beach with my besties",
+    'timestamp' => "4:37 PM August 13, 2019",
+    'number_likes' => 0,
+    'comments' => []
+  },
+  {
+    'image_src' => "./images/holiday-party.png",
+    'caption' => "What a great holiday party omg",
+    'timestamp' => "11:37 PM December 31, 2019",
+    'number_likes' => 13,
+    'comments' => []
+  }
+]
+
+puts posts
+puts posts[0]
 
 
 # The code snippet above shows an Array with 2 elements. Each element in an
@@ -121,3 +121,30 @@ end
 # YOU DO: Create an array of at least 3 EMAIL Object Literals, using the same
 # key-value pairs you used in your email Object above.
 # Then, log the email Array to the console.
+
+emails = [
+  {
+    "to" => "Sarah Carter",
+    "from" => "Ida Olson",
+    "subject" => "Hello",
+    "date" => "May 28, 2021",
+    "body" => "Hey, Bestie! Miss me?"
+  },
+  {
+    "to" => "Ida Olson",
+    "from" => "Brenda McCain",
+    "subject" => "Plane Tix",
+    "date" => "May 11, 2021",
+    "body" => "Check out these BA fairs!"
+  },
+  {
+    "to" => "Ida Olson",
+    "from" => "Sarah Wethern",
+    "subject" => "ACNH",
+    "date" => "May 16, 2021",
+    "body" => "Do you want to come over to my island tonight?"
+  }
+]
+
+puts emails
+puts emails[0]

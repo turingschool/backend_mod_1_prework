@@ -15,13 +15,13 @@
 # EXAMPLE: write code below that will print an array of animals.
 # Store the array in a variable.
 animals = ["Zebra", "Giraffe", "Elephant"];
-print animals
-puts
+p animals
+
 
 # EXAMPLE: Write code below that will print "Zebra" from the animals array
-# YOUR CODE HERE
-print animals[0]
-puts
+
+p animals[0]
+
 
 # YOU DO: Write code below that will print the number of elements in array of
 # animals from above.
@@ -39,7 +39,7 @@ animals[3] = "Pony"
 # Ummm, elephant isn't in the animals array anymore because I reassigned to Gorilla
 # so I'm adding it to the end of the array before printing
 
-animals.push ("Elephant")
+animals.push("Elephant")
 puts animals[-1]
 
 

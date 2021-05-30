@@ -21,20 +21,34 @@ Here's what we ask you do:
 ### Vocabulary Terms
 
 - command
-- directory
-- code comments
-- String
-- Number
-- Boolean
-- variable
-- assignment operator
-- re-assignment (of a variable)
-- interpolation
+- directory: essentially a folder/repository. Vital to understanding file paths
+- code comments: a way to add context directly in a program without disrupting the acutal functioning of the code
+- String: characters within quotations, to include numbers, letters, and special characters and white space, punctuation, etc
+- Number: think...the hard-coded value. While I said a number could be a string, it's one thing to print a number, it's another thing to have a numberical value
+- Boolean: true, false, and, or...
+- variable: a place-holder, or reference to something specific or general
+- assignment operator: =
+- re-assignment (of a variable): depending on run-time processes, a variable can be mutable
+- interpolation: presumably "string interpolation", like:
+
+```ruby
+# an example of string interpolation
+name = "Michael"
+puts "Hello my name is #{name}"
+```
 
 
 ## Part A Super Learner Habits
 
-Read [this article](https://pubs.ppai.org/pc-today/six-habits-of-super-learners/) about the habits of Super Learners. Reflect on this - what do you already do? Does this make you want to do anything new or different as you beginthis learning journey? Jot down your notes now, and we will ask you to share some reflections with your small group at the end of this section.
+Read [this article](https://pubs.ppai.org/pc-today/six-habits-of-super-learners/) about the habits of Super Learners. Reflect on this -
+ - what do you already do?
+ - Does this make you want to do anything new or different as you begin this learning journey?
+
+Jot down your notes now, and we will ask you to share some reflections with your small group at the end of this section.
+
+* I believe I already do items 2 - 6.
+* Reading for pleasure has always been something I enjoy when I do it. I do get into the habit occassionally; However, from time to time life seems to become something that pulls me away from my practice of reading for pleasure. Perhaps I need to reflect more on "how" I live my life and what "things" pull me away from being able to peacefully cultivate this practice of reading for pleasure more often.
+* I believe I'm a good teacher, because I believe I'm a good student; Others occassionally tell me I over-simplify, however, I am a firm believer that if something can't be explained simply, then it is not completely understood.
 
 ## Part B Terminal
 
@@ -46,7 +60,7 @@ You already have had some exposure to the terminal in [Mod 0, Session 2: Termina
 
 Visit the [Turing Terminal](https://learn-terminal.turing.io/) and read through the Learn section as needed. Explore the Playground as needed.
 
-👩‍💻 Complete all three Challenges.
+👩‍💻 Complete all three Challenges. - This has been completed as of 5/30/2021 @ 2:54pm MST
 
 ### Making Things, Navigating
 
@@ -105,6 +119,8 @@ Note that in the command provided above, the dashes preceding the directory name
 
 Note that it would be possible to delete the entire directory that you created with just `rm -rf secretLibrary`. **Don't do this!** At this point it's better for you to delete each of the files and directories individually so that you get some practice with these commands, which will help you remember them better in the long run. The goal here (for this particular exercise) isn't to be efficient and creating and deleting files and directories, it's to *get practice* creating and deleting files and directories. Ultimately this practice will allow you to be more efficient in the future.
 
+This part has been completed as of 5/30/2021
+
 ## Part C Ruby Foundations
 
 In this section, you will begin to learn the basics of Ruby. You will work through several exercises which will help you get comfortable running files and seeing output. You will learn about ways to represent data in Ruby as Strings, Numbers, and Booleans, as well as begin to explore how to capture and work with that data.
@@ -139,7 +155,7 @@ This will open the `section1` directory in Atom. You should be able to see the d
 
 1. Next, you will complete several lessons from the Learn Ruby the Hard Way Tutorial. *For ***each*** lesson* ***follow these directions closely***:
 
-    1. Create a file within your `section1` directory that will contain this lesson's work. Verify that you are within the directory by using terminal command `pwd`. If you are not, `cd` into your `section1` directory. Once you are there, use the `touch` command in your terminal to create a file. For the first lesson, name this file `ex1.rb`. For each subsequent lesson, use `ex2.rb`, `ex3.rb`, so on, so forth. 
+    1. Create a file within your `section1` directory that will contain this lesson's work. Verify that you are within the directory by using terminal command `pwd`. If you are not, `cd` into your `section1` directory. Once you are there, use the `touch` command in your terminal to create a file. For the first lesson, name this file `ex1.rb`. For each subsequent lesson, use `ex2.rb`, `ex3.rb`, so on, so forth.
 
     1. Work through the lesson, **typing** the code into your file, and running it in the terminal with `ruby ex1.rb`, replacing `ex1` with the actual file name of what you'd like to run. Make sure the output you get is similar to what the lesson shows. If you get an error saying "No such file or directory", be sure to verify the directory you are located in via the terminal- running command `ls` should show the file you are trying to run.
 

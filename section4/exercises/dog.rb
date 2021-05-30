@@ -9,7 +9,7 @@ class Dog
     @breed  = breed
     @name   = name
     @age    = age
-    @hungry = true
+    @hungry = false
   end
 
   def bark

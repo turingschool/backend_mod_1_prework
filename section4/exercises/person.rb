@@ -34,3 +34,5 @@ ida = Person.new("Ida", "brown", "gray")
 puts ida.speak
 puts ida.nap
 puts ida.attributes
+sarah = Person.new("Sarah", "blonde", "blue")
+puts sarah.attributes

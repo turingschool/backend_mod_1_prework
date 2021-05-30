@@ -64,7 +64,7 @@ first_speech = "Four score and seven years ago our fathers brought forth upon th
 second_speech = "a new nation, conceived in liberty"
 
 sentence(first_speech, second_speech)
-
+ 
 
 #-------------------
 # PART 3: Naming is Hard

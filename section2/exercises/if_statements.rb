@@ -16,14 +16,14 @@
   if weather == 'sunny'
     p "sunscreen"
   elsif weather == 'rainy'
-   p "umbrella"
+    p "umbrella"
   elsif weather == 'snowy'
-   p "coat"
+    p "coat"
   elsif weather == 'icy'
-   p "yak traks"
+    p "yak traks"
   else
-   p "good to go!"
- end
+    p "Good to go!"
+  end
 
 # Experiment with manipulating the value held in variable 'weather'
 # to print something other than 'coat'

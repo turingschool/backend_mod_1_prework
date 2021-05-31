@@ -15,12 +15,17 @@ carpool_capacity = cars_driven * space_in_a_car
 # same as previous variable
 average_passengers_per_car = passengers / cars_driven
 
-
+# uses string interpolation with the cars variable
 puts "There are #{cars} cars available."
+# uses string interpolation with the drivers variable
 puts "There are only #{drivers} drivers available."
+# uses string interpolation with the cars_not_driven variable
 puts "There will be #{cars_not_driven} empty cars today."
+# string interpolation with carpool_capacity
 puts "We can transport #{carpool_capacity} people today."
+# string interpolation with passengers variable
 puts "We have #{passengers} to carpool today."
+# string interpolation with average_passengers_per_car variable
 puts "We need to put about #{average_passengers_per_car} in each car."
 
 # study drills

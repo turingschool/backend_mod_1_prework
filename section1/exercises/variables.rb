@@ -5,7 +5,7 @@
 
 # Example: Write code that saves your name to a variable and
 # prints what that variable holds to the terminal:
-name = "Harry Potter"
+name = "Ida Olson"
 puts name
 
 # Write code that saves the string 'Dobby' to a variable and
@@ -21,12 +21,12 @@ p warning
 # Write code that adds 2 to the `students` variable and
 # prints the result:
 students = 22
-students = students + 2
+students += 2
 p students
 
 # Write code that subracts 2 from the `students` variable and
 # prints the result:
-students = students - 2
+students -= 2
 p students
 
 

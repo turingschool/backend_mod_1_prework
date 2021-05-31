@@ -139,32 +139,32 @@ This will open the `section1` directory in Atom. You should be able to see the d
 
 1. Next, you will complete several lessons from the Learn Ruby the Hard Way Tutorial. *For ***each*** lesson* ***follow these directions closely***:
 
-    1. Create a file within your `section1` directory that will contain this lesson's work. Verify that you are within the directory by using terminal command `pwd`. If you are not, `cd` into your `section1` directory. Once you are there, use the `touch` command in your terminal to create a file. For the first lesson, name this file `ex1.rb`. For each subsequent lesson, use `ex2.rb`, `ex3.rb`, so on, so forth. 
+    1. Create a file within your `section1` directory that will contain this lesson's work. Verify that you are within the directory by using terminal command `pwd`. If you are not, `cd` into your `section1` directory. Once you are there, use the `touch` command in your terminal to create a file. For the first lesson, name this file `ex1.rb`. For each subsequent lesson, use `ex2.rb`, `ex3.rb`, so on, so forth.
 
-    1. Work through the lesson, **typing** the code into your file, and running it in the terminal with `ruby ex1.rb`, replacing `ex1` with the actual file name of what you'd like to run. Make sure the output you get is similar to what the lesson shows. If you get an error saying "No such file or directory", be sure to verify the directory you are located in via the terminal- running command `ls` should show the file you are trying to run.
+    2. Work through the lesson, **typing** the code into your file, and running it in the terminal with `ruby ex1.rb`, replacing `ex1` with the actual file name of what you'd like to run. Make sure the output you get is similar to what the lesson shows. If you get an error saying "No such file or directory", be sure to verify the directory you are located in via the terminal- running command `ls` should show the file you are trying to run.
 
-    1. Complete the Study Drills listed at the end of the lesson.
+    3. Complete the Study Drills listed at the end of the lesson.
 
-    1. Read the Common Student Questions section.
+    4. Read the Common Student Questions section.
 
-1. Check off the items below as you complete the steps you just read for each lesson. ***Remember to create a file containing your work for each lesson!***
+2. Check off the items below as you complete the steps you just read for each lesson. ***Remember to create a file containing your work for each lesson!***
 
-    - [ ] [A Good First Program](https://learnrubythehardway.org/book/ex1.html)
+    - [x] [A Good First Program](https://learnrubythehardway.org/book/ex1.html)
 
-    - [ ] [Comments in Code](https://learnrubythehardway.org/book/ex2.html)
+    - [x] [Comments in Code](https://learnrubythehardway.org/book/ex2.html)
 
-    - [ ] [Numbers and Math](https://learnrubythehardway.org/book/ex3.html)
+    - [x] [Numbers and Math](https://learnrubythehardway.org/book/ex3.html)
 
-    - [ ] [Variables and Names](https://learnrubythehardway.org/book/ex4.html)
+    - [x] [Variables and Names](https://learnrubythehardway.org/book/ex4.html)
 
-    - [ ] [Strings](https://learnrubythehardway.org/book/ex5.html)
+    - [x] [Strings](https://learnrubythehardway.org/book/ex5.html)
 
-    - [ ] [More Strings](https://learnrubythehardway.org/book/ex6.html)
+    - [x] [More Strings](https://learnrubythehardway.org/book/ex6.html)
 
-    - [ ] [Asking for Input](https://learnrubythehardway.org/book/ex11.html)
+    - [x] [Asking for Input](https://learnrubythehardway.org/book/ex11.html)
 
 
-1. Work through the [Strings](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#3.-strings) and [Numbers](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#5.-numbers) sections from Ruby in 100 Minutes. For each of these sections, open an `irb` session by typing `irb` into your terminal and type in the code snippets provided.
+3. Work through the [Strings](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#3.-strings) and [Numbers](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#5.-numbers) sections from Ruby in 100 Minutes. For each of these sections, open an `irb` session by typing `irb` into your terminal and type in the code snippets provided.
 
 ## Exercises
 - Each section contains an exercises directory containing files where you will practice writing code.
@@ -172,11 +172,11 @@ This will open the `section1` directory in Atom. You should be able to see the d
 Work through the files in the section1/exercises directory.  Complete them in this order:
 
 1. strings   
-1. numbers
-1. booleans   
-1. variables   
-1. interpolation
-1. loops
+2. numbers
+3. booleans   
+4. variables   
+5. interpolation
+6. loops
 
 ## Questions
 - Each day contains a reflections.md file where you will answer questions about what you have learned.

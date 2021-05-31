@@ -37,7 +37,7 @@ name = "Michael"
 puts "Hello my name is #{name}"
 ```
 
-
+·
 ## Part A Super Learner Habits
 
 Read [this article](https://pubs.ppai.org/pc-today/six-habits-of-super-learners/) about the habits of Super Learners. Reflect on this -
@@ -45,10 +45,6 @@ Read [this article](https://pubs.ppai.org/pc-today/six-habits-of-super-learners/
  - Does this make you want to do anything new or different as you begin this learning journey?
 
 Jot down your notes now, and we will ask you to share some reflections with your small group at the end of this section.
-
-* I believe I already do items 2 - 6.
-* Reading for pleasure has always been something I enjoy when I do it. I do get into the habit occassionally; However, from time to time life seems to become something that pulls me away from my practice of reading for pleasure. Perhaps I need to reflect more on "how" I live my life and what "things" pull me away from being able to peacefully cultivate this practice of reading for pleasure more often.
-* I believe I'm a good teacher, because I believe I'm a good student; Others occassionally tell me I over-simplify, however, I am a firm believer that if something can't be explained simply, then it is not completely understood.
 
 ## Part B Terminal
 

@@ -12,21 +12,32 @@ print_name
 
 # Write a method that takes a name as an argument and prints it:
 def print_name(name)
-  # YOUR CODE HERE
+  puts name
 end
 
 print_name("Albus Dumbledore")
 
-# Write a method that takes in 2 numbers as arguments and prints 
+# Write a method that takes in 2 numbers as arguments and prints
 # their sum. Then call your method three times with different arguments passed in:
 # YOUR CODE HERE
+def add(a,b)
+  return a + b
+end
+sum = add(1,2)
+sum2 = add(54,8)
+sum3= add(76,94)
+puts sum
+puts sum2
+puts sum3
+# Write a method that takes in two strings as arguments and prints
+# a concatenation of those two strings. Example: The arguments could be
+# (man, woman) and the end result might output: "When Harry Met Sally".
+# Then call your method three times with different arguments passed in.
+ def drinks(coffee, tea)
+   puts "we have #{coffee} for coffees, and #{tea} for teas"
+ end
 
-# Write a method that takes in two strings as arguments and prints 
-# a concatenation of those two strings. Example: The arguments could be 
-# (man, woman) and the end result might output: "When Harry Met Sally".  
-# Then call your method three times with different arguments passed in. 
-
-
+ drinks("Latte", "Earl Grey")
 #-------------------
 # PART 3: Naming is Hard
 #-------------------
@@ -36,6 +47,7 @@ print_name("Albus Dumbledore")
 
 # Look at the code you wrote for the previous YOU DO🎈 - what did you name the function, and why?
 # What did you name each parameter, and why?
-
-# EXPLAIN:
-
+#i named one coffee and one tea so that i could keep track of the coffee and tea options i was inputing into the function to run since the function was concatining two beverage options.
+# EXPLAIN: for the function where we are concatinating things I knew i wanted to talk about beverages so I named the function "drinks" to put that point accross, I know I wanted my sentence to
+#inlcude a coffee and tea so I choose to name the parameters as coffee and tea so I could input an appropriate optoin for both and it would be clear what the beverage criteria was for the function
+#and it's parameters.

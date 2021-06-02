@@ -1,6 +1,8 @@
 ## Section 2 Reflection
 
 1. Regarding the blog posts in Part A, how do you feel about asking questions? Do you tend to ask them too soon, or wait too long, or somewhere in between?
+For me, it depends on the question.  In the section1 exercises, I was unsure of how to move my git commits to GitHub.  We had not yet learned that so I was fairly certain that other's might have the same question.  I posted it to slack and someone helped me.  I think it helped others as well.
+However, I am more hesitant to ask if I think I am the only one with the question.  If I feel it is something I should know and everyone else knows, I am hesitant to ask.
 
 ### If Statements
 

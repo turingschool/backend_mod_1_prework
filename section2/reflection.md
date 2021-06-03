@@ -5,25 +5,84 @@
 ### If Statements
 
 1. What is a conditional statement? Give three examples.
+an `if_statement` is a conditional statement.
+```
+if weather == "cold"
+  puts "wear a coat"
+else weather == "hot"
+  puts "leave your coat at home"
+end
+```
+```
+if dogs > cats
+  puts "we have more dogs than cats"
+else cats > dogs
+  puts "we have more cats than dogs"
+end  
+```
 
 1. Why might you want to use an if-statement?
-
+an if statement tells ruby line by line what to execute.  
+if the first statement is true, it will print the puts statement.
+if statement is false, it will move to the next statement.
+it will go through each statement until it finds one that is true.  
+if none of the statements are true, it will print nothing.
 1. What is the Ruby syntax for an if statement?
-
-1. How do you add multiple conditions to an if statement?
+```
+if
+  puts ""
+else
+  puts ""
+end
+```
+1. How do you add multiple conditions to an if statement? `elsif`
 
 1. Provide an example of the Ruby syntax for an if/elsif/else statement:
+```
+if
+  puts ""
+elsif
+  puts ""
+elsif
+  puts ""
+elsif
+  puts ""
+else
+  puts ""
+end
+```
 
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 
 ### Methods
 
 1. In your own words, what is the purpose of a method?
-
+The purpose of a method is to have a chunck of code that can be called on over and over and over but with different parameters.
 1. Create a method named `hello` that will print `"Sam I am"`.
+```
+def hello
+  puts "Sam I am"
+end
+
+hello #this is where/how I call the method
+```
+
 
 1. Create a method named `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
+```
+def hello_someone(name)
+  puts "#{name} I am."
+end
+
+hello_someone("Stephanie") #this is where I call the method
+```
+
+
 
 1. How would you call or execute the method that you created above?
-
+I call the method by typing the method name.
+I labeled it with `#`
+The first example the call is `hello`
+The second example the call is `hello_someone`
 1. What questions do you have about methods in Ruby?
+I need time and practice with methods!!!!!!

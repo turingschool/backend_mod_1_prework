@@ -86,6 +86,6 @@ hello_someone("Stephanie") #this is where I call the method
 I call the method by typing the method name.
 I labeled it with `#` 
 The first example the call is `hello`
-The second example the call is `hello_someone'
+The second example the call is `hello_someone`
 1. What questions do you have about methods in Ruby?
 I need time and practice with methods!!!!!!

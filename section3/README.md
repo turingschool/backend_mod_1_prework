@@ -28,6 +28,8 @@ Read/watch one or both of the following:
 
 Then, consider on the following questions. We will ask you to share some of these responses at the end of this section.
 - What are two points from the article or video that either resonated with you, or were brand new to you?
+* gg
+* gg
 - In which ways do you currently demonstrate a Growth Mindset? In which ways do you _not_?
 - What is something you are good at or knowledgeable at now, that you once weren't? How did you get those skills/knowledge? Was it hard at some point?
 

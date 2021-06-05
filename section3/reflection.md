@@ -30,8 +30,6 @@ example: a great example of a hash is a name: phone number list.  Every name goe
   chips: 0.5
 }
 
-menu[:sandwich] = 8.99
-p menu
 
 menu.store(:sushi, 24.99)
 p menu

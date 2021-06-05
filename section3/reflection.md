@@ -3,7 +3,7 @@
 1. What are two points from the Growth Mindset article and/or video that either resonated with you, or were brand new to you?
 Grit, focus and self-reflection are the only route for how to improve in coding.
 1. In which ways do you currently demonstrate a Growth Mindset? In which ways do you _not_?
-Developing a framework for my goals
+Developing a framework for my goals and tracking my own progress rather than others.
 1. What is a Hash, and how is it different from an Array?
 A hash is an assosiative list whereas array is a list
 1. In the space below, create a Hash stored to a variable named `pet_store`.  This hash should hold an inventory of items and the number of that item that you might find at a pet store.

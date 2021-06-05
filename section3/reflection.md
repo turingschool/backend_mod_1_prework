@@ -20,6 +20,21 @@ pet_store = {dog_beds: 7, aquariums: 3, litter_boxes: 2, dog_bones: 15, cat_toys
 1. With the same hash above, how would we get all the keys?  How about all the values?
 `puts states.keys`      `puts states.values`
 1. What is another example of when we might use a hash?  In your example, why is a hash better than an array?
-example: a great example of a hash is a name: phone number list.  Every name goes with that person's phone number.  Other wise, if we used an array, we would no know who's phone number is who's.
+example: a great example of a hash is a name: phone number list.  Every name goes with that person's phone number.  Other wise, if we used an array, we would not know who's phone number is who's.
 1. What questions do you still have about hashes?
-   I have so many questions about hashes.  This has been the hardest section so far.
+   I have so many questions about hashes.  This has been the hardest section so far.  But I keep practicing! I just learned how to add to/modify a hash.
+   ```
+   menu = {
+  burger: 3.99,
+  taco: 5.96,
+  chips: 0.5
+}
+
+menu[:sandwich] = 8.99
+p menu
+
+menu.store(:sushi, 24.99)
+p menu
+menu.store(:steak, 34.99)
+p menu
+```

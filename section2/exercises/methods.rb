@@ -46,6 +46,7 @@ puts sum3
 # Naming is notoriously hard in programming. It is a skill to name a variable or function concisely enough that it is reasonable to type, but descriptive enough that others can infer the meaning.
 
 # Look at the code you wrote for the previous YOU DO🎈 - what did you name the function, and why?
+#I named the function drinks becuase we are using the function to define different drinks that can be had.
 # What did you name each parameter, and why?
 #i named one coffee and one tea so that i could keep track of the coffee and tea options i was inputing into the function to run since the function was concatining two beverage options.
 # EXPLAIN: for the function where we are concatinating things I knew i wanted to talk about beverages so I named the function "drinks" to put that point accross, I know I wanted my sentence to

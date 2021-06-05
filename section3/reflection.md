@@ -17,6 +17,8 @@ pet_store = {dog_beds: 7, aquariums: 3, litter_boxes: 2, dog_bones: 15, cat_toys
 
 1. Given the following `states = {"CO" => "Colorado", "IA" => "Iowa", "OK" => "Oklahoma"}`, how would you access the value `"Iowa"`?
 
+`puts states["IA"]`
+
 1. With the same hash above, how would we get all the keys?  How about all the values?
 `puts states.keys`      `puts states.values`
 1. What is another example of when we might use a hash?  In your example, why is a hash better than an array?

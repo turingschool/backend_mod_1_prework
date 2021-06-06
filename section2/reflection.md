@@ -2,11 +2,11 @@
 
 1. Regarding the blog posts in Part A, how do you feel about asking questions?
 
-> I have an uphill battle regarding being vulnerable through asking questions. I've been learning on my own for so long I'm concerned I'll struggle integrating well in a supervised role. I believe this stems form not having any person I could trust to ask questions of and having to learn through brute force and the miasma of the internet. Now that there is and will continue to be a team around me, I'm maybe too eager to ask/answer questions. I'm curious: how have other "autodidactic" people transitioned into a team environment?
+> I have an uphill battle regarding being vulnerable through asking questions. I've been learning on my own for so long I'm concerned I'll struggle integrating well in a supervised role. I believe this stems from not having any person I could trust to ask questions of and having to learn through brute force and the miasma of the internet. Now that there is and will continue to be a team around me, I'm maybe too eager to ask/answer questions. I'm curious: how have other "autodidactic" people transitioned into a team environment?
 
 2. Do you tend to ask them too soon, or wait too long, or somewhere in between?
 
->Hmmm, in a professional setting I think I ask questions too soon or too long. However, when it comes to my experience with coding, I feel I've developed a great spidey sense for finding my own answers. In my current professional position there isn't any incentive to learn on your own because an objective fact can be refuted based on the organization's risk tolerance (or lack thereof), so it's better to simply ask that person right in front of you. But when it comes to solving a coding problem, I'm much more comfortable with my ability to understand my own question, and when and how to ask it.  
+>Hmmm, in a professional setting I think I ask questions too soon or wait  too long; though that could just be conditioning from being around uninterested/uneducated, jaded co-workers. However, when it comes to my experience with coding, I feel I've developed a great spidey sense for finding my own answers. In my current professional position there isn't any incentive to learn on your own because an objective fact can be refuted based on the organization's risk tolerance (or lack thereof), so it's better to simply ask that person right in front of you. But when it comes to solving a coding problem, I'm much more comfortable with my ability to understand my own question, and when and how to ask it.  
 
 ### If Statements
 
@@ -33,8 +33,6 @@ end
 1. Provide an example of the Ruby syntax for an if/elsif/else statement:
 
 ```Ruby
-fav_number = gets.chomp
-
 if fav_number == 7
   p "my favorite number is 7"
 elsif fav_number < 7

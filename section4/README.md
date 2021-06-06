@@ -47,6 +47,7 @@ You've probably heard of the Pomodoro Technique in Mod 0 classes (and elsewhere,
   - bonus: completed Part B, item 1, subsection c
   - bonus: completed Part B, item 1, subsection d
   - bonus: completed Part B, item 2
+- Complete Part B, item 3
 
 
 

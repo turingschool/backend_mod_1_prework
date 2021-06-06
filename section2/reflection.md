@@ -80,4 +80,4 @@ hello_someone("Michael")
 
 1. What questions do you have about methods in Ruby?
 
-> Why is the convention to continue to define / invoke methods with parameters using parenthesis, when parenthesis are not required?
+> What is seen more often in the wild: methods built with or without parentheses denoting no arguments? 

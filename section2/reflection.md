@@ -1,13 +1,16 @@
 ## Section 2 Reflection
 
 1. Regarding the blog posts in Part A, how do you feel about asking questions? Do you tend to ask them too soon, or wait too long, or somewhere in between?
+
 For me, it depends on the question.  In the section1 exercises, I was unsure of how to move my git commits to GitHub.  We had not yet learned that so I was fairly certain that other's might have the same question.  I posted it to slack and someone helped me.  I think it helped others as well.
 However, I am more hesitant to ask if I think I am the only one with the question.  If I feel it is something I should know and everyone else knows, I am hesitant to ask.
 
 ### If Statements
 
 1. What is a conditional statement? Give three examples.
+
 an `if_statement` is a conditional statement.
+
 ```
 if weather == "cold"
   puts "wear a coat"
@@ -22,20 +25,15 @@ else cats > dogs
   puts "we have more cats than dogs"
 end  
 ```
-<<<<<<< HEAD
 
-=======
->>>>>>> d4c21b6219f938cdfc6f2f8cc8da8ea6aa6dfbff
 1. Why might you want to use an if-statement?
 an if statement tells ruby line by line what to execute.  
 if the first statement is true, it will print the puts statement.
 if statement is false, it will move to the next statement.
 it will go through each statement until it finds one that is true.  
 if none of the statements are true, it will print nothing.
-<<<<<<< HEAD
-=======
 
->>>>>>> d4c21b6219f938cdfc6f2f8cc8da8ea6aa6dfbff
+
 1. What is the Ruby syntax for an if statement?
 ```
 if
@@ -60,10 +58,7 @@ else
   puts ""
 end
 ```
-<<<<<<< HEAD
-=======
 
->>>>>>> d4c21b6219f938cdfc6f2f8cc8da8ea6aa6dfbff
 
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 
@@ -71,15 +66,12 @@ end
 
 1. In your own words, what is the purpose of a method?
 The purpose of a method is to have a chunck of code that can be called on over and over and over but with different parameters.
+
 1. Create a method named `hello` that will print `"Sam I am"`.
 ```
 def hello
   puts "Sam I am"
-<<<<<<< HEAD
 end
-=======
-end 
->>>>>>> d4c21b6219f938cdfc6f2f8cc8da8ea6aa6dfbff
 
 hello #this is where/how I call the method
 ```
@@ -98,12 +90,11 @@ hello_someone("Stephanie") #this is where I call the method
 
 1. How would you call or execute the method that you created above?
 I call the method by typing the method name.
-<<<<<<< HEAD
-I labeled it with `#`
-=======
-I labeled it with `#` 
->>>>>>> d4c21b6219f938cdfc6f2f8cc8da8ea6aa6dfbff
+
+I labeled the call with `#`
 The first example the call is `hello`
 The second example the call is `hello_someone`
+
+
 1. What questions do you have about methods in Ruby?
 I need time and practice with methods!!!!!!

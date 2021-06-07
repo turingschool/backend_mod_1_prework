@@ -11,7 +11,7 @@
 
 1. In the space below, create a Hash stored to a variable named `pet_store`.  This hash should hold an inventory of items and the number of that item that you might find at a pet store.
 
-```
+```rb
 pet_store = {dog_beds: 7, aquariums: 3, litter_boxes: 2, dog_bones: 15, cat_toys: 18}
 ```
 

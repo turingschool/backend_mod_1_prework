@@ -11,14 +11,14 @@ However, I am more hesitant to ask if I think I am the only one with the questio
 
 an `if_statement` is a conditional statement.
 
-```
+```rb
 if weather == "cold"
   puts "wear a coat"
 else weather == "hot"
   puts "leave your coat at home"
 end
 ```
-```
+```rb
 if dogs > cats
   puts "we have more dogs than cats"
 else cats > dogs
@@ -35,7 +35,7 @@ if none of the statements are true, it will print nothing.
 
 
 1. What is the Ruby syntax for an if statement?
-```
+```rb
 if
   puts ""
 else
@@ -45,7 +45,7 @@ end
 1. How do you add multiple conditions to an if statement? `elsif`
 
 1. Provide an example of the Ruby syntax for an if/elsif/else statement:
-```
+```rb
 if
   puts ""
 elsif
@@ -68,7 +68,7 @@ end
 The purpose of a method is to have a chunck of code that can be called on over and over and over but with different parameters.
 
 1. Create a method named `hello` that will print `"Sam I am"`.
-```
+```rb
 def hello
   puts "Sam I am"
 end
@@ -78,7 +78,7 @@ hello #this is where/how I call the method
 
 
 1. Create a method named `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
-```
+```rb
 def hello_someone(name)
   puts "#{name} I am."
 end

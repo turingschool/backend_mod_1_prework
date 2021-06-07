@@ -35,8 +35,8 @@ puts "Florida has: #{cities[states['Florida']]}"
 
 # puts every state abbreviation
 puts '-' * 10
-states each do |state, abbrev|
-  puts "#{state} is abbreviated to #{abbrev}"
+states each do |states, abbrev|
+  puts "#{states} is abbreviated to #{abbrev}"
 end
 
 # puts every city in state
@@ -49,7 +49,7 @@ end
 puts '-' * 10
 states.each do |states, abbrev|
   city = cities[abbrev]
-  puts "#{state} is abbreviated #{abbrev} and has city #{city}"
+  puts "#{states} is abbreviated #{abbrev} and has city #{city}"
 end
 
 puts '-' * 10

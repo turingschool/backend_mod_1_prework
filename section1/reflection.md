@@ -22,7 +22,7 @@ float: number with a decimal
 
 7. What is interpolation? Use interpolation to print a sentence using the variable `animal`.
 interpolation allows us to put a string withing a string
-```
+```rb
 animal = "zebra"
 puts "My favorite animal is a #{animal}."
 ```

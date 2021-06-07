@@ -6,7 +6,7 @@ My work flow has been alright.  It is difficult at this point to tell what has c
 
 1. Regarding the work you did around setting intentions in Step 1 of the Pomodoro technique - how did that go? Were you surprised by anything (did you find yourself way more focused than you realized, more distracted that you thought you'd be, estimating times accurately or totally off, etc)?
 
-It is difficult for me to when I am in the middle of something.  However, I have implemented the Pomodoro technique a little differently than we learned.  I do longer sessions of focused work, but I also do longer breaks.  Example: 50 minutes of work then 20 minutes of a break.  
+It is difficult for me to pause or take a break when I am in the middle of something.  However, I have implemented the Pomodoro technique a little differently than we learned.  I do longer sessions of focused work, but I also do longer breaks.  Example: 50 minutes of work then 20 minutes of a break.  
 
 1. In your own words, what is a Class?
 

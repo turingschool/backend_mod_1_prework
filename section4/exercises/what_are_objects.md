@@ -3,7 +3,7 @@
 class Pets
   @species
 end
-species = Pets.new
+dogs = Pets.new
 ```
 2. A module allows us to group reusable code into one place. We use modules in our classes by using the include method invocation, followed by the module name. Modules are also used as a namespace.
 ```ruby

@@ -5,7 +5,7 @@ I realized that I need to start getting comfortable teaching the content that I 
 1. How would you print the string `"Hello World!"` to the terminal?
 `puts "Hello World!"`
 1. What character is used to indicate comments in a ruby file?
- #
+ `#`
 1. Explain the difference between an integer and a float?
 An integer is a whole number while a float has a decimal attached
 1. In the space below, create a variable `animal` that holds the string `"zebra"`
@@ -16,7 +16,7 @@ An integer is a whole number while a float has a decimal attached
 Interpolation is when you imbed a variable into something like a string
 `puts "My favorite animal at the zoo was the #{animal}."`
 1. What method is used to get input from a user?
-gets.chomp
+`gets.chomp`
 1. Name and describe two common string methods:
 empty will check to see if your string is "empty" has no values within it
 interpolation will allow you to imbed an already defined value into a string

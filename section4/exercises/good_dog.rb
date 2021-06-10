@@ -33,6 +33,7 @@ class GoodDog
     @weight = w
   end
 
+## These are inactivated pieces of code from the previous steps of the exercise
   # def initialize(name)
   #   @name = name
   # end

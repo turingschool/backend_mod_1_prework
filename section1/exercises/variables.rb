@@ -66,7 +66,7 @@ puts "#{first_name} #{is_hungry} his #{number_of_pets} dogs with his whole heart
 healthy_snacks = 6;
 junk_food_snacks = 8;
 
-puts healthy_snacks + junk_food_snacks
+puts "The total number of snacks: #{healthy_snacks + junk_food_snacks}"
 
 
 #-------------------

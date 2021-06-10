@@ -31,7 +31,7 @@ In Mod 0 you've learned about different techniques for managing your time at Tur
 - [x] Study/Project work time
 - [x] Health + Wellness
 
-When you are finished, add screenshots of your calendar so we can provide feedback if needed!
+### Calendar
 I realize that I have large chunks of time sectioned off for Turing: study, projects, review, notes....
 I will use the Pomodoro Technique and set the timer for breaks.  The reason I use large chunks of time is because it helps me to stay focused.  I used to have the habit of multi-tasking and jumping from task to task to task.  It left me scattered, overwhelmed, and feeling like I could not complete anything completely.  I have found that when I section chunks of time (with breaks!) that I am much more focused on one thing.
 

@@ -1,8 +1,4 @@
 
-<img width="939" alt="Screen Shot 2021-06-10 at 5 17 54 PM" src="https://user-images.githubusercontent.com/81917337/121608867-f8a7d180-ca0f-11eb-90dc-04df1dc783ed.png">
-<img width="1026" alt="Screen Shot 2021-06-10 at 5 18 24 PM" src="https://user-images.githubusercontent.com/81917337/121609330-d2366600-ca10-11eb-8025-1addd4d8b3cb.png">
-
-<img width="1010" alt="Screen Shot 2021-06-10 at 5 18 44 PM" src="https://user-images.githubusercontent.com/81917337/121608924-0cebce80-ca10-11eb-8af8-61bd058cea99.png">
 # Mod 0 Final Prep
 Congrats on making it to the Mod 0 Final Prep! Complete the final exercises below and be sure to carefully follow the Pull Request steps to submit your work!
 
@@ -36,6 +32,8 @@ In Mod 0 you've learned about different techniques for managing your time at Tur
 - [ ] Health + Wellness
 
 When you are finished, add screenshots of your calendar so we can provide feedback if needed!
+I realize that I have large chunks of time sectioned off for Turing: study, projects, review, notes....
+I will use the Pomodoro Technique and set the timer for breaks.  The reason I use large chunks of time is because it helps me to stay focused.  I used to have the habit of multi-tasking and jumping from task to task to task.  It left me scattered, overwhelmed, and feeling like I could not complete anything completely.  I have found that when I section chunks of time (with breaks!) that I am much more focused on one thing.
 
 - `Add Week 1 Screenshot Here`
 - <img width="939" alt="Screen Shot 2021-06-10 at 5 17 54 PM" src="https://user-images.githubusercontent.com/81917337/121608867-f8a7d180-ca0f-11eb-90dc-04df1dc783ed.png">

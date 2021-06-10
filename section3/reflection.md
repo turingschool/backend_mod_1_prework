@@ -13,7 +13,7 @@
 
 1. What is a Hash, and how is it different from an Array?
 
-A hash is an *unordered* collection of where data is organized into specific pairs. The pairs consist of a "key" and a "value" following this syntax `'key' => 'Value'` where both the key and the value can be any data type. Hashes are different from arrays because they unordered. Data is referenced by its key, not its position like it would be in an array.
+A hash is an **unordered** collection of where data is organized into specific pairs. The pairs consist of a "key" and a "value" following this syntax `'key' => 'Value'` where both the key and the value can be any data type. Hashes are different from arrays because they unordered. Data is referenced by its key, not its position like it would be in an array.
 
 1. In the space below, create a Hash stored to a variable named `pet_store`.  This hash should hold an inventory of items and the number of that item that you might find at a pet store.
 
@@ -31,13 +31,13 @@ pet_store = {
 `p states["IA"]`
 
 1. With the same hash above, how would we get all the keys?  How about all the values?
-- *keys*
+- **Keys**
 ```ruby
 states.each do |abbreviation, full_name|
   p "#{abbreviation}"
 end
 ```
-- *values*
+- **values**
 ```ruby
 states.each do |abbreviation, full_name|
   p "#{full_name}"
@@ -50,4 +50,4 @@ end
 
 1. What questions do you still have about hashes?
 
-- I don't have any specific questions. I am interested to continue learning more about them as I do find their uses really interesting and important. I specifically like the uses we had as the extension in the hashes.rb exercise. Having what was basically an array of hashes really opened my eyes to their possible uses. 
+- I don't have any specific questions. I am interested to continue learning more about them as I do find their uses really interesting and important. I specifically like the uses we had as the extension in the hashes.rb exercise. Having what was basically an array of hashes really opened my eyes to their possible uses.

@@ -5,10 +5,10 @@
 # 3. change_protein
 
 class Burrito
-  attr_reader :protein, :base, :toppings
+  attr_accessor :protein, :base, :toppings
   def initialize(protein, base, toppings)
-    @protein  = protein
-    @base     = base
+    @protein = protein
+    @base = base
     @toppings = toppings
   end
 

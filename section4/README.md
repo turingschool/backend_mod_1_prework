@@ -35,22 +35,6 @@ So this week, we would like you to start self-monitoring your progress. Before y
 
 You've probably heard of the Pomodoro Technique in Mod 0 classes (and elsewhere, maybe!). During this final section of pre-work, we are going to ask that you follow this technique. Please read about it [here](https://www.dovico.com/blog/2020/08/26/the-pomodoro-technique-how-to-manage-your-work-time-and-flow-the-easy-way/). The article doesn't mention writing down Step 1, but we ask that you find a special spot in your notebook where you do this for each work session. In the deliverables, we will ask that you share what you wrote down for Step 1 of the technique each time you started a new task. _Note: if the 25 minutes on/3-5 minutes off isn't best for you, you do **not** have to follow that! The main focus of this is setting an intention and continuing to better understand your working style._
 
-
-> this is the beginning of the request for this deliverable as of 6/6/21 12:52p
--  Read the entire instructions
-  - bonus: complete Part A
-  - bonus: begin Part B, item 1
-  -bonus: skimmed entire Part b, item 1
-  -bonus: recognized article from past experience; have read and completed before
-- Complete Part B, item 1, subsection a
-  - bonus: completed Part B, item 1, subsection b
-  - bonus: completed Part B, item 1, subsection c
-  - bonus: completed Part B, item 1, subsection d
-  - bonus: completed Part B, item 2
-- Complete Part B, item 3
-
-
-
 ## Part B Classes
 
 Today, you are going to be learning about Objects and Classes. In ruby, Classes are one of the tools we use to group together specific Methods that are meant to work together, or on the same type of Object. Arriving at Turing with a strong understanding of how to build a class, and how to call Methods on that class will make your first couple of weeks go smoothly!

@@ -45,15 +45,15 @@ p number_of_pets
 # Explain.
 #Simply by looking at the information that is being asked for. When I see a variable asking for a first_name, I assume it wants a word (string) for that value
 #is_hungry is a yes/no question so it felt best to format it as a boolean
-#number_of_pets asks for a number so it feels logical to enter my value in that data type
+#number_of_pets asks for a number so it feels logical to enter an integer in that data type
 
 
 # YOU DO:
 # Re-assign the values to the three variables from the previous challenge to different values (but same data type).
 # print all three variables to the terminal.
-first_name = 59
-is_hungry = "Maybe, I just ate"
-number_of_pets = true
+first_name = "Chris"
+is_hungry = false
+number_of_pets = 3
 p first_name
 p is_hungry
 p number_of_pets

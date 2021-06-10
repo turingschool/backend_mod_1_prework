@@ -19,8 +19,8 @@ print_name("Albus Dumbledore")
 
 # Write a method that takes in 2 numbers as arguments and prints
 # their sum. Then call your method three times with different arguments passed in:
-def sum_finder(a, b)
-  p a + b
+def sum_finder(num_1, num_2)
+  p num_1 + num_2
 end
 
 sum_finder(10, 54)
@@ -50,5 +50,5 @@ sentence_maker("'Oliver Twist'", "Charles Dickens")
 # Look at the code you wrote for the previous YOU DO🎈 - what did you name the function, and why?
 # I named it sentence_maker because it seemed concise enough and said explicitly what the method was doing
 # What did you name each parameter, and why?
-# The parameters were named book and author. These were very good because they were only one word and said the exact meaning of what the parameter was. 
+# The parameters were named book and author. These were very good because they were only one word and said the exact meaning of what the parameter was.
 # EXPLAIN:

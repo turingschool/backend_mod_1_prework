@@ -18,7 +18,6 @@ puts "Or we can use variables from our script:"
 # next two lines establish the variables to be called
 amount_of_cheese = 10
 amount_of_crackers = 50
-
 # runs the method by giving the name and two variable names in the parentheses
 cheese_and_crackers(amount_of_cheese, amount_of_crackers)
 

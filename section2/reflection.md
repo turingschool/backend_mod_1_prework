@@ -25,6 +25,26 @@ else cats > dogs
   puts "we have more cats than dogs"
 end  
 ```
+```rb
+def assess_situation(danger_level)
+
+  save_the_day = "I am Hulk.  I am angry, I will save the day."
+  bad_excuse = "I am too angry.  You won't like it when I am angry.  I have to go home."
+
+  if danger_level >= 50
+    puts bad_excuse
+  elsif danger_level < 10
+    puts "Meh.  Hard pass."
+  else danger_level
+    puts save_the_day
+  end
+end
+
+assess_situation(75)
+assess_situation(9)
+assess_situation(45)
+```
+
 
 1. Why might you want to use an if-statement?
 an if statement tells ruby line by line what to execute.  

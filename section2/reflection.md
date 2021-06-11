@@ -2,6 +2,9 @@
 
 1. Regarding the blog posts in Part A, how do you feel about asking questions? Do you tend to ask them too soon, or wait too long, or somewhere in between?
 
+I usually wait a little too long. Usually I noodle about looking for a good answer
+then fall into the google pit where I flounder before giving up and asking.
+
 ### If Statements
 
 1. What is a conditional statement? Give three examples.
@@ -23,8 +26,8 @@ When you want your code to do something if something else is something.
 1. What is the Ruby syntax for an if statement?
 
 ```ruby
-If ___
-  "whatever you want to happen"
+if condition = true
+  puts "whatever you want to happen"
 end
 
 
@@ -56,7 +59,7 @@ No, I'm not entirely sure what this question is asking.
 
 1. In your own words, what is the purpose of a method?
 
-To have a snipped of code that you can call with just a name rather than having
+To have a snippet of code that you can call with just a name rather than having
 to copy/paste or retype the code.
 
 1. Create a method named `hello` that will print `"Sam I am"`.
@@ -88,11 +91,11 @@ hello()
 For the first
 
 ```ruby
-hello_someone(Billy)
+hello_someone("billy")
 ```
 For the second
 
 1. What questions do you have about methods in Ruby?
 
 I have no specific questions about how to create or execute them, but I am curious
-about their ceiling. They seem to be extraordinarily useful and powerful.
+about their ceiling. They seem to be suspiciously useful and powerful.

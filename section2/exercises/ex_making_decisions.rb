@@ -48,20 +48,10 @@ elsif door == "2"
   else
     puts "The insanity rots your eyes into a pool of muck. Good job!"
   end
+
 elsif insanity == "4"
   puts "Congradulations, you have just become the conduit for the elder gods to enter our reality and squish our heads. Good job!"
 
 else
   puts "You stumble around and fall on a knife and die. Good job!"
 end
-
-puts "Well that was a crummy game. Do you like logic?"
-
-puts "y/n"
-logic = $stdin.gets.chomp
-
-if logic = "y"
-  puts "Sweet."
-  puts "Let's try for a contradiction."
-else
-  puts "bummer"

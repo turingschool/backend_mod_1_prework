@@ -37,7 +37,7 @@ end
 
 concatenation("Turtle", "hare")
 concatenation("Chicken", "egg")
-concatenation("G", "M")
+concatenation("M", "G")
 
 
 
@@ -56,11 +56,7 @@ concatenation("G", "M")
 #What is a YOU DO? Do you mean the 'learning ruby the hard way?' exercises or the
 # code I just wrote above? I'm going to assume you meant the code I just wrote.
 
-#I named the method 'concatenation' because I thought it was funny to use a
-# hyperspecific word mildly incorrectly when simple english like 'insert' would
-#have gotten your point across better. Also I was (allegedly) going to concatenate
-#so I thought it might be a good idea to name the method as the thing it is going
-#to do.
-
-#I named the arguments 'first' and 'seond' because it made sense in context of
-#sentence I was going to print.
+#I named the method 'concatenation' because I thought it's a funny word, and I
+# was going use it to concatenate, so might as name it as what it does.
+# I named the arguments first and second, because the string I was going to
+# concatenate was themed around things coming in first or second.

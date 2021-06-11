@@ -87,6 +87,7 @@ What is your plan and how are you going to hold yourself to it? Specifically...
 - What personal items/events are important to you during this time? How are you going to make sure those are not neglected? (Hint, block time on the calendar for them!)
 
 ## Extensions
+<<<<<<< HEAD
 If you're interested in challenging yourself _even more_ and getting a step ahead in your coding abilities before your first day, we recommend working on either:
 
 - [Turing's ruby exercises repo](https://github.com/turingschool/ruby-exercises)
@@ -94,3 +95,6 @@ If you're interested in challenging yourself _even more_ and getting a step ahea
 - [Credit Check](https://github.com/turingschool-examples/credit_check).
 
 If you do Credit Check, follow the [same steps](#forking-the-module-1-prework-repository) as you did previously to fork and clone this repo on to your local computer.
+=======
+Check out our thoughts on [extension activities](https://mod0.turing.io/prework/extensions) if you find yourself with some extra time before starting Mod 1!
+>>>>>>> 8e68b79e490425798e764b57328c62d73b974757

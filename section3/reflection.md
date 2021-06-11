@@ -9,7 +9,8 @@ habits.
 1. In which ways do you currently demonstrate a Growth Mindset? In which ways do you _not_?
 
 I think I do a pretty good job of accepting my mistakes and being aware that I
-do not know much, and more importantly know *what* I don't know.
+do not know much, and more importantly know *what* I don't know. That is necessary
+if one is going to try and correct the unknowledge.
 
 I am not very good at the SSMARTB process. I don't tend to plan out exactly what
 I will be working on and the time that it will take. I think I am pretty decent

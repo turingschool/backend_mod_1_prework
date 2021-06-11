@@ -92,6 +92,6 @@ posts = ["image at beach", "holiday party", "adorable puppy", "video of cute bab
 # may be storing data? Come up with 3 examples - they could be from different web applications or
 # all from the same one.
 
-# 1: YouTube, favorited videos = [puppy video, ruby 4 dummiez, how to lose money quickly in poker]
+# 1: YouTube, favorited videos = ["puppy video", "ruby 4 dummiez", "how to lose money quickly in poker"]
 # 2:YouTube, subscribed channels
 # 3:YouTube, recently watched videos

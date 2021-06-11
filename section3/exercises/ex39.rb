@@ -46,7 +46,7 @@ if !state
 end
 
 city = cities['TX']
-#goofy goober, if the var is nil or false then reassign, otherwise ignore
+#goofy goober, if the variable is nil or false then reassign, otherwise ignore
 city ||= 'Does not exist'
 puts "the city for the state 'TX'  is: #{city}"
 

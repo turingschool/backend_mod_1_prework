@@ -129,7 +129,7 @@ email = [
     'Subject' => "Please don't do this",
     'CC' => false,
     'BCC' => [true, 'theIRS.gov'],
-    'Body' => 'If you continue to embezzel we will have to close shop, also its got to suck to pay all those taxes on that money.'
+    'Body' => 'If you continue to embezzel we will have to close shop, also its got to suck to pay all those "taxes" on that money.'
   }
 ]
 

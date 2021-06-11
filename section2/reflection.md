@@ -6,35 +6,43 @@ I tend to wait too long to ask questions, because I really want to figure it out
 
 ### If Statements
 
-1. What is a conditional statement? Give three examples.
+1. What is a conditional statement? Give three examples
+.
 if the weather is hot, then I will sweat
+
 if the weather is cold, then I will shiver
+
 if the weather is rainy, then I will get wet
 
 1. Why might you want to use an if-statement?
 to evaluate whether something is true, then run the code if it is
 
 1. What is the Ruby syntax for an if statement?
-if num_quarters = 1
+```if num_quarters = 1
   p "I don't have enough money for a gumball"
 end
+```
 
 1. How do you add multiple conditions to an if statement?
 use &&
 
 1. Provide an example of the Ruby syntax for an if/elsif/else statement:
-if num_quarters <= 1
+```if num_quarters <= 1
   p "I don't have enough money for a gumball"
 elsif num_quarters >= 2
   p "I have enough money for a gumball"
 end
-
+```
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 I thought a conditional statement would always use if
 if p, then q
+
 if q, then p
+
 if not p, then q
+
 if not q, then p
+
 p if and only if q
 
 ### Methods
@@ -44,26 +52,27 @@ methods give us the ability to make one change to the code, and have that effect
 
 1. Create a method named `hello` that will print `"Sam I am"`.
 
-def hello
+```def hello
   p "Sam I am"
 end
 
 hello
-
+```
 1. Create a method named `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
-
+```
 def hello_someone(name)
   p "#{name} I am"
 end
-
+```
 
 
 1. How would you call or execute the method that you created above?
+```
 def hello_someone(name)
   p "#{name} I am"
 end
 
 hello_someone("John")
-
+```
 1. What questions do you have about methods in Ruby?
-I had a little trouble with these methods, but it is now starting to click. I just need to keep practicing and watch some additional youtube videos. 
+I had a little trouble with these methods, but it is now starting to click. I just need to keep practicing and watch some additional youtube videos.

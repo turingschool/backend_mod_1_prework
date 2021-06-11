@@ -18,7 +18,7 @@ Attributes of classes are ways instances can be. They are 'property' holders of 
 
 1. What is behavior of a Class?
 
-A method 'inside' of the class. You use them to do things to/with the attributes of the class.
+A method 'inside' of the class. You use them to do things to/with the attributes of the class. A behavior belongs to every instance of a class.
 
 1. In the space below, create a Dog class with at least 2 attributes and 2 behaviors:
 

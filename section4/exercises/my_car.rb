@@ -6,7 +6,7 @@ class MyCar
     @year = year
     @color = color
     @model = model
-    @speed = 0 #not sure if this goes here
+    @speed = 0 #not sure if this goes here. I'm from the future, still not sure but nothing broke, so you're good.
   end
 
   def speed_up(number)

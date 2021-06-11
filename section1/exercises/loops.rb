@@ -22,5 +22,5 @@ end
 
 # Write code that prints the result of 5 + 7 a total of 9 times
 9.times do
-  5 + 7
+  puts 5 + 7
 end

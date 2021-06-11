@@ -16,19 +16,19 @@ puts "Hello world"
 
 1. Explain the difference between an integer and a float?
 
-integers cannot have a decimal place, floats have at least one.
+Integers do not have a decimal place, floats have at least one.
 
 1. In the space below, create a variable `animal` that holds the string `"zebra"`
-
+```ruby
 animal = "zebra"
-
+```
 1. How would you print the string `"zebra"` using the variable that you created above?
 ```ruby
 puts animal
 ```
 1. What is interpolation? Use interpolation to print a sentence using the variable `animal`.
 
-interpolation is slapping data inside of a string.
+Interpolation is slapping data inside of a string.
 ```ruby
 puts "have you ever seen a #{animal}?"
 ```
@@ -38,5 +38,5 @@ gets.chomp
 ```
 1. Name and describe two common string methods:
 
-variable[0..3] :lists the characters in those positions.
-variable.split :gives an array and separates by a space (unless changed).
+string_name[0..3] :lists the characters in those positions.
+array_name = string_name.split :gives an array and split at space (unless otherwise specified).

@@ -11,7 +11,8 @@ p name
 # Write code that saves the string 'Dobby' to a variable and
 # prints what that variable holds to the terminal:
 house_elf = "Dobby"
-# YOUR CODE HERE
+puts "Dobby"
+
 
 # Write code that saves the string 'Harry Potter must not return to Hogwarts!'
 # and prints what that variable holds to the terminal:
@@ -35,22 +36,39 @@ p students - 2
 # Store the appropriate data types in each.
 # print all three variables to the terminal.
 
+first_name = "Weston"
+is_hungry = false
+number_of_pets = 1
+puts first_name
+puts is_hungry
+puts number_of_pets
+
 # IN WORDS:
 # How did you decide to use the data type you did for each of the three variables above?
 
 # Explain.
-
+# Well, names are usually stings so that's kinda obvious. Someone can only be hungry or not hungry, so a boolian makes sense
+# Finally the number of pets I have may change, and if it does an integer is easier
+# to work with than a string. Also you (hopefully) cant have a partial pet, so floats are off the table.
 
 # YOU DO:
 # Re-assign the values to the three variables from the previous challenge to different values (but same data type).
 # print all three variables to the terminal.
 
+first_name = "Fake Name"
+is_hungry = true
+number_of_pets = 3
+
+puts first_name
+puts is_hungry
+puts number_of_pets
 
 # YOU DO:
 # Using the variables below, print the total number of snacks to the terminal:
 healthy_snacks = 6;
 junk_food_snacks = 8;
 
+puts healthy_snacks + junk_food_snacks
 
 #-------------------
 # FINAL CHECK

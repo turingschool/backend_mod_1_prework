@@ -42,7 +42,10 @@ states["IA"]
 
 1. With the same hash above, how would we get all the keys?  How about all the values?
 
-`states.keys`
+>`states.keys`
+
+> `states.values`
+
 
 1. What is another example of when we might use a hash?  In your example, why is a hash better than an array?
 
@@ -50,4 +53,4 @@ states["IA"]
 
 1. What questions do you still have about hashes?
 
-> When accessing Hashes stored in Arrays via JSON, how is it parsed quickly and imported into a template? Is a developer actually exploring a new JSON dataset and setting individual variables for the desired data and then using those individual variables within the framework template? 
+> When accessing Hashes stored in Arrays via JSON, how is it parsed quickly and imported into a template? Is a developer actually exploring a new JSON dataset and setting individual variables for the desired data and then using those individual variables within the framework template?

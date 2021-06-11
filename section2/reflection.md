@@ -12,27 +12,38 @@
 
 1. What is a conditional statement? Give three examples.  
 
-  - If the speed limit is 45 mph, and I drive at or below 45 mph, I most likely won't get a speeding ticket.
-  - If i'm eating dinner, then I should eat my vegetables.
-  - If i'm thirsty, I should drink water  
+>If the speed limit is 45 mph, and I drive at or below 45 mph, I most likely won't get a speeding ticket.
+> If i'm eating dinner, then I should eat my vegetables.
+>If i'm thirsty, I should drink water  
 
 
 1. Why might you want to use an if-statement?
-- I might want to use an if-statement in a situation when I have one or more desired outcomes, dependant on another variable/situation.
+
+>I might want to use an if-statement in a situation when I have one or more desired outcomes, dependant on another variable/situation.
 
 1. What is the Ruby syntax for an if statement?
-```Ruby
-if condition
-  #some code is executed depending on the evaluation of the condition
-end
-```
+
+>```Ruby
+>if condition
+>  #some code is executed depending on the evaluation of the condition
+>end
+>
+>#could also be
+> if conditions
+>  # if conditions evaluate to true, execute code here
+> else
+>  # if previous conditions don't evaluate to true, this will execute
+> end
+>```
+>
 
 1. How do you add multiple conditions to an if statement?
-- With logical operators; such as: `&&` or `||`
+
+>With logical operators; such as: `&&` or `||`
 
 1. Provide an example of the Ruby syntax for an if/elsif/else statement:
 
-```Ruby
+>```Ruby
 if fav_number == 7
   p "my favorite number is 7"
 elsif fav_number < 7
@@ -40,7 +51,7 @@ elsif fav_number < 7
 else
   p "nope"
 end
-```
+>```
 
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
 
@@ -49,35 +60,36 @@ end
 ### Methods
 
 1. In your own words, what is the purpose of a method?
-> To define a specific action to enact upon an object with predictable results
+
+> To define a specific action to enact upon an object with predictable results which may or may not accept parameters
 
 1. Create a method named `hello` that will print `"Sam I am"`.
 
-```Ruby
+>```Ruby
 def hello
   p "Sam I am"
 end
-
-hello
-```
+>
+>hello
+>```
 
 1. Create a method named `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
 
-```Ruby
-def hello_someone(name)
-  p "#{name} I am"
-end
-```
+>```Ruby
+>def hello_someone(name)
+>  p "#{name} I am"
+>end
+>```
 
 1. How would you call or execute the method that you created above?
 
-```Ruby
-hello_someone("Michael")
-```
-
+>```Ruby
+>hello_someone("Michael")
+>```
+>
 > I'd invoke the method while passing in an argument
 
 
 1. What questions do you have about methods in Ruby?
 
-> What is seen more often in the wild: methods built with or without parentheses denoting no arguments? 
+> What is seen more often in the wild: methods built with or without parentheses denoting no arguments?

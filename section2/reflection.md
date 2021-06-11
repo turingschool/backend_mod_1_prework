@@ -7,7 +7,7 @@ I tend to wait too long to ask questions, because I really want to figure it out
 ### If Statements
 
 1. What is a conditional statement? Give three examples
-.
+
 if the weather is hot, then I will sweat
 
 if the weather is cold, then I will shiver
@@ -18,7 +18,8 @@ if the weather is rainy, then I will get wet
 to evaluate whether something is true, then run the code if it is
 
 1. What is the Ruby syntax for an if statement?
-```if num_quarters = 1
+```Ruby
+if num_quarters = 1
   p "I don't have enough money for a gumball"
 end
 ```
@@ -27,7 +28,8 @@ end
 use &&
 
 1. Provide an example of the Ruby syntax for an if/elsif/else statement:
-```if num_quarters <= 1
+```Ruby
+if num_quarters <= 1
   p "I don't have enough money for a gumball"
 elsif num_quarters >= 2
   p "I have enough money for a gumball"
@@ -52,14 +54,15 @@ methods give us the ability to make one change to the code, and have that effect
 
 1. Create a method named `hello` that will print `"Sam I am"`.
 
-```def hello
+```Ruby
+def hello
   p "Sam I am"
 end
 
 hello
 ```
 1. Create a method named `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
-```
+```Ruby
 def hello_someone(name)
   p "#{name} I am"
 end
@@ -67,7 +70,7 @@ end
 
 
 1. How would you call or execute the method that you created above?
-```
+```Ruby
 def hello_someone(name)
   p "#{name} I am"
 end

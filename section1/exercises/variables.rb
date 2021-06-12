@@ -76,3 +76,4 @@ puts healthy_snacks + junk_food_snacks
 
 # Did you run this file in your terminal to make sure everything printed out to the terminal
   # as you would expect?
+#yes

@@ -12,20 +12,32 @@ print_name
 
 # Write a method that takes a name as an argument and prints it:
 def print_name(name)
-  # YOUR CODE HERE
+  print name
 end
 
 print_name("Albus Dumbledore")
+p ""
 
-# Write a method that takes in 2 numbers as arguments and prints 
+# Write a method that takes in 2 numbers as arguments and prints
 # their sum. Then call your method three times with different arguments passed in:
-# YOUR CODE HERE
+def add_method(num1,num2)
+  p num1 + num2
+end
+add_method(1,2)
+add_method(4,9)
+add_method(23,23)
 
-# Write a method that takes in two strings as arguments and prints 
-# a concatenation of those two strings. Example: The arguments could be 
-# (man, woman) and the end result might output: "When Harry Met Sally".  
-# Then call your method three times with different arguments passed in. 
+# Write a method that takes in two strings as arguments and prints
+# a concatenation of those two strings. Example: The arguments could be
+# (man, woman) and the end result might output: "When Harry Met Sally".
+# Then call your method three times with different arguments passed in.
+def camalots(size,color)
+  print "The size #{size} Camalot is #{color}."
+end
 
+camalots("1","red")
+camalots("2","yellow")
+camalots("3","blue")
 
 #-------------------
 # PART 3: Naming is Hard
@@ -37,5 +49,4 @@ print_name("Albus Dumbledore")
 # Look at the code you wrote for the previous YOU DO🎈 - what did you name the function, and why?
 # What did you name each parameter, and why?
 
-# EXPLAIN:
-
+#I feel pretty good about my naming practices for this exercise. I believe each of them is descriptive enough to convey the gist while being short enough to type.

@@ -28,16 +28,23 @@ Read/watch one or both of the following:
 
 Then, consider on the following questions. We will ask you to share some of these responses at the end of this section.
 - What are two points from the article or video that either resonated with you, or were brand new to you?
-- In which ways do you currently demonstrate a Growth Mindset? In which ways do you _not_?
-- What is something you are good at or knowledgeable at now, that you once weren't? How did you get those skills/knowledge? Was it hard at some point?
+```
 
+I really enjoyed the mistakes are a part of learning. Just in this class alone I have learned many ways to not code. The seeking help part as well. I've sought a lot of help from friends in the industry and they have definitely helped me improve
+```
+- In which ways do you currently demonstrate a Growth Mindset? In which ways do you _not_?
+```
+I am demonstrating Growth Mindset by realizing I can improve with practice and effort. I am not demonstrating Growth Mindset by not focusing on the process as much as I should
+```
+- What is something you are good at or knowledgeable at now, that you once weren't? How did you get those skills/knowledge? Was it hard at some point?
+`I feel I am good at messing around with if statements until I get them to work.`
 ## Part B Arrays + Hashes
 
 Today you will learn about two common data structures: arrays and hashes.
 
 When you are all done with the lessons, exercises, and questions for today, you will once again use git to save your work locally, and then send your work to Github.
 
-1. Work through the following lessons. Any files that you create while working can be kept in today's `exercises` directory. 
+1. Work through the following lessons. Any files that you create while working can be kept in today's `exercises` directory.
     - [ ] Read about what an [array](https://learnrubythehardway.org/book/ex32.html) is from Learn Ruby the Hard Way.
 
     - [ ] Learn how arrays are [index-based](https://learnrubythehardway.org/book/ex34.html) from Learn Ruby the Hard Way.

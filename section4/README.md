@@ -23,8 +23,15 @@ One challenge learners in a new environment/content area face is feeling like th
 
 So this week, we would like you to start self-monitoring your progress. Before you start on the technical work, reflect back on how the pre-work has gone so far.
 - Have the time estimates matched up with your experience?
+> No, it has taken much less time; though this isn't because I'm rushing; it's because I already feel comfortable with the material; This is introductory material, and I am using this time as an opportunity to "scrub" my memory and understanding the foundations. Not surprisingly, there have been nuances that have revealed themselves about material that hasn't been articulated. So this is a good experience for me.
+
 - When you sit down to start working, do you have a clear goal of what you want to accomplish and in how much time? If so, how aligned is that to what actually happens?
+
+> Yes. Pomodoros are wonderful as a general practice. However, IMO, the real power in them is learning how to "learn with intention". That is...legitimately saying: I am going to accomplish X in this time. The alignment between expectation and reality aligns fairly well. Though the expectation has been that I beat or exceed whatever goal I define prior to starting.
+
 - How do you work best - in 2 hour blocks, 4 hour blocks, etc? Do you take breaks regularly? Do you have a system to hold yourself accountable to taking breaks?
+
+> I work best...when I'm working. The challenge is saying: I'm done at this 25 minute mark, but I really don't want to stop, but I don't want to do another 25 minutes. Pomodoros are not rigid. Or at least, if they're too rigid it sort of defeats the purpose, IMO. there are no rules against saying: how about just another 5 minutes? or how about I work for an entire 45 minutes in this go? And if things are working, but I need a break, set a timer for a longer break, or a chore, or an errand, or whatever might be on my mind, etc.
 
 You've probably heard of the Pomodoro Technique in Mod 0 classes (and elsewhere, maybe!). During this final section of pre-work, we are going to ask that you follow this technique. Please read about it [here](https://www.dovico.com/blog/2020/08/26/the-pomodoro-technique-how-to-manage-your-work-time-and-flow-the-easy-way/). The article doesn't mention writing down Step 1, but we ask that you find a special spot in your notebook where you do this for each work session. In the deliverables, we will ask that you share what you wrote down for Step 1 of the technique each time you started a new task. _Note: if the 25 minutes on/3-5 minutes off isn't best for you, you do **not** have to follow that! The main focus of this is setting an intention and continuing to better understand your working style._
 

@@ -1,3 +1,4 @@
+
 # In the below exercises, write code that achieves
 # the desired result. To check your work, run this
 # file by entering the following command in your terminal:
@@ -8,7 +9,7 @@ foods = {apples: 23, grapes: 507, eggs: 48}
 p foods
 
 # Write code that prints a hash holding zoo animal inventory:
-zoo = {lions: 2, gorillas: 8, giraffes:5}
+zoo = {lions: 2, gorillas: 8, giraffes: 5}
 p zoo
 
 # Write code that prints all of the 'keys' of the zoo variable

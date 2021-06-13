@@ -8,9 +8,7 @@ class Human
   def initialize(height, weight)
     @height = height
     @weight = weight
-    @workout = false
     @hungry = false
-    @eat = false
   end
 
   def workout

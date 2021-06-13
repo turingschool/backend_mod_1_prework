@@ -41,6 +41,7 @@ puts "\n"
 puts "-" * 10
 
 animals[3] = "Humuhumunukunukuapuaa"
+# Thats an actual animal
 print animals
 
 # YOU DO: Write code that will print the String "Elephant" in the animals array

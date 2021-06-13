@@ -32,7 +32,7 @@ if people == dogs
 end
 
 
-#1. it interprets whether the requirements are met and if so outputs what it is instructed to outputs
-#2. It represents that its part of the if statements
-#3. Based of my tests, nothing, but it helps it be easier to read
-#4  Different outputs 
+# 1. it interprets whether the requirements are met and if so outputs what it is instructed to outputs
+# 2. It represents that its part of the if statements
+# 3. Based of my tests, nothing, but it helps it be easier to read
+# 4  Different outputs 

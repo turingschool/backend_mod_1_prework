@@ -1,10 +1,10 @@
-def say(words='hello')
+def say(words = 'hello')
   puts words + '.'
 end
 
 say()
 say("hi")
-say ("how are you")
+say("how are you")
 say("I'm fine")
 
 puts "_" * 5
@@ -27,4 +27,4 @@ puts "_" * 5
 
 def print_num(num)
   puts num
-end 
+end

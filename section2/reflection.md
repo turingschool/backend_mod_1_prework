@@ -10,7 +10,8 @@ a conditional statement uses logic to determine the path of the program. they ar
 1. Why might you want to use an if-statement?
 In order to gate certain parts of the program conditionally, or to change the behavior for different possible inputs or occurrences.
 1. What is the Ruby syntax for an if statement?
-  ```if condition
+  ```
+  if condition
     stuff happens here
   elseif condition
     different stuff
@@ -29,17 +30,22 @@ Maybe to detect when something in the program changes
 1. In your own words, what is the purpose of a method?
 methods segment out processes that might get used multiple times or in different places making it easier to reuse processes and to keep code clean
 1. Create a method named `hello` that will print `"Sam I am"`.
-```def hello()
+```
+def hello()
   p "Sam I am"
-end```
+end
+```
+
 1. Create a method named `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
-```def hello_someone(name)
+```
+def hello_someone(name)
   p "#{name} I am"
 end
 ```
 1. How would you call or execute the method that you created above?
-```hello_someone(Eric)
-
 ```
+hello_someone(Eric)
+```
+
 1. What questions do you have about methods in Ruby?
 I feel pretty good about it to be honest since I have actually taken a couple of programming classes before

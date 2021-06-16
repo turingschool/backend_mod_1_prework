@@ -12,20 +12,34 @@ print_name
 
 # Write a method that takes a name as an argument and prints it:
 def print_name(name)
-  # YOUR CODE HERE
+  p name
 end
 
 print_name("Albus Dumbledore")
 
-# Write a method that takes in 2 numbers as arguments and prints 
+# Write a method that takes in 2 numbers as arguments and prints
 # their sum. Then call your method three times with different arguments passed in:
-# YOUR CODE HERE
+def addition(a,b)
+  p a + b
+end
 
-# Write a method that takes in two strings as arguments and prints 
-# a concatenation of those two strings. Example: The arguments could be 
-# (man, woman) and the end result might output: "When Harry Met Sally".  
-# Then call your method three times with different arguments passed in. 
+addition(1,2)
+addition(5,6)
+addition(12,-3)
 
+
+# Write a method that takes in two strings as arguments and prints
+# a concatenation of those two strings. Example: The arguments could be
+# (man, woman) and the end result might output: "When Harry Met Sally".
+# Then call your method three times with different arguments passed in.
+
+def friends(first, second)
+  p "#{first} and #{second} are best friends!"
+end
+
+friends("Greg", "Matt")
+friends("Alex", "Alexis")
+friends("Steve", "June")
 
 #-------------------
 # PART 3: Naming is Hard
@@ -37,5 +51,5 @@ print_name("Albus Dumbledore")
 # Look at the code you wrote for the previous YOU DO🎈 - what did you name the function, and why?
 # What did you name each parameter, and why?
 
-# EXPLAIN:
-
+# EXPLAIN: for the addition problem I figured it was easiest to just name it after what the method actually deos and the variables I chose as simple math variables
+# for the strings one I took the most notable point of the string "friends" and named the mothod after that. the variables are named after the order they appear in the output.

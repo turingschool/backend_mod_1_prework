@@ -32,6 +32,7 @@ In Mod 0 you've learned about different techniques for managing your time at Tur
 
 When you are finished, add screenshots of your calendar so we can provide feedback if needed!
 
+It looks like 2108 hasn't been added to the Mod1 calandar, so I didn't do this bit. I don't know if that is okay, but I 100% plan on doing this as soon as it updates.
 - `Add Week 1 Screenshot Here`
 - `Add Week 2 Screenshot Here`
 - `Add Week 3 Screenshot Here`

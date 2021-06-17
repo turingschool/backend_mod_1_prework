@@ -38,17 +38,17 @@ build_a_bear('Sleepy', 2, 'purple', ['pajamas', 'sleeping cap'], 'sleeping in')
 # FizzBuzz
 # defining a method with 3 arguements
 def fizzbuzz(num_1, num_2, range)
-  # defining a instruction
+  # do if statetment for each value between 1 and set range
   (1..range).each do |i|
-    # creating a if then statement/ if parameters
+    # creating a if then statement/ if the value of remainder `num_1` is 0 and the value of the remainder `num_2` is also 0 then output next line
     if i % num_1 === 0 && i % num_2 === 0
       # if output
       puts 'fizzbuzz'
-      # elsif parameters
-    elsif i % num_1 === 0
+      # elsif value of remainder `num_1` is 0 then output next line
+        elsif i % num_1 === 0
       # elsif output
       puts 'fizz'
-      # elsif parameters
+      # elsif value of remainder `num_2` is 0 then output next line
     elsif i % num_2 === 0
       # elsif output
       puts 'buzz'

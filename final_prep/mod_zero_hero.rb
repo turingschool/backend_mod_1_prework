@@ -36,7 +36,7 @@ arch_enemies = arch_enemies + ["The Zookeeper"]
 # Print the arch_enemies array to terminal to ensure you added a new arch_enemey
 print arch_enemies
 # Remove the first sidekick from the sidekicks array
-sidekicks.shift(1)
+sidekicks.shift()
 # Print the sidekicks array to terminal to ensure you added a new sidekick
 print sidekicks
 # Create a function called assess_situation that takes three arguments - danger_level, save_the_day, bad_excuse

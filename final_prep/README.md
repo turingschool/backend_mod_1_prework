@@ -40,7 +40,7 @@ It looks like 2108 hasn't been added to the Mod1 calandar, so I didn't do this b
 ### Mentorship Prep
 Mentorship is an integral part of the Turing experience and will help jumpstart your technical career. In order to get your mentor relationship started on the right foot, please complete the following deliverables:
 - [ ] Complete the [Mentorship DTR Prep](https://gist.github.com/ericweissman/51965bdcbf42970d43d817818bfaef3c)
-  - [ ] Add link to your gist here: 
+  - [ ] Add link to your gist here: [link to the form](https://gist.github.com/GwhoisJ/b5f056675969e2559887bace27fc9daa)
 
 ### Lesson Prep
 You've learned a lot about how to take strong notes during Mod 0. Show us your skills while you learn how to pre-teach content for your first lesson in Mod 1!

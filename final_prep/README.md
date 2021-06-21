@@ -39,7 +39,7 @@ When you are finished, add screenshots of your calendar so we can provide feedba
 - ![alt text](https://user-images.githubusercontent.com/79548116/122794519-f3554d00-d281-11eb-899d-8250f7d6f513.png "Logo Title Text 1") 
 
 - `Add Week 3 Screenshot Here`
-- ![alt text](![image](https://user-images.githubusercontent.com/79548116/122794598-0a943a80-d282-11eb-9bfa-03a41bb22b30.png "Logo Title Text 1")
+- ![alt text](https://user-images.githubusercontent.com/79548116/122794672-1ed83780-d282-11eb-804c-a4f140d563cd.png "Logo Title Text 1")
 
 
 ### Mentorship Prep

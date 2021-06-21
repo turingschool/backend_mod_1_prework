@@ -19,37 +19,43 @@ Some things to consider as you refactor include...
 
 Take your time as you go back and refactor your exercises from each section. We've included a handy checklist for you to go through below.
 
-- [ ] I have refactored my `section1` exercises to the best of my ability
-- [ ] I have refactored my `section2` exercises to the best of my ability
-- [ ] I have refactored my `section3` exercises to the best of my ability
-- [ ] I have refactored my `section4` exercises to the best of my ability
+- [👍🏾] I have refactored my `section1` exercises to the best of my ability
+- [👍🏾] I have refactored my `section2` exercises to the best of my ability
+- [👍🏾] I have refactored my `section3` exercises to the best of my ability
+- [👍🏾] I have refactored my `section4` exercises to the best of my ability
 
 ### Time Management Prep
 In Mod 0 you've learned about different techniques for managing your time at Turing. Please create a calendar for your **first 3 weeks of Mod 1**. Feel free to make your calendar fit your style, but we suggest that your calendar should include the following:
-- [ ] Standard M1 class schedule (see M1 calendar [here](https://backend.turing.io/module1/)
-- [ ] Study/Project work time
-- [ ] Health + Wellness
+- [👍🏾] Standard M1 class schedule (see M1 calendar [here](https://backend.turing.io/module1/)
+- [👍🏾] Study/Project work time
+- [👍🏾] Health + Wellness
 
 When you are finished, add screenshots of your calendar so we can provide feedback if needed!
 
 - `Add Week 1 Screenshot Here`
+- ![alt text](https://user-images.githubusercontent.com/79548116/122794366-c7d26280-d281-11eb-8045-e06849179c69.png "Logo Title Text 1")
+
 - `Add Week 2 Screenshot Here`
+- ![alt text](https://user-images.githubusercontent.com/79548116/122794519-f3554d00-d281-11eb-899d-8250f7d6f513.png "Logo Title Text 1") 
+
 - `Add Week 3 Screenshot Here`
+- ![alt text](https://user-images.githubusercontent.com/79548116/122794672-1ed83780-d282-11eb-804c-a4f140d563cd.png "Logo Title Text 1")
+
 
 ### Mentorship Prep
 Mentorship is an integral part of the Turing experience and will help jumpstart your technical career. In order to get your mentor relationship started on the right foot, please complete the following deliverables:
 - [ ] Complete the [Mentorship DTR Prep](https://gist.github.com/ericweissman/51965bdcbf42970d43d817818bfaef3c)
-  - [ ] Add link to your gist here: 
+  - [ ] Add link to your gist here: https://gist.github.com/karanm645/8c437bc026fa6889220c84281ebc0fc9
 
 ### Lesson Prep
 You've learned a lot about how to take strong notes during Mod 0. Show us your skills while you learn how to pre-teach content for your first lesson in Mod 1!
 - [ ] Complete the [Pre Teaching Practice exercise](https://gist.github.com/ericweissman/0036e8fe272c02bd6d4bb14f42fd2f79) gist
-  - [ ] Add a link to your gist here:
+  - [ ] Add a link to your gist here: https://gist.github.com/karanm645/d88a2a344992b8f203b2e3dfa7cba0e7
 
 ### Group Work Prep
 As part of Turing's project-based learning approach, you will often be working in pairs or larger groups. In order to set yourself (and your team) up for success, it is important to ensure you are prepared to be an equitable contributor and teammate.
 - [ ] Complete the [DTR Guiding Questions](https://gist.github.com/ericweissman/c56f3a98cdce761808c21d498a52f5c6)
-  - [ ] Add a link to your gist here: 
+  - [ ] Add a link to your gist here: https://gist.github.com/karanm645/f6f12c6e6691e08b2d6ff2fc1228225a 
 
 ## All Done? How to Submit your M1 Prework
 When you have completed *all* the activities described above, follow the steps below to submit your technical prework.

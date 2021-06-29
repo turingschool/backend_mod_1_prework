@@ -42,21 +42,22 @@ end
 1. In your own words, what is the purpose of a method?
 + A method is a repeatable code snippet that can be called with different arguments from a main program.
 1. Create a method named `hello` that will print `"Sam I am"`.
-+
+
 ```ruby
 def hello()
   p "Sam I am"
 end
 ```
 1. Create a method named `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
-+
+
 ```ruby
 def hello_someone(name)
 p "#{name} I am"
-end```
+end
+```
 
 1. How would you call or execute the method that you created above?
-+
+
 ```ruby
 hello_someone("Sample input String")
 ```

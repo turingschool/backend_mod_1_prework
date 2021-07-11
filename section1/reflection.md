@@ -47,7 +47,7 @@ The `gets` method can get input from a user, and `.chomp` can then be added to r
 
 1. Name and describe two common string methods:
 
-One common string method is `.length` - it can be used to get the total number of characters in a string! Two other common methods are `.sub` and `.gsub`, which will sub out either one instance or all instances of a string with the indicated replacement. For example:
+One common string method is `.length` - it can be used to get the total number of characters in a string! Two other common methods are `.sub` and `.gsub`, which will sub out either one instance or all instances of a specified portion string with the indicated replacement. For example:
 
 ```ruby
 string = "... ... ..."

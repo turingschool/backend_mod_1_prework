@@ -7,15 +7,15 @@
 
 1. What is a conditional statement? Give three examples.
 **A conditional statement tells the computer what to do as determined by a set of criteria.**
-*If my I homework is done, then I can read my book.*
-*If I cook my lunches ahead of time, then I don't need to buy lunch during the week.*
-*If I work on homework regularly, then I won't have to cram at the end of the term.*
+1. If my I homework is done, then I can read my book.
+2. If I cook my lunches ahead of time, then I don't need to buy lunch during the week.
+3. If I work on homework regularly, then I won't have to cram at the end of the term.
 
 1. Why might you want to use an if-statement?
 *You want to use an if statement when evaluating multiple conditions. It's a way to streamline your code by performing multiple checks in one code block.*
 
 1. What is the Ruby syntax for an if statement?
-```ruby 
+```ruby
 if ranking > 10
  print "We're in the top ten!"
 else

@@ -5,17 +5,22 @@
 ### If Statements
 
 1. What is a conditional statement? Give three examples.
+A conditional statement is a statement that makes decisions (true or false) based off of conditions (criteria).
+EX 1: If I have 2 dollars I can buy a soda.
+EX 2: If I drink too much soda, then I'll get a tummy ache.
+EX 3: If I eat this donut, then my partner will get sad.
 
 1. Why might you want to use an if-statement?
+I might want to use an if statement if I'm trying to decide
 
 1. What is the Ruby syntax for an if statement?
 
 1. How do you add multiple conditions to an if statement?
-
+&&
 1. Provide an example of the Ruby syntax for an if/elsif/else statement:
 
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
-
+You might want to use an if statement while doing math equations. 
 ### Methods
 
 1. In your own words, what is the purpose of a method?

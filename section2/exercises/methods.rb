@@ -12,20 +12,32 @@ print_name
 
 # Write a method that takes a name as an argument and prints it:
 def print_name(name)
-  # YOUR CODE HERE
+  p "#{name}"
 end
 
 print_name("Albus Dumbledore")
 
-# Write a method that takes in 2 numbers as arguments and prints 
+# Write a method that takes in 2 numbers as arguments and prints
 # their sum. Then call your method three times with different arguments passed in:
-# YOUR CODE HERE
+def addition(a, b)
+  p "#{a} + #{b} = #{a + b}"
+end
 
-# Write a method that takes in two strings as arguments and prints 
-# a concatenation of those two strings. Example: The arguments could be 
-# (man, woman) and the end result might output: "When Harry Met Sally".  
-# Then call your method three times with different arguments passed in. 
+addition(1, 2)
+addition(3, 4)
+addition(5, 6)
 
+# Write a method that takes in two strings as arguments and prints
+# a concatenation of those two strings. Example: The arguments could be
+# (man, woman) and the end result might output: "When Harry Met Sally".
+# Then call your method three times with different arguments passed in.
+def concatenation(ingred1, ingred2)
+  p "I love eating #{ingred1} and #{ingred2} sandwiches!"
+end
+
+concatenation("peanut butter", "jelly")
+concatenation("ham", "swiss cheese")
+concatenation("avocado", "tomato")
 
 #-------------------
 # PART 3: Naming is Hard
@@ -38,4 +50,5 @@ print_name("Albus Dumbledore")
 # What did you name each parameter, and why?
 
 # EXPLAIN:
-
+# I named the function "concatenation" because it was descriptive and a single word, albeit a long one.
+# I named my parameters "ingred1" and "ingred2" because it was shorter than typing out "ingredients" and I thought the abbreviation was enough to convey the meaning, as well as unique enough to be easily auto-completed after a few letters: ing. I may have been able to use "food1" and "food2" instead to shorten this one!

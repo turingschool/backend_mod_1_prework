@@ -57,7 +57,7 @@ end
 num_quarters = 4
 if num_quarters == 0
   p "I don't have money for a gumball"
-elsif num_quarters == 2
+else num_quarters == 2
   p "I have enough money for a gumball"
 end
 

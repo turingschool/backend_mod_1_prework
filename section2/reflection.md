@@ -1,7 +1,7 @@
 ## Section 2 Reflection
 
 1. Regarding the blog posts in Part A, how do you feel about asking questions? Do you tend to ask them too soon, or wait too long, or somewhere in between?
-<br>I feel like I ask questions too soon. I panic and I ask right away before getting my head together and googling something. I really need to work on staying calm and googling and working on things before asking for help. 
+<br>I feel like I ask questions too soon. I panic and I ask right away before getting my head together and googling something. I really need to work on staying calm and googling and working on things before asking for help.
 
 ### If Statements
 
@@ -35,12 +35,12 @@ else pizza in oven minutes >= 20
 end
 ```
 1. Other than an if-statement, can you think of any other ways we might want to use a conditional statement?
-You might want to use an if statement while doing math equations.
+<br>You might want to use an if statement while doing math equations.
 
 ### Methods
 
 1. In your own words, what is the purpose of a method?
-The purpose of a method is if you need a piece of code to be repeated without having to type it again. It also has arguments which are kind of like place holder variables.
+<br>The purpose of a method is if you need a piece of code to be repeated without having to type it again. It also has arguments which are kind of like place holder variables.
 
 1. Create a method named `hello` that will print `"Sam I am"`.
 ```ruby
@@ -65,4 +65,4 @@ hello_someone("Justina")
 ```
 
 1. What questions do you have about methods in Ruby?
-If you assign numbers to arguments to multiple methods, how do you add them together?
+<br>If my methods were numbers, how would I do math calculations with them?

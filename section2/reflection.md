@@ -1,7 +1,7 @@
 ## Section 2 Reflection
 
 1. Regarding the blog posts in Part A, how do you feel about asking questions? Do you tend to ask them too soon, or wait too long, or somewhere in between?
-<enter>I feel like I ask questions too soon. I panic and I ask right away before getting my head together and googling something. 
+<br>I feel like I ask questions too soon. I panic and I ask right away before getting my head together and googling something. I really need to work on staying calm and googling and working on things before asking for help. 
 
 ### If Statements
 

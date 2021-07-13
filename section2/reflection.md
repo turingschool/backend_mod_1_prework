@@ -1,16 +1,18 @@
 ## Section 2 Reflection
 
 1. Regarding the blog posts in Part A, how do you feel about asking questions? Do you tend to ask them too soon, or wait too long, or somewhere in between?
+<enter>I feel like I ask questions too soon. I panic and I ask right away before getting my head together and googling something. 
 
 ### If Statements
 
 1. What is a conditional statement? Give three examples.
 A conditional statement is a statement that makes decisions (true or false) based off of conditions (criteria).
-1. If I have 2 dollars I can buy a soda.
-2. If I drink too much soda, then I'll get a tummy ache.
-3. If I eat this donut, then my partner will get sad.
+* If I have 2 dollars I can buy a soda.
+* If I drink too much soda, then I'll get a tummy ache.
+* If I eat this donut, then my partner will get sad.
 
 1. Why might you want to use an if-statement?
+
 I might want to use an if statement if I'm trying to figure out between two or more options in code.
 
 1. What is the Ruby syntax for an if statement?
@@ -63,4 +65,4 @@ hello_someone("Justina")
 ```
 
 1. What questions do you have about methods in Ruby?
-If you assign numbers to arguments to multiple methods, how do you add them together? 
+If you assign numbers to arguments to multiple methods, how do you add them together?

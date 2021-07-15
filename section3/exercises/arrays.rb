@@ -5,9 +5,6 @@
 # Two examples are already completed. Your task is to complete
 # any remaining prompt.
 
-
-
-
 #-------------------
 # PART 1: Animals: Array Syntax
 #-------------------
@@ -15,11 +12,12 @@
 # EXAMPLE: write code below that will print an array of animals.
 # Store the array in a variable.
 animals = ["Zebra", "Giraffe", "Elephant"];
-print animals
+puts animals
 
 # EXAMPLE: Write code below that will print "Zebra" from the animals array
 # YOUR CODE HERE
-print animals[0]
+puts "\n" #print new line for output readability
+puts animals[0]
 
 # YOU DO: Write code below that will print the number of elements in array of
 # animals from above.
@@ -51,6 +49,7 @@ foods = ["Meat", "Cheese", "Bread", "Onions"]
 
 # YOU DO: Write code below that will print the number of elements in the array of
 # foods from above.
+puts "\n" #print new line for output readability
 puts "Number of elements in array foods is #{foods.length}"
 
 

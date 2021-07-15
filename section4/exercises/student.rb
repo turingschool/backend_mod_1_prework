@@ -1,6 +1,6 @@
 #define Class
 class Student
-  #create gett and setter methods for Attributes
+  #create gett and setter methods for attributes
   attr_accessor :first_name, :last_name, :primary_phone_number
 
   #define method

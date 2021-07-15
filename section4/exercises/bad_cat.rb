@@ -1,5 +1,5 @@
 
-# define module
+# define module with one argument
 module Meow
   def meow(sound)
     puts sound

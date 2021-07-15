@@ -16,6 +16,7 @@ if door == "1"
   elsif bear == "2"
     puts "The bear eats your legs off.  Good job!"
   else
+    # interpolates user input for var 'bear' into string
     puts "Well, doing %s is probably better.  Bear runs away." % bear
   end
 

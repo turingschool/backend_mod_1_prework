@@ -47,4 +47,4 @@ if people != dogs
 end
 
 # 5. Changing the initial values of cats, people, and dogs will alter what is
-#    printed to the terminal based on the logical comperators
+#    printed to the terminal based on the conditionals

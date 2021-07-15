@@ -18,7 +18,8 @@ def divide(a, b)
   return a / b
 end
 
-#recieves args a, b, and c
+# Practice calling functions within functions
+# recieves args a, b, and c
 def checks_right_triangle(a,b,c)
     # checks if a^2 + b^2 == c^2, returns appropriate String
     if multiply(a,a) + multiply(b,b) == multiply(c,c)

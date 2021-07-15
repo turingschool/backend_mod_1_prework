@@ -32,14 +32,14 @@ end
 if people > trucks
   #prints if people greater than trucks is TRUE
   puts "Alrights, let's just take the trucks."
-#executes if all above statements are FALSE  
+#executes if all above statements are FALSE
 else
   puts "Fine, let's stay home then."
 end
 
 # Study Drills
-# 1. elsif executes the next line if the argument is true. else executes the
-#    next line if the argument is true
+# 1. elsif executes the next line if the condition is true. else executes the
+#    next line if none of the previous conditions were true
 # 3.
 
 if people > cars && people > trucks

@@ -37,7 +37,7 @@ end
 
 my_concatenator('Harry','Hendersons')
 my_concatenator('King Gizzard','Lizard Wizard')
-my_concatenator('Me First','Gimmee Gimmes')
+my_concatenator('Me First','Gimme Gimmes')
 
 
 #-------------------

@@ -10,12 +10,13 @@
 + `==`equal `>`greater than `<`less than
 
 1. Why might you want to use an if-statement?
-+ To execute different branches of code based on conditions and/or user input.
++ To execute different sections of code based on conditions and/or user input.
 
 1. What is the Ruby syntax for an if statement?
 +
 ```ruby
-if #conditional
+if #<conditional>
+  #do something if <conditional> is TRUE
 end
 ```
 1. How do you add multiple conditions to an if statement?
@@ -44,7 +45,7 @@ end
 1. Create a method named `hello` that will print `"Sam I am"`.
 
 ```ruby
-def hello()
+def hello() #argument parentheses not necessary but I like them
   p "Sam I am"
 end
 ```

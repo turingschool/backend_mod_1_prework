@@ -9,7 +9,7 @@ Section 2 is estimated to take a total of 8-12 hours to complete. Similar to Sec
 
 ## Vocabulary
 
-This section will introduce a number of new terms, that may feel a bit more complex. Write these terms and reserved keywords in that special spot in your notebook now. Work to hold yourself acocuntable to updating definitions _as you work through this section_.
+This section will introduce a number of new terms, that may feel a bit more complex. Write these terms and reserved keywords in that special spot in your notebook now. Work to hold yourself accountable to updating definitions _as you work through this section_.
 
 ### Vocabulary Terms
 

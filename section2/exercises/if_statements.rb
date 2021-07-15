@@ -60,6 +60,20 @@ else
   puts "I don't have enough money for a gumball"
 end
 
+num_quarters = 3
+if num_quarters >= 2
+  puts "I have enough money for a gumball"
+else
+  puts "I don't have enough money for a gumball"
+end
+
+num_quarters = 2
+if num_quarters >= 2
+  puts "I have enough money for a gumball"
+else
+  puts "I don't have enough money for a gumball"
+end
+
 #####################
 # Using the variables defined below, write code that will tell you
 # if you have the ingredients to make a pizza. A pizza requires
@@ -74,8 +88,39 @@ end
 # Experiment with manipulating the value held within both variables
 # to make sure all above conditions output what you expect.
 
+# Expected output: "I cannot make pizza"
 cups_of_flour = 1
 has_sauce = true
+
+if cups_of_flour>= 2 && has_sauce
+  puts "I can make pizza"
+else
+  puts "I cannot make pizza"
+end
+
+# Expected output: "I can make pizza"
+cups_of_flour = 3
+has_sauce = true
+
+if cups_of_flour>= 2 && has_sauce
+  puts "I can make pizza"
+else
+  puts "I cannot make pizza"
+end
+
+# Expected output: "I cannot make pizza"
+cups_of_flour = 1
+has_sauce = false
+
+if cups_of_flour>= 2 && has_sauce
+  puts "I can make pizza"
+else
+  puts "I cannot make pizza"
+end
+
+# Expected output: "I cannot make pizza"
+cups_of_flour = 3
+has_sauce = false
 
 if cups_of_flour>= 2 && has_sauce
   puts "I can make pizza"

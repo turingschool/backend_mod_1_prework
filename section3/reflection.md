@@ -11,17 +11,21 @@
 
 1. In the space below, create a Hash stored to a variable named `pet_store`.  This hash should hold an inventory of items and the number of that item that you might find at a pet store.
 <br>```ruby
+
 pet_store = {catnip: 25, dog_bones: 50, bird_feed: 35, girbil_ball: 22 }
 
 ```
 
 1. Given the following `states = {"CO" => "Colorado", "IA" => "Iowa", "OK" => "Oklahoma"}`, how would you access the value `"Iowa"`?
-<br>```ruby
+```
+ruby
+
 p states["IA"]
 ```
 
 1. With the same hash above, how would we get all the keys?  How about all the values?
-<br>```ruby
+<br> ```ruby
+
 states.keys
 states.values
 ```

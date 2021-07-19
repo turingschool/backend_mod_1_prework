@@ -36,7 +36,7 @@ class Dog
   end
 
   def speak
-    if @happy = true
+    if @happy == true
       puts "Arf! #{@name} wags their tail."
     else
       puts "Grrrrowl. #{@name} looks upset."
@@ -51,7 +51,7 @@ class Dog
   end
 
   def eat
-    if @hungry = true
+    if @hungry == true
       puts "#{@name} gobbles up the food."
       @hungry = false
     else

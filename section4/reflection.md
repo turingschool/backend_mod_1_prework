@@ -49,8 +49,8 @@ p boston.get_info
 ```
 
 1. How do you create an instance of a class?
-*You create an instance of a class with:*
-`Rex = Dog.new`
+*You create an instance of a class with the .new :*
+`rex = Dog.new`
 
 1. What questions do you still have about classes in Ruby?
   *How many instances can you create before you need to create a new class?*

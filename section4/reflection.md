@@ -2,24 +2,13 @@
 
 1. How different did your workflow feel this week, considering we asked you to follow the Pomodoro technique?
 
+The Pomodoro technique felt great to use for Section 4! I had already been trying to use it for previous sections, so it wasn't a huge transition, but the explicit focus for this section helped me reflect on how it was actually working for me, and the results were great! I was super productive and ended up finishing section 4 less than 4 hours total, even with all of the optional exercises and googling!
+
 1. Regarding the work you did around setting intentions in Step 1 of the Pomodoro technique - how did that go? Were you surprised by anything (did you find yourself way more focused than you realized, more distracted that you thought you'd be, estimating times accurately or totally off, etc)?
 
-12:40 7/15 @ improper city
- - intention: read about pomodoro technique, set intentions, scan through section 4
- - outcome: went quicker than expected, was able to begin work on section 4
-3:35 7/15 @ improper city
- - intention: continue working through classes / object exercises
- - outcome: stayed focused, took longer than previous exercises to wrap my head around classes
-4:05 7/15 @ improper city
- - intention: keep playing with classes and objects, take a stab at reflection questions, start on other exercises
- - outcome: didn't get to reflection questions, still trying to figure out classes and their syntax!
- 10:43am 7/19
- - intention: review classes and get back into it
- - outcome: switched to focus on session 4 HW (sooner due date) and started that
- 11:19am
- - intention: finish session 4 HW, preview session 5 mats
- - outcome: good! finished with a few minutes remaining and then began reviewing classes and Mod 1 section 4 prework
+In almost all cases, I found myself more focused than I expected to be. I am really enjoying learning about coding so far, which obviously helps, but specifically targeting a 25 minute window, knowing I'll have a 5 minute break afterwards to stand up, stretch, get water, go to the bathroom, etc. really helped to limit distractions during the working time.
 
+My time estimates were not super accurate, but I was still able to finish section 4 earlier than expected based on the estimates given in the README doc. I think my ability to estimate how long things will take will improve over time, so this is a skill I'll continue to focus on as part of the Pomodoro flow!
 
 1. In your own words, what is a Class?
 

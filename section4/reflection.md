@@ -37,14 +37,14 @@ class Dog
 
   def speak
     if @happy = true
-      puts "Arf! #{name} wags their tail."
+      puts "Arf! #{@name} wags their tail."
     else
-      puts "Grrrrowl. #{name} looks upset."
+      puts "Grrrrowl. #{@name} looks upset."
     end
   end
 
   def walk
-    puts "You take #{name} for a walk. They love it!"
+    puts "You take #{@name} for a walk. They love it!"
     @happy = true
     @tired = true
     @hungry = true
@@ -52,10 +52,10 @@ class Dog
 
   def eat
     if @hungry = true
-      puts "#{name} gobbles up the food."
+      puts "#{@name} gobbles up the food."
       @hungry = false
     else
-      puts "#{name} looks at the food, but doesn't appear interested."
+      puts "#{@name} looks at the food, but doesn't appear interested."
     end
   end
 end

@@ -18,16 +18,17 @@ p house_elf
 # and prints what that variable holds to the terminal:
 # YOUR CODE HERE
 banishment = name + " must not return to Hogwarts!"
+p banishment
 
 # Write code that adds 2 to the `students` variable and
 # prints the result:
 students = 22
-students = students + 2
+students += 2
 p students
 
 # Write code that subracts 2 from the `students` variable and
 # prints the result:
-students = students - 2
+students -= 2
 p students
 
 

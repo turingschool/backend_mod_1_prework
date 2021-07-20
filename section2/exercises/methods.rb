@@ -19,13 +19,13 @@ print_name("Albus Dumbledore")
 
 # Write a method that takes in 2 numbers as arguments and prints
 # their sum. Then call your method three times with different arguments passed in:
-def addition(a, b)
+def add(a, b)
   p "#{a} + #{b} = #{a + b}"
 end
 
-addition(1, 2)
-addition(3, 4)
-addition(5, 6)
+add(1, 2)
+add(3, 4)
+add(5, 6)
 
 # Write a method that takes in two strings as arguments and prints
 # a concatenation of those two strings. Example: The arguments could be

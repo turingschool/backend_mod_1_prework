@@ -10,21 +10,20 @@
 <br>A hash has a value and a key but an array does not. An array just has an object inside.
 
 1. In the space below, create a Hash stored to a variable named `pet_store`.  This hash should hold an inventory of items and the number of that item that you might find at a pet store.
-<br>```ruby
+<br>```rb
 
 pet_store = {catnip: 25, dog_bones: 50, bird_feed: 35, girbil_ball: 22 }
 
 ```
 
 1. Given the following `states = {"CO" => "Colorado", "IA" => "Iowa", "OK" => "Oklahoma"}`, how would you access the value `"Iowa"`?
-```
-ruby
+```rb
 
 p states["IA"]
 ```
 
 1. With the same hash above, how would we get all the keys?  How about all the values?
-<br> ```ruby
+```rb
 
 states.keys
 states.values
@@ -33,4 +32,4 @@ states.values
 <br>We might use a hash when objects in the hash has a value and a key. It's better than an array because it's more than just an object.
 
 1. What questions do you still have about hashes?
-<br>Does order matter in a hash? would functions that work for arrays work for hashes?
+<br>Does order matter in a hash? would methods that work for arrays work for hashes?

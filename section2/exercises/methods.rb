@@ -38,8 +38,8 @@ def partners(duo, where)
 end
 
 partners("Dale and Brennan", "are a duo from the movie Stepbrothers")
-partners("Batman and Robin", " are a famous superhero duo.")
-partners("Troy and Abed", " are a duo from Community. ")
+partners("Batman and Robin", "are a famous superhero duo.")
+partners("Troy and Abed", "are a duo from Community.")
 
 #-------------------
 # PART 3: Naming is Hard
@@ -50,8 +50,6 @@ partners("Troy and Abed", " are a duo from Community. ")
 
 # Look at the code you wrote for the previous YOU DO🎈 - what did you name the function, and why?
 # What did you name each parameter, and why?
-
-
 
 # EXPLAIN:
 #I named the function two_guys. Because the function is about famous duos that are guys.

@@ -10,6 +10,6 @@ puts "Jacob"
 puts "Welcome to Turing!"
 
 # Write code that prints `99 bottles of pop on the wall...` to the terminal:
-puts "00 bottles of pop on the wall..."
+puts "99 bottles of pop on the wall..."
 # Write out code to log one line from your favorite song or movie.
 puts "Nemo's swimming out to sea!!!"

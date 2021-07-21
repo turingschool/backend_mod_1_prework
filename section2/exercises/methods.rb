@@ -33,8 +33,8 @@ sum_func(13456,78910)
 # (man, woman) and the end result might output: "When Harry Met Sally".
 # Then call your method three times with different arguments passed in.
 def string_add(str_1,str_2)
-  c = a + " and " + b
-  puts c
+  comb_string = a + " and " + b
+  puts comb_string
 end
 
 string_add("Hello","There")

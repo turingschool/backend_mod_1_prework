@@ -50,9 +50,9 @@ puts "1. You open the bottle and read the message inside."
 puts "2. You don't care and throw the bottle back in the ocean."
 print "What will you do? > "
 
-action = $stdin.gets.chomp
+initial_action = $stdin.gets.chomp
 
-if action == "1"
+if initial_action == "1"
   puts "My name is professor George Macontish. I have been trying to understand when the world
         will end for many years now and I have finally found the solution! I am currently sailing on a ship
         and a storm has found us. I am writing htis message in hopes someone will know the answer for
@@ -60,9 +60,9 @@ if action == "1"
   puts "Do you 1. Turn the message over or 2. Throw the message away?"
 
   print "What will you do? > "
-  message = $stdin.gets.chomp
+  message_action = $stdin.gets.chomp
 
-  if message == "1"
+  if message_action == "1"
     puts "Wait, isn't today... Everything goes dark."
   else
     puts "Everything goes dark."

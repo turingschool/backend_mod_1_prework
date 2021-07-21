@@ -37,12 +37,12 @@ puts "And we can combine the two, variables and math:"
 cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers + 1000)
 
 
-def binary_search_time(num)
-  num1 = Math.log2(num)
-#  puts num1
+def binary_search_time(num_in_list)
+  num_of_turns = Math.log2(num_in_list)
+#  puts num_of_turns
 end
 
 puts "Hello, so you want to know the worst case scenario for your binary search?"
 puts 'Then please enter the n of your sorted list. > '
-value = gets.chomp.to_i
-puts "The maximum number of turns it will take is #{binary_search_time(value)}"
+num_in_list = gets.chomp.to_i
+puts "The maximum number of turns it will take is #{binary_search_time(num_in_list)}"

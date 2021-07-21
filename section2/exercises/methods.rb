@@ -37,7 +37,7 @@ def partners(duo, where)
   puts duo + where
 end
 
-partners("Dale and Brennan"," are a duo from the movie Stepbrothers")
+partners("Dale and Brennan", "are a duo from the movie Stepbrothers")
 partners("Batman and Robin", " are a famous superhero duo.")
 partners("Troy and Abed", " are a duo from Community. ")
 

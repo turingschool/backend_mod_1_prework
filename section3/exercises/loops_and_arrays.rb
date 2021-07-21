@@ -1,7 +1,7 @@
 # Loops and Arrays
 
 # How to make arrays:
-haris = ['brown', 'blond','red']
+hair = ['brown', 'blond','red']
 eyes = ['brown','blue','green']
 weights = [1,2,3,4]
 

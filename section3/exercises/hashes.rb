@@ -4,29 +4,37 @@
 # `ruby section3/exercises/hashes.rb`
 
 # Example: Write code that prints a hash holding grocery store inventory:
-foods = {apples: 23, grapes: 507, eggs: 48}
-p foods
+grocery_inv = {
+  apples: 23,
+  grapes: 507,
+  eggs: 48
+}
+p grocery_inv
 
 # Write code that prints a hash holding zoo animal inventory:
-zoo = {zebra: 2, lions: 4, hippos: 5}
-p zoo
+zoo_inv = {
+  zebra: 2,
+  lions: 4,
+  hippos: 5
+}
+p zoo_inv
 
 # Write code that prints all of the 'keys' of the zoo variable
 # you created above:
-puts zoo.keys
+puts zoo_inv.keys
 
 # Write code that prints all of the 'values' of the zoo variable
 # you created above:
-puts zoo.values
+puts zoo_inv.values
 
 # Write code that prints the value of the first animal of the zoo variable
 # you created above:
-puts zoo[:zebra]
+puts zoo_inv[:zebra]
 
 # Write code that adds an animal to the zoo hash.
 # Then, print the updated hash:
-zoo[:falcon] = 5
-puts zoo
+zoo_inv[:falcon] = 5
+puts zoo_inv
 
 
 #-------------------
@@ -108,3 +116,29 @@ puts posts[0]
 # YOU DO: Create an array of at least 3 EMAIL Object Literals, using the same
 # key-value pairs you used in your email Object above.
 # Then, log the email Array to the console.
+
+emails = [
+  {
+    header: "Travel Update",
+    body: "Here is the text of the body",
+    recipient: "person@gmail.com",
+    sender: "person2@gmail.com",
+    timestamp: Time.now
+  },
+  {
+    header: "Plan for the week",
+    body: "Here is the plan for the week",
+    recipient: "person9@gmail.com",
+    sender: "person2@gmail.com",
+    timestamp: Time.now
+  },
+  {
+    header: "Holiday Party",
+    body: "Here is the party plan",
+    recipient: "person15@gmail.com",
+    sender: "person2@gmail.com",
+    timestamp: Time.now
+  }
+]
+
+pp emails

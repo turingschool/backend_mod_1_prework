@@ -3,13 +3,13 @@
 # print the dog's hunger status.
 
 class Dog
-  attr_reader :breed, :name, :age, :hungry
+  attr_reader :breed, :name, :age, :is_hungry
 
   def initialize(breed, name, age)
     @breed  = breed
     @name   = name
     @age    = age
-    @hungry = true
+    @is_hungry = true
   end
 
   def bark

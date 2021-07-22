@@ -34,7 +34,7 @@ When you are finished, add screenshots of your calendar so we can provide feedba
 
 - ![Screen Shot 2021-07-21 at 5 43 11 PM](https://user-images.githubusercontent.com/86209646/126573333-f6271f59-149b-4eb7-bf4c-8cf5a7657d19.png)
 - <img width="1126" alt="Screen Shot 2021-07-22 at 10 42 06 AM" src="https://user-images.githubusercontent.com/86209646/126676554-87d3b662-c6cd-4944-88a9-d125658505f5.png">
-- ![Screen Shot 2021-07-21 at 5 43 11 PM](https://user-images.githubusercontent.com/86209646/126573333-f6271f59-149b-4eb7-bf4c-8cf5a7657d19.png)
+- <img width="1134" alt="Screen Shot 2021-07-22 at 10 43 58 AM" src="https://user-images.githubusercontent.com/86209646/126676699-5eac0d12-a6a6-44e4-a39e-156d946a1708.png">
 
 ### Mentorship Prep
 Mentorship is an integral part of the Turing experience and will help jumpstart your technical career. In order to get your mentor relationship started on the right foot, please complete the following deliverables:

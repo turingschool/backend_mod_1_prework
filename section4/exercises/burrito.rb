@@ -18,7 +18,6 @@ class Burrito
   end
 
   def remove_topping(topping)
-    #this is where the code to remove from an array will go
     @toppings.delete(topping)
   end
 
@@ -33,9 +32,10 @@ p dinner.protein
 p dinner.base
 p dinner.toppings
 p dinner.add_topping("hot sauce")
-p dinner.change_protein("Carne Asada")
+p dinner.change_protein("Carnitas")
 
 dinner.remove_topping("salsa")
 
+
 p dinner.toppings
-p dinner.protein 
+p dinner.protein

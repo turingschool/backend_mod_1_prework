@@ -52,7 +52,7 @@ idiom('cat', 'box')
 # What did you name each parameter, and why?
 
 # EXPLAIN:
-# I named the function idiom because it's a turn of phrase that often combines different phrases. I named the parameter string1 and sting2 because it indicates that each input would be a string. Then they'd be combined by the method.
+# I named the function idiom because it's a turn of phrase that often combines different phrases. I named the parameter string1 and string2 because it indicates that each input would be a string. Then they'd be combined by the method.
 # What I also could have done was not use interpolation to create entire sentences from two strings.
 # example
 def idiom(string1, string2)
